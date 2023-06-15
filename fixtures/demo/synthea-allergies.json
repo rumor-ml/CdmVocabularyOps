@@ -1,0 +1,4778 @@
+{
+    "0": {
+      "START": "1982-10-25",
+      "STOP": "",
+      "PATIENT": "76982e06-f8b8-4509-9ca3-65a99c8650fe",
+      "ENCOUNTER": "b896bf40-8b72-42b7-b205-142ee3a56b55",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "1": {
+      "START": "1982-10-25",
+      "STOP": "",
+      "PATIENT": "76982e06-f8b8-4509-9ca3-65a99c8650fe",
+      "ENCOUNTER": "b896bf40-8b72-42b7-b205-142ee3a56b55",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "2": {
+      "START": "2002-01-25",
+      "STOP": "",
+      "PATIENT": "71ba0469-f0cc-4177-ac70-ea07cb01c8b8",
+      "ENCOUNTER": "7be1a590-4239-4826-9872-031327f3c368",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "3": {
+      "START": "2002-01-25",
+      "STOP": "",
+      "PATIENT": "71ba0469-f0cc-4177-ac70-ea07cb01c8b8",
+      "ENCOUNTER": "7be1a590-4239-4826-9872-031327f3c368",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "4": {
+      "START": "2002-01-25",
+      "STOP": "",
+      "PATIENT": "71ba0469-f0cc-4177-ac70-ea07cb01c8b8",
+      "ENCOUNTER": "7be1a590-4239-4826-9872-031327f3c368",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "5": {
+      "START": "2002-01-25",
+      "STOP": "",
+      "PATIENT": "71ba0469-f0cc-4177-ac70-ea07cb01c8b8",
+      "ENCOUNTER": "7be1a590-4239-4826-9872-031327f3c368",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "6": {
+      "START": "2002-01-25",
+      "STOP": "",
+      "PATIENT": "71ba0469-f0cc-4177-ac70-ea07cb01c8b8",
+      "ENCOUNTER": "7be1a590-4239-4826-9872-031327f3c368",
+      "CODE": "714035009",
+      "DESCRIPTION": "Allergy to soya"
+    },
+    "7": {
+      "START": "2002-01-25",
+      "STOP": "",
+      "PATIENT": "71ba0469-f0cc-4177-ac70-ea07cb01c8b8",
+      "ENCOUNTER": "7be1a590-4239-4826-9872-031327f3c368",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "8": {
+      "START": "2018-07-30",
+      "STOP": "",
+      "PATIENT": "2f43a131-a43a-4c8c-a723-cc261adb9cc6",
+      "ENCOUNTER": "dbbace5a-29c8-458d-805b-2c3f7cbed818",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "9": {
+      "START": "2018-07-30",
+      "STOP": "",
+      "PATIENT": "2f43a131-a43a-4c8c-a723-cc261adb9cc6",
+      "ENCOUNTER": "dbbace5a-29c8-458d-805b-2c3f7cbed818",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "10": {
+      "START": "2018-07-30",
+      "STOP": "",
+      "PATIENT": "2f43a131-a43a-4c8c-a723-cc261adb9cc6",
+      "ENCOUNTER": "dbbace5a-29c8-458d-805b-2c3f7cbed818",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "11": {
+      "START": "2018-07-30",
+      "STOP": "",
+      "PATIENT": "2f43a131-a43a-4c8c-a723-cc261adb9cc6",
+      "ENCOUNTER": "dbbace5a-29c8-458d-805b-2c3f7cbed818",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "12": {
+      "START": "2018-07-30",
+      "STOP": "",
+      "PATIENT": "2f43a131-a43a-4c8c-a723-cc261adb9cc6",
+      "ENCOUNTER": "dbbace5a-29c8-458d-805b-2c3f7cbed818",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "13": {
+      "START": "2018-07-30",
+      "STOP": "",
+      "PATIENT": "2f43a131-a43a-4c8c-a723-cc261adb9cc6",
+      "ENCOUNTER": "dbbace5a-29c8-458d-805b-2c3f7cbed818",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "14": {
+      "START": "2002-01-24",
+      "STOP": "",
+      "PATIENT": "bf35e4fa-ea4f-40a4-8fe6-1f2f26e0aa45",
+      "ENCOUNTER": "a61f97fa-70c3-4366-90e1-7c6fdcba5cbb",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "15": {
+      "START": "2002-01-24",
+      "STOP": "",
+      "PATIENT": "bf35e4fa-ea4f-40a4-8fe6-1f2f26e0aa45",
+      "ENCOUNTER": "a61f97fa-70c3-4366-90e1-7c6fdcba5cbb",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "16": {
+      "START": "2002-01-24",
+      "STOP": "",
+      "PATIENT": "bf35e4fa-ea4f-40a4-8fe6-1f2f26e0aa45",
+      "ENCOUNTER": "a61f97fa-70c3-4366-90e1-7c6fdcba5cbb",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "17": {
+      "START": "2002-01-24",
+      "STOP": "",
+      "PATIENT": "bf35e4fa-ea4f-40a4-8fe6-1f2f26e0aa45",
+      "ENCOUNTER": "a61f97fa-70c3-4366-90e1-7c6fdcba5cbb",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "18": {
+      "START": "2002-01-24",
+      "STOP": "",
+      "PATIENT": "bf35e4fa-ea4f-40a4-8fe6-1f2f26e0aa45",
+      "ENCOUNTER": "a61f97fa-70c3-4366-90e1-7c6fdcba5cbb",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "19": {
+      "START": "2002-01-24",
+      "STOP": "",
+      "PATIENT": "bf35e4fa-ea4f-40a4-8fe6-1f2f26e0aa45",
+      "ENCOUNTER": "a61f97fa-70c3-4366-90e1-7c6fdcba5cbb",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "20": {
+      "START": "2002-01-24",
+      "STOP": "",
+      "PATIENT": "bf35e4fa-ea4f-40a4-8fe6-1f2f26e0aa45",
+      "ENCOUNTER": "a61f97fa-70c3-4366-90e1-7c6fdcba5cbb",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "21": {
+      "START": "2002-01-24",
+      "STOP": "",
+      "PATIENT": "bf35e4fa-ea4f-40a4-8fe6-1f2f26e0aa45",
+      "ENCOUNTER": "a61f97fa-70c3-4366-90e1-7c6fdcba5cbb",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "22": {
+      "START": "2002-01-24",
+      "STOP": "",
+      "PATIENT": "bf35e4fa-ea4f-40a4-8fe6-1f2f26e0aa45",
+      "ENCOUNTER": "a61f97fa-70c3-4366-90e1-7c6fdcba5cbb",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "23": {
+      "START": "2002-01-24",
+      "STOP": "",
+      "PATIENT": "bf35e4fa-ea4f-40a4-8fe6-1f2f26e0aa45",
+      "ENCOUNTER": "a61f97fa-70c3-4366-90e1-7c6fdcba5cbb",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "24": {
+      "START": "1988-10-14",
+      "STOP": "",
+      "PATIENT": "ad7c452d-c8e9-40ae-a5ed-90b7bd93d2ac",
+      "ENCOUNTER": "4c7ed821-8753-40f3-a18e-31feef7074ef",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "25": {
+      "START": "1988-10-14",
+      "STOP": "",
+      "PATIENT": "ad7c452d-c8e9-40ae-a5ed-90b7bd93d2ac",
+      "ENCOUNTER": "4c7ed821-8753-40f3-a18e-31feef7074ef",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "26": {
+      "START": "1988-10-14",
+      "STOP": "",
+      "PATIENT": "ad7c452d-c8e9-40ae-a5ed-90b7bd93d2ac",
+      "ENCOUNTER": "4c7ed821-8753-40f3-a18e-31feef7074ef",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "27": {
+      "START": "1988-10-14",
+      "STOP": "",
+      "PATIENT": "ad7c452d-c8e9-40ae-a5ed-90b7bd93d2ac",
+      "ENCOUNTER": "4c7ed821-8753-40f3-a18e-31feef7074ef",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "28": {
+      "START": "1988-10-14",
+      "STOP": "",
+      "PATIENT": "ad7c452d-c8e9-40ae-a5ed-90b7bd93d2ac",
+      "ENCOUNTER": "4c7ed821-8753-40f3-a18e-31feef7074ef",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "29": {
+      "START": "2006-05-22",
+      "STOP": "",
+      "PATIENT": "e20fb002-6dc6-4cea-ba4b-7f528ccf6572",
+      "ENCOUNTER": "43456878-fc63-45d1-a24f-629aab9752e2",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "30": {
+      "START": "2006-05-22",
+      "STOP": "",
+      "PATIENT": "e20fb002-6dc6-4cea-ba4b-7f528ccf6572",
+      "ENCOUNTER": "43456878-fc63-45d1-a24f-629aab9752e2",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "31": {
+      "START": "2006-05-22",
+      "STOP": "",
+      "PATIENT": "e20fb002-6dc6-4cea-ba4b-7f528ccf6572",
+      "ENCOUNTER": "43456878-fc63-45d1-a24f-629aab9752e2",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "32": {
+      "START": "2006-05-22",
+      "STOP": "",
+      "PATIENT": "e20fb002-6dc6-4cea-ba4b-7f528ccf6572",
+      "ENCOUNTER": "43456878-fc63-45d1-a24f-629aab9752e2",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "33": {
+      "START": "2006-05-22",
+      "STOP": "",
+      "PATIENT": "e20fb002-6dc6-4cea-ba4b-7f528ccf6572",
+      "ENCOUNTER": "43456878-fc63-45d1-a24f-629aab9752e2",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "34": {
+      "START": "2006-05-22",
+      "STOP": "",
+      "PATIENT": "e20fb002-6dc6-4cea-ba4b-7f528ccf6572",
+      "ENCOUNTER": "43456878-fc63-45d1-a24f-629aab9752e2",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "35": {
+      "START": "2014-12-04",
+      "STOP": "",
+      "PATIENT": "e3af2463-f4c9-4dbb-a8d2-d6a08c5b1460",
+      "ENCOUNTER": "469fbd8a-ec48-4da9-9165-027144ccf9a0",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "36": {
+      "START": "2014-12-04",
+      "STOP": "",
+      "PATIENT": "e3af2463-f4c9-4dbb-a8d2-d6a08c5b1460",
+      "ENCOUNTER": "469fbd8a-ec48-4da9-9165-027144ccf9a0",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "37": {
+      "START": "2014-12-04",
+      "STOP": "",
+      "PATIENT": "e3af2463-f4c9-4dbb-a8d2-d6a08c5b1460",
+      "ENCOUNTER": "469fbd8a-ec48-4da9-9165-027144ccf9a0",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "38": {
+      "START": "2014-12-04",
+      "STOP": "",
+      "PATIENT": "e3af2463-f4c9-4dbb-a8d2-d6a08c5b1460",
+      "ENCOUNTER": "469fbd8a-ec48-4da9-9165-027144ccf9a0",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "39": {
+      "START": "2014-12-04",
+      "STOP": "",
+      "PATIENT": "e3af2463-f4c9-4dbb-a8d2-d6a08c5b1460",
+      "ENCOUNTER": "469fbd8a-ec48-4da9-9165-027144ccf9a0",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "40": {
+      "START": "2014-12-04",
+      "STOP": "",
+      "PATIENT": "e3af2463-f4c9-4dbb-a8d2-d6a08c5b1460",
+      "ENCOUNTER": "469fbd8a-ec48-4da9-9165-027144ccf9a0",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "41": {
+      "START": "2014-12-04",
+      "STOP": "",
+      "PATIENT": "e3af2463-f4c9-4dbb-a8d2-d6a08c5b1460",
+      "ENCOUNTER": "469fbd8a-ec48-4da9-9165-027144ccf9a0",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "42": {
+      "START": "2014-12-04",
+      "STOP": "",
+      "PATIENT": "e3af2463-f4c9-4dbb-a8d2-d6a08c5b1460",
+      "ENCOUNTER": "469fbd8a-ec48-4da9-9165-027144ccf9a0",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "43": {
+      "START": "2014-12-04",
+      "STOP": "",
+      "PATIENT": "e3af2463-f4c9-4dbb-a8d2-d6a08c5b1460",
+      "ENCOUNTER": "469fbd8a-ec48-4da9-9165-027144ccf9a0",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "44": {
+      "START": "2002-08-03",
+      "STOP": "",
+      "PATIENT": "ddfa05a6-b8a6-4208-b609-28f9a6a8d79e",
+      "ENCOUNTER": "5c63f72a-7af4-4bde-b416-f8f22a36239f",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "45": {
+      "START": "1963-03-30",
+      "STOP": "",
+      "PATIENT": "47a91815-0dca-49df-b1dc-8bb88d8c1b38",
+      "ENCOUNTER": "dbad793d-adf7-42e2-a134-c3e1eaeeea70",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "46": {
+      "START": "1976-02-13",
+      "STOP": "",
+      "PATIENT": "28f36cfa-7696-4f73-ac4f-427e802199d9",
+      "ENCOUNTER": "cb11409c-e981-4e91-922f-c242b8d0405b",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "47": {
+      "START": "2009-11-30",
+      "STOP": "",
+      "PATIENT": "df91aedf-3e17-44c3-b273-62e35f518475",
+      "ENCOUNTER": "e171e3c8-3543-40cc-8946-9918e044fb36",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "48": {
+      "START": "2009-11-30",
+      "STOP": "",
+      "PATIENT": "df91aedf-3e17-44c3-b273-62e35f518475",
+      "ENCOUNTER": "e171e3c8-3543-40cc-8946-9918e044fb36",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "49": {
+      "START": "2009-11-30",
+      "STOP": "",
+      "PATIENT": "df91aedf-3e17-44c3-b273-62e35f518475",
+      "ENCOUNTER": "e171e3c8-3543-40cc-8946-9918e044fb36",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "50": {
+      "START": "2009-11-30",
+      "STOP": "",
+      "PATIENT": "df91aedf-3e17-44c3-b273-62e35f518475",
+      "ENCOUNTER": "e171e3c8-3543-40cc-8946-9918e044fb36",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "51": {
+      "START": "2009-11-30",
+      "STOP": "",
+      "PATIENT": "df91aedf-3e17-44c3-b273-62e35f518475",
+      "ENCOUNTER": "e171e3c8-3543-40cc-8946-9918e044fb36",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "52": {
+      "START": "2013-08-29",
+      "STOP": "",
+      "PATIENT": "d1639077-59f3-401f-a058-2ad70502f93f",
+      "ENCOUNTER": "c13ea48d-deaa-4b51-b47a-8e950d65b131",
+      "CODE": "425525006",
+      "DESCRIPTION": "Allergy to dairy product"
+    },
+    "53": {
+      "START": "1985-11-28",
+      "STOP": "",
+      "PATIENT": "0c5aa52a-3b1d-4289-af16-29f7a2d07fec",
+      "ENCOUNTER": "bdccf0d7-f3c2-4fc2-97df-9f0d41ae84f2",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "54": {
+      "START": "1985-11-28",
+      "STOP": "",
+      "PATIENT": "0c5aa52a-3b1d-4289-af16-29f7a2d07fec",
+      "ENCOUNTER": "bdccf0d7-f3c2-4fc2-97df-9f0d41ae84f2",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "55": {
+      "START": "1985-11-28",
+      "STOP": "",
+      "PATIENT": "0c5aa52a-3b1d-4289-af16-29f7a2d07fec",
+      "ENCOUNTER": "bdccf0d7-f3c2-4fc2-97df-9f0d41ae84f2",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "56": {
+      "START": "1985-11-28",
+      "STOP": "",
+      "PATIENT": "0c5aa52a-3b1d-4289-af16-29f7a2d07fec",
+      "ENCOUNTER": "bdccf0d7-f3c2-4fc2-97df-9f0d41ae84f2",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "57": {
+      "START": "1985-11-28",
+      "STOP": "",
+      "PATIENT": "0c5aa52a-3b1d-4289-af16-29f7a2d07fec",
+      "ENCOUNTER": "bdccf0d7-f3c2-4fc2-97df-9f0d41ae84f2",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "58": {
+      "START": "1985-11-28",
+      "STOP": "",
+      "PATIENT": "0c5aa52a-3b1d-4289-af16-29f7a2d07fec",
+      "ENCOUNTER": "bdccf0d7-f3c2-4fc2-97df-9f0d41ae84f2",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "59": {
+      "START": "1985-11-28",
+      "STOP": "",
+      "PATIENT": "0c5aa52a-3b1d-4289-af16-29f7a2d07fec",
+      "ENCOUNTER": "bdccf0d7-f3c2-4fc2-97df-9f0d41ae84f2",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "60": {
+      "START": "2019-05-31",
+      "STOP": "",
+      "PATIENT": "2a88cb57-86fa-4259-93bf-3956e91b07f4",
+      "ENCOUNTER": "647eb0bb-5a2d-4617-9c00-fc97f8111994",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "61": {
+      "START": "2019-05-31",
+      "STOP": "",
+      "PATIENT": "2a88cb57-86fa-4259-93bf-3956e91b07f4",
+      "ENCOUNTER": "647eb0bb-5a2d-4617-9c00-fc97f8111994",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "62": {
+      "START": "2019-05-31",
+      "STOP": "",
+      "PATIENT": "2a88cb57-86fa-4259-93bf-3956e91b07f4",
+      "ENCOUNTER": "647eb0bb-5a2d-4617-9c00-fc97f8111994",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "63": {
+      "START": "2019-05-31",
+      "STOP": "",
+      "PATIENT": "2a88cb57-86fa-4259-93bf-3956e91b07f4",
+      "ENCOUNTER": "647eb0bb-5a2d-4617-9c00-fc97f8111994",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "64": {
+      "START": "2019-05-31",
+      "STOP": "",
+      "PATIENT": "2a88cb57-86fa-4259-93bf-3956e91b07f4",
+      "ENCOUNTER": "647eb0bb-5a2d-4617-9c00-fc97f8111994",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "65": {
+      "START": "1998-07-19",
+      "STOP": "2014-03-20",
+      "PATIENT": "e061409e-4b85-4ec1-b1f7-02677d51f763",
+      "ENCOUNTER": "022ad487-e41c-43ba-90f3-eb2d6711f4d3",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "66": {
+      "START": "1998-07-19",
+      "STOP": "2014-03-20",
+      "PATIENT": "e061409e-4b85-4ec1-b1f7-02677d51f763",
+      "ENCOUNTER": "022ad487-e41c-43ba-90f3-eb2d6711f4d3",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "67": {
+      "START": "1998-07-19",
+      "STOP": "",
+      "PATIENT": "e061409e-4b85-4ec1-b1f7-02677d51f763",
+      "ENCOUNTER": "022ad487-e41c-43ba-90f3-eb2d6711f4d3",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "68": {
+      "START": "1998-07-19",
+      "STOP": "",
+      "PATIENT": "e061409e-4b85-4ec1-b1f7-02677d51f763",
+      "ENCOUNTER": "022ad487-e41c-43ba-90f3-eb2d6711f4d3",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "69": {
+      "START": "1974-05-17",
+      "STOP": "",
+      "PATIENT": "71e13815-55fb-4734-bcac-6079160d82a0",
+      "ENCOUNTER": "9607667e-4c98-4087-9c59-0fd5b6331078",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "70": {
+      "START": "1974-05-17",
+      "STOP": "",
+      "PATIENT": "71e13815-55fb-4734-bcac-6079160d82a0",
+      "ENCOUNTER": "9607667e-4c98-4087-9c59-0fd5b6331078",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "71": {
+      "START": "1974-05-17",
+      "STOP": "",
+      "PATIENT": "71e13815-55fb-4734-bcac-6079160d82a0",
+      "ENCOUNTER": "9607667e-4c98-4087-9c59-0fd5b6331078",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "72": {
+      "START": "1957-06-06",
+      "STOP": "",
+      "PATIENT": "852f4588-ba8f-4eeb-94fe-5c3c974ab114",
+      "ENCOUNTER": "aa997e7e-3421-4f40-8216-394f407de8c2",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "73": {
+      "START": "2003-08-21",
+      "STOP": "2018-01-30",
+      "PATIENT": "6ca038f1-a3f6-4c2d-848e-bab8e7ae7101",
+      "ENCOUNTER": "648c58a1-13b0-4c4b-b3cb-f3472da37acc",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "74": {
+      "START": "2003-08-21",
+      "STOP": "2018-01-30",
+      "PATIENT": "6ca038f1-a3f6-4c2d-848e-bab8e7ae7101",
+      "ENCOUNTER": "648c58a1-13b0-4c4b-b3cb-f3472da37acc",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "75": {
+      "START": "2003-08-21",
+      "STOP": "2018-01-30",
+      "PATIENT": "6ca038f1-a3f6-4c2d-848e-bab8e7ae7101",
+      "ENCOUNTER": "648c58a1-13b0-4c4b-b3cb-f3472da37acc",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "76": {
+      "START": "2003-08-21",
+      "STOP": "2018-01-30",
+      "PATIENT": "6ca038f1-a3f6-4c2d-848e-bab8e7ae7101",
+      "ENCOUNTER": "648c58a1-13b0-4c4b-b3cb-f3472da37acc",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "77": {
+      "START": "2003-08-21",
+      "STOP": "",
+      "PATIENT": "6ca038f1-a3f6-4c2d-848e-bab8e7ae7101",
+      "ENCOUNTER": "648c58a1-13b0-4c4b-b3cb-f3472da37acc",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "78": {
+      "START": "2008-04-10",
+      "STOP": "",
+      "PATIENT": "cd900636-aee9-41b1-acf1-557efa0fd9cd",
+      "ENCOUNTER": "1d7366f7-4e58-4561-959d-1c339db8b53b",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "79": {
+      "START": "2008-04-10",
+      "STOP": "",
+      "PATIENT": "cd900636-aee9-41b1-acf1-557efa0fd9cd",
+      "ENCOUNTER": "1d7366f7-4e58-4561-959d-1c339db8b53b",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "80": {
+      "START": "2008-04-10",
+      "STOP": "",
+      "PATIENT": "cd900636-aee9-41b1-acf1-557efa0fd9cd",
+      "ENCOUNTER": "1d7366f7-4e58-4561-959d-1c339db8b53b",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "81": {
+      "START": "2008-04-10",
+      "STOP": "",
+      "PATIENT": "cd900636-aee9-41b1-acf1-557efa0fd9cd",
+      "ENCOUNTER": "1d7366f7-4e58-4561-959d-1c339db8b53b",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "82": {
+      "START": "2008-04-10",
+      "STOP": "",
+      "PATIENT": "cd900636-aee9-41b1-acf1-557efa0fd9cd",
+      "ENCOUNTER": "1d7366f7-4e58-4561-959d-1c339db8b53b",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "83": {
+      "START": "2008-04-10",
+      "STOP": "",
+      "PATIENT": "cd900636-aee9-41b1-acf1-557efa0fd9cd",
+      "ENCOUNTER": "1d7366f7-4e58-4561-959d-1c339db8b53b",
+      "CODE": "425525006",
+      "DESCRIPTION": "Allergy to dairy product"
+    },
+    "84": {
+      "START": "1954-03-21",
+      "STOP": "",
+      "PATIENT": "09616ead-22c8-4210-8cb9-2fdc28e043ca",
+      "ENCOUNTER": "09e77dbd-a408-4459-9c75-8996d28bf972",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "85": {
+      "START": "2004-12-18",
+      "STOP": "",
+      "PATIENT": "33454fc9-b2ea-407a-9a9d-64897cf44093",
+      "ENCOUNTER": "e7256f48-b271-4c0c-b7b5-b2e47db970a2",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "86": {
+      "START": "2004-12-18",
+      "STOP": "",
+      "PATIENT": "33454fc9-b2ea-407a-9a9d-64897cf44093",
+      "ENCOUNTER": "e7256f48-b271-4c0c-b7b5-b2e47db970a2",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "87": {
+      "START": "2004-12-18",
+      "STOP": "",
+      "PATIENT": "33454fc9-b2ea-407a-9a9d-64897cf44093",
+      "ENCOUNTER": "e7256f48-b271-4c0c-b7b5-b2e47db970a2",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "88": {
+      "START": "2004-12-18",
+      "STOP": "",
+      "PATIENT": "33454fc9-b2ea-407a-9a9d-64897cf44093",
+      "ENCOUNTER": "e7256f48-b271-4c0c-b7b5-b2e47db970a2",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "89": {
+      "START": "2004-12-18",
+      "STOP": "",
+      "PATIENT": "33454fc9-b2ea-407a-9a9d-64897cf44093",
+      "ENCOUNTER": "e7256f48-b271-4c0c-b7b5-b2e47db970a2",
+      "CODE": "425525006",
+      "DESCRIPTION": "Allergy to dairy product"
+    },
+    "90": {
+      "START": "2004-12-18",
+      "STOP": "",
+      "PATIENT": "33454fc9-b2ea-407a-9a9d-64897cf44093",
+      "ENCOUNTER": "e7256f48-b271-4c0c-b7b5-b2e47db970a2",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "91": {
+      "START": "2018-03-28",
+      "STOP": "",
+      "PATIENT": "1fd5b5d7-4514-44b8-a06b-767d1be8fb97",
+      "ENCOUNTER": "b19aa787-6885-4cfa-a8cf-05480ddc669d",
+      "CODE": "714035009",
+      "DESCRIPTION": "Allergy to soya"
+    },
+    "92": {
+      "START": "2004-03-25",
+      "STOP": "",
+      "PATIENT": "10c64243-1b39-4f8d-8add-6c767a2f2e50",
+      "ENCOUNTER": "6d9b747d-0b23-4d75-9e92-dce7ec8cfc7f",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "93": {
+      "START": "1975-12-23",
+      "STOP": "",
+      "PATIENT": "f7d7b580-e670-4921-bc67-550ec468d506",
+      "ENCOUNTER": "0e201aa3-271d-4fa0-b6db-d73aa17f776d",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "94": {
+      "START": "2004-07-03",
+      "STOP": "",
+      "PATIENT": "ca3330c5-bbbc-47e7-addb-302f2e069986",
+      "ENCOUNTER": "d8f2b92b-5971-455f-a0b9-99da66d03899",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "95": {
+      "START": "2004-07-03",
+      "STOP": "2019-12-30",
+      "PATIENT": "ca3330c5-bbbc-47e7-addb-302f2e069986",
+      "ENCOUNTER": "d8f2b92b-5971-455f-a0b9-99da66d03899",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "96": {
+      "START": "2004-07-03",
+      "STOP": "",
+      "PATIENT": "ca3330c5-bbbc-47e7-addb-302f2e069986",
+      "ENCOUNTER": "d8f2b92b-5971-455f-a0b9-99da66d03899",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "97": {
+      "START": "2004-07-03",
+      "STOP": "",
+      "PATIENT": "ca3330c5-bbbc-47e7-addb-302f2e069986",
+      "ENCOUNTER": "d8f2b92b-5971-455f-a0b9-99da66d03899",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "98": {
+      "START": "2004-07-03",
+      "STOP": "",
+      "PATIENT": "ca3330c5-bbbc-47e7-addb-302f2e069986",
+      "ENCOUNTER": "d8f2b92b-5971-455f-a0b9-99da66d03899",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "99": {
+      "START": "2004-07-03",
+      "STOP": "",
+      "PATIENT": "ca3330c5-bbbc-47e7-addb-302f2e069986",
+      "ENCOUNTER": "d8f2b92b-5971-455f-a0b9-99da66d03899",
+      "CODE": "425525006",
+      "DESCRIPTION": "Allergy to dairy product"
+    },
+    "100": {
+      "START": "2004-07-03",
+      "STOP": "",
+      "PATIENT": "ca3330c5-bbbc-47e7-addb-302f2e069986",
+      "ENCOUNTER": "d8f2b92b-5971-455f-a0b9-99da66d03899",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "101": {
+      "START": "2004-07-03",
+      "STOP": "",
+      "PATIENT": "ca3330c5-bbbc-47e7-addb-302f2e069986",
+      "ENCOUNTER": "d8f2b92b-5971-455f-a0b9-99da66d03899",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "102": {
+      "START": "1978-11-04",
+      "STOP": "",
+      "PATIENT": "24bca5cf-ba55-457f-8e80-49690202443c",
+      "ENCOUNTER": "1d475126-f3c0-41c9-a9ed-f4a0c9a955c4",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "103": {
+      "START": "1978-11-04",
+      "STOP": "",
+      "PATIENT": "24bca5cf-ba55-457f-8e80-49690202443c",
+      "ENCOUNTER": "1d475126-f3c0-41c9-a9ed-f4a0c9a955c4",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "104": {
+      "START": "1978-11-04",
+      "STOP": "",
+      "PATIENT": "24bca5cf-ba55-457f-8e80-49690202443c",
+      "ENCOUNTER": "1d475126-f3c0-41c9-a9ed-f4a0c9a955c4",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "105": {
+      "START": "1978-11-04",
+      "STOP": "",
+      "PATIENT": "24bca5cf-ba55-457f-8e80-49690202443c",
+      "ENCOUNTER": "1d475126-f3c0-41c9-a9ed-f4a0c9a955c4",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "106": {
+      "START": "2009-04-29",
+      "STOP": "",
+      "PATIENT": "f36775e8-bf5a-40a2-a223-679c05b46004",
+      "ENCOUNTER": "bed7bbbf-9d73-4840-ae9a-039af0918b91",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "107": {
+      "START": "2009-04-29",
+      "STOP": "",
+      "PATIENT": "f36775e8-bf5a-40a2-a223-679c05b46004",
+      "ENCOUNTER": "bed7bbbf-9d73-4840-ae9a-039af0918b91",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "108": {
+      "START": "2009-04-29",
+      "STOP": "",
+      "PATIENT": "f36775e8-bf5a-40a2-a223-679c05b46004",
+      "ENCOUNTER": "bed7bbbf-9d73-4840-ae9a-039af0918b91",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "109": {
+      "START": "2009-04-29",
+      "STOP": "",
+      "PATIENT": "f36775e8-bf5a-40a2-a223-679c05b46004",
+      "ENCOUNTER": "bed7bbbf-9d73-4840-ae9a-039af0918b91",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "110": {
+      "START": "2009-04-29",
+      "STOP": "",
+      "PATIENT": "f36775e8-bf5a-40a2-a223-679c05b46004",
+      "ENCOUNTER": "bed7bbbf-9d73-4840-ae9a-039af0918b91",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "111": {
+      "START": "2009-04-29",
+      "STOP": "",
+      "PATIENT": "f36775e8-bf5a-40a2-a223-679c05b46004",
+      "ENCOUNTER": "bed7bbbf-9d73-4840-ae9a-039af0918b91",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "112": {
+      "START": "1994-03-09",
+      "STOP": "2010-09-01",
+      "PATIENT": "e6a843e8-10db-454b-a39c-d133a7a75a62",
+      "ENCOUNTER": "2037da0f-ea62-4a7b-9a3d-2c5b4add6162",
+      "CODE": "714035009",
+      "DESCRIPTION": "Allergy to soya"
+    },
+    "113": {
+      "START": "1989-02-22",
+      "STOP": "",
+      "PATIENT": "8be68b2d-8054-4882-8715-65297d36767a",
+      "ENCOUNTER": "d7d1a76c-65a9-499d-8a9f-5f65f1a3d797",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "114": {
+      "START": "1989-02-22",
+      "STOP": "",
+      "PATIENT": "8be68b2d-8054-4882-8715-65297d36767a",
+      "ENCOUNTER": "d7d1a76c-65a9-499d-8a9f-5f65f1a3d797",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "115": {
+      "START": "1997-06-26",
+      "STOP": "2013-06-25",
+      "PATIENT": "2335bebd-0843-4322-9585-8ab90f49def3",
+      "ENCOUNTER": "6022c98e-5336-4d92-9abd-d5f38feab3f4",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "116": {
+      "START": "1997-06-26",
+      "STOP": "2013-06-25",
+      "PATIENT": "2335bebd-0843-4322-9585-8ab90f49def3",
+      "ENCOUNTER": "6022c98e-5336-4d92-9abd-d5f38feab3f4",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "117": {
+      "START": "1997-06-26",
+      "STOP": "2013-06-25",
+      "PATIENT": "2335bebd-0843-4322-9585-8ab90f49def3",
+      "ENCOUNTER": "6022c98e-5336-4d92-9abd-d5f38feab3f4",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "118": {
+      "START": "1997-06-26",
+      "STOP": "2013-06-25",
+      "PATIENT": "2335bebd-0843-4322-9585-8ab90f49def3",
+      "ENCOUNTER": "6022c98e-5336-4d92-9abd-d5f38feab3f4",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "119": {
+      "START": "1997-06-26",
+      "STOP": "2013-12-18",
+      "PATIENT": "2335bebd-0843-4322-9585-8ab90f49def3",
+      "ENCOUNTER": "6022c98e-5336-4d92-9abd-d5f38feab3f4",
+      "CODE": "425525006",
+      "DESCRIPTION": "Allergy to dairy product"
+    },
+    "120": {
+      "START": "1997-06-26",
+      "STOP": "2013-12-18",
+      "PATIENT": "2335bebd-0843-4322-9585-8ab90f49def3",
+      "ENCOUNTER": "6022c98e-5336-4d92-9abd-d5f38feab3f4",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "121": {
+      "START": "1997-06-26",
+      "STOP": "",
+      "PATIENT": "2335bebd-0843-4322-9585-8ab90f49def3",
+      "ENCOUNTER": "6022c98e-5336-4d92-9abd-d5f38feab3f4",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "122": {
+      "START": "2008-07-08",
+      "STOP": "",
+      "PATIENT": "45ad6c75-7808-4f70-9c80-0db44f681e55",
+      "ENCOUNTER": "caf832a7-74d6-4500-83ce-5abbfc5268ca",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "123": {
+      "START": "1986-12-09",
+      "STOP": "",
+      "PATIENT": "59669e7c-0190-4cbf-9e27-4898f1a35d03",
+      "ENCOUNTER": "d19a6b59-77a3-46ee-b8fd-4f59e8cee292",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "124": {
+      "START": "1986-12-09",
+      "STOP": "",
+      "PATIENT": "59669e7c-0190-4cbf-9e27-4898f1a35d03",
+      "ENCOUNTER": "d19a6b59-77a3-46ee-b8fd-4f59e8cee292",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "125": {
+      "START": "1986-12-09",
+      "STOP": "",
+      "PATIENT": "59669e7c-0190-4cbf-9e27-4898f1a35d03",
+      "ENCOUNTER": "d19a6b59-77a3-46ee-b8fd-4f59e8cee292",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "126": {
+      "START": "1986-12-09",
+      "STOP": "",
+      "PATIENT": "59669e7c-0190-4cbf-9e27-4898f1a35d03",
+      "ENCOUNTER": "d19a6b59-77a3-46ee-b8fd-4f59e8cee292",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "127": {
+      "START": "1986-12-09",
+      "STOP": "",
+      "PATIENT": "59669e7c-0190-4cbf-9e27-4898f1a35d03",
+      "ENCOUNTER": "d19a6b59-77a3-46ee-b8fd-4f59e8cee292",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "128": {
+      "START": "1986-12-09",
+      "STOP": "",
+      "PATIENT": "59669e7c-0190-4cbf-9e27-4898f1a35d03",
+      "ENCOUNTER": "d19a6b59-77a3-46ee-b8fd-4f59e8cee292",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "129": {
+      "START": "1986-12-09",
+      "STOP": "",
+      "PATIENT": "59669e7c-0190-4cbf-9e27-4898f1a35d03",
+      "ENCOUNTER": "d19a6b59-77a3-46ee-b8fd-4f59e8cee292",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "130": {
+      "START": "2016-04-25",
+      "STOP": "",
+      "PATIENT": "4b92e3f1-b92b-48ec-9baa-2905409d1743",
+      "ENCOUNTER": "afb2659d-c3de-4ff9-aad0-b4283ff08443",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "131": {
+      "START": "2016-04-25",
+      "STOP": "",
+      "PATIENT": "4b92e3f1-b92b-48ec-9baa-2905409d1743",
+      "ENCOUNTER": "afb2659d-c3de-4ff9-aad0-b4283ff08443",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "132": {
+      "START": "2016-04-25",
+      "STOP": "",
+      "PATIENT": "4b92e3f1-b92b-48ec-9baa-2905409d1743",
+      "ENCOUNTER": "afb2659d-c3de-4ff9-aad0-b4283ff08443",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "133": {
+      "START": "2016-04-25",
+      "STOP": "",
+      "PATIENT": "4b92e3f1-b92b-48ec-9baa-2905409d1743",
+      "ENCOUNTER": "afb2659d-c3de-4ff9-aad0-b4283ff08443",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "134": {
+      "START": "2016-04-25",
+      "STOP": "",
+      "PATIENT": "4b92e3f1-b92b-48ec-9baa-2905409d1743",
+      "ENCOUNTER": "afb2659d-c3de-4ff9-aad0-b4283ff08443",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "135": {
+      "START": "2016-04-25",
+      "STOP": "",
+      "PATIENT": "4b92e3f1-b92b-48ec-9baa-2905409d1743",
+      "ENCOUNTER": "afb2659d-c3de-4ff9-aad0-b4283ff08443",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "136": {
+      "START": "2016-04-25",
+      "STOP": "",
+      "PATIENT": "4b92e3f1-b92b-48ec-9baa-2905409d1743",
+      "ENCOUNTER": "afb2659d-c3de-4ff9-aad0-b4283ff08443",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "137": {
+      "START": "2016-04-25",
+      "STOP": "",
+      "PATIENT": "4b92e3f1-b92b-48ec-9baa-2905409d1743",
+      "ENCOUNTER": "afb2659d-c3de-4ff9-aad0-b4283ff08443",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "138": {
+      "START": "2016-04-25",
+      "STOP": "",
+      "PATIENT": "4b92e3f1-b92b-48ec-9baa-2905409d1743",
+      "ENCOUNTER": "afb2659d-c3de-4ff9-aad0-b4283ff08443",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "139": {
+      "START": "2000-03-10",
+      "STOP": "2015-11-30",
+      "PATIENT": "9fda53d4-6fcc-4ef5-a1fe-16e007182ec2",
+      "ENCOUNTER": "da2fa819-307a-410d-9b95-6ea21a2f19ae",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "140": {
+      "START": "2000-03-10",
+      "STOP": "2015-11-30",
+      "PATIENT": "9fda53d4-6fcc-4ef5-a1fe-16e007182ec2",
+      "ENCOUNTER": "da2fa819-307a-410d-9b95-6ea21a2f19ae",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "141": {
+      "START": "2000-03-10",
+      "STOP": "2015-11-30",
+      "PATIENT": "9fda53d4-6fcc-4ef5-a1fe-16e007182ec2",
+      "ENCOUNTER": "da2fa819-307a-410d-9b95-6ea21a2f19ae",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "142": {
+      "START": "2000-03-10",
+      "STOP": "2015-11-30",
+      "PATIENT": "9fda53d4-6fcc-4ef5-a1fe-16e007182ec2",
+      "ENCOUNTER": "da2fa819-307a-410d-9b95-6ea21a2f19ae",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "143": {
+      "START": "2000-03-10",
+      "STOP": "2015-11-30",
+      "PATIENT": "9fda53d4-6fcc-4ef5-a1fe-16e007182ec2",
+      "ENCOUNTER": "da2fa819-307a-410d-9b95-6ea21a2f19ae",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "144": {
+      "START": "2000-03-10",
+      "STOP": "",
+      "PATIENT": "9fda53d4-6fcc-4ef5-a1fe-16e007182ec2",
+      "ENCOUNTER": "da2fa819-307a-410d-9b95-6ea21a2f19ae",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "145": {
+      "START": "2000-03-10",
+      "STOP": "",
+      "PATIENT": "9fda53d4-6fcc-4ef5-a1fe-16e007182ec2",
+      "ENCOUNTER": "da2fa819-307a-410d-9b95-6ea21a2f19ae",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "146": {
+      "START": "2000-03-10",
+      "STOP": "",
+      "PATIENT": "9fda53d4-6fcc-4ef5-a1fe-16e007182ec2",
+      "ENCOUNTER": "da2fa819-307a-410d-9b95-6ea21a2f19ae",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "147": {
+      "START": "1928-01-27",
+      "STOP": "",
+      "PATIENT": "de767c9e-3131-4d1a-9eed-fdd86a15d459",
+      "ENCOUNTER": "48266520-84c9-4a0c-9288-59712b0059ed",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "148": {
+      "START": "2002-12-27",
+      "STOP": "2019-09-12",
+      "PATIENT": "affb8a9e-4a9a-46e7-a94b-e9c90b25f444",
+      "ENCOUNTER": "ad8b3be1-166c-44c9-abe4-dc5a0fc633e3",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "149": {
+      "START": "2016-05-15",
+      "STOP": "",
+      "PATIENT": "8ba79a69-6f3f-4aa5-be2a-dfbd0119d3ea",
+      "ENCOUNTER": "64599133-2dd7-4b23-b2eb-2e94a887a266",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "150": {
+      "START": "2016-05-15",
+      "STOP": "",
+      "PATIENT": "8ba79a69-6f3f-4aa5-be2a-dfbd0119d3ea",
+      "ENCOUNTER": "64599133-2dd7-4b23-b2eb-2e94a887a266",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "151": {
+      "START": "2016-05-15",
+      "STOP": "",
+      "PATIENT": "8ba79a69-6f3f-4aa5-be2a-dfbd0119d3ea",
+      "ENCOUNTER": "64599133-2dd7-4b23-b2eb-2e94a887a266",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "152": {
+      "START": "2016-05-15",
+      "STOP": "",
+      "PATIENT": "8ba79a69-6f3f-4aa5-be2a-dfbd0119d3ea",
+      "ENCOUNTER": "64599133-2dd7-4b23-b2eb-2e94a887a266",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "153": {
+      "START": "2016-05-15",
+      "STOP": "",
+      "PATIENT": "8ba79a69-6f3f-4aa5-be2a-dfbd0119d3ea",
+      "ENCOUNTER": "64599133-2dd7-4b23-b2eb-2e94a887a266",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "154": {
+      "START": "2016-05-15",
+      "STOP": "",
+      "PATIENT": "8ba79a69-6f3f-4aa5-be2a-dfbd0119d3ea",
+      "ENCOUNTER": "64599133-2dd7-4b23-b2eb-2e94a887a266",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "155": {
+      "START": "2016-04-12",
+      "STOP": "",
+      "PATIENT": "128d5c93-dfce-49a1-8d08-e9b24abcb4db",
+      "ENCOUNTER": "0a61339f-5663-4af2-a674-0ed5bcee8129",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "156": {
+      "START": "2008-03-16",
+      "STOP": "",
+      "PATIENT": "eba0f292-1951-4af9-9f14-9d6e9db8e480",
+      "ENCOUNTER": "3a7465cc-5b2f-4e96-934c-7e74c9537cf8",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "157": {
+      "START": "2008-03-16",
+      "STOP": "",
+      "PATIENT": "eba0f292-1951-4af9-9f14-9d6e9db8e480",
+      "ENCOUNTER": "3a7465cc-5b2f-4e96-934c-7e74c9537cf8",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "158": {
+      "START": "2008-03-16",
+      "STOP": "",
+      "PATIENT": "eba0f292-1951-4af9-9f14-9d6e9db8e480",
+      "ENCOUNTER": "3a7465cc-5b2f-4e96-934c-7e74c9537cf8",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "159": {
+      "START": "2008-03-16",
+      "STOP": "",
+      "PATIENT": "eba0f292-1951-4af9-9f14-9d6e9db8e480",
+      "ENCOUNTER": "3a7465cc-5b2f-4e96-934c-7e74c9537cf8",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "160": {
+      "START": "2008-03-16",
+      "STOP": "",
+      "PATIENT": "eba0f292-1951-4af9-9f14-9d6e9db8e480",
+      "ENCOUNTER": "3a7465cc-5b2f-4e96-934c-7e74c9537cf8",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "161": {
+      "START": "2008-03-16",
+      "STOP": "",
+      "PATIENT": "eba0f292-1951-4af9-9f14-9d6e9db8e480",
+      "ENCOUNTER": "3a7465cc-5b2f-4e96-934c-7e74c9537cf8",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "162": {
+      "START": "2008-03-16",
+      "STOP": "",
+      "PATIENT": "eba0f292-1951-4af9-9f14-9d6e9db8e480",
+      "ENCOUNTER": "3a7465cc-5b2f-4e96-934c-7e74c9537cf8",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "163": {
+      "START": "2009-10-12",
+      "STOP": "",
+      "PATIENT": "5846c531-ad71-4b34-9607-3a1022cddffa",
+      "ENCOUNTER": "3e655890-c6c1-47c7-8aa0-378936645135",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "164": {
+      "START": "2004-01-29",
+      "STOP": "",
+      "PATIENT": "d00fc5dd-be0e-47aa-a52a-5cf9ee3a78b5",
+      "ENCOUNTER": "6eb061c1-d1f6-4109-8da9-397e102f5e7c",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "165": {
+      "START": "2004-01-29",
+      "STOP": "",
+      "PATIENT": "d00fc5dd-be0e-47aa-a52a-5cf9ee3a78b5",
+      "ENCOUNTER": "6eb061c1-d1f6-4109-8da9-397e102f5e7c",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "166": {
+      "START": "1964-04-22",
+      "STOP": "",
+      "PATIENT": "7e4e6d32-15cd-4d5f-a4cc-e5c95ab35eb0",
+      "ENCOUNTER": "479131ac-4344-4846-b8ca-71b4745224ef",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "167": {
+      "START": "1964-04-22",
+      "STOP": "",
+      "PATIENT": "7e4e6d32-15cd-4d5f-a4cc-e5c95ab35eb0",
+      "ENCOUNTER": "479131ac-4344-4846-b8ca-71b4745224ef",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "168": {
+      "START": "2018-03-20",
+      "STOP": "",
+      "PATIENT": "841095eb-d29f-4492-8f0e-08011321e85d",
+      "ENCOUNTER": "32622f63-734e-4433-8628-942ce1585e6a",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "169": {
+      "START": "2018-03-20",
+      "STOP": "",
+      "PATIENT": "841095eb-d29f-4492-8f0e-08011321e85d",
+      "ENCOUNTER": "32622f63-734e-4433-8628-942ce1585e6a",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "170": {
+      "START": "2018-03-20",
+      "STOP": "",
+      "PATIENT": "841095eb-d29f-4492-8f0e-08011321e85d",
+      "ENCOUNTER": "32622f63-734e-4433-8628-942ce1585e6a",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "171": {
+      "START": "2018-03-20",
+      "STOP": "",
+      "PATIENT": "841095eb-d29f-4492-8f0e-08011321e85d",
+      "ENCOUNTER": "32622f63-734e-4433-8628-942ce1585e6a",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "172": {
+      "START": "2018-03-20",
+      "STOP": "",
+      "PATIENT": "841095eb-d29f-4492-8f0e-08011321e85d",
+      "ENCOUNTER": "32622f63-734e-4433-8628-942ce1585e6a",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "173": {
+      "START": "2018-03-20",
+      "STOP": "",
+      "PATIENT": "841095eb-d29f-4492-8f0e-08011321e85d",
+      "ENCOUNTER": "32622f63-734e-4433-8628-942ce1585e6a",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "174": {
+      "START": "2018-03-20",
+      "STOP": "",
+      "PATIENT": "841095eb-d29f-4492-8f0e-08011321e85d",
+      "ENCOUNTER": "32622f63-734e-4433-8628-942ce1585e6a",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "175": {
+      "START": "2018-03-20",
+      "STOP": "",
+      "PATIENT": "841095eb-d29f-4492-8f0e-08011321e85d",
+      "ENCOUNTER": "32622f63-734e-4433-8628-942ce1585e6a",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "176": {
+      "START": "1959-10-04",
+      "STOP": "",
+      "PATIENT": "171508e4-8de0-4f33-b7d0-87b7ac4a8008",
+      "ENCOUNTER": "2ce6da4d-7032-4bf7-b0bf-1873d9d015bb",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "177": {
+      "START": "1959-10-04",
+      "STOP": "",
+      "PATIENT": "171508e4-8de0-4f33-b7d0-87b7ac4a8008",
+      "ENCOUNTER": "2ce6da4d-7032-4bf7-b0bf-1873d9d015bb",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "178": {
+      "START": "1951-04-21",
+      "STOP": "",
+      "PATIENT": "ee7f6c74-a8ed-4147-b8e2-4879c8657b0f",
+      "ENCOUNTER": "0b7d2e65-a9df-4b74-84ed-25feffc23f62",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "179": {
+      "START": "1951-04-21",
+      "STOP": "",
+      "PATIENT": "ee7f6c74-a8ed-4147-b8e2-4879c8657b0f",
+      "ENCOUNTER": "0b7d2e65-a9df-4b74-84ed-25feffc23f62",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "180": {
+      "START": "2014-04-24",
+      "STOP": "",
+      "PATIENT": "e112cedd-a98e-489e-abb0-875420d40397",
+      "ENCOUNTER": "d47a0669-53b1-4914-b18d-dd593f7e1767",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "181": {
+      "START": "2014-04-24",
+      "STOP": "",
+      "PATIENT": "e112cedd-a98e-489e-abb0-875420d40397",
+      "ENCOUNTER": "d47a0669-53b1-4914-b18d-dd593f7e1767",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "182": {
+      "START": "2014-04-24",
+      "STOP": "",
+      "PATIENT": "e112cedd-a98e-489e-abb0-875420d40397",
+      "ENCOUNTER": "d47a0669-53b1-4914-b18d-dd593f7e1767",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "183": {
+      "START": "2014-04-24",
+      "STOP": "",
+      "PATIENT": "e112cedd-a98e-489e-abb0-875420d40397",
+      "ENCOUNTER": "d47a0669-53b1-4914-b18d-dd593f7e1767",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "184": {
+      "START": "2014-04-24",
+      "STOP": "",
+      "PATIENT": "e112cedd-a98e-489e-abb0-875420d40397",
+      "ENCOUNTER": "d47a0669-53b1-4914-b18d-dd593f7e1767",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "185": {
+      "START": "2014-04-24",
+      "STOP": "",
+      "PATIENT": "e112cedd-a98e-489e-abb0-875420d40397",
+      "ENCOUNTER": "d47a0669-53b1-4914-b18d-dd593f7e1767",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "186": {
+      "START": "2014-04-24",
+      "STOP": "",
+      "PATIENT": "e112cedd-a98e-489e-abb0-875420d40397",
+      "ENCOUNTER": "d47a0669-53b1-4914-b18d-dd593f7e1767",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "187": {
+      "START": "2014-04-24",
+      "STOP": "",
+      "PATIENT": "e112cedd-a98e-489e-abb0-875420d40397",
+      "ENCOUNTER": "d47a0669-53b1-4914-b18d-dd593f7e1767",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "188": {
+      "START": "2014-04-24",
+      "STOP": "",
+      "PATIENT": "e112cedd-a98e-489e-abb0-875420d40397",
+      "ENCOUNTER": "d47a0669-53b1-4914-b18d-dd593f7e1767",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "189": {
+      "START": "2014-04-24",
+      "STOP": "",
+      "PATIENT": "e112cedd-a98e-489e-abb0-875420d40397",
+      "ENCOUNTER": "d47a0669-53b1-4914-b18d-dd593f7e1767",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "190": {
+      "START": "1988-04-04",
+      "STOP": "",
+      "PATIENT": "f1462368-c891-4ede-9a2f-782da4386bcf",
+      "ENCOUNTER": "3397e329-cac9-426d-9308-e6aa97472d1a",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "191": {
+      "START": "2014-03-19",
+      "STOP": "",
+      "PATIENT": "6e239b88-5153-4098-85ab-27bd7539cd0e",
+      "ENCOUNTER": "52ed3230-8f93-4927-a2ca-1945f5cbd7aa",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "192": {
+      "START": "2014-03-19",
+      "STOP": "",
+      "PATIENT": "6e239b88-5153-4098-85ab-27bd7539cd0e",
+      "ENCOUNTER": "52ed3230-8f93-4927-a2ca-1945f5cbd7aa",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "193": {
+      "START": "2014-03-19",
+      "STOP": "",
+      "PATIENT": "6e239b88-5153-4098-85ab-27bd7539cd0e",
+      "ENCOUNTER": "52ed3230-8f93-4927-a2ca-1945f5cbd7aa",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "194": {
+      "START": "2014-03-19",
+      "STOP": "",
+      "PATIENT": "6e239b88-5153-4098-85ab-27bd7539cd0e",
+      "ENCOUNTER": "52ed3230-8f93-4927-a2ca-1945f5cbd7aa",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "195": {
+      "START": "2014-03-19",
+      "STOP": "",
+      "PATIENT": "6e239b88-5153-4098-85ab-27bd7539cd0e",
+      "ENCOUNTER": "52ed3230-8f93-4927-a2ca-1945f5cbd7aa",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "196": {
+      "START": "2014-03-19",
+      "STOP": "",
+      "PATIENT": "6e239b88-5153-4098-85ab-27bd7539cd0e",
+      "ENCOUNTER": "52ed3230-8f93-4927-a2ca-1945f5cbd7aa",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "197": {
+      "START": "2014-03-19",
+      "STOP": "",
+      "PATIENT": "6e239b88-5153-4098-85ab-27bd7539cd0e",
+      "ENCOUNTER": "52ed3230-8f93-4927-a2ca-1945f5cbd7aa",
+      "CODE": "425525006",
+      "DESCRIPTION": "Allergy to dairy product"
+    },
+    "198": {
+      "START": "2014-03-19",
+      "STOP": "",
+      "PATIENT": "6e239b88-5153-4098-85ab-27bd7539cd0e",
+      "ENCOUNTER": "52ed3230-8f93-4927-a2ca-1945f5cbd7aa",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "199": {
+      "START": "2008-02-17",
+      "STOP": "2019-08-03",
+      "PATIENT": "0c5a6873-0823-497d-b5cb-57f28a11bf62",
+      "ENCOUNTER": "0fcf20f2-96cd-4984-b1f5-0e57720ffd80",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "200": {
+      "START": "1971-03-07",
+      "STOP": "",
+      "PATIENT": "ab6a2662-f6d1-4da6-b3ce-3929d68650d7",
+      "ENCOUNTER": "603a0692-9302-459a-84b4-af631dc3aee8",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "201": {
+      "START": "1971-03-07",
+      "STOP": "",
+      "PATIENT": "ab6a2662-f6d1-4da6-b3ce-3929d68650d7",
+      "ENCOUNTER": "603a0692-9302-459a-84b4-af631dc3aee8",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "202": {
+      "START": "1971-03-07",
+      "STOP": "",
+      "PATIENT": "ab6a2662-f6d1-4da6-b3ce-3929d68650d7",
+      "ENCOUNTER": "603a0692-9302-459a-84b4-af631dc3aee8",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "203": {
+      "START": "1971-03-07",
+      "STOP": "",
+      "PATIENT": "ab6a2662-f6d1-4da6-b3ce-3929d68650d7",
+      "ENCOUNTER": "603a0692-9302-459a-84b4-af631dc3aee8",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "204": {
+      "START": "2010-02-02",
+      "STOP": "",
+      "PATIENT": "f830d725-640c-4c94-972a-61207b748347",
+      "ENCOUNTER": "11297d65-9223-45a7-86bb-04b55f61a5a1",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "205": {
+      "START": "2010-02-02",
+      "STOP": "",
+      "PATIENT": "f830d725-640c-4c94-972a-61207b748347",
+      "ENCOUNTER": "11297d65-9223-45a7-86bb-04b55f61a5a1",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "206": {
+      "START": "2010-02-02",
+      "STOP": "",
+      "PATIENT": "f830d725-640c-4c94-972a-61207b748347",
+      "ENCOUNTER": "11297d65-9223-45a7-86bb-04b55f61a5a1",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "207": {
+      "START": "2010-02-02",
+      "STOP": "",
+      "PATIENT": "f830d725-640c-4c94-972a-61207b748347",
+      "ENCOUNTER": "11297d65-9223-45a7-86bb-04b55f61a5a1",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "208": {
+      "START": "2010-02-02",
+      "STOP": "",
+      "PATIENT": "f830d725-640c-4c94-972a-61207b748347",
+      "ENCOUNTER": "11297d65-9223-45a7-86bb-04b55f61a5a1",
+      "CODE": "714035009",
+      "DESCRIPTION": "Allergy to soya"
+    },
+    "209": {
+      "START": "1966-02-10",
+      "STOP": "",
+      "PATIENT": "c844d8ac-d5bf-45eb-b8cf-84327c9a4e97",
+      "ENCOUNTER": "93f2e585-25a9-447e-9037-f2acb4533af7",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "210": {
+      "START": "1966-02-10",
+      "STOP": "",
+      "PATIENT": "c844d8ac-d5bf-45eb-b8cf-84327c9a4e97",
+      "ENCOUNTER": "93f2e585-25a9-447e-9037-f2acb4533af7",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "211": {
+      "START": "1966-02-10",
+      "STOP": "",
+      "PATIENT": "c844d8ac-d5bf-45eb-b8cf-84327c9a4e97",
+      "ENCOUNTER": "93f2e585-25a9-447e-9037-f2acb4533af7",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "212": {
+      "START": "1966-02-10",
+      "STOP": "",
+      "PATIENT": "c844d8ac-d5bf-45eb-b8cf-84327c9a4e97",
+      "ENCOUNTER": "93f2e585-25a9-447e-9037-f2acb4533af7",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "213": {
+      "START": "1966-02-10",
+      "STOP": "",
+      "PATIENT": "c844d8ac-d5bf-45eb-b8cf-84327c9a4e97",
+      "ENCOUNTER": "93f2e585-25a9-447e-9037-f2acb4533af7",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "214": {
+      "START": "1966-02-10",
+      "STOP": "",
+      "PATIENT": "c844d8ac-d5bf-45eb-b8cf-84327c9a4e97",
+      "ENCOUNTER": "93f2e585-25a9-447e-9037-f2acb4533af7",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "215": {
+      "START": "1966-02-10",
+      "STOP": "",
+      "PATIENT": "c844d8ac-d5bf-45eb-b8cf-84327c9a4e97",
+      "ENCOUNTER": "93f2e585-25a9-447e-9037-f2acb4533af7",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "216": {
+      "START": "1943-10-29",
+      "STOP": "1993-07-10",
+      "PATIENT": "ca24f616-30cc-4351-aca9-1b49297de076",
+      "ENCOUNTER": "d05186e3-ff58-493f-b713-a6462cdff52c",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "217": {
+      "START": "1943-10-29",
+      "STOP": "1993-07-10",
+      "PATIENT": "ca24f616-30cc-4351-aca9-1b49297de076",
+      "ENCOUNTER": "d05186e3-ff58-493f-b713-a6462cdff52c",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "218": {
+      "START": "1943-10-29",
+      "STOP": "1993-07-10",
+      "PATIENT": "ca24f616-30cc-4351-aca9-1b49297de076",
+      "ENCOUNTER": "d05186e3-ff58-493f-b713-a6462cdff52c",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "219": {
+      "START": "1943-10-29",
+      "STOP": "1993-07-10",
+      "PATIENT": "ca24f616-30cc-4351-aca9-1b49297de076",
+      "ENCOUNTER": "d05186e3-ff58-493f-b713-a6462cdff52c",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "220": {
+      "START": "1943-10-29",
+      "STOP": "",
+      "PATIENT": "ca24f616-30cc-4351-aca9-1b49297de076",
+      "ENCOUNTER": "d05186e3-ff58-493f-b713-a6462cdff52c",
+      "CODE": "425525006",
+      "DESCRIPTION": "Allergy to dairy product"
+    },
+    "221": {
+      "START": "2019-01-26",
+      "STOP": "",
+      "PATIENT": "22da6290-e240-4875-97ec-0c2372ff45e5",
+      "ENCOUNTER": "427a4a56-801a-41bb-b9ef-7c9cb5fe9fc7",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "222": {
+      "START": "2019-01-26",
+      "STOP": "",
+      "PATIENT": "22da6290-e240-4875-97ec-0c2372ff45e5",
+      "ENCOUNTER": "427a4a56-801a-41bb-b9ef-7c9cb5fe9fc7",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "223": {
+      "START": "2019-01-26",
+      "STOP": "",
+      "PATIENT": "22da6290-e240-4875-97ec-0c2372ff45e5",
+      "ENCOUNTER": "427a4a56-801a-41bb-b9ef-7c9cb5fe9fc7",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "224": {
+      "START": "2019-01-26",
+      "STOP": "",
+      "PATIENT": "22da6290-e240-4875-97ec-0c2372ff45e5",
+      "ENCOUNTER": "427a4a56-801a-41bb-b9ef-7c9cb5fe9fc7",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "225": {
+      "START": "2019-01-26",
+      "STOP": "",
+      "PATIENT": "22da6290-e240-4875-97ec-0c2372ff45e5",
+      "ENCOUNTER": "427a4a56-801a-41bb-b9ef-7c9cb5fe9fc7",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "226": {
+      "START": "2019-01-26",
+      "STOP": "",
+      "PATIENT": "22da6290-e240-4875-97ec-0c2372ff45e5",
+      "ENCOUNTER": "427a4a56-801a-41bb-b9ef-7c9cb5fe9fc7",
+      "CODE": "425525006",
+      "DESCRIPTION": "Allergy to dairy product"
+    },
+    "227": {
+      "START": "2019-01-26",
+      "STOP": "",
+      "PATIENT": "22da6290-e240-4875-97ec-0c2372ff45e5",
+      "ENCOUNTER": "427a4a56-801a-41bb-b9ef-7c9cb5fe9fc7",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "228": {
+      "START": "2019-01-26",
+      "STOP": "",
+      "PATIENT": "22da6290-e240-4875-97ec-0c2372ff45e5",
+      "ENCOUNTER": "427a4a56-801a-41bb-b9ef-7c9cb5fe9fc7",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "229": {
+      "START": "1967-06-12",
+      "STOP": "",
+      "PATIENT": "cbec03bf-d54a-41ec-9090-bb36a70028b0",
+      "ENCOUNTER": "01cb8295-b8fd-4560-98fd-0548ddffef82",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "230": {
+      "START": "1987-09-24",
+      "STOP": "",
+      "PATIENT": "c4f221f2-611b-4cdd-a0b6-958bbbfcf346",
+      "ENCOUNTER": "c4bd5699-1d3f-421a-afff-b61489fc7304",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "231": {
+      "START": "1990-08-01",
+      "STOP": "",
+      "PATIENT": "77a0cd86-92bb-4c6d-a91a-49ee66e353b9",
+      "ENCOUNTER": "ef0b7128-4a42-44af-b58d-4b9d79b3b949",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "232": {
+      "START": "1990-08-01",
+      "STOP": "",
+      "PATIENT": "77a0cd86-92bb-4c6d-a91a-49ee66e353b9",
+      "ENCOUNTER": "ef0b7128-4a42-44af-b58d-4b9d79b3b949",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "233": {
+      "START": "1995-06-24",
+      "STOP": "2010-10-28",
+      "PATIENT": "ea8e6623-5590-4d01-bfc1-25d86b1b4491",
+      "ENCOUNTER": "4d8f3b3f-c46e-464a-9298-97e713fdcbd3",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "234": {
+      "START": "1995-06-24",
+      "STOP": "",
+      "PATIENT": "ea8e6623-5590-4d01-bfc1-25d86b1b4491",
+      "ENCOUNTER": "4d8f3b3f-c46e-464a-9298-97e713fdcbd3",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "235": {
+      "START": "2002-05-31",
+      "STOP": "",
+      "PATIENT": "4440ff11-69ec-440b-a2bd-dc1c14105e8e",
+      "ENCOUNTER": "38de2a79-6bea-438e-963f-804823c1e32d",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "236": {
+      "START": "2002-05-31",
+      "STOP": "",
+      "PATIENT": "4440ff11-69ec-440b-a2bd-dc1c14105e8e",
+      "ENCOUNTER": "38de2a79-6bea-438e-963f-804823c1e32d",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "237": {
+      "START": "2002-05-31",
+      "STOP": "",
+      "PATIENT": "4440ff11-69ec-440b-a2bd-dc1c14105e8e",
+      "ENCOUNTER": "38de2a79-6bea-438e-963f-804823c1e32d",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "238": {
+      "START": "2002-05-31",
+      "STOP": "",
+      "PATIENT": "4440ff11-69ec-440b-a2bd-dc1c14105e8e",
+      "ENCOUNTER": "38de2a79-6bea-438e-963f-804823c1e32d",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "239": {
+      "START": "2002-05-31",
+      "STOP": "",
+      "PATIENT": "4440ff11-69ec-440b-a2bd-dc1c14105e8e",
+      "ENCOUNTER": "38de2a79-6bea-438e-963f-804823c1e32d",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "240": {
+      "START": "2002-05-31",
+      "STOP": "2020-03-21",
+      "PATIENT": "4440ff11-69ec-440b-a2bd-dc1c14105e8e",
+      "ENCOUNTER": "38de2a79-6bea-438e-963f-804823c1e32d",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "241": {
+      "START": "2002-05-31",
+      "STOP": "2020-03-21",
+      "PATIENT": "4440ff11-69ec-440b-a2bd-dc1c14105e8e",
+      "ENCOUNTER": "38de2a79-6bea-438e-963f-804823c1e32d",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "242": {
+      "START": "2002-05-31",
+      "STOP": "",
+      "PATIENT": "4440ff11-69ec-440b-a2bd-dc1c14105e8e",
+      "ENCOUNTER": "38de2a79-6bea-438e-963f-804823c1e32d",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "243": {
+      "START": "1994-05-12",
+      "STOP": "2011-02-03",
+      "PATIENT": "1aa71b23-790e-4d22-92da-c689682c8993",
+      "ENCOUNTER": "228c992b-3877-454c-920d-fa629bb8c5d9",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "244": {
+      "START": "1994-05-12",
+      "STOP": "",
+      "PATIENT": "1aa71b23-790e-4d22-92da-c689682c8993",
+      "ENCOUNTER": "228c992b-3877-454c-920d-fa629bb8c5d9",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "245": {
+      "START": "1994-05-12",
+      "STOP": "",
+      "PATIENT": "1aa71b23-790e-4d22-92da-c689682c8993",
+      "ENCOUNTER": "228c992b-3877-454c-920d-fa629bb8c5d9",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "246": {
+      "START": "1977-01-21",
+      "STOP": "",
+      "PATIENT": "a263f1fb-ffb1-4913-997f-455b6c6ab81e",
+      "ENCOUNTER": "34aa6375-61e9-45e0-a18a-a17d38dcd4b8",
+      "CODE": "425525006",
+      "DESCRIPTION": "Allergy to dairy product"
+    },
+    "247": {
+      "START": "2006-09-04",
+      "STOP": "",
+      "PATIENT": "1a289f28-b73b-4d3a-83ef-2216e8837bad",
+      "ENCOUNTER": "08c25a44-753e-4a0f-bd30-6bce5105bd71",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "248": {
+      "START": "2006-09-04",
+      "STOP": "",
+      "PATIENT": "1a289f28-b73b-4d3a-83ef-2216e8837bad",
+      "ENCOUNTER": "08c25a44-753e-4a0f-bd30-6bce5105bd71",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "249": {
+      "START": "2006-09-04",
+      "STOP": "",
+      "PATIENT": "1a289f28-b73b-4d3a-83ef-2216e8837bad",
+      "ENCOUNTER": "08c25a44-753e-4a0f-bd30-6bce5105bd71",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "250": {
+      "START": "2006-09-04",
+      "STOP": "",
+      "PATIENT": "1a289f28-b73b-4d3a-83ef-2216e8837bad",
+      "ENCOUNTER": "08c25a44-753e-4a0f-bd30-6bce5105bd71",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "251": {
+      "START": "2006-09-04",
+      "STOP": "",
+      "PATIENT": "1a289f28-b73b-4d3a-83ef-2216e8837bad",
+      "ENCOUNTER": "08c25a44-753e-4a0f-bd30-6bce5105bd71",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "252": {
+      "START": "2006-09-04",
+      "STOP": "",
+      "PATIENT": "1a289f28-b73b-4d3a-83ef-2216e8837bad",
+      "ENCOUNTER": "08c25a44-753e-4a0f-bd30-6bce5105bd71",
+      "CODE": "714035009",
+      "DESCRIPTION": "Allergy to soya"
+    },
+    "253": {
+      "START": "2006-09-04",
+      "STOP": "",
+      "PATIENT": "1a289f28-b73b-4d3a-83ef-2216e8837bad",
+      "ENCOUNTER": "08c25a44-753e-4a0f-bd30-6bce5105bd71",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "254": {
+      "START": "2006-09-04",
+      "STOP": "",
+      "PATIENT": "1a289f28-b73b-4d3a-83ef-2216e8837bad",
+      "ENCOUNTER": "08c25a44-753e-4a0f-bd30-6bce5105bd71",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "255": {
+      "START": "1980-02-18",
+      "STOP": "",
+      "PATIENT": "2f423855-1f84-4faa-9218-cd593bef6fe1",
+      "ENCOUNTER": "e35b4e12-bedc-4d8b-8b42-1926fc6b79d3",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "256": {
+      "START": "1968-03-13",
+      "STOP": "",
+      "PATIENT": "ba2c1e9f-16e0-427b-97db-dc639daeaaee",
+      "ENCOUNTER": "6e245624-124e-4832-a40a-f58519b0cffc",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "257": {
+      "START": "1968-03-13",
+      "STOP": "",
+      "PATIENT": "ba2c1e9f-16e0-427b-97db-dc639daeaaee",
+      "ENCOUNTER": "6e245624-124e-4832-a40a-f58519b0cffc",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "258": {
+      "START": "1968-03-13",
+      "STOP": "",
+      "PATIENT": "ba2c1e9f-16e0-427b-97db-dc639daeaaee",
+      "ENCOUNTER": "6e245624-124e-4832-a40a-f58519b0cffc",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "259": {
+      "START": "1968-03-13",
+      "STOP": "",
+      "PATIENT": "ba2c1e9f-16e0-427b-97db-dc639daeaaee",
+      "ENCOUNTER": "6e245624-124e-4832-a40a-f58519b0cffc",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "260": {
+      "START": "1968-03-13",
+      "STOP": "",
+      "PATIENT": "ba2c1e9f-16e0-427b-97db-dc639daeaaee",
+      "ENCOUNTER": "6e245624-124e-4832-a40a-f58519b0cffc",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "261": {
+      "START": "1968-03-13",
+      "STOP": "",
+      "PATIENT": "ba2c1e9f-16e0-427b-97db-dc639daeaaee",
+      "ENCOUNTER": "6e245624-124e-4832-a40a-f58519b0cffc",
+      "CODE": "425525006",
+      "DESCRIPTION": "Allergy to dairy product"
+    },
+    "262": {
+      "START": "1987-12-17",
+      "STOP": "",
+      "PATIENT": "33c2184c-bda1-4d31-b0cb-4f18c46822da",
+      "ENCOUNTER": "68bee127-51d7-45a5-b750-6d816bad712e",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "263": {
+      "START": "1987-12-17",
+      "STOP": "",
+      "PATIENT": "33c2184c-bda1-4d31-b0cb-4f18c46822da",
+      "ENCOUNTER": "68bee127-51d7-45a5-b750-6d816bad712e",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "264": {
+      "START": "1991-04-12",
+      "STOP": "",
+      "PATIENT": "5f1c9186-80b0-405f-9f74-c4e26beb1d01",
+      "ENCOUNTER": "4c577cc8-117e-45dc-852a-e91de2336afd",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "265": {
+      "START": "1991-04-12",
+      "STOP": "",
+      "PATIENT": "5f1c9186-80b0-405f-9f74-c4e26beb1d01",
+      "ENCOUNTER": "4c577cc8-117e-45dc-852a-e91de2336afd",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "266": {
+      "START": "2001-08-30",
+      "STOP": "2018-12-17",
+      "PATIENT": "317ccdcf-cb9c-488c-901c-a5d61c249919",
+      "ENCOUNTER": "da3b04e7-b4a2-4949-a335-a560aec22203",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "267": {
+      "START": "1981-03-11",
+      "STOP": "",
+      "PATIENT": "ca8803ac-66ef-4895-a8c4-290313fcee6f",
+      "ENCOUNTER": "6dae0a63-104c-468a-8796-028bd0991bcf",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "268": {
+      "START": "1981-03-11",
+      "STOP": "",
+      "PATIENT": "ca8803ac-66ef-4895-a8c4-290313fcee6f",
+      "ENCOUNTER": "6dae0a63-104c-468a-8796-028bd0991bcf",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "269": {
+      "START": "1981-03-11",
+      "STOP": "",
+      "PATIENT": "ca8803ac-66ef-4895-a8c4-290313fcee6f",
+      "ENCOUNTER": "6dae0a63-104c-468a-8796-028bd0991bcf",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "270": {
+      "START": "1981-03-11",
+      "STOP": "",
+      "PATIENT": "ca8803ac-66ef-4895-a8c4-290313fcee6f",
+      "ENCOUNTER": "6dae0a63-104c-468a-8796-028bd0991bcf",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "271": {
+      "START": "1981-03-11",
+      "STOP": "",
+      "PATIENT": "ca8803ac-66ef-4895-a8c4-290313fcee6f",
+      "ENCOUNTER": "6dae0a63-104c-468a-8796-028bd0991bcf",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "272": {
+      "START": "1981-03-11",
+      "STOP": "",
+      "PATIENT": "ca8803ac-66ef-4895-a8c4-290313fcee6f",
+      "ENCOUNTER": "6dae0a63-104c-468a-8796-028bd0991bcf",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "273": {
+      "START": "1975-07-08",
+      "STOP": "",
+      "PATIENT": "ed6fb8d6-c14d-4e34-a029-2dab33855ddd",
+      "ENCOUNTER": "c587f354-dda9-4a55-930b-c19330ee1c49",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "274": {
+      "START": "1956-09-04",
+      "STOP": "",
+      "PATIENT": "9ec6d974-df2b-44ec-acc2-77d96725f4f4",
+      "ENCOUNTER": "d8789ff6-c8dc-474c-98e8-8225e749a9b0",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "275": {
+      "START": "2018-10-10",
+      "STOP": "",
+      "PATIENT": "78ddb775-9cd7-46c6-87b9-277a2a92c72b",
+      "ENCOUNTER": "d7975f41-c463-4522-ba1a-bea9a292d6ef",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "276": {
+      "START": "2018-10-10",
+      "STOP": "",
+      "PATIENT": "78ddb775-9cd7-46c6-87b9-277a2a92c72b",
+      "ENCOUNTER": "d7975f41-c463-4522-ba1a-bea9a292d6ef",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "277": {
+      "START": "2018-10-10",
+      "STOP": "",
+      "PATIENT": "78ddb775-9cd7-46c6-87b9-277a2a92c72b",
+      "ENCOUNTER": "d7975f41-c463-4522-ba1a-bea9a292d6ef",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "278": {
+      "START": "2018-10-10",
+      "STOP": "",
+      "PATIENT": "78ddb775-9cd7-46c6-87b9-277a2a92c72b",
+      "ENCOUNTER": "d7975f41-c463-4522-ba1a-bea9a292d6ef",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "279": {
+      "START": "2018-10-10",
+      "STOP": "",
+      "PATIENT": "78ddb775-9cd7-46c6-87b9-277a2a92c72b",
+      "ENCOUNTER": "d7975f41-c463-4522-ba1a-bea9a292d6ef",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "280": {
+      "START": "2018-10-10",
+      "STOP": "",
+      "PATIENT": "78ddb775-9cd7-46c6-87b9-277a2a92c72b",
+      "ENCOUNTER": "d7975f41-c463-4522-ba1a-bea9a292d6ef",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "281": {
+      "START": "2018-10-10",
+      "STOP": "",
+      "PATIENT": "78ddb775-9cd7-46c6-87b9-277a2a92c72b",
+      "ENCOUNTER": "d7975f41-c463-4522-ba1a-bea9a292d6ef",
+      "CODE": "425525006",
+      "DESCRIPTION": "Allergy to dairy product"
+    },
+    "282": {
+      "START": "2018-10-10",
+      "STOP": "",
+      "PATIENT": "78ddb775-9cd7-46c6-87b9-277a2a92c72b",
+      "ENCOUNTER": "d7975f41-c463-4522-ba1a-bea9a292d6ef",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "283": {
+      "START": "1992-03-09",
+      "STOP": "",
+      "PATIENT": "45840f9a-a735-45e4-beb0-b750fc9a712e",
+      "ENCOUNTER": "a90612a6-2d88-4fb8-97ac-b95e19f60c41",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "284": {
+      "START": "2014-06-07",
+      "STOP": "",
+      "PATIENT": "bab51ea9-2945-4f8a-8015-e430f80a908e",
+      "ENCOUNTER": "3bf855b5-6f5a-45b6-a248-870298609636",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "285": {
+      "START": "2014-06-07",
+      "STOP": "",
+      "PATIENT": "bab51ea9-2945-4f8a-8015-e430f80a908e",
+      "ENCOUNTER": "3bf855b5-6f5a-45b6-a248-870298609636",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "286": {
+      "START": "2014-06-07",
+      "STOP": "",
+      "PATIENT": "bab51ea9-2945-4f8a-8015-e430f80a908e",
+      "ENCOUNTER": "3bf855b5-6f5a-45b6-a248-870298609636",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "287": {
+      "START": "2014-06-07",
+      "STOP": "",
+      "PATIENT": "bab51ea9-2945-4f8a-8015-e430f80a908e",
+      "ENCOUNTER": "3bf855b5-6f5a-45b6-a248-870298609636",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "288": {
+      "START": "2014-06-07",
+      "STOP": "",
+      "PATIENT": "bab51ea9-2945-4f8a-8015-e430f80a908e",
+      "ENCOUNTER": "3bf855b5-6f5a-45b6-a248-870298609636",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "289": {
+      "START": "2014-06-07",
+      "STOP": "",
+      "PATIENT": "bab51ea9-2945-4f8a-8015-e430f80a908e",
+      "ENCOUNTER": "3bf855b5-6f5a-45b6-a248-870298609636",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "290": {
+      "START": "2014-06-07",
+      "STOP": "",
+      "PATIENT": "bab51ea9-2945-4f8a-8015-e430f80a908e",
+      "ENCOUNTER": "3bf855b5-6f5a-45b6-a248-870298609636",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "291": {
+      "START": "2014-06-07",
+      "STOP": "",
+      "PATIENT": "bab51ea9-2945-4f8a-8015-e430f80a908e",
+      "ENCOUNTER": "3bf855b5-6f5a-45b6-a248-870298609636",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "292": {
+      "START": "2014-06-07",
+      "STOP": "",
+      "PATIENT": "bab51ea9-2945-4f8a-8015-e430f80a908e",
+      "ENCOUNTER": "3bf855b5-6f5a-45b6-a248-870298609636",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "293": {
+      "START": "2016-01-24",
+      "STOP": "",
+      "PATIENT": "1d4f63d2-ddc0-47bc-b2cc-6f58068a5901",
+      "ENCOUNTER": "82952a6b-28a4-443a-9dcf-bee496f1256d",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "294": {
+      "START": "2016-01-24",
+      "STOP": "",
+      "PATIENT": "1d4f63d2-ddc0-47bc-b2cc-6f58068a5901",
+      "ENCOUNTER": "82952a6b-28a4-443a-9dcf-bee496f1256d",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "295": {
+      "START": "1949-06-26",
+      "STOP": "",
+      "PATIENT": "734dfbb9-6320-4fee-b21a-175d3f2f14ba",
+      "ENCOUNTER": "48fffc64-31f0-4043-be85-8c431deb0b53",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "296": {
+      "START": "1982-03-10",
+      "STOP": "",
+      "PATIENT": "dc00fea9-2f95-46f9-ba8e-d382489c6e6a",
+      "ENCOUNTER": "dfccba0c-4fb6-442d-9d99-d32f4577112f",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "297": {
+      "START": "1982-03-10",
+      "STOP": "",
+      "PATIENT": "dc00fea9-2f95-46f9-ba8e-d382489c6e6a",
+      "ENCOUNTER": "dfccba0c-4fb6-442d-9d99-d32f4577112f",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "298": {
+      "START": "1982-03-10",
+      "STOP": "",
+      "PATIENT": "dc00fea9-2f95-46f9-ba8e-d382489c6e6a",
+      "ENCOUNTER": "dfccba0c-4fb6-442d-9d99-d32f4577112f",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "299": {
+      "START": "2010-04-03",
+      "STOP": "",
+      "PATIENT": "2174522f-1d23-47cf-b56c-4ce3193c5bab",
+      "ENCOUNTER": "89685e6f-cb99-47aa-8304-e9bc4506e7cd",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "300": {
+      "START": "2010-04-03",
+      "STOP": "",
+      "PATIENT": "2174522f-1d23-47cf-b56c-4ce3193c5bab",
+      "ENCOUNTER": "89685e6f-cb99-47aa-8304-e9bc4506e7cd",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "301": {
+      "START": "2010-04-03",
+      "STOP": "",
+      "PATIENT": "2174522f-1d23-47cf-b56c-4ce3193c5bab",
+      "ENCOUNTER": "89685e6f-cb99-47aa-8304-e9bc4506e7cd",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "302": {
+      "START": "2010-04-03",
+      "STOP": "",
+      "PATIENT": "2174522f-1d23-47cf-b56c-4ce3193c5bab",
+      "ENCOUNTER": "89685e6f-cb99-47aa-8304-e9bc4506e7cd",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "303": {
+      "START": "2010-04-03",
+      "STOP": "",
+      "PATIENT": "2174522f-1d23-47cf-b56c-4ce3193c5bab",
+      "ENCOUNTER": "89685e6f-cb99-47aa-8304-e9bc4506e7cd",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "304": {
+      "START": "2010-04-03",
+      "STOP": "",
+      "PATIENT": "2174522f-1d23-47cf-b56c-4ce3193c5bab",
+      "ENCOUNTER": "89685e6f-cb99-47aa-8304-e9bc4506e7cd",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "305": {
+      "START": "2010-04-03",
+      "STOP": "",
+      "PATIENT": "2174522f-1d23-47cf-b56c-4ce3193c5bab",
+      "ENCOUNTER": "89685e6f-cb99-47aa-8304-e9bc4506e7cd",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "306": {
+      "START": "2010-04-03",
+      "STOP": "",
+      "PATIENT": "2174522f-1d23-47cf-b56c-4ce3193c5bab",
+      "ENCOUNTER": "89685e6f-cb99-47aa-8304-e9bc4506e7cd",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "307": {
+      "START": "2010-04-03",
+      "STOP": "",
+      "PATIENT": "2174522f-1d23-47cf-b56c-4ce3193c5bab",
+      "ENCOUNTER": "89685e6f-cb99-47aa-8304-e9bc4506e7cd",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "308": {
+      "START": "2010-04-03",
+      "STOP": "",
+      "PATIENT": "2174522f-1d23-47cf-b56c-4ce3193c5bab",
+      "ENCOUNTER": "89685e6f-cb99-47aa-8304-e9bc4506e7cd",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "309": {
+      "START": "2009-06-17",
+      "STOP": "",
+      "PATIENT": "5c520448-6728-42cb-8cf2-457bc7c2b1f1",
+      "ENCOUNTER": "318437d0-9900-460a-a870-8d3b259b488a",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "310": {
+      "START": "2009-06-17",
+      "STOP": "",
+      "PATIENT": "5c520448-6728-42cb-8cf2-457bc7c2b1f1",
+      "ENCOUNTER": "318437d0-9900-460a-a870-8d3b259b488a",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "311": {
+      "START": "2009-06-17",
+      "STOP": "",
+      "PATIENT": "5c520448-6728-42cb-8cf2-457bc7c2b1f1",
+      "ENCOUNTER": "318437d0-9900-460a-a870-8d3b259b488a",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "312": {
+      "START": "2009-06-17",
+      "STOP": "",
+      "PATIENT": "5c520448-6728-42cb-8cf2-457bc7c2b1f1",
+      "ENCOUNTER": "318437d0-9900-460a-a870-8d3b259b488a",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "313": {
+      "START": "2009-06-17",
+      "STOP": "",
+      "PATIENT": "5c520448-6728-42cb-8cf2-457bc7c2b1f1",
+      "ENCOUNTER": "318437d0-9900-460a-a870-8d3b259b488a",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "314": {
+      "START": "2009-06-17",
+      "STOP": "",
+      "PATIENT": "5c520448-6728-42cb-8cf2-457bc7c2b1f1",
+      "ENCOUNTER": "318437d0-9900-460a-a870-8d3b259b488a",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "315": {
+      "START": "2009-06-17",
+      "STOP": "",
+      "PATIENT": "5c520448-6728-42cb-8cf2-457bc7c2b1f1",
+      "ENCOUNTER": "318437d0-9900-460a-a870-8d3b259b488a",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "316": {
+      "START": "2009-06-17",
+      "STOP": "",
+      "PATIENT": "5c520448-6728-42cb-8cf2-457bc7c2b1f1",
+      "ENCOUNTER": "318437d0-9900-460a-a870-8d3b259b488a",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "317": {
+      "START": "2019-12-03",
+      "STOP": "",
+      "PATIENT": "9b50f7b9-c67c-4044-aad0-594ee95b0c29",
+      "ENCOUNTER": "f54d8911-fb39-4ffc-afea-37327e08f509",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "318": {
+      "START": "2019-12-03",
+      "STOP": "",
+      "PATIENT": "9b50f7b9-c67c-4044-aad0-594ee95b0c29",
+      "ENCOUNTER": "f54d8911-fb39-4ffc-afea-37327e08f509",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "319": {
+      "START": "2019-12-03",
+      "STOP": "",
+      "PATIENT": "9b50f7b9-c67c-4044-aad0-594ee95b0c29",
+      "ENCOUNTER": "f54d8911-fb39-4ffc-afea-37327e08f509",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "320": {
+      "START": "2019-12-03",
+      "STOP": "",
+      "PATIENT": "9b50f7b9-c67c-4044-aad0-594ee95b0c29",
+      "ENCOUNTER": "f54d8911-fb39-4ffc-afea-37327e08f509",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "321": {
+      "START": "2019-12-03",
+      "STOP": "",
+      "PATIENT": "9b50f7b9-c67c-4044-aad0-594ee95b0c29",
+      "ENCOUNTER": "f54d8911-fb39-4ffc-afea-37327e08f509",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "322": {
+      "START": "2019-12-03",
+      "STOP": "",
+      "PATIENT": "9b50f7b9-c67c-4044-aad0-594ee95b0c29",
+      "ENCOUNTER": "f54d8911-fb39-4ffc-afea-37327e08f509",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "323": {
+      "START": "2019-12-03",
+      "STOP": "",
+      "PATIENT": "9b50f7b9-c67c-4044-aad0-594ee95b0c29",
+      "ENCOUNTER": "f54d8911-fb39-4ffc-afea-37327e08f509",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "324": {
+      "START": "2008-01-21",
+      "STOP": "",
+      "PATIENT": "a694ecfc-e39e-46dc-876e-029b32ba0135",
+      "ENCOUNTER": "33d7e56a-61f4-4123-beb1-91b0fbc9727b",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "325": {
+      "START": "2008-01-21",
+      "STOP": "",
+      "PATIENT": "a694ecfc-e39e-46dc-876e-029b32ba0135",
+      "ENCOUNTER": "33d7e56a-61f4-4123-beb1-91b0fbc9727b",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "326": {
+      "START": "2008-01-21",
+      "STOP": "",
+      "PATIENT": "a694ecfc-e39e-46dc-876e-029b32ba0135",
+      "ENCOUNTER": "33d7e56a-61f4-4123-beb1-91b0fbc9727b",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "327": {
+      "START": "2008-01-21",
+      "STOP": "",
+      "PATIENT": "a694ecfc-e39e-46dc-876e-029b32ba0135",
+      "ENCOUNTER": "33d7e56a-61f4-4123-beb1-91b0fbc9727b",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "328": {
+      "START": "2008-01-21",
+      "STOP": "",
+      "PATIENT": "a694ecfc-e39e-46dc-876e-029b32ba0135",
+      "ENCOUNTER": "33d7e56a-61f4-4123-beb1-91b0fbc9727b",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "329": {
+      "START": "2008-01-21",
+      "STOP": "",
+      "PATIENT": "a694ecfc-e39e-46dc-876e-029b32ba0135",
+      "ENCOUNTER": "33d7e56a-61f4-4123-beb1-91b0fbc9727b",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "330": {
+      "START": "2008-01-21",
+      "STOP": "",
+      "PATIENT": "a694ecfc-e39e-46dc-876e-029b32ba0135",
+      "ENCOUNTER": "33d7e56a-61f4-4123-beb1-91b0fbc9727b",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "331": {
+      "START": "2008-01-21",
+      "STOP": "",
+      "PATIENT": "a694ecfc-e39e-46dc-876e-029b32ba0135",
+      "ENCOUNTER": "33d7e56a-61f4-4123-beb1-91b0fbc9727b",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "332": {
+      "START": "2008-01-21",
+      "STOP": "",
+      "PATIENT": "a694ecfc-e39e-46dc-876e-029b32ba0135",
+      "ENCOUNTER": "33d7e56a-61f4-4123-beb1-91b0fbc9727b",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "333": {
+      "START": "2003-08-22",
+      "STOP": "",
+      "PATIENT": "b88dac97-2026-43e9-b40f-71fc0f888ce7",
+      "ENCOUNTER": "d102e306-8906-48ee-b8ad-574f5a61150e",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "334": {
+      "START": "2003-08-22",
+      "STOP": "2018-11-22",
+      "PATIENT": "b88dac97-2026-43e9-b40f-71fc0f888ce7",
+      "ENCOUNTER": "d102e306-8906-48ee-b8ad-574f5a61150e",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "335": {
+      "START": "2003-08-22",
+      "STOP": "2018-11-22",
+      "PATIENT": "b88dac97-2026-43e9-b40f-71fc0f888ce7",
+      "ENCOUNTER": "d102e306-8906-48ee-b8ad-574f5a61150e",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "336": {
+      "START": "2003-08-22",
+      "STOP": "2018-11-22",
+      "PATIENT": "b88dac97-2026-43e9-b40f-71fc0f888ce7",
+      "ENCOUNTER": "d102e306-8906-48ee-b8ad-574f5a61150e",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "337": {
+      "START": "2003-08-22",
+      "STOP": "2019-10-21",
+      "PATIENT": "b88dac97-2026-43e9-b40f-71fc0f888ce7",
+      "ENCOUNTER": "d102e306-8906-48ee-b8ad-574f5a61150e",
+      "CODE": "425525006",
+      "DESCRIPTION": "Allergy to dairy product"
+    },
+    "338": {
+      "START": "2003-08-22",
+      "STOP": "",
+      "PATIENT": "b88dac97-2026-43e9-b40f-71fc0f888ce7",
+      "ENCOUNTER": "d102e306-8906-48ee-b8ad-574f5a61150e",
+      "CODE": "714035009",
+      "DESCRIPTION": "Allergy to soya"
+    },
+    "339": {
+      "START": "2003-08-22",
+      "STOP": "2019-10-21",
+      "PATIENT": "b88dac97-2026-43e9-b40f-71fc0f888ce7",
+      "ENCOUNTER": "d102e306-8906-48ee-b8ad-574f5a61150e",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "340": {
+      "START": "1988-02-20",
+      "STOP": "",
+      "PATIENT": "d7d1f837-a2c8-4648-b498-a02278b91a08",
+      "ENCOUNTER": "22f68bb1-06c5-4585-a74e-2924df8c6e93",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "341": {
+      "START": "2001-05-31",
+      "STOP": "",
+      "PATIENT": "8b119fdd-0fea-46dd-9106-b5c7813e7260",
+      "ENCOUNTER": "c0779655-785c-4ee7-9f19-afe8b8c96d4c",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "342": {
+      "START": "2001-05-31",
+      "STOP": "2017-01-31",
+      "PATIENT": "8b119fdd-0fea-46dd-9106-b5c7813e7260",
+      "ENCOUNTER": "c0779655-785c-4ee7-9f19-afe8b8c96d4c",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "343": {
+      "START": "2001-05-31",
+      "STOP": "2017-01-31",
+      "PATIENT": "8b119fdd-0fea-46dd-9106-b5c7813e7260",
+      "ENCOUNTER": "c0779655-785c-4ee7-9f19-afe8b8c96d4c",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "344": {
+      "START": "2001-05-31",
+      "STOP": "2017-01-31",
+      "PATIENT": "8b119fdd-0fea-46dd-9106-b5c7813e7260",
+      "ENCOUNTER": "c0779655-785c-4ee7-9f19-afe8b8c96d4c",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "345": {
+      "START": "2001-05-31",
+      "STOP": "2017-01-31",
+      "PATIENT": "8b119fdd-0fea-46dd-9106-b5c7813e7260",
+      "ENCOUNTER": "c0779655-785c-4ee7-9f19-afe8b8c96d4c",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "346": {
+      "START": "2001-05-31",
+      "STOP": "2017-01-31",
+      "PATIENT": "8b119fdd-0fea-46dd-9106-b5c7813e7260",
+      "ENCOUNTER": "c0779655-785c-4ee7-9f19-afe8b8c96d4c",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "347": {
+      "START": "2001-05-31",
+      "STOP": "",
+      "PATIENT": "8b119fdd-0fea-46dd-9106-b5c7813e7260",
+      "ENCOUNTER": "c0779655-785c-4ee7-9f19-afe8b8c96d4c",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "348": {
+      "START": "2001-05-31",
+      "STOP": "",
+      "PATIENT": "8b119fdd-0fea-46dd-9106-b5c7813e7260",
+      "ENCOUNTER": "c0779655-785c-4ee7-9f19-afe8b8c96d4c",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "349": {
+      "START": "1950-01-07",
+      "STOP": "",
+      "PATIENT": "848e0227-5d5d-4bdf-8603-207cdea72e2a",
+      "ENCOUNTER": "77427b07-f03b-49bc-9556-d69b4feed7ef",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "350": {
+      "START": "1950-01-07",
+      "STOP": "",
+      "PATIENT": "848e0227-5d5d-4bdf-8603-207cdea72e2a",
+      "ENCOUNTER": "77427b07-f03b-49bc-9556-d69b4feed7ef",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "351": {
+      "START": "1950-01-07",
+      "STOP": "",
+      "PATIENT": "848e0227-5d5d-4bdf-8603-207cdea72e2a",
+      "ENCOUNTER": "77427b07-f03b-49bc-9556-d69b4feed7ef",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "352": {
+      "START": "1950-01-07",
+      "STOP": "",
+      "PATIENT": "848e0227-5d5d-4bdf-8603-207cdea72e2a",
+      "ENCOUNTER": "77427b07-f03b-49bc-9556-d69b4feed7ef",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "353": {
+      "START": "1950-01-07",
+      "STOP": "",
+      "PATIENT": "848e0227-5d5d-4bdf-8603-207cdea72e2a",
+      "ENCOUNTER": "77427b07-f03b-49bc-9556-d69b4feed7ef",
+      "CODE": "714035009",
+      "DESCRIPTION": "Allergy to soya"
+    },
+    "354": {
+      "START": "1950-01-07",
+      "STOP": "",
+      "PATIENT": "848e0227-5d5d-4bdf-8603-207cdea72e2a",
+      "ENCOUNTER": "77427b07-f03b-49bc-9556-d69b4feed7ef",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "355": {
+      "START": "2004-12-06",
+      "STOP": "",
+      "PATIENT": "eafd1fd3-3778-423a-ba79-4584bd310eb4",
+      "ENCOUNTER": "36279aee-15ff-48ad-a4a6-8ba334466278",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "356": {
+      "START": "2000-11-01",
+      "STOP": "",
+      "PATIENT": "25f2b770-8821-48f0-a7fe-460dfe3b15b8",
+      "ENCOUNTER": "41baabeb-59ef-42d5-a69b-2a070d6f9acd",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "357": {
+      "START": "2000-11-01",
+      "STOP": "2016-11-21",
+      "PATIENT": "25f2b770-8821-48f0-a7fe-460dfe3b15b8",
+      "ENCOUNTER": "41baabeb-59ef-42d5-a69b-2a070d6f9acd",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "358": {
+      "START": "2000-11-01",
+      "STOP": "",
+      "PATIENT": "25f2b770-8821-48f0-a7fe-460dfe3b15b8",
+      "ENCOUNTER": "41baabeb-59ef-42d5-a69b-2a070d6f9acd",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "359": {
+      "START": "2000-11-01",
+      "STOP": "2016-11-21",
+      "PATIENT": "25f2b770-8821-48f0-a7fe-460dfe3b15b8",
+      "ENCOUNTER": "41baabeb-59ef-42d5-a69b-2a070d6f9acd",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "360": {
+      "START": "2000-11-01",
+      "STOP": "2016-11-21",
+      "PATIENT": "25f2b770-8821-48f0-a7fe-460dfe3b15b8",
+      "ENCOUNTER": "41baabeb-59ef-42d5-a69b-2a070d6f9acd",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "361": {
+      "START": "2000-11-01",
+      "STOP": "2018-04-11",
+      "PATIENT": "25f2b770-8821-48f0-a7fe-460dfe3b15b8",
+      "ENCOUNTER": "41baabeb-59ef-42d5-a69b-2a070d6f9acd",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "362": {
+      "START": "2000-11-01",
+      "STOP": "2018-04-11",
+      "PATIENT": "25f2b770-8821-48f0-a7fe-460dfe3b15b8",
+      "ENCOUNTER": "41baabeb-59ef-42d5-a69b-2a070d6f9acd",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "363": {
+      "START": "2000-11-01",
+      "STOP": "",
+      "PATIENT": "25f2b770-8821-48f0-a7fe-460dfe3b15b8",
+      "ENCOUNTER": "41baabeb-59ef-42d5-a69b-2a070d6f9acd",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "364": {
+      "START": "1964-03-05",
+      "STOP": "",
+      "PATIENT": "2e4df8c7-8b04-4165-a1fb-e4234d8aebe7",
+      "ENCOUNTER": "ab0c0a3f-8b18-4880-b45a-fad163b69ef3",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "365": {
+      "START": "2015-07-28",
+      "STOP": "",
+      "PATIENT": "26ca976d-0b5b-4662-af41-535ff670dd5a",
+      "ENCOUNTER": "9ef70ad2-ee78-4685-b90f-aaae12dc2e7f",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "366": {
+      "START": "2015-07-28",
+      "STOP": "",
+      "PATIENT": "26ca976d-0b5b-4662-af41-535ff670dd5a",
+      "ENCOUNTER": "9ef70ad2-ee78-4685-b90f-aaae12dc2e7f",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "367": {
+      "START": "2015-07-28",
+      "STOP": "",
+      "PATIENT": "26ca976d-0b5b-4662-af41-535ff670dd5a",
+      "ENCOUNTER": "9ef70ad2-ee78-4685-b90f-aaae12dc2e7f",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "368": {
+      "START": "2015-07-28",
+      "STOP": "",
+      "PATIENT": "26ca976d-0b5b-4662-af41-535ff670dd5a",
+      "ENCOUNTER": "9ef70ad2-ee78-4685-b90f-aaae12dc2e7f",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "369": {
+      "START": "2015-07-28",
+      "STOP": "",
+      "PATIENT": "26ca976d-0b5b-4662-af41-535ff670dd5a",
+      "ENCOUNTER": "9ef70ad2-ee78-4685-b90f-aaae12dc2e7f",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "370": {
+      "START": "2015-07-28",
+      "STOP": "",
+      "PATIENT": "26ca976d-0b5b-4662-af41-535ff670dd5a",
+      "ENCOUNTER": "9ef70ad2-ee78-4685-b90f-aaae12dc2e7f",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "371": {
+      "START": "2015-07-28",
+      "STOP": "",
+      "PATIENT": "26ca976d-0b5b-4662-af41-535ff670dd5a",
+      "ENCOUNTER": "9ef70ad2-ee78-4685-b90f-aaae12dc2e7f",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "372": {
+      "START": "1991-07-26",
+      "STOP": "",
+      "PATIENT": "65243e61-da11-42a6-826e-a43d960d1e84",
+      "ENCOUNTER": "4bd55d09-eca0-4e6e-b04d-a81b0906f8d8",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "373": {
+      "START": "2019-04-02",
+      "STOP": "",
+      "PATIENT": "199946d9-69de-43e1-9ce6-d6b646b84955",
+      "ENCOUNTER": "f522f250-10aa-4578-ba25-149ed036fe1c",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "374": {
+      "START": "2019-04-02",
+      "STOP": "",
+      "PATIENT": "199946d9-69de-43e1-9ce6-d6b646b84955",
+      "ENCOUNTER": "f522f250-10aa-4578-ba25-149ed036fe1c",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "375": {
+      "START": "2019-04-02",
+      "STOP": "",
+      "PATIENT": "199946d9-69de-43e1-9ce6-d6b646b84955",
+      "ENCOUNTER": "f522f250-10aa-4578-ba25-149ed036fe1c",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "376": {
+      "START": "2019-04-02",
+      "STOP": "",
+      "PATIENT": "199946d9-69de-43e1-9ce6-d6b646b84955",
+      "ENCOUNTER": "f522f250-10aa-4578-ba25-149ed036fe1c",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "377": {
+      "START": "2019-04-02",
+      "STOP": "",
+      "PATIENT": "199946d9-69de-43e1-9ce6-d6b646b84955",
+      "ENCOUNTER": "f522f250-10aa-4578-ba25-149ed036fe1c",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "378": {
+      "START": "2019-04-02",
+      "STOP": "",
+      "PATIENT": "199946d9-69de-43e1-9ce6-d6b646b84955",
+      "ENCOUNTER": "f522f250-10aa-4578-ba25-149ed036fe1c",
+      "CODE": "425525006",
+      "DESCRIPTION": "Allergy to dairy product"
+    },
+    "379": {
+      "START": "2019-04-02",
+      "STOP": "",
+      "PATIENT": "199946d9-69de-43e1-9ce6-d6b646b84955",
+      "ENCOUNTER": "f522f250-10aa-4578-ba25-149ed036fe1c",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "380": {
+      "START": "1957-08-07",
+      "STOP": "",
+      "PATIENT": "4be910c3-22ae-4868-9dbe-667aec6e5342",
+      "ENCOUNTER": "66b7c226-13b7-47cc-b0c2-5a3f608061d8",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "381": {
+      "START": "1962-03-31",
+      "STOP": "",
+      "PATIENT": "08ea9043-5f84-46ab-9815-81d90024169a",
+      "ENCOUNTER": "4d41baa1-4c54-4c57-be01-e67f0234d4fe",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "382": {
+      "START": "1962-03-31",
+      "STOP": "",
+      "PATIENT": "08ea9043-5f84-46ab-9815-81d90024169a",
+      "ENCOUNTER": "4d41baa1-4c54-4c57-be01-e67f0234d4fe",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "383": {
+      "START": "2005-10-25",
+      "STOP": "",
+      "PATIENT": "2950e244-0ba6-4afe-ac30-e0d5529d1d1b",
+      "ENCOUNTER": "aa90693d-c20e-4791-baa4-aab0b6400f6b",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "384": {
+      "START": "2005-10-25",
+      "STOP": "",
+      "PATIENT": "2950e244-0ba6-4afe-ac30-e0d5529d1d1b",
+      "ENCOUNTER": "aa90693d-c20e-4791-baa4-aab0b6400f6b",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "385": {
+      "START": "2005-10-25",
+      "STOP": "",
+      "PATIENT": "2950e244-0ba6-4afe-ac30-e0d5529d1d1b",
+      "ENCOUNTER": "aa90693d-c20e-4791-baa4-aab0b6400f6b",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "386": {
+      "START": "2005-10-25",
+      "STOP": "",
+      "PATIENT": "2950e244-0ba6-4afe-ac30-e0d5529d1d1b",
+      "ENCOUNTER": "aa90693d-c20e-4791-baa4-aab0b6400f6b",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "387": {
+      "START": "2005-10-25",
+      "STOP": "",
+      "PATIENT": "2950e244-0ba6-4afe-ac30-e0d5529d1d1b",
+      "ENCOUNTER": "aa90693d-c20e-4791-baa4-aab0b6400f6b",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "388": {
+      "START": "2005-10-25",
+      "STOP": "",
+      "PATIENT": "2950e244-0ba6-4afe-ac30-e0d5529d1d1b",
+      "ENCOUNTER": "aa90693d-c20e-4791-baa4-aab0b6400f6b",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "389": {
+      "START": "2005-10-25",
+      "STOP": "",
+      "PATIENT": "2950e244-0ba6-4afe-ac30-e0d5529d1d1b",
+      "ENCOUNTER": "aa90693d-c20e-4791-baa4-aab0b6400f6b",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "390": {
+      "START": "1912-07-29",
+      "STOP": "",
+      "PATIENT": "a3abc11b-0fd1-4eb9-a69a-9075b4737612",
+      "ENCOUNTER": "a2e3c7b6-8c3e-4f13-8937-c41fb5a802ef",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "391": {
+      "START": "2016-02-11",
+      "STOP": "",
+      "PATIENT": "f23e12d9-2ec6-4006-b041-ea78d374e9c9",
+      "ENCOUNTER": "236290a7-516e-403c-8f77-5198f833f968",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "392": {
+      "START": "2016-02-11",
+      "STOP": "",
+      "PATIENT": "f23e12d9-2ec6-4006-b041-ea78d374e9c9",
+      "ENCOUNTER": "236290a7-516e-403c-8f77-5198f833f968",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "393": {
+      "START": "2016-02-11",
+      "STOP": "",
+      "PATIENT": "f23e12d9-2ec6-4006-b041-ea78d374e9c9",
+      "ENCOUNTER": "236290a7-516e-403c-8f77-5198f833f968",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "394": {
+      "START": "2016-02-11",
+      "STOP": "",
+      "PATIENT": "f23e12d9-2ec6-4006-b041-ea78d374e9c9",
+      "ENCOUNTER": "236290a7-516e-403c-8f77-5198f833f968",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "395": {
+      "START": "2016-02-11",
+      "STOP": "",
+      "PATIENT": "f23e12d9-2ec6-4006-b041-ea78d374e9c9",
+      "ENCOUNTER": "236290a7-516e-403c-8f77-5198f833f968",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "396": {
+      "START": "2016-02-11",
+      "STOP": "",
+      "PATIENT": "f23e12d9-2ec6-4006-b041-ea78d374e9c9",
+      "ENCOUNTER": "236290a7-516e-403c-8f77-5198f833f968",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "397": {
+      "START": "2016-02-11",
+      "STOP": "",
+      "PATIENT": "f23e12d9-2ec6-4006-b041-ea78d374e9c9",
+      "ENCOUNTER": "236290a7-516e-403c-8f77-5198f833f968",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "398": {
+      "START": "2016-02-11",
+      "STOP": "",
+      "PATIENT": "f23e12d9-2ec6-4006-b041-ea78d374e9c9",
+      "ENCOUNTER": "236290a7-516e-403c-8f77-5198f833f968",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "399": {
+      "START": "1952-03-10",
+      "STOP": "",
+      "PATIENT": "0288abb6-633c-40c3-ba0c-66c7d957727e",
+      "ENCOUNTER": "a64c55df-b288-4f78-9996-d2ecf0b65c9d",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "400": {
+      "START": "1952-03-10",
+      "STOP": "",
+      "PATIENT": "0288abb6-633c-40c3-ba0c-66c7d957727e",
+      "ENCOUNTER": "a64c55df-b288-4f78-9996-d2ecf0b65c9d",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "401": {
+      "START": "1952-03-10",
+      "STOP": "",
+      "PATIENT": "0288abb6-633c-40c3-ba0c-66c7d957727e",
+      "ENCOUNTER": "a64c55df-b288-4f78-9996-d2ecf0b65c9d",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "402": {
+      "START": "1952-03-10",
+      "STOP": "",
+      "PATIENT": "0288abb6-633c-40c3-ba0c-66c7d957727e",
+      "ENCOUNTER": "a64c55df-b288-4f78-9996-d2ecf0b65c9d",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "403": {
+      "START": "1952-03-10",
+      "STOP": "",
+      "PATIENT": "0288abb6-633c-40c3-ba0c-66c7d957727e",
+      "ENCOUNTER": "a64c55df-b288-4f78-9996-d2ecf0b65c9d",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "404": {
+      "START": "1966-01-27",
+      "STOP": "",
+      "PATIENT": "5a1848d9-9b49-4529-94f1-e463b502c73b",
+      "ENCOUNTER": "04e5b80a-5df7-45f4-a245-a15632dd0fd7",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "405": {
+      "START": "1966-01-27",
+      "STOP": "",
+      "PATIENT": "5a1848d9-9b49-4529-94f1-e463b502c73b",
+      "ENCOUNTER": "04e5b80a-5df7-45f4-a245-a15632dd0fd7",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "406": {
+      "START": "1966-01-27",
+      "STOP": "",
+      "PATIENT": "5a1848d9-9b49-4529-94f1-e463b502c73b",
+      "ENCOUNTER": "04e5b80a-5df7-45f4-a245-a15632dd0fd7",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "407": {
+      "START": "1966-01-27",
+      "STOP": "",
+      "PATIENT": "5a1848d9-9b49-4529-94f1-e463b502c73b",
+      "ENCOUNTER": "04e5b80a-5df7-45f4-a245-a15632dd0fd7",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "408": {
+      "START": "1966-01-27",
+      "STOP": "",
+      "PATIENT": "5a1848d9-9b49-4529-94f1-e463b502c73b",
+      "ENCOUNTER": "04e5b80a-5df7-45f4-a245-a15632dd0fd7",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "409": {
+      "START": "1958-06-07",
+      "STOP": "",
+      "PATIENT": "f504b982-e99b-4064-ad25-9e5480e769cd",
+      "ENCOUNTER": "fb994807-4ced-47c8-a0ca-7687d22ad182",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "410": {
+      "START": "2004-04-26",
+      "STOP": "2019-12-25",
+      "PATIENT": "097079b1-ff8f-4ee0-8ce3-0ea744ecfa21",
+      "ENCOUNTER": "9c3c633f-c33c-426c-b771-b6117ba7d6fc",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "411": {
+      "START": "2004-04-26",
+      "STOP": "",
+      "PATIENT": "097079b1-ff8f-4ee0-8ce3-0ea744ecfa21",
+      "ENCOUNTER": "9c3c633f-c33c-426c-b771-b6117ba7d6fc",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "412": {
+      "START": "2004-04-26",
+      "STOP": "",
+      "PATIENT": "097079b1-ff8f-4ee0-8ce3-0ea744ecfa21",
+      "ENCOUNTER": "9c3c633f-c33c-426c-b771-b6117ba7d6fc",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "413": {
+      "START": "2004-04-26",
+      "STOP": "",
+      "PATIENT": "097079b1-ff8f-4ee0-8ce3-0ea744ecfa21",
+      "ENCOUNTER": "9c3c633f-c33c-426c-b771-b6117ba7d6fc",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "414": {
+      "START": "2004-04-26",
+      "STOP": "",
+      "PATIENT": "097079b1-ff8f-4ee0-8ce3-0ea744ecfa21",
+      "ENCOUNTER": "9c3c633f-c33c-426c-b771-b6117ba7d6fc",
+      "CODE": "425525006",
+      "DESCRIPTION": "Allergy to dairy product"
+    },
+    "415": {
+      "START": "2004-04-26",
+      "STOP": "",
+      "PATIENT": "097079b1-ff8f-4ee0-8ce3-0ea744ecfa21",
+      "ENCOUNTER": "9c3c633f-c33c-426c-b771-b6117ba7d6fc",
+      "CODE": "714035009",
+      "DESCRIPTION": "Allergy to soya"
+    },
+    "416": {
+      "START": "2004-04-26",
+      "STOP": "",
+      "PATIENT": "097079b1-ff8f-4ee0-8ce3-0ea744ecfa21",
+      "ENCOUNTER": "9c3c633f-c33c-426c-b771-b6117ba7d6fc",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "417": {
+      "START": "2009-09-20",
+      "STOP": "",
+      "PATIENT": "7ea0b41a-3459-4623-a288-0ac335319244",
+      "ENCOUNTER": "081cb7db-2fc7-4851-b425-dd6749cfa51d",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "418": {
+      "START": "1959-07-21",
+      "STOP": "",
+      "PATIENT": "076688b0-f0d5-4c45-8bc6-b206684fa9ac",
+      "ENCOUNTER": "7b116d0a-949d-492f-9294-8a170f5018c3",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "419": {
+      "START": "1959-07-21",
+      "STOP": "",
+      "PATIENT": "076688b0-f0d5-4c45-8bc6-b206684fa9ac",
+      "ENCOUNTER": "7b116d0a-949d-492f-9294-8a170f5018c3",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "420": {
+      "START": "1959-07-21",
+      "STOP": "",
+      "PATIENT": "076688b0-f0d5-4c45-8bc6-b206684fa9ac",
+      "ENCOUNTER": "7b116d0a-949d-492f-9294-8a170f5018c3",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "421": {
+      "START": "1959-07-21",
+      "STOP": "",
+      "PATIENT": "076688b0-f0d5-4c45-8bc6-b206684fa9ac",
+      "ENCOUNTER": "7b116d0a-949d-492f-9294-8a170f5018c3",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "422": {
+      "START": "1994-06-07",
+      "STOP": "",
+      "PATIENT": "78a9a8d6-b3b2-47dc-b4a0-867abec7c78f",
+      "ENCOUNTER": "7c0482a4-04fc-4cdc-9c2b-ff1f28f704db",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "423": {
+      "START": "1994-06-07",
+      "STOP": "",
+      "PATIENT": "78a9a8d6-b3b2-47dc-b4a0-867abec7c78f",
+      "ENCOUNTER": "7c0482a4-04fc-4cdc-9c2b-ff1f28f704db",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "424": {
+      "START": "1994-06-07",
+      "STOP": "",
+      "PATIENT": "78a9a8d6-b3b2-47dc-b4a0-867abec7c78f",
+      "ENCOUNTER": "7c0482a4-04fc-4cdc-9c2b-ff1f28f704db",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "425": {
+      "START": "1994-06-07",
+      "STOP": "",
+      "PATIENT": "78a9a8d6-b3b2-47dc-b4a0-867abec7c78f",
+      "ENCOUNTER": "7c0482a4-04fc-4cdc-9c2b-ff1f28f704db",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "426": {
+      "START": "1994-06-07",
+      "STOP": "",
+      "PATIENT": "78a9a8d6-b3b2-47dc-b4a0-867abec7c78f",
+      "ENCOUNTER": "7c0482a4-04fc-4cdc-9c2b-ff1f28f704db",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "427": {
+      "START": "1994-06-07",
+      "STOP": "2011-03-09",
+      "PATIENT": "78a9a8d6-b3b2-47dc-b4a0-867abec7c78f",
+      "ENCOUNTER": "7c0482a4-04fc-4cdc-9c2b-ff1f28f704db",
+      "CODE": "425525006",
+      "DESCRIPTION": "Allergy to dairy product"
+    },
+    "428": {
+      "START": "1994-06-07",
+      "STOP": "",
+      "PATIENT": "78a9a8d6-b3b2-47dc-b4a0-867abec7c78f",
+      "ENCOUNTER": "7c0482a4-04fc-4cdc-9c2b-ff1f28f704db",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "429": {
+      "START": "1946-11-06",
+      "STOP": "",
+      "PATIENT": "380e2738-59f4-4f03-a9f7-11d73c648e34",
+      "ENCOUNTER": "8e21f52f-7c86-4f5f-8c15-ffae237e5dcc",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "430": {
+      "START": "2002-04-12",
+      "STOP": "",
+      "PATIENT": "7525003c-806f-401a-a6ae-751c39112c56",
+      "ENCOUNTER": "e020c56b-d3d9-46ed-a6c6-f8331cf3c920",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "431": {
+      "START": "1960-12-09",
+      "STOP": "",
+      "PATIENT": "756c201c-d61c-4495-afc0-09ca95c673a4",
+      "ENCOUNTER": "c426de30-d2ee-4a34-b3b7-83cf6c30d9c2",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "432": {
+      "START": "1989-05-10",
+      "STOP": "",
+      "PATIENT": "8aeeef59-43b3-4983-8f1d-54f3e8d5ea92",
+      "ENCOUNTER": "3f6184c9-cdf7-4dae-96e3-9de0f8e4e2c1",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "433": {
+      "START": "1989-05-10",
+      "STOP": "",
+      "PATIENT": "8aeeef59-43b3-4983-8f1d-54f3e8d5ea92",
+      "ENCOUNTER": "3f6184c9-cdf7-4dae-96e3-9de0f8e4e2c1",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "434": {
+      "START": "1989-05-10",
+      "STOP": "",
+      "PATIENT": "8aeeef59-43b3-4983-8f1d-54f3e8d5ea92",
+      "ENCOUNTER": "3f6184c9-cdf7-4dae-96e3-9de0f8e4e2c1",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "435": {
+      "START": "1947-07-14",
+      "STOP": "",
+      "PATIENT": "13db4bb8-d1dc-4158-a820-d2d1b7084fc4",
+      "ENCOUNTER": "df30f405-c6e2-404b-8847-7c12f8aa46bf",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "436": {
+      "START": "2011-10-24",
+      "STOP": "",
+      "PATIENT": "c05478a7-a4df-4fd3-8d68-60b9452d4781",
+      "ENCOUNTER": "6dbce8d2-3bb0-4ff9-8e9b-7152ff03cc0c",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "437": {
+      "START": "2011-10-24",
+      "STOP": "",
+      "PATIENT": "c05478a7-a4df-4fd3-8d68-60b9452d4781",
+      "ENCOUNTER": "6dbce8d2-3bb0-4ff9-8e9b-7152ff03cc0c",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "438": {
+      "START": "2011-10-24",
+      "STOP": "",
+      "PATIENT": "c05478a7-a4df-4fd3-8d68-60b9452d4781",
+      "ENCOUNTER": "6dbce8d2-3bb0-4ff9-8e9b-7152ff03cc0c",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "439": {
+      "START": "2011-10-24",
+      "STOP": "",
+      "PATIENT": "c05478a7-a4df-4fd3-8d68-60b9452d4781",
+      "ENCOUNTER": "6dbce8d2-3bb0-4ff9-8e9b-7152ff03cc0c",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "440": {
+      "START": "2011-10-24",
+      "STOP": "",
+      "PATIENT": "c05478a7-a4df-4fd3-8d68-60b9452d4781",
+      "ENCOUNTER": "6dbce8d2-3bb0-4ff9-8e9b-7152ff03cc0c",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "441": {
+      "START": "2011-10-24",
+      "STOP": "",
+      "PATIENT": "c05478a7-a4df-4fd3-8d68-60b9452d4781",
+      "ENCOUNTER": "6dbce8d2-3bb0-4ff9-8e9b-7152ff03cc0c",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "442": {
+      "START": "2011-10-24",
+      "STOP": "",
+      "PATIENT": "c05478a7-a4df-4fd3-8d68-60b9452d4781",
+      "ENCOUNTER": "6dbce8d2-3bb0-4ff9-8e9b-7152ff03cc0c",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "443": {
+      "START": "2011-10-24",
+      "STOP": "",
+      "PATIENT": "c05478a7-a4df-4fd3-8d68-60b9452d4781",
+      "ENCOUNTER": "6dbce8d2-3bb0-4ff9-8e9b-7152ff03cc0c",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "444": {
+      "START": "2011-10-24",
+      "STOP": "",
+      "PATIENT": "c05478a7-a4df-4fd3-8d68-60b9452d4781",
+      "ENCOUNTER": "6dbce8d2-3bb0-4ff9-8e9b-7152ff03cc0c",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "445": {
+      "START": "1966-06-10",
+      "STOP": "",
+      "PATIENT": "5dccb2e6-668f-41b4-add4-4020617610b3",
+      "ENCOUNTER": "a5a24dea-1618-4011-9da4-fca04e50d284",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "446": {
+      "START": "1966-06-10",
+      "STOP": "",
+      "PATIENT": "5dccb2e6-668f-41b4-add4-4020617610b3",
+      "ENCOUNTER": "a5a24dea-1618-4011-9da4-fca04e50d284",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "447": {
+      "START": "1966-06-10",
+      "STOP": "",
+      "PATIENT": "5dccb2e6-668f-41b4-add4-4020617610b3",
+      "ENCOUNTER": "a5a24dea-1618-4011-9da4-fca04e50d284",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "448": {
+      "START": "1966-06-10",
+      "STOP": "",
+      "PATIENT": "5dccb2e6-668f-41b4-add4-4020617610b3",
+      "ENCOUNTER": "a5a24dea-1618-4011-9da4-fca04e50d284",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "449": {
+      "START": "1966-06-10",
+      "STOP": "",
+      "PATIENT": "5dccb2e6-668f-41b4-add4-4020617610b3",
+      "ENCOUNTER": "a5a24dea-1618-4011-9da4-fca04e50d284",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "450": {
+      "START": "1966-06-10",
+      "STOP": "",
+      "PATIENT": "5dccb2e6-668f-41b4-add4-4020617610b3",
+      "ENCOUNTER": "a5a24dea-1618-4011-9da4-fca04e50d284",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "451": {
+      "START": "2009-01-22",
+      "STOP": "",
+      "PATIENT": "e188fafe-c1bb-45dc-9627-4ff4e4bc0ec0",
+      "ENCOUNTER": "5e4a49f2-47e7-4b76-9120-276a79f1766f",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "452": {
+      "START": "2009-01-22",
+      "STOP": "",
+      "PATIENT": "e188fafe-c1bb-45dc-9627-4ff4e4bc0ec0",
+      "ENCOUNTER": "5e4a49f2-47e7-4b76-9120-276a79f1766f",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "453": {
+      "START": "2009-01-22",
+      "STOP": "",
+      "PATIENT": "e188fafe-c1bb-45dc-9627-4ff4e4bc0ec0",
+      "ENCOUNTER": "5e4a49f2-47e7-4b76-9120-276a79f1766f",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "454": {
+      "START": "2009-01-22",
+      "STOP": "",
+      "PATIENT": "e188fafe-c1bb-45dc-9627-4ff4e4bc0ec0",
+      "ENCOUNTER": "5e4a49f2-47e7-4b76-9120-276a79f1766f",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "455": {
+      "START": "2009-01-22",
+      "STOP": "",
+      "PATIENT": "e188fafe-c1bb-45dc-9627-4ff4e4bc0ec0",
+      "ENCOUNTER": "5e4a49f2-47e7-4b76-9120-276a79f1766f",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "456": {
+      "START": "2009-01-22",
+      "STOP": "",
+      "PATIENT": "e188fafe-c1bb-45dc-9627-4ff4e4bc0ec0",
+      "ENCOUNTER": "5e4a49f2-47e7-4b76-9120-276a79f1766f",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "457": {
+      "START": "2009-01-22",
+      "STOP": "",
+      "PATIENT": "e188fafe-c1bb-45dc-9627-4ff4e4bc0ec0",
+      "ENCOUNTER": "5e4a49f2-47e7-4b76-9120-276a79f1766f",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "458": {
+      "START": "2017-03-06",
+      "STOP": "",
+      "PATIENT": "a0a64d10-5b1e-4e17-953a-efccb0c860da",
+      "ENCOUNTER": "62389b17-3877-4f03-8a8a-54367c0237a1",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "459": {
+      "START": "1979-12-21",
+      "STOP": "",
+      "PATIENT": "f0f6572b-1588-4828-bb8b-e3148692e536",
+      "ENCOUNTER": "aec2f3bd-1530-4c10-852c-9614328ab978",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "460": {
+      "START": "1979-12-21",
+      "STOP": "",
+      "PATIENT": "f0f6572b-1588-4828-bb8b-e3148692e536",
+      "ENCOUNTER": "aec2f3bd-1530-4c10-852c-9614328ab978",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "461": {
+      "START": "2013-10-19",
+      "STOP": "",
+      "PATIENT": "a0fa2ed6-1b9a-4e35-9126-7d8a5c891f42",
+      "ENCOUNTER": "4b64f056-bc75-473e-a392-2a348349a199",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "462": {
+      "START": "2011-09-07",
+      "STOP": "",
+      "PATIENT": "b4d1167c-9adf-40e0-8295-4c3f25fdb3b4",
+      "ENCOUNTER": "1a2c3225-add3-422b-937b-0bf791e66bb4",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "463": {
+      "START": "2011-09-07",
+      "STOP": "",
+      "PATIENT": "b4d1167c-9adf-40e0-8295-4c3f25fdb3b4",
+      "ENCOUNTER": "1a2c3225-add3-422b-937b-0bf791e66bb4",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "464": {
+      "START": "1964-08-26",
+      "STOP": "",
+      "PATIENT": "a4222dad-09bb-4049-b3dc-01b79f41012f",
+      "ENCOUNTER": "51f66013-e9ba-442b-b720-4aa68fba0a9c",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "465": {
+      "START": "1964-08-26",
+      "STOP": "",
+      "PATIENT": "a4222dad-09bb-4049-b3dc-01b79f41012f",
+      "ENCOUNTER": "51f66013-e9ba-442b-b720-4aa68fba0a9c",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "466": {
+      "START": "1964-08-26",
+      "STOP": "",
+      "PATIENT": "a4222dad-09bb-4049-b3dc-01b79f41012f",
+      "ENCOUNTER": "51f66013-e9ba-442b-b720-4aa68fba0a9c",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "467": {
+      "START": "1964-08-26",
+      "STOP": "",
+      "PATIENT": "a4222dad-09bb-4049-b3dc-01b79f41012f",
+      "ENCOUNTER": "51f66013-e9ba-442b-b720-4aa68fba0a9c",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "468": {
+      "START": "1938-04-09",
+      "STOP": "",
+      "PATIENT": "4f9dcdaa-fb47-412b-8288-03f8cbbc321e",
+      "ENCOUNTER": "860fcb5c-c0d0-4581-b586-54ffc68970c6",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "469": {
+      "START": "1990-10-02",
+      "STOP": "",
+      "PATIENT": "51ab042b-d75e-45f9-ad85-019be3a051bf",
+      "ENCOUNTER": "3b969776-f436-48ac-91fb-6502134fc01d",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "470": {
+      "START": "1990-10-02",
+      "STOP": "",
+      "PATIENT": "51ab042b-d75e-45f9-ad85-019be3a051bf",
+      "ENCOUNTER": "3b969776-f436-48ac-91fb-6502134fc01d",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "471": {
+      "START": "2014-05-14",
+      "STOP": "",
+      "PATIENT": "b16ca449-bc14-4619-a936-07f6f3db7119",
+      "ENCOUNTER": "b2aba915-19b1-4ba8-a6a5-ec5346ceb2f0",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "472": {
+      "START": "2014-05-14",
+      "STOP": "",
+      "PATIENT": "b16ca449-bc14-4619-a936-07f6f3db7119",
+      "ENCOUNTER": "b2aba915-19b1-4ba8-a6a5-ec5346ceb2f0",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "473": {
+      "START": "2014-05-14",
+      "STOP": "",
+      "PATIENT": "b16ca449-bc14-4619-a936-07f6f3db7119",
+      "ENCOUNTER": "b2aba915-19b1-4ba8-a6a5-ec5346ceb2f0",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "474": {
+      "START": "2014-05-14",
+      "STOP": "",
+      "PATIENT": "b16ca449-bc14-4619-a936-07f6f3db7119",
+      "ENCOUNTER": "b2aba915-19b1-4ba8-a6a5-ec5346ceb2f0",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "475": {
+      "START": "2014-05-14",
+      "STOP": "",
+      "PATIENT": "b16ca449-bc14-4619-a936-07f6f3db7119",
+      "ENCOUNTER": "b2aba915-19b1-4ba8-a6a5-ec5346ceb2f0",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "476": {
+      "START": "2014-05-14",
+      "STOP": "",
+      "PATIENT": "b16ca449-bc14-4619-a936-07f6f3db7119",
+      "ENCOUNTER": "b2aba915-19b1-4ba8-a6a5-ec5346ceb2f0",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "477": {
+      "START": "2014-05-14",
+      "STOP": "",
+      "PATIENT": "b16ca449-bc14-4619-a936-07f6f3db7119",
+      "ENCOUNTER": "b2aba915-19b1-4ba8-a6a5-ec5346ceb2f0",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "478": {
+      "START": "2014-05-14",
+      "STOP": "",
+      "PATIENT": "b16ca449-bc14-4619-a936-07f6f3db7119",
+      "ENCOUNTER": "b2aba915-19b1-4ba8-a6a5-ec5346ceb2f0",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "479": {
+      "START": "2014-05-14",
+      "STOP": "",
+      "PATIENT": "b16ca449-bc14-4619-a936-07f6f3db7119",
+      "ENCOUNTER": "b2aba915-19b1-4ba8-a6a5-ec5346ceb2f0",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "480": {
+      "START": "1998-03-17",
+      "STOP": "2014-02-05",
+      "PATIENT": "0e1ad739-81d1-4170-841d-414ddc97c93a",
+      "ENCOUNTER": "99ff05be-e932-4a00-b691-b2d974bc5851",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "481": {
+      "START": "1998-03-17",
+      "STOP": "",
+      "PATIENT": "0e1ad739-81d1-4170-841d-414ddc97c93a",
+      "ENCOUNTER": "99ff05be-e932-4a00-b691-b2d974bc5851",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "482": {
+      "START": "1998-03-17",
+      "STOP": "",
+      "PATIENT": "0e1ad739-81d1-4170-841d-414ddc97c93a",
+      "ENCOUNTER": "99ff05be-e932-4a00-b691-b2d974bc5851",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "483": {
+      "START": "1998-03-17",
+      "STOP": "2014-02-05",
+      "PATIENT": "0e1ad739-81d1-4170-841d-414ddc97c93a",
+      "ENCOUNTER": "99ff05be-e932-4a00-b691-b2d974bc5851",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "484": {
+      "START": "1998-03-17",
+      "STOP": "",
+      "PATIENT": "0e1ad739-81d1-4170-841d-414ddc97c93a",
+      "ENCOUNTER": "99ff05be-e932-4a00-b691-b2d974bc5851",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "485": {
+      "START": "1998-03-17",
+      "STOP": "2015-10-05",
+      "PATIENT": "0e1ad739-81d1-4170-841d-414ddc97c93a",
+      "ENCOUNTER": "99ff05be-e932-4a00-b691-b2d974bc5851",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "486": {
+      "START": "1998-03-17",
+      "STOP": "",
+      "PATIENT": "0e1ad739-81d1-4170-841d-414ddc97c93a",
+      "ENCOUNTER": "99ff05be-e932-4a00-b691-b2d974bc5851",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "487": {
+      "START": "1979-07-17",
+      "STOP": "",
+      "PATIENT": "13c98b78-98e9-41fb-a29a-686d005d98f7",
+      "ENCOUNTER": "ab874609-485e-43d3-a402-aaa88961445c",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "488": {
+      "START": "2000-01-14",
+      "STOP": "2016-04-04",
+      "PATIENT": "1e52e4fe-13c7-41ad-8b3e-5933fdd553c4",
+      "ENCOUNTER": "4dea508e-d815-4a83-8029-ddf9df30e97e",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "489": {
+      "START": "2000-01-14",
+      "STOP": "",
+      "PATIENT": "1e52e4fe-13c7-41ad-8b3e-5933fdd553c4",
+      "ENCOUNTER": "4dea508e-d815-4a83-8029-ddf9df30e97e",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "490": {
+      "START": "2000-01-14",
+      "STOP": "",
+      "PATIENT": "1e52e4fe-13c7-41ad-8b3e-5933fdd553c4",
+      "ENCOUNTER": "4dea508e-d815-4a83-8029-ddf9df30e97e",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "491": {
+      "START": "2000-01-14",
+      "STOP": "",
+      "PATIENT": "1e52e4fe-13c7-41ad-8b3e-5933fdd553c4",
+      "ENCOUNTER": "4dea508e-d815-4a83-8029-ddf9df30e97e",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "492": {
+      "START": "2000-01-14",
+      "STOP": "2015-06-13",
+      "PATIENT": "1e52e4fe-13c7-41ad-8b3e-5933fdd553c4",
+      "ENCOUNTER": "4dea508e-d815-4a83-8029-ddf9df30e97e",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "493": {
+      "START": "2000-01-14",
+      "STOP": "2015-06-13",
+      "PATIENT": "1e52e4fe-13c7-41ad-8b3e-5933fdd553c4",
+      "ENCOUNTER": "4dea508e-d815-4a83-8029-ddf9df30e97e",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "494": {
+      "START": "2000-01-14",
+      "STOP": "2015-06-13",
+      "PATIENT": "1e52e4fe-13c7-41ad-8b3e-5933fdd553c4",
+      "ENCOUNTER": "4dea508e-d815-4a83-8029-ddf9df30e97e",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "495": {
+      "START": "2000-01-14",
+      "STOP": "",
+      "PATIENT": "1e52e4fe-13c7-41ad-8b3e-5933fdd553c4",
+      "ENCOUNTER": "4dea508e-d815-4a83-8029-ddf9df30e97e",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "496": {
+      "START": "1963-08-04",
+      "STOP": "",
+      "PATIENT": "92709d5b-63d2-4e47-b857-dccb09724ea3",
+      "ENCOUNTER": "3da0bdc7-2715-4b76-8cc4-2272a920eab3",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "497": {
+      "START": "1963-08-04",
+      "STOP": "",
+      "PATIENT": "92709d5b-63d2-4e47-b857-dccb09724ea3",
+      "ENCOUNTER": "3da0bdc7-2715-4b76-8cc4-2272a920eab3",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "498": {
+      "START": "1963-08-04",
+      "STOP": "",
+      "PATIENT": "92709d5b-63d2-4e47-b857-dccb09724ea3",
+      "ENCOUNTER": "3da0bdc7-2715-4b76-8cc4-2272a920eab3",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "499": {
+      "START": "1963-08-04",
+      "STOP": "",
+      "PATIENT": "92709d5b-63d2-4e47-b857-dccb09724ea3",
+      "ENCOUNTER": "3da0bdc7-2715-4b76-8cc4-2272a920eab3",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "500": {
+      "START": "2019-07-17",
+      "STOP": "",
+      "PATIENT": "22415347-d2fb-4357-aaeb-ddba23e5cdf0",
+      "ENCOUNTER": "15951b86-bc15-4467-8d07-1f5177bfd59d",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "501": {
+      "START": "2019-07-17",
+      "STOP": "",
+      "PATIENT": "22415347-d2fb-4357-aaeb-ddba23e5cdf0",
+      "ENCOUNTER": "15951b86-bc15-4467-8d07-1f5177bfd59d",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "502": {
+      "START": "2019-07-17",
+      "STOP": "",
+      "PATIENT": "22415347-d2fb-4357-aaeb-ddba23e5cdf0",
+      "ENCOUNTER": "15951b86-bc15-4467-8d07-1f5177bfd59d",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "503": {
+      "START": "2019-07-17",
+      "STOP": "",
+      "PATIENT": "22415347-d2fb-4357-aaeb-ddba23e5cdf0",
+      "ENCOUNTER": "15951b86-bc15-4467-8d07-1f5177bfd59d",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "504": {
+      "START": "2019-07-17",
+      "STOP": "",
+      "PATIENT": "22415347-d2fb-4357-aaeb-ddba23e5cdf0",
+      "ENCOUNTER": "15951b86-bc15-4467-8d07-1f5177bfd59d",
+      "CODE": "425525006",
+      "DESCRIPTION": "Allergy to dairy product"
+    },
+    "505": {
+      "START": "2019-07-17",
+      "STOP": "",
+      "PATIENT": "22415347-d2fb-4357-aaeb-ddba23e5cdf0",
+      "ENCOUNTER": "15951b86-bc15-4467-8d07-1f5177bfd59d",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "506": {
+      "START": "2019-07-17",
+      "STOP": "",
+      "PATIENT": "22415347-d2fb-4357-aaeb-ddba23e5cdf0",
+      "ENCOUNTER": "15951b86-bc15-4467-8d07-1f5177bfd59d",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "507": {
+      "START": "2019-07-17",
+      "STOP": "",
+      "PATIENT": "22415347-d2fb-4357-aaeb-ddba23e5cdf0",
+      "ENCOUNTER": "15951b86-bc15-4467-8d07-1f5177bfd59d",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "508": {
+      "START": "2003-06-13",
+      "STOP": "2018-09-08",
+      "PATIENT": "8db0d104-4c3f-40d3-bcf5-f5eb81b7308f",
+      "ENCOUNTER": "e75460f0-5f5c-4aa2-ab0b-200310a96c63",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "509": {
+      "START": "2003-06-13",
+      "STOP": "2018-09-08",
+      "PATIENT": "8db0d104-4c3f-40d3-bcf5-f5eb81b7308f",
+      "ENCOUNTER": "e75460f0-5f5c-4aa2-ab0b-200310a96c63",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "510": {
+      "START": "2003-06-13",
+      "STOP": "2018-09-08",
+      "PATIENT": "8db0d104-4c3f-40d3-bcf5-f5eb81b7308f",
+      "ENCOUNTER": "e75460f0-5f5c-4aa2-ab0b-200310a96c63",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "511": {
+      "START": "2003-06-13",
+      "STOP": "",
+      "PATIENT": "8db0d104-4c3f-40d3-bcf5-f5eb81b7308f",
+      "ENCOUNTER": "e75460f0-5f5c-4aa2-ab0b-200310a96c63",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "512": {
+      "START": "2003-06-13",
+      "STOP": "",
+      "PATIENT": "8db0d104-4c3f-40d3-bcf5-f5eb81b7308f",
+      "ENCOUNTER": "e75460f0-5f5c-4aa2-ab0b-200310a96c63",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "513": {
+      "START": "2003-06-13",
+      "STOP": "2019-05-02",
+      "PATIENT": "8db0d104-4c3f-40d3-bcf5-f5eb81b7308f",
+      "ENCOUNTER": "e75460f0-5f5c-4aa2-ab0b-200310a96c63",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "514": {
+      "START": "2003-06-13",
+      "STOP": "2019-05-02",
+      "PATIENT": "8db0d104-4c3f-40d3-bcf5-f5eb81b7308f",
+      "ENCOUNTER": "e75460f0-5f5c-4aa2-ab0b-200310a96c63",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "515": {
+      "START": "2003-06-13",
+      "STOP": "",
+      "PATIENT": "8db0d104-4c3f-40d3-bcf5-f5eb81b7308f",
+      "ENCOUNTER": "e75460f0-5f5c-4aa2-ab0b-200310a96c63",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "516": {
+      "START": "1990-09-06",
+      "STOP": "",
+      "PATIENT": "1030d86d-86f5-4195-962a-48895ca085ab",
+      "ENCOUNTER": "019be3d9-186c-4870-8815-c8cba8be683e",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "517": {
+      "START": "1990-09-06",
+      "STOP": "",
+      "PATIENT": "1030d86d-86f5-4195-962a-48895ca085ab",
+      "ENCOUNTER": "019be3d9-186c-4870-8815-c8cba8be683e",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "518": {
+      "START": "1990-09-06",
+      "STOP": "",
+      "PATIENT": "1030d86d-86f5-4195-962a-48895ca085ab",
+      "ENCOUNTER": "019be3d9-186c-4870-8815-c8cba8be683e",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "519": {
+      "START": "1990-09-06",
+      "STOP": "",
+      "PATIENT": "1030d86d-86f5-4195-962a-48895ca085ab",
+      "ENCOUNTER": "019be3d9-186c-4870-8815-c8cba8be683e",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "520": {
+      "START": "1942-12-06",
+      "STOP": "",
+      "PATIENT": "703e4c46-ded2-4797-97fe-57fedda2825f",
+      "ENCOUNTER": "73cbbd1f-b1fa-44a8-90fd-af5d3bd17f4f",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "521": {
+      "START": "1983-04-09",
+      "STOP": "",
+      "PATIENT": "b37c9b35-6fea-4570-b7f6-379baf4c9399",
+      "ENCOUNTER": "cc65c8d0-1e3b-4c47-aa9f-43bd15bb79c6",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "522": {
+      "START": "1983-04-09",
+      "STOP": "",
+      "PATIENT": "b37c9b35-6fea-4570-b7f6-379baf4c9399",
+      "ENCOUNTER": "cc65c8d0-1e3b-4c47-aa9f-43bd15bb79c6",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "523": {
+      "START": "1983-04-09",
+      "STOP": "",
+      "PATIENT": "b37c9b35-6fea-4570-b7f6-379baf4c9399",
+      "ENCOUNTER": "cc65c8d0-1e3b-4c47-aa9f-43bd15bb79c6",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "524": {
+      "START": "1983-04-09",
+      "STOP": "",
+      "PATIENT": "b37c9b35-6fea-4570-b7f6-379baf4c9399",
+      "ENCOUNTER": "cc65c8d0-1e3b-4c47-aa9f-43bd15bb79c6",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "525": {
+      "START": "1983-04-09",
+      "STOP": "",
+      "PATIENT": "b37c9b35-6fea-4570-b7f6-379baf4c9399",
+      "ENCOUNTER": "cc65c8d0-1e3b-4c47-aa9f-43bd15bb79c6",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "526": {
+      "START": "1983-04-09",
+      "STOP": "",
+      "PATIENT": "b37c9b35-6fea-4570-b7f6-379baf4c9399",
+      "ENCOUNTER": "cc65c8d0-1e3b-4c47-aa9f-43bd15bb79c6",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "527": {
+      "START": "1983-04-09",
+      "STOP": "",
+      "PATIENT": "b37c9b35-6fea-4570-b7f6-379baf4c9399",
+      "ENCOUNTER": "cc65c8d0-1e3b-4c47-aa9f-43bd15bb79c6",
+      "CODE": "425525006",
+      "DESCRIPTION": "Allergy to dairy product"
+    },
+    "528": {
+      "START": "1983-04-09",
+      "STOP": "",
+      "PATIENT": "b37c9b35-6fea-4570-b7f6-379baf4c9399",
+      "ENCOUNTER": "cc65c8d0-1e3b-4c47-aa9f-43bd15bb79c6",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "529": {
+      "START": "1983-04-09",
+      "STOP": "",
+      "PATIENT": "b37c9b35-6fea-4570-b7f6-379baf4c9399",
+      "ENCOUNTER": "cc65c8d0-1e3b-4c47-aa9f-43bd15bb79c6",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "530": {
+      "START": "1915-08-19",
+      "STOP": "",
+      "PATIENT": "b1b10f6e-e97a-426a-9581-f1a5c29b6e05",
+      "ENCOUNTER": "31953388-58de-49eb-af31-437b88156a9e",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "531": {
+      "START": "1915-08-19",
+      "STOP": "",
+      "PATIENT": "b1b10f6e-e97a-426a-9581-f1a5c29b6e05",
+      "ENCOUNTER": "31953388-58de-49eb-af31-437b88156a9e",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "532": {
+      "START": "2008-11-21",
+      "STOP": "",
+      "PATIENT": "0aaa2164-8de6-4152-8674-14d254aae13a",
+      "ENCOUNTER": "4c82c24d-7a02-49a9-ba7e-d1b002ab96dd",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "533": {
+      "START": "2008-11-21",
+      "STOP": "",
+      "PATIENT": "0aaa2164-8de6-4152-8674-14d254aae13a",
+      "ENCOUNTER": "4c82c24d-7a02-49a9-ba7e-d1b002ab96dd",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "534": {
+      "START": "2008-11-21",
+      "STOP": "",
+      "PATIENT": "0aaa2164-8de6-4152-8674-14d254aae13a",
+      "ENCOUNTER": "4c82c24d-7a02-49a9-ba7e-d1b002ab96dd",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "535": {
+      "START": "2008-11-21",
+      "STOP": "",
+      "PATIENT": "0aaa2164-8de6-4152-8674-14d254aae13a",
+      "ENCOUNTER": "4c82c24d-7a02-49a9-ba7e-d1b002ab96dd",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "536": {
+      "START": "2008-11-21",
+      "STOP": "",
+      "PATIENT": "0aaa2164-8de6-4152-8674-14d254aae13a",
+      "ENCOUNTER": "4c82c24d-7a02-49a9-ba7e-d1b002ab96dd",
+      "CODE": "425525006",
+      "DESCRIPTION": "Allergy to dairy product"
+    },
+    "537": {
+      "START": "2008-11-21",
+      "STOP": "",
+      "PATIENT": "0aaa2164-8de6-4152-8674-14d254aae13a",
+      "ENCOUNTER": "4c82c24d-7a02-49a9-ba7e-d1b002ab96dd",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "538": {
+      "START": "2008-11-21",
+      "STOP": "",
+      "PATIENT": "0aaa2164-8de6-4152-8674-14d254aae13a",
+      "ENCOUNTER": "4c82c24d-7a02-49a9-ba7e-d1b002ab96dd",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "539": {
+      "START": "2002-04-11",
+      "STOP": "",
+      "PATIENT": "96942a16-75bc-4026-bd63-e985b0ca1d6d",
+      "ENCOUNTER": "ea307702-bc41-4f60-b662-f0b2d99553fc",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "540": {
+      "START": "2002-04-11",
+      "STOP": "",
+      "PATIENT": "96942a16-75bc-4026-bd63-e985b0ca1d6d",
+      "ENCOUNTER": "ea307702-bc41-4f60-b662-f0b2d99553fc",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "541": {
+      "START": "2002-04-11",
+      "STOP": "2016-09-18",
+      "PATIENT": "96942a16-75bc-4026-bd63-e985b0ca1d6d",
+      "ENCOUNTER": "ea307702-bc41-4f60-b662-f0b2d99553fc",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "542": {
+      "START": "2002-04-11",
+      "STOP": "2016-09-18",
+      "PATIENT": "96942a16-75bc-4026-bd63-e985b0ca1d6d",
+      "ENCOUNTER": "ea307702-bc41-4f60-b662-f0b2d99553fc",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "543": {
+      "START": "2002-04-11",
+      "STOP": "2016-09-18",
+      "PATIENT": "96942a16-75bc-4026-bd63-e985b0ca1d6d",
+      "ENCOUNTER": "ea307702-bc41-4f60-b662-f0b2d99553fc",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "544": {
+      "START": "2002-04-11",
+      "STOP": "2016-09-18",
+      "PATIENT": "96942a16-75bc-4026-bd63-e985b0ca1d6d",
+      "ENCOUNTER": "ea307702-bc41-4f60-b662-f0b2d99553fc",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "545": {
+      "START": "1971-06-27",
+      "STOP": "",
+      "PATIENT": "55506d51-2c6a-4608-aae3-7cb2f111c926",
+      "ENCOUNTER": "aad92a63-f088-40b9-9ff9-35f1d9b00b7e",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "546": {
+      "START": "1971-06-27",
+      "STOP": "",
+      "PATIENT": "55506d51-2c6a-4608-aae3-7cb2f111c926",
+      "ENCOUNTER": "aad92a63-f088-40b9-9ff9-35f1d9b00b7e",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "547": {
+      "START": "1981-01-29",
+      "STOP": "",
+      "PATIENT": "df7c1d66-eac2-49bd-9d12-ee17e8758f68",
+      "ENCOUNTER": "a232db22-565f-4559-bb56-edf9021b74b2",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "548": {
+      "START": "1981-01-29",
+      "STOP": "",
+      "PATIENT": "df7c1d66-eac2-49bd-9d12-ee17e8758f68",
+      "ENCOUNTER": "a232db22-565f-4559-bb56-edf9021b74b2",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "549": {
+      "START": "1981-01-29",
+      "STOP": "",
+      "PATIENT": "df7c1d66-eac2-49bd-9d12-ee17e8758f68",
+      "ENCOUNTER": "a232db22-565f-4559-bb56-edf9021b74b2",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "550": {
+      "START": "1981-01-29",
+      "STOP": "",
+      "PATIENT": "df7c1d66-eac2-49bd-9d12-ee17e8758f68",
+      "ENCOUNTER": "a232db22-565f-4559-bb56-edf9021b74b2",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "551": {
+      "START": "1981-01-29",
+      "STOP": "",
+      "PATIENT": "df7c1d66-eac2-49bd-9d12-ee17e8758f68",
+      "ENCOUNTER": "a232db22-565f-4559-bb56-edf9021b74b2",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "552": {
+      "START": "1978-07-20",
+      "STOP": "",
+      "PATIENT": "68878f91-5962-4ef2-83e7-43b8298c1708",
+      "ENCOUNTER": "95099931-0042-4524-b808-dd6b6447fc0e",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "553": {
+      "START": "1978-07-20",
+      "STOP": "",
+      "PATIENT": "68878f91-5962-4ef2-83e7-43b8298c1708",
+      "ENCOUNTER": "95099931-0042-4524-b808-dd6b6447fc0e",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "554": {
+      "START": "1978-07-20",
+      "STOP": "",
+      "PATIENT": "68878f91-5962-4ef2-83e7-43b8298c1708",
+      "ENCOUNTER": "95099931-0042-4524-b808-dd6b6447fc0e",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "555": {
+      "START": "1978-07-20",
+      "STOP": "",
+      "PATIENT": "68878f91-5962-4ef2-83e7-43b8298c1708",
+      "ENCOUNTER": "95099931-0042-4524-b808-dd6b6447fc0e",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "556": {
+      "START": "1978-07-20",
+      "STOP": "",
+      "PATIENT": "68878f91-5962-4ef2-83e7-43b8298c1708",
+      "ENCOUNTER": "95099931-0042-4524-b808-dd6b6447fc0e",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "557": {
+      "START": "1978-07-20",
+      "STOP": "",
+      "PATIENT": "68878f91-5962-4ef2-83e7-43b8298c1708",
+      "ENCOUNTER": "95099931-0042-4524-b808-dd6b6447fc0e",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "558": {
+      "START": "1978-07-20",
+      "STOP": "",
+      "PATIENT": "68878f91-5962-4ef2-83e7-43b8298c1708",
+      "ENCOUNTER": "95099931-0042-4524-b808-dd6b6447fc0e",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "559": {
+      "START": "1970-07-16",
+      "STOP": "",
+      "PATIENT": "6c7a3894-fa93-418f-b086-4bf001b94a50",
+      "ENCOUNTER": "3de3842d-7760-4bda-a6bd-59f13d67af40",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "560": {
+      "START": "1970-07-16",
+      "STOP": "",
+      "PATIENT": "6c7a3894-fa93-418f-b086-4bf001b94a50",
+      "ENCOUNTER": "3de3842d-7760-4bda-a6bd-59f13d67af40",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "561": {
+      "START": "1963-07-23",
+      "STOP": "",
+      "PATIENT": "1c2aa038-9366-4c7d-9a3e-52cb753a670f",
+      "ENCOUNTER": "c90b2536-b388-479c-aa7e-3406fe4c2211",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "562": {
+      "START": "1963-07-23",
+      "STOP": "",
+      "PATIENT": "1c2aa038-9366-4c7d-9a3e-52cb753a670f",
+      "ENCOUNTER": "c90b2536-b388-479c-aa7e-3406fe4c2211",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "563": {
+      "START": "1963-07-23",
+      "STOP": "",
+      "PATIENT": "1c2aa038-9366-4c7d-9a3e-52cb753a670f",
+      "ENCOUNTER": "c90b2536-b388-479c-aa7e-3406fe4c2211",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "564": {
+      "START": "1963-07-23",
+      "STOP": "",
+      "PATIENT": "1c2aa038-9366-4c7d-9a3e-52cb753a670f",
+      "ENCOUNTER": "c90b2536-b388-479c-aa7e-3406fe4c2211",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "565": {
+      "START": "1963-07-23",
+      "STOP": "",
+      "PATIENT": "1c2aa038-9366-4c7d-9a3e-52cb753a670f",
+      "ENCOUNTER": "c90b2536-b388-479c-aa7e-3406fe4c2211",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "566": {
+      "START": "1963-07-23",
+      "STOP": "",
+      "PATIENT": "1c2aa038-9366-4c7d-9a3e-52cb753a670f",
+      "ENCOUNTER": "c90b2536-b388-479c-aa7e-3406fe4c2211",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "567": {
+      "START": "1963-07-23",
+      "STOP": "",
+      "PATIENT": "1c2aa038-9366-4c7d-9a3e-52cb753a670f",
+      "ENCOUNTER": "c90b2536-b388-479c-aa7e-3406fe4c2211",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "568": {
+      "START": "1963-07-23",
+      "STOP": "",
+      "PATIENT": "1c2aa038-9366-4c7d-9a3e-52cb753a670f",
+      "ENCOUNTER": "c90b2536-b388-479c-aa7e-3406fe4c2211",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "569": {
+      "START": "1963-07-23",
+      "STOP": "",
+      "PATIENT": "1c2aa038-9366-4c7d-9a3e-52cb753a670f",
+      "ENCOUNTER": "c90b2536-b388-479c-aa7e-3406fe4c2211",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "570": {
+      "START": "1963-07-23",
+      "STOP": "",
+      "PATIENT": "1c2aa038-9366-4c7d-9a3e-52cb753a670f",
+      "ENCOUNTER": "c90b2536-b388-479c-aa7e-3406fe4c2211",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "571": {
+      "START": "1987-11-30",
+      "STOP": "",
+      "PATIENT": "8d202c65-427d-4190-8c28-3aa27e1a9f4c",
+      "ENCOUNTER": "16bc6376-a1cc-4d63-8307-c5d7479dc021",
+      "CODE": "424213003",
+      "DESCRIPTION": "Allergy to bee venom"
+    },
+    "572": {
+      "START": "1987-11-30",
+      "STOP": "",
+      "PATIENT": "8d202c65-427d-4190-8c28-3aa27e1a9f4c",
+      "ENCOUNTER": "16bc6376-a1cc-4d63-8307-c5d7479dc021",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "573": {
+      "START": "1987-11-30",
+      "STOP": "",
+      "PATIENT": "8d202c65-427d-4190-8c28-3aa27e1a9f4c",
+      "ENCOUNTER": "16bc6376-a1cc-4d63-8307-c5d7479dc021",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "574": {
+      "START": "1987-11-30",
+      "STOP": "",
+      "PATIENT": "8d202c65-427d-4190-8c28-3aa27e1a9f4c",
+      "ENCOUNTER": "16bc6376-a1cc-4d63-8307-c5d7479dc021",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "575": {
+      "START": "1987-11-30",
+      "STOP": "",
+      "PATIENT": "8d202c65-427d-4190-8c28-3aa27e1a9f4c",
+      "ENCOUNTER": "16bc6376-a1cc-4d63-8307-c5d7479dc021",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "576": {
+      "START": "1987-11-30",
+      "STOP": "",
+      "PATIENT": "8d202c65-427d-4190-8c28-3aa27e1a9f4c",
+      "ENCOUNTER": "16bc6376-a1cc-4d63-8307-c5d7479dc021",
+      "CODE": "91934008",
+      "DESCRIPTION": "Allergy to nut"
+    },
+    "577": {
+      "START": "1987-11-30",
+      "STOP": "",
+      "PATIENT": "8d202c65-427d-4190-8c28-3aa27e1a9f4c",
+      "ENCOUNTER": "16bc6376-a1cc-4d63-8307-c5d7479dc021",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "578": {
+      "START": "2003-05-18",
+      "STOP": "",
+      "PATIENT": "8bf8631f-2fd4-4dc7-af2b-c400499fedfc",
+      "ENCOUNTER": "90ea604b-e2bf-4ca0-a46b-dc480f2f2a03",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "579": {
+      "START": "2003-05-18",
+      "STOP": "",
+      "PATIENT": "8bf8631f-2fd4-4dc7-af2b-c400499fedfc",
+      "ENCOUNTER": "90ea604b-e2bf-4ca0-a46b-dc480f2f2a03",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "580": {
+      "START": "1979-07-10",
+      "STOP": "",
+      "PATIENT": "c5d6bdfa-5554-4927-8fa8-794e5514cb56",
+      "ENCOUNTER": "e42aa828-ad33-404f-af29-f1f9f17bd7f5",
+      "CODE": "417532002",
+      "DESCRIPTION": "Allergy to fish"
+    },
+    "581": {
+      "START": "1965-09-23",
+      "STOP": "",
+      "PATIENT": "2a6d1e58-88eb-4be0-b6b4-59a471257c2e",
+      "ENCOUNTER": "f7ff5032-50cc-480e-90ca-848c85d6d014",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "582": {
+      "START": "1965-09-23",
+      "STOP": "",
+      "PATIENT": "2a6d1e58-88eb-4be0-b6b4-59a471257c2e",
+      "ENCOUNTER": "f7ff5032-50cc-480e-90ca-848c85d6d014",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "583": {
+      "START": "1965-09-23",
+      "STOP": "",
+      "PATIENT": "2a6d1e58-88eb-4be0-b6b4-59a471257c2e",
+      "ENCOUNTER": "f7ff5032-50cc-480e-90ca-848c85d6d014",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "584": {
+      "START": "1965-09-23",
+      "STOP": "",
+      "PATIENT": "2a6d1e58-88eb-4be0-b6b4-59a471257c2e",
+      "ENCOUNTER": "f7ff5032-50cc-480e-90ca-848c85d6d014",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "585": {
+      "START": "1965-09-23",
+      "STOP": "",
+      "PATIENT": "2a6d1e58-88eb-4be0-b6b4-59a471257c2e",
+      "ENCOUNTER": "f7ff5032-50cc-480e-90ca-848c85d6d014",
+      "CODE": "420174000",
+      "DESCRIPTION": "Allergy to wheat"
+    },
+    "586": {
+      "START": "1965-09-23",
+      "STOP": "",
+      "PATIENT": "2a6d1e58-88eb-4be0-b6b4-59a471257c2e",
+      "ENCOUNTER": "f7ff5032-50cc-480e-90ca-848c85d6d014",
+      "CODE": "300913006",
+      "DESCRIPTION": "Shellfish allergy"
+    },
+    "587": {
+      "START": "1965-09-23",
+      "STOP": "",
+      "PATIENT": "2a6d1e58-88eb-4be0-b6b4-59a471257c2e",
+      "ENCOUNTER": "f7ff5032-50cc-480e-90ca-848c85d6d014",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "588": {
+      "START": "2000-01-03",
+      "STOP": "2016-06-25",
+      "PATIENT": "e6ff4bf9-09c2-4976-aa84-cca142207cf8",
+      "ENCOUNTER": "6c760807-a6b7-4af4-8d50-f32325803448",
+      "CODE": "300916003",
+      "DESCRIPTION": "Latex allergy"
+    },
+    "589": {
+      "START": "2000-01-03",
+      "STOP": "",
+      "PATIENT": "e6ff4bf9-09c2-4976-aa84-cca142207cf8",
+      "ENCOUNTER": "6c760807-a6b7-4af4-8d50-f32325803448",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    },
+    "590": {
+      "START": "2000-01-03",
+      "STOP": "",
+      "PATIENT": "e6ff4bf9-09c2-4976-aa84-cca142207cf8",
+      "ENCOUNTER": "6c760807-a6b7-4af4-8d50-f32325803448",
+      "CODE": "232350006",
+      "DESCRIPTION": "House dust mite allergy"
+    },
+    "591": {
+      "START": "2000-01-03",
+      "STOP": "",
+      "PATIENT": "e6ff4bf9-09c2-4976-aa84-cca142207cf8",
+      "ENCOUNTER": "6c760807-a6b7-4af4-8d50-f32325803448",
+      "CODE": "232347008",
+      "DESCRIPTION": "Dander (animal) allergy"
+    },
+    "592": {
+      "START": "2000-01-03",
+      "STOP": "",
+      "PATIENT": "e6ff4bf9-09c2-4976-aa84-cca142207cf8",
+      "ENCOUNTER": "6c760807-a6b7-4af4-8d50-f32325803448",
+      "CODE": "418689008",
+      "DESCRIPTION": "Allergy to grass pollen"
+    },
+    "593": {
+      "START": "2000-01-03",
+      "STOP": "",
+      "PATIENT": "e6ff4bf9-09c2-4976-aa84-cca142207cf8",
+      "ENCOUNTER": "6c760807-a6b7-4af4-8d50-f32325803448",
+      "CODE": "419263009",
+      "DESCRIPTION": "Allergy to tree pollen"
+    },
+    "594": {
+      "START": "2000-01-03",
+      "STOP": "",
+      "PATIENT": "e6ff4bf9-09c2-4976-aa84-cca142207cf8",
+      "ENCOUNTER": "6c760807-a6b7-4af4-8d50-f32325803448",
+      "CODE": "91930004",
+      "DESCRIPTION": "Allergy to eggs"
+    },
+    "595": {
+      "START": "2000-01-03",
+      "STOP": "",
+      "PATIENT": "e6ff4bf9-09c2-4976-aa84-cca142207cf8",
+      "ENCOUNTER": "6c760807-a6b7-4af4-8d50-f32325803448",
+      "CODE": "91935009",
+      "DESCRIPTION": "Allergy to peanuts"
+    },
+    "596": {
+      "START": "1915-09-12",
+      "STOP": "",
+      "PATIENT": "13b9a676-7cfd-4b7c-bdb6-43ec52b7c919",
+      "ENCOUNTER": "bbd17366-0801-45ee-8589-0f3eb31c7d0d",
+      "CODE": "419474003",
+      "DESCRIPTION": "Allergy to mould"
+    }
+  }

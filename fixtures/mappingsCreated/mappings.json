@@ -4,7 +4,7 @@
       "tableName": "allergies",
       "columnName": "CODE",
       "vocabularyId": "SNOMED",
-      "isConceptId": true,
+      "isConceptCode": true,
       "id": "synthea-allergies-CODE"
   },
   "synthea-encounters-ENCOUNTERCLASS": {
@@ -12,7 +12,7 @@
       "tableName": "encounters",
       "columnName": "ENCOUNTERCLASS",
       "vocabularyId": "MySiteEncounterVocabulary",
-      "isConceptId": false,
+      "isConceptCode": false,
       "id": "synthea-encounters-ENCOUNTERCLASS"
   }
 }

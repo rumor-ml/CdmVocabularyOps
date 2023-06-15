@@ -1,10 +1,11 @@
 import { ErrorHandler, Injectable } from '@angular/core';
-import { BehaviorSubject, from, map, mergeAll, reduce, catchError, of } from 'rxjs';
+import { BehaviorSubject, from, map, mergeAll, reduce, catchError, of, combineLatest } from 'rxjs';
 import { CollectionPaths } from '../../../../../commonshcs-angular/projects/docs/src/lib/indexedDb-docs';
 import { Table } from './profile.service';
 import * as d3 from 'd3'
 import { Vocabulary } from './vocabularies/vocabularies.service';
-import { Concept } from './concept.service';
+import { Concept } from './vocabularies/concept.service';
+import { TableData } from '@commonshcs/docs';
 
 @Injectable({
   providedIn: 'root'
@@ -17,6 +18,26 @@ export class DebugService {
     private errorHandler: ErrorHandler
   ) {
     (window as any).chcsdebug = this
+  }
+
+  loadSourceDbFromCsv = () => {
+    this._syntheaTables().subscribe(
+      ([t, rs]) => {
+        if (!(t === 'allergies')) {
+          return
+        }
+        if (!this.fixtures) {
+          throw 'fixtures not defined'
+        }
+        const is = rs.reduce((m, r, i) => {
+          m[i.toString()] = r
+          return m
+        }, {} as {[key: string]: TableData})
+        const f = {...this.fixtures.value}
+        f[`synthea-${t}`] = is
+        this.fixtures.next(f)
+      }
+    )
   }
 
   loadProfilesFromCsv = () => {
@@ -32,7 +53,39 @@ export class DebugService {
       return d
     }
   
-    from([
+    this._syntheaTables().pipe(
+      map(([t, rs]) => ({
+        name: t,
+        columns: (rs as any).columns.map((name: string) => ({name, frequencies: summarizeFrequencies(name, rs)})),
+      })),
+      reduce((m, t) => {
+        m['synthea'].tables.push(t)
+        return m
+      }, {
+        'synthea': {
+          database: 'synthea',
+          tables: [] as Table[]
+        }
+      }),
+      catchError(r => {
+        this.errorHandler.handleError(r)
+        return of({})
+      }),
+    ).subscribe(
+      ps => {
+        if (!this.fixtures) {
+          throw 'fixtures not defined'
+        }
+        this.fixtures.next({
+          ...this.fixtures.value,
+          profile: ps
+        })
+      }
+    )
+  }
+
+  _syntheaTables() {
+    return from([
       '/assets/synthea/allergies.csv',
       '/assets/synthea/careplans.csv',
       '/assets/synthea/conditions.csv',
@@ -59,33 +112,6 @@ export class DebugService {
         )
       }),
       mergeAll(),
-      map(([t, rs]) => ({
-        name: t,
-        columns: (rs as any).columns.map((name: string) => ({name, frequencies: summarizeFrequencies(name, rs)})),
-      })),
-      reduce((m, t) => {
-        m['synthea'].tables.push(t)
-        return m
-      }, {
-        'synthea': {
-          database: 'synthea',
-          tables: [] as Table[]
-        }
-      }),
-      catchError(r => {
-        this.errorHandler.handleError(r)
-        return of({})
-      }),
-    ).subscribe(
-      ps => {
-        if (!this.fixtures) {
-          throw 'fixtures not defined'
-        }
-        this.fixtures.next({
-          ...this.fixtures.getValue(),
-          profile: ps
-        })
-      }
     )
   }
 
@@ -121,12 +147,24 @@ export class DebugService {
   }
 
   loadConceptsFromCsv() {
-    from(d3.tsv('/assets/CONCEPT.csv')).pipe(
-      map((rs) => {
+    combineLatest([
+      from(d3.tsv('/assets/vocabulary/CONCEPT.csv')),
+      this._syntheaConcepts()
+    ]).pipe(
+      map(([rs, ss]) => {
         const rst = rs as {[key: string]: any}[]
         return rst
+          .filter(r => {
+            if (r['vocabulary_id'] === 'SNOMED') {
+              if (ss.snomedCode.has(r['concept_code'])) {
+                return true
+              }
+            }
+            return false
+          })
           .map(r => ({
-            id: r['concept_id'], 
+            id: r['concept_id'],
+            code: r['concept_code'],
             name: r['concept_name'],
             vocabularyId: r['vocabulary_id']
           } as Concept))
@@ -146,6 +184,29 @@ export class DebugService {
           concept: cs
         })
       }
+    )
+  }
+
+  _syntheaConcepts() {
+    return this._syntheaTables().pipe(
+      map(([t, rs]) => {
+        if (t === 'allergies') {
+          return {
+            snomedCode: new Set(rs.map(r => r['CODE'])),
+            // snomedName: new Set(rs.map(r => r['DESCRIPTION'])),
+          }
+        } else {
+          throw 'Not Implemented'
+        }
+      }),
+      reduce((m, vs) => {
+        return {
+          snomedCode: new Set([...m.snomedCode ?? [], ...vs.snomedCode ?? []]),
+          // snomedName: new Set([...m.snomedName ?? [], vs.snomedName ?? []]),
+        }
+      }, {
+        snomedCode: new Set()
+      })
     )
   }
   

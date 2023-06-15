@@ -54,7 +54,7 @@
 .choose-vocabulary {
   display: flex;
   flex-direction: column;
-  width: 260px;
+  width: 280px;
 }
 
 .new-mapping-form-divider {

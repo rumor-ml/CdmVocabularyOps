@@ -5,6 +5,8 @@ import { DebugService } from './debug.service';
 import * as demoProfile from '../../../../fixtures/demo/profile.json'
 import * as demoMappings from '../../../../fixtures/demo/mappings.json'
 import * as demoVocabulary from '../../../../fixtures/demo/vocabulary.json'
+import * as demoConcept from '../../../../fixtures/demo/concept.json'
+import * as demoSytheaAllergies from '../../../../fixtures/demo/synthea-allergies.json'
 import * as mappgingsCreatedVocabulary from '../../../../fixtures/mappingsCreated/vocabulary.json'
 import * as mappgingsCreatedMappings from '../../../../fixtures/mappingsCreated/mappings.json'
 
@@ -12,7 +14,8 @@ const demo = {
   profile: (demoProfile as any).default,
   mappings: (demoMappings as any).default,
   vocabulary: (demoVocabulary as any).default,
-  concept: {}
+  concept: (demoConcept as any).default,
+  'synthea-allergies': (demoSytheaAllergies as any).default,
 }
 
 const mappingsCreated = {

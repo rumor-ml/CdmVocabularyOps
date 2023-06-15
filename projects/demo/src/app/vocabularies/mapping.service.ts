@@ -9,7 +9,7 @@ export interface Mapping {
   tableName: string,
   columnName: string,
   vocabularyId: string,
-  isConceptId: boolean
+  isConceptCode: boolean
 }
 
 const fixture = [

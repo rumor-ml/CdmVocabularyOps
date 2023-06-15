@@ -27,6 +27,7 @@ import { NewVocabularyComponent } from './new-vocabulary/new-vocabulary.componen
 import * as Plot from "@observablehq/plot";
 import * as d3 from 'd3'
 import { StylesService } from '../../styles.service';
+import { VocabularyQualityCheckService } from '../vocabulary-quality-check.service';
 
 @Component({
   selector: 'app-define-vocabularies',
@@ -74,13 +75,13 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
   tableControl = new FormControl('', Validators.required)
   columnControl = new FormControl('', Validators.required)
   vocabularyControl = new FormControl('', [Validators.required, this.validVocabulary()])
-  conceptIdControl = new FormControl(true)
+  conceptCodeControl = new FormControl(true)
   newMappingFormGroup = new FormGroup({
     'database': this.databaseControl,
     'table': this.tableControl,
     'column': this.columnControl,
     'vocabulary': this.vocabularyControl,
-    'conceptId': this.conceptIdControl,
+    'conceptId': this.conceptCodeControl,
   })
   databases = this.profileService.valueChanges().pipe(
     map(ps => (ps ?? []).map(p => p.database))
@@ -115,7 +116,7 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
   displayedColumns: string[] = [
     'columnName',
     'vocabulary',
-    'isConceptId'
+    'isConceptCode'
   ]
   MATCH = '100% Match'
   quality: string|null = null
@@ -128,6 +129,7 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
     private mappingService: MappingService,
     private dialog: MatDialog,
     private stylesService: StylesService,
+    private vocabularyQualityCheckService: VocabularyQualityCheckService,
   ){}
 
   subscriptions = [
@@ -223,14 +225,8 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
 
   saveMapping() {
     this.formInProgress = true
+    const mapping: Mapping = this._toMapping()
     this.newMappingFormGroup.disable()
-    const mapping: Mapping = {
-      databaseName: this.databaseControl.value!,
-      tableName: this.tableControl.value!,
-      columnName: this.columnControl.value!,
-      vocabularyId: this.vocabularyControl.value!,
-      isConceptId: this.conceptIdControl.value!,
-    }
     this.mappingService.replaceById({
       id: compositeId(mapping),
       doc: mapping,
@@ -245,19 +241,34 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
     
   }
 
+  _toMapping() {
+    return {
+      databaseName: this.databaseControl.value!,
+      tableName: this.tableControl.value!,
+      columnName: this.columnControl.value!,
+      vocabularyId: this.vocabularyControl.value!,
+      isConceptCode: this.conceptCodeControl.value!,
+    }
+  }
+
   deleteMapping(id: string) {
     this.mappingService.deleteById({id}).subscribe()
   }
 
   validateMappingQuality() {
     this.formInProgress = true
+    const f = this.newMappingFormGroup.value
+    const m = this._toMapping()
     this.newMappingFormGroup.disable()
     this.quality = null
-    setTimeout(() => {
-      this.newMappingFormGroup.enable()
-      this.quality = this.MATCH
-      this.formInProgress = false
-    }, 2000)
+    this.vocabularyQualityCheckService.checkMapping(m).subscribe(
+      s => {
+        this.newMappingFormGroup.enable()
+        this.newMappingFormGroup.patchValue(f)
+        this.quality = `${Math.round(s * 100)}% Match`
+        this.formInProgress = false
+      }
+    )
   }
 
   newVocabularyDialog() {

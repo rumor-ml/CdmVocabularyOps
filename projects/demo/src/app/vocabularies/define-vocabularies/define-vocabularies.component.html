@@ -82,15 +82,15 @@
           <div>
             <mat-button-toggle-group
               class="concept-toggle"
-              [formControl]="conceptIdControl" 
-              aria-label="Concept ID or Name"
+              [formControl]="conceptCodeControl" 
+              aria-label="Concept Code or Name"
             >
-              <mat-button-toggle [value]="true">Concept ID</mat-button-toggle>
+              <mat-button-toggle [value]="true">Concept Code</mat-button-toggle>
               <mat-button-toggle [value]="false">Concept Name</mat-button-toggle>
             </mat-button-toggle-group>
             <mat-icon 
               class="md-18 more-subtle"
-              matTooltip="Indicate if the values in the source data column refer to concept IDs or concept names in the chosen vocabulary."
+              matTooltip="Indicate if the values in the source data column refer to concept codes or concept names in the chosen vocabulary."
             >
               help
             </mat-icon>
@@ -187,11 +187,11 @@
     </td>
   </ng-container>
 
-  <ng-container matColumnDef="isConceptId">
+  <ng-container matColumnDef="isConceptCode">
     <th mat-header-cell *matHeaderCellDef mat-sort-header>
     </th>
     <td mat-cell *matCellDef="let row">
-      <span *ngIf="row['isConceptId']; else isConceptName">Concept ID</span>
+      <span *ngIf="row['isConceptCode']; else isConceptName">Concept ID</span>
       <ng-template #isConceptName>Concept Name</ng-template>
     </td>
   </ng-container>
