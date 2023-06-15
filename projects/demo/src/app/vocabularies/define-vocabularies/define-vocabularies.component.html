@@ -1,0 +1,213 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Define Source Vocabularies</mat-card-title>
+    <mat-card-subtitle class="subtitle">
+      Choose a source data column and define the vocabulary for it.
+      If you need to map a source data column that does not use an existing vocabulary
+      you can add a new vocabulary here. Then, map it to standard concepts
+      in the next step.
+    </mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <form class="new-mapping-form" [formGroup]="newMappingFormGroup">
+      <div class="from-to">
+        <div class="choose-data-field">
+          <mat-label>Source Data Column:</mat-label>
+          <div class="source-preview">
+            <div class="source">
+              <mat-form-field appearance="fill">
+                <mat-label>Database</mat-label>
+                <mat-select [formControl]="databaseControl">
+                  <mat-option *ngFor="let database of databases|async" [value]="database">
+                    {{database}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+              <mat-form-field appearance="fill">
+                <mat-label>Table</mat-label>
+                <mat-select [formControl]="tableControl">
+                  <mat-option *ngFor="let table of tables|async" [value]="table.name">
+                    {{table.name}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+              <mat-form-field appearance="fill">
+                <mat-label>Column</mat-label>
+                <mat-select [formControl]="columnControl">
+                  <mat-option *ngFor="let column of columns|async" [value]="column">
+                    {{column}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+            <mat-expansion-panel class="preview" [disabled]="!columnControl.valid">
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Preview data.
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+              <div #previewPlot></div>
+            </mat-expansion-panel>
+          </div>
+        </div>
+        <div class="new-mapping-form-divider"></div>
+        <div class="choose-vocabulary">
+          <mat-label>Uses Vocabulary:</mat-label>
+          <div class="align-items-baseline">
+            <mat-form-field appearance="fill">
+              <mat-label>Search for Vocabulary</mat-label>
+              <input type="text"
+                aria-label="Vocabulary"
+                matInput
+                [formControl]="vocabularyControl"
+                [matAutocomplete]="vocabularyAuto"
+              >
+              <mat-autocomplete #vocabularyAuto="matAutocomplete">
+                <mat-option *ngFor="let vocabulary of vocabularies|async" [value]="vocabulary.id">
+                  {{vocabularyString(vocabulary)}}
+                </mat-option>
+              </mat-autocomplete>
+            </mat-form-field>
+            <button 
+              mat-mini-fab 
+              color="primary" 
+              aria-label="Add New Vocabulary"
+              matTooltip="Add a new custom vocabulary. You can customize the mapping of this vocabulary to standard concepts in the next step."
+              [disabled]="formInProgress"
+              (click)="newVocabularyDialog()"
+            >
+              <mat-icon>add</mat-icon>
+            </button>
+          </div>
+          <div>
+            <mat-button-toggle-group
+              class="concept-toggle"
+              [formControl]="conceptIdControl" 
+              aria-label="Concept ID or Name"
+            >
+              <mat-button-toggle [value]="true">Concept ID</mat-button-toggle>
+              <mat-button-toggle [value]="false">Concept Name</mat-button-toggle>
+            </mat-button-toggle-group>
+            <mat-icon 
+              class="md-18 more-subtle"
+              matTooltip="Indicate if the values in the source data column refer to concept IDs or concept names in the chosen vocabulary."
+            >
+              help
+            </mat-icon>
+          </div>
+        </div>
+      </div>
+    </form>
+  </mat-card-content>
+  <mat-card-actions class="form-actions" align="end">
+    <div class="quality" *ngIf="quality">
+      <mat-icon 
+        class="more-subtle"
+        matTooltip="This is the percent of values from the source data that match a concept in the chosen vocabulary."
+      >info</mat-icon>
+      <span [class.match]="quality === MATCH" [class.nomatch]="quality !== MATCH">{{quality}}</span>
+    </div>
+    <button 
+      mat-fab 
+      extended 
+      color="primary" 
+      [disabled]="!newMappingFormGroup.valid"
+      matTooltip="Execute a query to test how well the source data fits the chosen vocabulary."
+      (click)="validateMappingQuality()"
+    >
+      <mat-icon>rule</mat-icon>
+      Check Mapping Quality
+    </button>
+    <button 
+      mat-fab 
+      extended 
+      color="accent" 
+      [disabled]="!newMappingFormGroup.valid"
+      (click)="saveMapping()"
+    >
+      <mat-icon>save</mat-icon>
+      Save Mapping
+    </button>
+  </mat-card-actions>
+  <mat-progress-bar *ngIf="formInProgress" mode="indeterminate"></mat-progress-bar>
+</mat-card>
+
+<table 
+  mat-table 
+  class="mapping-table" 
+  matSort 
+  matSortActive="columnName" 
+  matSortDirection="asc" 
+  multiTemplateDataRows 
+  aria-label="Mappings">
+
+  <ng-container matColumnDef="expand">
+    <th mat-header-cell *matHeaderCellDef aria-label="row actions">&nbsp;</th>
+    <td mat-cell *matCellDef="let row">
+      <button mat-icon-button aria-label="expand row" (click)="toggleRow(row); $event.stopPropagation()">
+        <mat-icon *ngIf="expanded?.id !== row.id">keyboard_arrow_down</mat-icon>
+        <mat-icon *ngIf="expanded?.id === row.id">keyboard_arrow_up</mat-icon>
+      </button>
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="expandedDetail">
+    <td mat-cell *matCellDef="let row" [attr.colspan]="columnsToDisplayWithExpand.length">
+      <div 
+        class="table-detail"
+        [@detailExpand]="row.id == expanded?.id ? 'expanded' : 'collapsed'"
+      >
+        <div class="table-detail-content">
+          <div class="actions">
+            <button class="action" mat-fab extended color="warn" (click)="deleteMapping(row.id)">
+              <mat-icon>delete</mat-icon>
+              Delete Mapping
+            </button>
+          </div>
+        </div>
+      </div>
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="columnName">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>
+      Source Database.Table.Column
+    </th>
+    <td mat-cell *matCellDef="let row">
+      {{row['databaseName']}}.{{row['tableName']}}.{{row['columnName']}}
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="vocabulary">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>
+      Vocabulary
+    </th>
+    <td mat-cell *matCellDef="let row">
+      {{row['vocabularyId']}}
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="isConceptId">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>
+    </th>
+    <td mat-cell *matCellDef="let row">
+      <span *ngIf="row['isConceptId']; else isConceptName">Concept ID</span>
+      <ng-template #isConceptName>Concept Name</ng-template>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="columnsToDisplayWithExpand"></tr>
+  <tr mat-row *matRowDef="let row; columns: columnsToDisplayWithExpand;"
+    class="table-row action"
+    [class.table-expanded-row]="expanded?.id === row.id"
+    (click)="toggleRow(row)"
+  ></tr>
+  <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="table-row"></tr>
+</table>
+<mat-paginator #paginator
+  [length]="count|async"
+  [pageIndex]="0"
+  [pageSize]="20"
+  aria-label="Select page"
+>
+</mat-paginator>

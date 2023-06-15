@@ -1,0 +1,53 @@
+<h2 mat-dialog-title>New Custom Vocabulary</h2>
+<mat-dialog-content class="mat-typography">
+  <p>
+    Use this option to define a vocabulary
+    that is not available in the Athena database.
+  </p>
+  <form [formGroup]="formGroup" class="new-vocabulary-form">
+    <mat-form-field appearance="fill">
+      <mat-label>Vocabulary ID</mat-label>
+      <input type="text"
+        aria-label="Vocabulary ID"
+        matInput
+        [formControl]="idControl"
+      >
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Vocabulary Name</mat-label>
+      <input type="text"
+        aria-label="Vocabulary Name"
+        matInput
+        [formControl]="nameControl"
+      >
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Vocabulary Reference</mat-label>
+      <input type="text"
+        aria-label="Vocabulary Reference"
+        matInput
+        [formControl]="referenceControl"
+      >
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>Vocabulary Version</mat-label>
+      <input type="text"
+        aria-label="Vocabulary Version"
+        matInput
+        [formControl]="versionControl"
+      >
+    </mat-form-field>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancel</button>
+  <button 
+    mat-raised-button 
+    color="primary"
+    [disabled]="!formGroup.valid"
+    (click)="newVocabulary()"
+  >
+    New Vocabulary
+  </button>
+</mat-dialog-actions>
+<mat-progress-bar *ngIf="formInProgress" mode="indeterminate"></mat-progress-bar>

@@ -1,0 +1,415 @@
+{
+  "Relationship": {
+      "id": "Relationship",
+      "name": "OMOP Relationship",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "44819235"
+  },
+  "US Census": {
+      "id": "US Census",
+      "name": "Census regions of the United States (USCB)",
+      "reference": "https://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html",
+      "version": "US Census 2017 Release",
+      "conceptId": "32570"
+  },
+  "Plan Stop Reason": {
+      "id": "Plan Stop Reason",
+      "name": "OMOP Plan Stop Reason",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "32474"
+  },
+  "Cost Type": {
+      "id": "Cost Type",
+      "name": "OMOP Cost Type",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "5029"
+  },
+  "Meas Type": {
+      "id": "Meas Type",
+      "name": "OMOP Measurement Type",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "44819152"
+  },
+  "Episode": {
+      "id": "Episode",
+      "name": "OMOP Episode",
+      "reference": "OMOP generated",
+      "version": "Episode 20201014",
+      "conceptId": "32523"
+  },
+  "Visit": {
+      "id": "Visit",
+      "name": "OMOP Visit",
+      "reference": "OMOP generated",
+      "version": "Visit 20211216",
+      "conceptId": "44819119"
+  },
+  "Device Type": {
+      "id": "Device Type",
+      "name": "OMOP Device Type",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "44819151"
+  },
+  "NDC": {
+      "id": "NDC",
+      "name": "National Drug Code (FDA and manufacturers)",
+      "reference": "http://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html, http://www.fda.gov/downloads/Drugs/DevelopmentApprovalProcess/UCM070838.zip",
+      "version": "NDC 20230122",
+      "conceptId": "44819105"
+  },
+  "CPT4": {
+      "id": "CPT4",
+      "name": "Current Procedural Terminology version 4 (AMA)",
+      "reference": "http://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html",
+      "version": "2022 Release",
+      "conceptId": "44819100"
+  },
+  "UB04 Typ bill": {
+      "id": "UB04 Typ bill",
+      "name": "UB04 Type of Bill - Institutional (USHIK)",
+      "reference": "https://ushik.ahrq.gov/ViewItemDetails?&system=apcd&itemKey=196987000",
+      "version": "",
+      "conceptId": "32044"
+  },
+  "RxNorm": {
+      "id": "RxNorm",
+      "name": "RxNorm (NLM)",
+      "reference": "http://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html",
+      "version": "RxNorm 20230103",
+      "conceptId": "44819104"
+  },
+  "Race": {
+      "id": "Race",
+      "name": "Race and Ethnicity Code Set (USBC)",
+      "reference": "http://www.cdc.gov/nchs/data/dvs/Race_Ethnicity_CodeSet.pdf",
+      "version": "Version 1.0",
+      "conceptId": "44819109"
+  },
+  "CMS Place of Service": {
+      "id": "CMS Place of Service",
+      "name": "Place of Service Codes for Professional Claims (CMS)",
+      "reference": "http://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/PhysicianFeeSched/downloads//Website_POS_database.pdf",
+      "version": "2009-01-11",
+      "conceptId": "44819110"
+  },
+  "Drug Type": {
+      "id": "Drug Type",
+      "name": "OMOP Drug Exposure Type",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "44819126"
+  },
+  "ABMS": {
+      "id": "ABMS",
+      "name": "Provider Specialty (American Board of Medical Specialties)",
+      "reference": "http://www.abms.org/member-boards/specialty-subspecialty-certificates",
+      "version": "2018-06-26 ABMS",
+      "conceptId": "45756746"
+  },
+  "Obs Period Type": {
+      "id": "Obs Period Type",
+      "name": "OMOP Observation Period Type",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "44819149"
+  },
+  "UB04 Point of Origin": {
+      "id": "UB04 Point of Origin",
+      "name": "UB04 Claim Source Inpatient Admission Code (CMS)",
+      "reference": "https://www.resdac.org/cms-data/variables/Claim-Source-Inpatient-Admission-Code",
+      "version": "",
+      "conceptId": "32045"
+  },
+  "SNOMED": {
+      "id": "SNOMED",
+      "name": "Systematic Nomenclature of Medicine - Clinical Terms (IHTSDO)",
+      "reference": "http://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html",
+      "version": "2021-07-31 SNOMED CT International Edition; 2021-09-01 SNOMED CT US Edition; 2021-11-24 SNOMED CT UK Edition",
+      "conceptId": "44819097"
+  },
+  "Sponsor": {
+      "id": "Sponsor",
+      "name": "OMOP Sponsor",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "32472"
+  },
+  "ICD10CM": {
+      "id": "ICD10CM",
+      "name": "International Classification of Diseases, Tenth Revision, Clinical Modification (NCHS)",
+      "reference": "http://www.cdc.gov/nchs/icd/icd10cm.htm",
+      "version": "ICD10CM FY2023 code descriptions",
+      "conceptId": "44819098"
+  },
+  "SOPT": {
+      "id": "SOPT",
+      "name": "Source of Payment Typology (PHDSC)",
+      "reference": "https://www.nahdo.org/sopt",
+      "version": "SOPT Version 9.2",
+      "conceptId": "32473"
+  },
+  "Ethnicity": {
+      "id": "Ethnicity",
+      "name": "OMOP Ethnicity",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "44819134"
+  },
+  "Currency": {
+      "id": "Currency",
+      "name": "International Currency Symbol (ISO 4217)",
+      "reference": "http://www.iso.org/iso/home/standards/currency_codes.htm",
+      "version": "2008",
+      "conceptId": "44819153"
+  },
+  "Type Concept": {
+      "id": "Type Concept",
+      "name": "OMOP Type Concept",
+      "reference": "OMOP generated",
+      "version": "Type Concept 20221030",
+      "conceptId": "32808"
+  },
+  "UB04 Pt dis status": {
+      "id": "UB04 Pt dis status",
+      "name": "UB04 Patient Discharge Status Code (CMS)",
+      "reference": "https://www.resdac.org/cms-data/variables/patient-discharge-status-code",
+      "version": "",
+      "conceptId": "32047"
+  },
+  "CDM": {
+      "id": "CDM",
+      "name": "OMOP Common DataModel",
+      "reference": "https://github.com/OHDSI/CommonDataModel",
+      "version": "CDM v6.0.0",
+      "conceptId": "32485"
+  },
+  "Note Type": {
+      "id": "Note Type",
+      "name": "OMOP Note Type",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "44819146"
+  },
+  "UCUM": {
+      "id": "UCUM",
+      "name": "Unified Code for Units of Measure (Regenstrief Institute)",
+      "reference": "http://aurora.regenstrief.org/~ucum/ucum.html#section-Alphabetic-Index",
+      "version": "Version 1.8.2",
+      "conceptId": "44819107"
+  },
+  "ICD9CM": {
+      "id": "ICD9CM",
+      "name": "International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 1 and 2 (NCHS)",
+      "reference": "http://www.cms.gov/Medicare/Coding/ICD9ProviderDiagnosticCodes/codes.html",
+      "version": "ICD9CM v32 master descriptions",
+      "conceptId": "5046"
+  },
+  "Medicare Specialty": {
+      "id": "Medicare Specialty",
+      "name": "Medicare provider/supplier specialty codes (CMS)",
+      "reference": "http://www.cms.gov/Medicare/Provider-Enrollment-and-Certification/MedicareProviderSupEnroll/Taxonomy.html",
+      "version": "2018-06-26 Specialty",
+      "conceptId": "44819138"
+  },
+  "Condition Status": {
+      "id": "Condition Status",
+      "name": "OMOP Condition Status",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "32887"
+  },
+  "Revenue Code": {
+      "id": "Revenue Code",
+      "name": "UB04/CMS1450 Revenue Codes (CMS)",
+      "reference": "http://www.mpca.net/?page=ERC_finance",
+      "version": "2010 Release",
+      "conceptId": "44819133"
+  },
+  "HCPCS": {
+      "id": "HCPCS",
+      "name": "Healthcare Common Procedure Coding System (CMS)",
+      "reference": "http://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html",
+      "version": "20221001 Alpha Numeric HCPCS File",
+      "conceptId": "44819101"
+  },
+  "RxNorm Extension": {
+      "id": "RxNorm Extension",
+      "name": "OMOP RxNorm Extension",
+      "reference": "OMOP generated",
+      "version": "RxNorm Extension 2023-01-16",
+      "conceptId": "252"
+  },
+  "Cost": {
+      "id": "Cost",
+      "name": "OMOP Cost",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "581457"
+  },
+  "Metadata": {
+      "id": "Metadata",
+      "name": "OMOP Metadata",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "32675"
+  },
+  "NUCC": {
+      "id": "NUCC",
+      "name": "National Uniform Claim Committee Health Care Provider Taxonomy Code Set (NUCC)",
+      "reference": "http://www.nucc.org/index.php?option=com_content&view=article&id=107&Itemid=132",
+      "version": "2018-06-26 NUCC",
+      "conceptId": "44819137"
+  },
+  "ATC": {
+      "id": "ATC",
+      "name": "WHO Anatomic Therapeutic Chemical Classification",
+      "reference": "http://www.whocc.no/atc_ddd_index/",
+      "version": "RxNorm 20210907",
+      "conceptId": "44819117"
+  },
+  "Procedure Type": {
+      "id": "Procedure Type",
+      "name": "OMOP Procedure Occurrence Type",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "44819128"
+  },
+  "Vocabulary": {
+      "id": "Vocabulary",
+      "name": "OMOP Vocabulary",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "44819232"
+  },
+  "Observation Type": {
+      "id": "Observation Type",
+      "name": "OMOP Observation Type",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "44819129"
+  },
+  "Korean Revenue Code": {
+      "id": "Korean Revenue Code",
+      "name": "Korean Revenue Code (KNHIS)",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "32724"
+  },
+  "UB04 Pri Typ of Adm": {
+      "id": "UB04 Pri Typ of Adm",
+      "name": "UB04 Claim Inpatient Admission Type Code (CMS)",
+      "reference": "https://www.resdac.org/cms-data/variables/Claim-Inpatient-Admission-Type-Code",
+      "version": "",
+      "conceptId": "32046"
+  },
+  "Condition Type": {
+      "id": "Condition Type",
+      "name": "OMOP Condition Occurrence Type",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "44819127"
+  },
+  "SPL": {
+      "id": "SPL",
+      "name": "Structured Product Labeling (FDA)",
+      "reference": "http://www.fda.gov/Drugs/InformationOnDrugs/ucm142438.htm",
+      "version": "NDC 20230122",
+      "conceptId": "44819140"
+  },
+  "OMOP Extension": {
+      "id": "OMOP Extension",
+      "name": "OMOP Extension (OHDSI)",
+      "reference": "OMOP generated",
+      "version": "OMOP Extension 20230110",
+      "conceptId": "32758"
+  },
+  "Domain": {
+      "id": "Domain",
+      "name": "OMOP Domain",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "44819147"
+  },
+  "OSM": {
+      "id": "OSM",
+      "name": "OpenStreetMap (OSMF)",
+      "reference": "https://www.openstreetmap.org/copyright/en, https://wambachers-osm.website/boundaries/",
+      "version": "OSM Release 2019-02-21",
+      "conceptId": "32541"
+  },
+  "None": {
+      "id": "None",
+      "name": "OMOP Standardized Vocabularies",
+      "reference": "OMOP generated",
+      "version": "v5.0 23-JAN-23",
+      "conceptId": "44819096"
+  },
+  "Visit Type": {
+      "id": "Visit Type",
+      "name": "OMOP Visit Type",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "44819150"
+  },
+  "Death Type": {
+      "id": "Death Type",
+      "name": "OMOP Death Type",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "44819135"
+  },
+  "ICD9Proc": {
+      "id": "ICD9Proc",
+      "name": "International Classification of Diseases, Ninth Revision, Clinical Modification, Volume 3 (NCHS)",
+      "reference": "http://www.cms.gov/Medicare/Coding/ICD9ProviderDiagnosticCodes/codes.html",
+      "version": "ICD9CM v32 master descriptions",
+      "conceptId": "44819099"
+  },
+  "Concept Class": {
+      "id": "Concept Class",
+      "name": "OMOP Concept Class",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "44819233"
+  },
+  "Cohort Type": {
+      "id": "Cohort Type",
+      "name": "OMOP Cohort Type",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "44819234"
+  },
+  "Plan": {
+      "id": "Plan",
+      "name": "OMOP Health Plan",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "32471"
+  },
+  "Gender": {
+      "id": "Gender",
+      "name": "OMOP Gender",
+      "reference": "OMOP generated",
+      "version": "",
+      "conceptId": "44819108"
+  },
+  "LOINC": {
+      "id": "LOINC",
+      "name": "Logical Observation Identifiers Names and Codes (Regenstrief Institute)",
+      "reference": "http://loinc.org/downloads/loinc",
+      "version": "LOINC 2.73",
+      "conceptId": "44819102"
+  },
+  "MySiteEncounterVocabulary": {
+      "name": null,
+      "reference": null,
+      "version": null,
+      "conceptId": null,
+      "id": "MySiteEncounterVocabulary"
+  }
+}

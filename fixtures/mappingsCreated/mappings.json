@@ -1,0 +1,18 @@
+{
+  "synthea-allergies-CODE": {
+      "databaseName": "synthea",
+      "tableName": "allergies",
+      "columnName": "CODE",
+      "vocabularyId": "SNOMED",
+      "isConceptId": true,
+      "id": "synthea-allergies-CODE"
+  },
+  "synthea-encounters-ENCOUNTERCLASS": {
+      "databaseName": "synthea",
+      "tableName": "encounters",
+      "columnName": "ENCOUNTERCLASS",
+      "vocabularyId": "MySiteEncounterVocabulary",
+      "isConceptId": false,
+      "id": "synthea-encounters-ENCOUNTERCLASS"
+  }
+}

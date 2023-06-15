@@ -1,0 +1,29 @@
+<div>
+  <p class="mat-headline-3 perseus-headline">Vocabulary Mapping</p>
+</div>
+<div class="margin-save-deploy">
+</div>
+
+<mat-stepper
+  #stepper
+  class="vocabulary-stepper"
+  [orientation]="(stepperOrientation | async)!"
+>
+
+  <mat-step 
+    [stepControl]="chooseVocabulariesFormGroup" 
+    [formGroup]="chooseVocabulariesFormGroup" 
+    label="Define Vocabularies"
+  >
+    <app-define-vocabularies></app-define-vocabularies>
+  </mat-step>
+
+  <mat-step 
+    [stepControl]="verifyMapping" 
+    [formGroup]="verifyMapping" 
+    label="Customize Mappings"
+  >
+    <app-verify-mappings></app-verify-mappings>
+  </mat-step>
+
+</mat-stepper>

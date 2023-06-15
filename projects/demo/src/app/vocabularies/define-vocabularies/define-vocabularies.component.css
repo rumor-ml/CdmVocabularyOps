@@ -1,0 +1,109 @@
+.subtitle {
+  max-width: 800px;
+}
+
+.table-row td {
+  border-bottom-width: 0;
+}
+
+.table-row {
+  height: 0;
+}
+
+.table-detail-content {
+  padding: 8px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 300px;
+  margin-bottom: 8px;
+}
+
+.form-actions {
+  gap: 8px;
+}
+
+.quality {
+  display: flex;
+  gap: 4px;
+}
+
+.mat-column-expand {
+  width: 10px;
+  padding: 0;
+}
+
+.new-mapping-form {
+  margin-top: 8px;
+}
+
+.from-to {
+  display: flex;
+  gap: 8px;
+}
+
+.choose-data-field {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.choose-vocabulary {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+}
+
+.new-mapping-form-divider {
+  border-left: 1px solid;
+  margin: 0 16px 0 16px;
+}
+
+.hidden {
+  visibility: hidden
+}
+
+.concept-toggle {
+  max-width: fit-content;
+  margin-right: 8px;
+}
+
+.more-subtle {
+  opacity: 0.5;
+}
+
+.align-items-baseline {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.mapping-table {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.source-preview {
+  display: flex;
+  align-items: flex-start;
+}
+
+.source {
+  width: 250px;
+}
+
+.preview {
+  min-width: 250px;
+  flex-grow: 1;
+}
+
+.match {
+  color: var(--primary);
+}
+
+.nomatch {
+  color: var(--accent);
+}
