@@ -55,6 +55,7 @@
   display: flex;
   flex-direction: column;
   width: 280px;
+  gap: 8px;
 }
 
 .new-mapping-form-divider {
@@ -106,4 +107,8 @@
 
 .nomatch {
   color: var(--accent);
+}
+
+.with-backspace {
+  display: flex;
 }

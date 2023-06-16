@@ -19,7 +19,7 @@ import { VocabulariesService, Vocabulary } from '../vocabularies.service';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
-import { Mapping, MappingService, compositeId } from '../mapping.service';
+import { VocabularyMapping, VocabularyMappingService, compositeId } from '../vocabulary-mapping.service';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatTooltipModule } from '@angular/material/tooltip';
@@ -65,7 +65,7 @@ import { VocabularyQualityCheckService } from '../vocabulary-quality-check.servi
 export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
-  @ViewChild(MatTable) table!: MatTable<Mapping>;
+  @ViewChild(MatTable) table!: MatTable<VocabularyMapping>;
   @ViewChild(MatExpansionPanel) preview!: MatExpansionPanel;
   @ViewChild('previewPlot', {read: ElementRef}) previewPlot!: ElementRef
 
@@ -73,15 +73,16 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
   profiles = this.profileService.valueChanges()
   databaseControl = new FormControl('', Validators.required)
   tableControl = new FormControl('', Validators.required)
-  columnControl = new FormControl('', Validators.required)
+  conceptNameControl = new FormControl('', this.validConceptColumns())
+  conceptCodeControl = new FormControl('', this.validConceptColumns())
   vocabularyControl = new FormControl('', [Validators.required, this.validVocabulary()])
-  conceptCodeControl = new FormControl(true)
   newMappingFormGroup = new FormGroup({
     'database': this.databaseControl,
     'table': this.tableControl,
-    'column': this.columnControl,
+    'column': this.conceptNameControl,
     'vocabulary': this.vocabularyControl,
-    'conceptId': this.conceptCodeControl,
+  }, {
+    validators: this.validConceptColumns
   })
   databases = this.profileService.valueChanges().pipe(
     map(ps => (ps ?? []).map(p => p.database))
@@ -111,22 +112,22 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
     map(([vs, s]) => this.searchVocabularies(vs, s!))
   )
   count = this.mappingService.count()
-  dataSource!: TableDataSource<Mapping>
-  expanded: Mapping | null = null
+  dataSource!: TableDataSource<VocabularyMapping>
+  expanded: VocabularyMapping | null = null
   displayedColumns: string[] = [
     'columnName',
     'vocabulary',
     'isConceptCode'
   ]
-  MATCH = '100% Match'
-  quality: string|null = null
+  codeQuality: string|null = null
+  nameQuality: string|null = null
   formInProgress = false
 
 
   constructor(
     private profileService: ProfileService,
     private vocabulariesService: VocabulariesService,
-    private mappingService: MappingService,
+    private mappingService: VocabularyMappingService,
     private dialog: MatDialog,
     private stylesService: StylesService,
     private vocabularyQualityCheckService: VocabularyQualityCheckService,
@@ -139,7 +140,7 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
     ),
 
     this.tableControl.valueChanges.subscribe(
-      _ => this.columnControl.reset()
+      _ => this.conceptNameControl.reset()
     ),
 
     this.vocabulariesService.valueChanges().pipe(
@@ -147,8 +148,16 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
     ).subscribe(this.vocabularyIds),
 
     this.newMappingFormGroup.valueChanges.subscribe(
-      _ => this.quality = null
-    )
+      _ => this.codeQuality = null
+    ),
+
+    this.conceptCodeControl.valueChanges.subscribe(
+      _ => this.conceptNameControl.updateValueAndValidity({emitEvent: false})
+    ),
+
+    this.conceptNameControl.valueChanges.subscribe(
+      _ => this.conceptCodeControl.updateValueAndValidity({emitEvent: false})
+    ),
 
   ]
 
@@ -163,22 +172,24 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
     this.subscriptions.push(
       combineLatest([
         this.profileService.valueChanges(),
-        this.columnControl.valueChanges
+        this.conceptNameControl.valueChanges
       ]).subscribe(
         ([ps, _]) => {
           if (!this.preview) {
             return
           }
-          if (this.columnControl.valid) {
+          if (this.conceptNameControl.valid) {
             const fs = (ps ?? [])
               .filter(p => p.database === this.databaseControl.value)
               .map(d => d.tables)[0]
-              .filter(t => t.name === this.tableControl.value)
-              .map(t => t.columns)[0]
-              .filter(c => c.name === this.columnControl.value)
-              .map(c => c.frequencies)[0]
-            this.renderPreviewPlot(fs)
-            this.preview.expanded = true
+              ?.filter(t => t.name === this.tableControl.value)
+              ?.map(t => t.columns)[0]
+              ?.filter(c => c.name === this.conceptNameControl.value)
+              ?.map(c => c.frequencies)[0]
+            if (fs) {
+              this.renderPreviewPlot(fs)
+              this.preview.expanded = true
+            }
           } else (
             this.preview.expanded = false
           )
@@ -195,7 +206,7 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
     return ['expand', ...this.displayedColumns]
   }
 
-  toggleRow(row: Mapping) {
+  toggleRow(row: VocabularyMapping) {
     if (this.expanded?.id === row.id) {
       this.expanded = null
     } else {
@@ -219,13 +230,24 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
 
   validVocabulary(): ValidatorFn {
     return (control: AbstractControl): ValidationErrors | null => {
-      return this.vocabularyIds?.value.includes(control.value) ? null : {invalidId: {value: control.value}}
+      return this.vocabularyIds?.value.includes(control.value) 
+        ? null 
+        : {invalidId: {value: control.value}}
     };
+  }
+
+  validConceptColumns(): ValidatorFn {
+    return (_: AbstractControl): ValidationErrors | null => {
+      const nameOrCode = !!this.conceptNameControl?.value || !!this.conceptCodeControl?.value
+      return nameOrCode 
+        ? null 
+        : {nameOrCode: {value: 'Concept name or code must be defined.'}}
+    }
   }
 
   saveMapping() {
     this.formInProgress = true
-    const mapping: Mapping = this._toMapping()
+    const mapping: VocabularyMapping = this._toMapping()
     this.newMappingFormGroup.disable()
     this.mappingService.replaceById({
       id: compositeId(mapping),
@@ -233,7 +255,7 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
     }).subscribe(
       _ => {
         this.newMappingFormGroup.reset()
-        this.quality = null
+        this.codeQuality = null
         this.newMappingFormGroup.enable()
         this.formInProgress = false
       }
@@ -241,13 +263,13 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
     
   }
 
-  _toMapping() {
+  _toMapping(): VocabularyMapping {
     return {
       databaseName: this.databaseControl.value!,
       tableName: this.tableControl.value!,
-      columnName: this.columnControl.value!,
+      conceptCode: this.conceptCodeControl.value ?? null,
+      conceptName: this.conceptNameControl.value ?? null,
       vocabularyId: this.vocabularyControl.value!,
-      isConceptCode: this.conceptCodeControl.value!,
     }
   }
 
@@ -260,15 +282,24 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
     const f = this.newMappingFormGroup.value
     const m = this._toMapping()
     this.newMappingFormGroup.disable()
-    this.quality = null
+    this.codeQuality = null
+    this.nameQuality = null
     this.vocabularyQualityCheckService.checkMapping(m).subscribe(
-      s => {
+      ([c, n]) => {
         this.newMappingFormGroup.enable()
         this.newMappingFormGroup.patchValue(f)
-        this.quality = `${Math.round(s * 100)}% Match`
+        if (c !== null) {
+          this.codeQuality = `${Math.round(c * 100)}`
+        } else if (n !== null) {
+          this.nameQuality = `${Math.round(n * 100)}`
+        }
         this.formInProgress = false
       }
     )
+  }
+
+  get goodMatch() {
+    return this.codeQuality === '100' || this.nameQuality === '100'
   }
 
   newVocabularyDialog() {

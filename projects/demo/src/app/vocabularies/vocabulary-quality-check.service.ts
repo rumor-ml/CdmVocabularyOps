@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import { Mapping } from './mapping.service';
+import { VocabularyMapping } from './vocabulary-mapping.service';
 import { SourceDbService } from '../source-db.service';
-import { first, map, mergeMap } from 'rxjs';
+import { combineLatest, first, map, mergeMap, of } from 'rxjs';
 import { ConceptService } from './concept.service';
 
 @Injectable({
@@ -14,18 +14,34 @@ export class VocabularyQualityCheckService {
     private conceptService: ConceptService,
   ) { }
 
-  checkMapping(m: Mapping) {
+  checkMapping(m: VocabularyMapping) {
+    return combineLatest([
+      this._checkMapping(m.databaseName, m.tableName, m.conceptCode, true, m.vocabularyId,),
+      this._checkMapping(m.databaseName, m.tableName, m.conceptName, false, m.vocabularyId,)
+    ])
+  }
+
+  _checkMapping(
+    database: string,
+    table: string, 
+    column: string|null,
+    isCode: boolean,
+    vocabularyId: string,
+  ) {
+    if (!column) {
+      return of(null)
+    }
     return this.sourceDbService.selectDistinct({
-      database: m.databaseName,
-      table: m.tableName,
-      column: m.columnName
+      database,
+      table,
+      column
     }).pipe(
       mergeMap(cs => {
         const cst = cs as string[]
-        const concepts = m.isConceptCode ? {conceptCodes: cst} : {conceptNames: cst}
+        const concepts = isCode ? {conceptCodes: cst} : {conceptNames: cst}
         return this.conceptService.antiJoin({
           ...concepts,
-          where: [['vocabularyId', '==', m.vocabularyId]]
+          where: [['vocabularyId', '==', vocabularyId]]
         }).pipe(map(ms => [cs, ms]))
       }),
       map(([cs, ms]) => {

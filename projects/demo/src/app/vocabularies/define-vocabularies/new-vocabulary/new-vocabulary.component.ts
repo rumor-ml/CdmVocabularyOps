@@ -49,7 +49,8 @@ export class NewVocabularyComponent {
       name: null,
       reference: null,
       version: null,
-      conceptId: null
+      conceptId: null,
+      isSource: true,
     }
     if (this.nameControl.value && this.nameControl.value !== '') {
       vocabulary.name = this.nameControl.value

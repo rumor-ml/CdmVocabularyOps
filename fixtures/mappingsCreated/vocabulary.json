@@ -410,6 +410,7 @@
       "reference": null,
       "version": null,
       "conceptId": null,
-      "id": "MySiteEncounterVocabulary"
+      "id": "MySiteEncounterVocabulary",
+      "isSource": true
   }
 }

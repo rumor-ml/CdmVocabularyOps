@@ -1,1 +1,175 @@
-<p>verify-mappings works!</p>
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Customize Vocabulary Mappings</mat-card-title>
+    <mat-card-subtitle class="subtitle">
+        If you have created a custom vocabulary, then this
+        is where you can map the concepts in that vocabulary
+        to concepts that exist in the Athena database.
+    </mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <form class="" [formGroup]="formGroup">
+      <mat-form-field appearance="fill">
+        <mat-label>Search for Vocabulary</mat-label>
+        <input type="text"
+          aria-label="Vocabulary"
+          matInput
+          [formControl]="vocabularyControl"
+          [matAutocomplete]="vocabularyAuto"
+        >
+        <mat-autocomplete #vocabularyAuto="matAutocomplete">
+          <mat-option *ngFor="let vocabulary of vocabularies|async" [value]="vocabulary.id">
+            {{vocabularyString(vocabulary)}}
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+    </form>
+    </mat-card-content>
+    <mat-card-actions class="form-actions" align="end">
+      <button 
+        mat-fab 
+        extended 
+        color="primary" 
+        [disabled]="!formGroup.valid"
+        matTooltip="Load all concepts from the chosen source vocabulary to customize how they are mapped to target vocabularies."
+        (click)="loadConcepts()"
+      >
+        <mat-icon>cloud_upload</mat-icon>
+        Load Source Concepts
+      </button>
+    </mat-card-actions>
+    <mat-progress-bar *ngIf="formInProgress" mode="indeterminate"></mat-progress-bar>
+  </mat-card>
+
+  <mat-expansion-panel class="mapping-config">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Concept Search Filters
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div #previewPlot></div>
+  </mat-expansion-panel>
+
+  <mat-expansion-panel class="mapping-config">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Auto Mappings
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div #previewPlot></div>
+  </mat-expansion-panel>
+  
+  <table 
+    mat-table 
+    class="concept-table" 
+    matSort 
+    matSortActive="conceptFrequency" 
+    matSortDirection="desc" 
+    multiTemplateDataRows 
+    aria-label="Mappings">
+  
+    <ng-container matColumnDef="expand">
+      <th mat-header-cell *matHeaderCellDef aria-label="row actions">&nbsp;</th>
+      <td mat-cell *matCellDef="let row">
+        <button mat-icon-button aria-label="expand row" (click)="toggleRow(row); $event.stopPropagation()">
+          <mat-icon *ngIf="expanded?.id !== row.id">keyboard_arrow_down</mat-icon>
+          <mat-icon *ngIf="expanded?.id === row.id">keyboard_arrow_up</mat-icon>
+        </button>
+      </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="expandedDetail">
+      <td mat-cell *matCellDef="let row" [attr.colspan]="columnsToDisplayWithExpand.length">
+        <div 
+          class="table-detail"
+          [@detailExpand]="row.id == expanded?.id ? 'expanded' : 'collapsed'"
+        >
+          <div class="table-detail-content">
+            <div class="actions">
+              <button class="action" mat-fab extended color="warn" (click)="searchConcepts(row)">
+                <mat-icon>delete</mat-icon>
+                Delete Mapping
+              </button>
+            </div>
+          </div>
+        </div>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="search">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>
+        </th>
+        <td mat-cell *matCellDef="let row">
+          <mat-icon>search</mat-icon>
+        </td>
+      </ng-container>
+
+    <ng-container matColumnDef="conceptFrequency">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>
+        Concept Frequency
+      </th>
+      <td mat-cell *matCellDef="let row">
+        {{row['sourceRows'].length}}
+      </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="sourceCode">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>
+        Source Concept Code
+      </th>
+      <td mat-cell *matCellDef="let row">
+        {{row['sourceCode']}}
+      </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="sourceName">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>
+        Source Concept Name
+      </th>
+      <td mat-cell *matCellDef="let row">
+        {{row['sourceName']}}
+      </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="similarityScore">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>
+        Similarity Score
+      </th>
+      <td mat-cell *matCellDef="let row">
+        {{row['similarityScore']}}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="athenaConceptName">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>
+        Maps to Concept Name
+      </th>
+      <td mat-cell *matCellDef="let row">
+        {{row['athenaConceptName']}}
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="athenaVocabularyId">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>
+        Maps to Vocabulary ID
+      </th>
+      <td mat-cell *matCellDef="let row">
+        {{row['athenaVocabularyId']}}
+      </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="columnsToDisplayWithExpand"></tr>
+    <tr mat-row *matRowDef="let row; columns: columnsToDisplayWithExpand;"
+      class="table-row action"
+      [class.table-expanded-row]="expanded?.id === row.id"
+      (click)="toggleRow(row)"
+    ></tr>
+    <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="table-row"></tr>
+  </table>
+  <mat-paginator #paginator
+    [length]="count|async"
+    [pageIndex]="0"
+    [pageSize]="20"
+    aria-label="Select page"
+  >
+  </mat-paginator>

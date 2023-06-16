@@ -4,7 +4,7 @@
     <mat-card-subtitle class="subtitle">
       Choose a source data column and define the vocabulary for it.
       If you need to map a source data column that does not use an existing vocabulary
-      you can add a new vocabulary here. Then, map it to standard concepts
+      you can add a new vocabulary here. Then, map it to concepts from the Athena database
       in the next step.
     </mat-card-subtitle>
   </mat-card-header>
@@ -31,16 +31,49 @@
                   </mat-option>
                 </mat-select>
               </mat-form-field>
-              <mat-form-field appearance="fill">
-                <mat-label>Column</mat-label>
-                <mat-select [formControl]="columnControl">
-                  <mat-option *ngFor="let column of columns|async" [value]="column">
-                    {{column}}
-                  </mat-option>
-                </mat-select>
-              </mat-form-field>
+              <div class="with-backspace">
+                <mat-form-field appearance="fill">
+                  <mat-label>Concept Code</mat-label>
+                  <mat-select [formControl]="conceptCodeControl">
+                    <mat-option *ngFor="let column of columns|async" [value]="column">
+                      {{column}}
+                    </mat-option>
+                  </mat-select>
+                </mat-form-field>
+                <button 
+                  mat-icon-button 
+                  class="more-subtle" 
+                  [hidden]="!conceptCodeControl.value" 
+                  aria-label="Erase concept code."
+                  (click)="conceptCodeControl.reset()"
+                >
+                  <mat-icon>backspace</mat-icon>
+                </button>
+              </div>
+              <div class="with-backspace">
+                <mat-form-field appearance="fill">
+                  <mat-label>Concept Name</mat-label>
+                  <mat-select [formControl]="conceptNameControl">
+                    <mat-option *ngFor="let column of columns|async" [value]="column">
+                      {{column}}
+                    </mat-option>
+                  </mat-select>
+                </mat-form-field>
+                <button 
+                  mat-icon-button 
+                  class="more-subtle" 
+                  [hidden]="!conceptNameControl.value" 
+                  aria-label="Erase concept code."
+                  (click)="conceptNameControl.reset()"
+                >
+                  <mat-icon>backspace</mat-icon>
+                </button>
+              </div>
             </div>
-            <mat-expansion-panel class="preview" [disabled]="!columnControl.valid">
+            <mat-expansion-panel 
+              class="preview" 
+              [disabled]="!(conceptCodeControl.valid || conceptNameControl.valid)"
+            >
               <mat-expansion-panel-header>
                 <mat-panel-title>
                   Preview data.
@@ -79,45 +112,38 @@
               <mat-icon>add</mat-icon>
             </button>
           </div>
-          <div>
-            <mat-button-toggle-group
-              class="concept-toggle"
-              [formControl]="conceptCodeControl" 
-              aria-label="Concept Code or Name"
-            >
-              <mat-button-toggle [value]="true">Concept Code</mat-button-toggle>
-              <mat-button-toggle [value]="false">Concept Name</mat-button-toggle>
-            </mat-button-toggle-group>
+          <button 
+            mat-fab 
+            extended 
+            color="primary" 
+            [disabled]="!newMappingFormGroup.valid"
+            matTooltip="Execute a query to test how well the source data fits the chosen vocabulary."
+            (click)="validateMappingQuality()"
+          >
+            <mat-icon>rule</mat-icon>
+            Check Mapping Quality
+          </button>
+          <div class="quality" *ngIf="codeQuality || nameQuality">
             <mat-icon 
-              class="md-18 more-subtle"
-              matTooltip="Indicate if the values in the source data column refer to concept codes or concept names in the chosen vocabulary."
-            >
-              help
-            </mat-icon>
+              class="more-subtle"
+              matTooltip="This is the percent of values from the source data that match a concept in the chosen vocabulary.<br>Note: if codes are provided they will always be used instead of concept names."
+            >info</mat-icon>
+            <div>
+              <div *ngIf="codeQuality" [class.match]="goodMatch" [class.nomatch]="!goodMatch">
+                <div class="mat-headline-5">concept codes:</div>
+                <div class="mat-headline-3">{{codeQuality}}% <span class="mat-headline-5">Match</span></div>
+              </div>
+              <div *ngIf="nameQuality" [class.match]="goodMatch" [class.nomatch]="!goodMatch">
+                <div class="mat-headline-5">concept names:</div>
+                <div class="mat-headline-3">{{nameQuality}}% <span class="mat-headline-5">Match</span></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </form>
   </mat-card-content>
   <mat-card-actions class="form-actions" align="end">
-    <div class="quality" *ngIf="quality">
-      <mat-icon 
-        class="more-subtle"
-        matTooltip="This is the percent of values from the source data that match a concept in the chosen vocabulary."
-      >info</mat-icon>
-      <span [class.match]="quality === MATCH" [class.nomatch]="quality !== MATCH">{{quality}}</span>
-    </div>
-    <button 
-      mat-fab 
-      extended 
-      color="primary" 
-      [disabled]="!newMappingFormGroup.valid"
-      matTooltip="Execute a query to test how well the source data fits the chosen vocabulary."
-      (click)="validateMappingQuality()"
-    >
-      <mat-icon>rule</mat-icon>
-      Check Mapping Quality
-    </button>
     <button 
       mat-fab 
       extended 

@@ -9,7 +9,9 @@ export interface Vocabulary {
   reference: string | null,
   version: string | null,
   conceptId: string | null,
+  isSource?: boolean,
 }
+
 @Injectable({
   providedIn: 'root'
 })
