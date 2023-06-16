@@ -5,18 +5,20 @@ export interface ConceptMapping {
   // https://stackoverflow.com/questions/70956050/how-do-i-declare-object-value-type-without-declaring-key-type
   [key: string]: TableFieldValue,
   id?: string,
-  sourceCode: string|null,
-  sourceName: string|null,
-  sourceRows: {
+  sourceCode: TableFieldValue|null,
+  sourceName: string[]|null,
+  vocabularyMappings: {
     database: string,
     table: string,
-    row: TableData
-  },
+    conceptCode: string|null,
+    conceptName: string|null,
+  }[],
+  conceptFrequency: number,
   sourceVocabularyId: string,
-  athenaConceptId: string,
-  athenaVocabularyId: string,
-  athenaConceptName: string,
-  similarityScore: number,
+  athenaConceptId: string|undefined,
+  athenaVocabularyId: string|undefined,
+  athenaConceptName: string|undefined,
+  similarityScore: number|undefined,
 }
 
 @Injectable({
@@ -28,5 +30,12 @@ export class ConceptMappingService extends DocsTableDataService<ConceptMapping> 
     @Inject('DocsToken') docs: Docs,
   ) {
     super({docs, path: 'conceptMapping', idField: 'id'});
+  }
+
+  compositeKey(params: {
+    vocabularyId: string,
+    conceptCodeOrName: string,
+  }){
+    return `${params.vocabularyId}-${params.conceptCodeOrName}`
   }
 }

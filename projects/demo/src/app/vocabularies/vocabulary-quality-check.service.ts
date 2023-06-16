@@ -37,15 +37,14 @@ export class VocabularyQualityCheckService {
       column
     }).pipe(
       mergeMap(cs => {
-        const cst = cs as string[]
-        const concepts = isCode ? {conceptCodes: cst} : {conceptNames: cst}
+        const concepts = isCode ? {conceptCodes: cs} : {conceptNames: cs}
         return this.conceptService.antiJoin({
           ...concepts,
           where: [['vocabularyId', '==', vocabularyId]]
         }).pipe(map(ms => [cs, ms]))
       }),
       map(([cs, ms]) => {
-        return (cs.length - ms.length) / cs.length
+        return (cs.size - ms.size) / cs.size
       }),
       first(),
     )

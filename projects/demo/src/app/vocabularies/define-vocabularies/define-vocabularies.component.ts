@@ -115,9 +115,10 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
   dataSource!: TableDataSource<VocabularyMapping>
   expanded: VocabularyMapping | null = null
   displayedColumns: string[] = [
-    'columnName',
+    'table',
+    'conceptCode',
+    'conceptName',
     'vocabulary',
-    'isConceptCode'
   ]
   codeQuality: string|null = null
   nameQuality: string|null = null

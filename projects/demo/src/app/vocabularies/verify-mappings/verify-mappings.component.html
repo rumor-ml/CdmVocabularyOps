@@ -18,7 +18,10 @@
           [matAutocomplete]="vocabularyAuto"
         >
         <mat-autocomplete #vocabularyAuto="matAutocomplete">
-          <mat-option *ngFor="let vocabulary of vocabularies|async" [value]="vocabulary.id">
+          <mat-option 
+            *ngFor="let vocabulary of vocabularies|async" 
+            [value]="vocabulary.id"
+          >
             {{vocabularyString(vocabulary)}}
           </mat-option>
         </mat-autocomplete>
@@ -53,10 +56,10 @@
   <mat-expansion-panel class="mapping-config">
     <mat-expansion-panel-header>
       <mat-panel-title>
-        Auto Mappings
+        Smart Search
       </mat-panel-title>
     </mat-expansion-panel-header>
-    <div #previewPlot></div>
+    <app-smart-search></app-smart-search>
   </mat-expansion-panel>
   
   <table 

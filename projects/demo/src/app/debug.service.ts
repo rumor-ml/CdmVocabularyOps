@@ -23,7 +23,7 @@ export class DebugService {
   loadSourceDbFromCsv = () => {
     this._syntheaTables().subscribe(
       ([t, rs]) => {
-        if (!(t === 'allergies')) {
+        if (!(['allergies', 'encounters'].includes(t))) {
           return
         }
         if (!this.fixtures) {

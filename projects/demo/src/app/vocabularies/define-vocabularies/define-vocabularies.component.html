@@ -195,12 +195,30 @@
     </td>
   </ng-container>
 
-  <ng-container matColumnDef="columnName">
+  <ng-container matColumnDef="table">
     <th mat-header-cell *matHeaderCellDef mat-sort-header>
-      Source Database.Table.Column
+      Source Database.Table
     </th>
     <td mat-cell *matCellDef="let row">
-      {{row['databaseName']}}.{{row['tableName']}}.{{row['columnName']}}
+      {{row['databaseName']}}.{{row['tableName']}}
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="conceptCode">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>
+      Concept Code
+    </th>
+    <td mat-cell *matCellDef="let row">
+      {{row['conceptCode']}}
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="conceptName">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>
+      Concept Name
+    </th>
+    <td mat-cell *matCellDef="let row">
+      {{row['conceptName']}}
     </td>
   </ng-container>
 
@@ -210,15 +228,6 @@
     </th>
     <td mat-cell *matCellDef="let row">
       {{row['vocabularyId']}}
-    </td>
-  </ng-container>
-
-  <ng-container matColumnDef="isConceptCode">
-    <th mat-header-cell *matHeaderCellDef mat-sort-header>
-    </th>
-    <td mat-cell *matCellDef="let row">
-      <span *ngIf="row['isConceptCode']; else isConceptName">Concept ID</span>
-      <ng-template #isConceptName>Concept Name</ng-template>
     </td>
   </ng-container>
 

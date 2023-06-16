@@ -7,6 +7,7 @@ import * as demoVocabularyMappings from '../../../../fixtures/demo/vocabularyMap
 import * as demoVocabulary from '../../../../fixtures/demo/vocabulary.json'
 import * as demoConcept from '../../../../fixtures/demo/concept.json'
 import * as demoSytheaAllergies from '../../../../fixtures/demo/synthea-allergies.json'
+import * as demoSytheaEncounters from '../../../../fixtures/demo/synthea-encounters.json'
 import * as mappingsCreatedVocabulary from '../../../../fixtures/mappingsCreated/vocabulary.json'
 import * as mappingsCreatedVocabularyMappings from '../../../../fixtures/mappingsCreated/vocabularyMappings.json'
 
@@ -16,6 +17,7 @@ const demo = {
   vocabulary: (demoVocabulary as any).default,
   concept: (demoConcept as any).default,
   'synthea-allergies': (demoSytheaAllergies as any).default,
+  'synthea-encounters': (demoSytheaEncounters as any).default,
   conceptMapping: {}
 }
 

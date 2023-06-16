@@ -1,0 +1,8 @@
+.columns {
+  display: flex;
+}
+
+.radio {
+  display: flex;
+  flex-direction: column;
+}

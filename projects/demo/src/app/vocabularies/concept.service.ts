@@ -1,13 +1,13 @@
 import { Inject, Injectable } from '@angular/core';
-import { Docs, DocsTableDataService, TableData, TableFieldValue, TableQueryWhere } from '@commonshcs/docs';
+import { Docs, DocsTableDataService, TableFieldValue, TableQueryWhere } from '@commonshcs/docs';
 import { map } from 'rxjs';
 
 export interface Concept {
     // https://stackoverflow.com/questions/70956050/how-do-i-declare-object-value-type-without-declaring-key-type
     [key: string]: TableFieldValue,
     id?: string,
-    code: string,
-    name: string,
+    code: TableFieldValue,
+    name: TableFieldValue,
     vocabularyId: string,
 }
 
@@ -23,8 +23,8 @@ export class ConceptService extends DocsTableDataService<Concept> {
   }
 
   antiJoin(params: {
-    conceptCodes?: string[],
-    conceptNames?: string[],
+    conceptCodes?: Set<TableFieldValue>,
+    conceptNames?: Set<TableFieldValue>,
     where: TableQueryWhere[]
   }){
     return this.valueChanges({
@@ -32,7 +32,7 @@ export class ConceptService extends DocsTableDataService<Concept> {
     }).pipe(
       map(cs => {
         const vs = cs?.map(c => params.conceptCodes ? c.code : c.name) ?? []
-        return (params.conceptCodes ?? params.conceptNames)!.filter((c: string) => !(vs.includes(c)))
+        return new Set([...(params.conceptCodes ?? params.conceptNames)!].filter((c) => !(vs.includes(c))))
       })
     )
   }
