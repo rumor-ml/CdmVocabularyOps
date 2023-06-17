@@ -1,5 +1,6 @@
 import { Inject, Injectable } from '@angular/core';
-import { Docs, DocsTableDataService, TableData, TableFieldValue } from '@commonshcs/docs';
+import { Docs, DocsTableDataService, TableData, TableFieldValue, TableQuery } from '@commonshcs/docs';
+import { Observable, tap } from 'rxjs';
 
 export interface ConceptMapping {
   // https://stackoverflow.com/questions/70956050/how-do-i-declare-object-value-type-without-declaring-key-type
@@ -30,6 +31,12 @@ export class ConceptMappingService extends DocsTableDataService<ConceptMapping> 
     @Inject('DocsToken') docs: Docs,
   ) {
     super({docs, path: 'conceptMapping', idField: 'id'});
+  }
+
+  override valueChanges(params?: TableQuery | undefined): Observable<ConceptMapping[] | null> {
+    return super.valueChanges(params).pipe(
+      tap((cs) => console.log(params, cs))
+    )
   }
 
   compositeKey(params: {

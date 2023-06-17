@@ -20,10 +20,11 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { ConceptMapping, ConceptMappingService } from '../concept-mapping.service';
 import { TableDataSource } from '@commonshcs/docs';
 import { VocabulariesService, Vocabulary } from '../vocabularies.service';
-import { BehaviorSubject, first, map, merge, of, reduce, switchMap, tap } from 'rxjs';
+import { BehaviorSubject, Observable, first, map, merge, mergeAll, mergeMap, of, reduce, startWith, switchMap, tap } from 'rxjs';
 import { SourceConcept, SourceDbService } from '../../source-db.service';
 import { VocabularyMapping, VocabularyMappingService } from '../vocabulary-mapping.service';
 import { SmartSearchComponent } from './smart-search/smart-search.component';
+import { trigger, state, style, transition, animate } from '@angular/animations';
 
 @Component({
   selector: 'app-verify-mappings',
@@ -50,7 +51,14 @@ import { SmartSearchComponent } from './smart-search/smart-search.component';
     CommonModule
   ],
   templateUrl: './verify-mappings.component.html',
-  styleUrls: ['./verify-mappings.component.css']
+  styleUrls: ['./verify-mappings.component.css'],
+  animations: [
+    trigger('detailExpand', [
+      state('collapsed', style({height: '0px', minHeight: '0'})),
+      state('expanded', style({height: '*'})),
+      transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
+    ]),
+  ],
 })
 export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
   @ViewChild(MatPaginator) paginator!: MatPaginator;
@@ -64,7 +72,6 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
   formInProgress = false
   expanded: ConceptMapping | null = null
   displayedColumns: string[] = [
-    'search',
     'conceptFrequency',
     'sourceCode',
     'sourceName',
@@ -136,7 +143,7 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
             } else {
               m[k] = {
                 sourceCode: c.sourceCode,
-                sourceName: c.sourceName ? [c.sourceName.toString()] : [],
+                sourceName: c.sourceName ? [...c.sourceName].map(n => n!.toString()) : [],
                 vocabularyMappings: [{
                   database: v.databaseName,
                   table: v.tableName,
@@ -151,10 +158,9 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
           return { vid, m } as { vid: string, m: { [key: string]: Partial<ConceptMapping> } }
         }, { vid: '', m: {} } as { vid: string, m: { [key: string]: Partial<ConceptMapping> } }),
       ) : of()),
-    ).subscribe(
-      ({ vid, m: cs }) => {
-        Object.entries(cs).forEach(([k, c]) => {
-          this.conceptMappingService.updateById({
+      mergeMap(({ vid, m: cs }) => {
+        const updates = Object.entries(cs).map(([k, c]) => {
+          return this.conceptMappingService.updateById({
             id: this.conceptMappingService.compositeKey({
               vocabularyId: vid,
               conceptCodeOrName: k,
@@ -162,8 +168,11 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
             partial: c
           })
         })
-      }
-    )
+        this.formInProgress = false
+        return merge(updates)
+      }),
+      mergeAll(),
+    ).subscribe()
   ]
 
   ngOnDestroy(): void {
@@ -171,7 +180,8 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
   }
 
   loadConcepts() {
-    this.loadedVocabulary.next(this.vocabularyControl.value)
+    this.formInProgress = true
+    setTimeout(() => this.loadedVocabulary.next(this.vocabularyControl.value))
   }
 
   searchConcepts(row: ConceptMapping) { }
@@ -194,5 +204,13 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
     return (control: AbstractControl): ValidationErrors | null => {
       return this.vocabularyIds?.value.includes(control.value) ? null : { invalidId: { value: control.value } }
     };
+  }
+
+  formatSourceName(ns: Set<string>): string {
+    if (ns.size === 1) {
+      return [...ns][0]
+    } else {
+      return [...ns].join(', ')
+    }
   }
 }

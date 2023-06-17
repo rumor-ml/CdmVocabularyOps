@@ -233,11 +233,11 @@
 
   <tr mat-header-row *matHeaderRowDef="columnsToDisplayWithExpand"></tr>
   <tr mat-row *matRowDef="let row; columns: columnsToDisplayWithExpand;"
-    class="table-row action"
+    class="expandable-row action"
     [class.table-expanded-row]="expanded?.id === row.id"
     (click)="toggleRow(row)"
   ></tr>
-  <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="table-row"></tr>
+  <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="expandable-row"></tr>
 </table>
 <mat-paginator #paginator
   [length]="count|async"

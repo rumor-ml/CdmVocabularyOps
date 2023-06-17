@@ -3,16 +3,16 @@
 @include mat.core();
 
 $perseus-primary-palette: (
- 50: #e1f6fc,
- 100: #b4eaf7,
- 200: #83dcf1,
- 300: #53cee9,
- 400: #32c4e2,
- 500: #20425a,
- 600: #1eaac8,
- 700: #1795ad,
- 800: #118194,
- 900: #1c4b5a,
+ 50: #dfefff,
+ 100: #bdd8ed,
+ 200: #9ebbd5,
+ 300: #7d9fbd,
+ 400: #648aaa,
+ 500: #4a7698,
+ 600: #3d6887,
+ 700: #2e5470,
+ 800: #20425a,
+ 900: #0c2d42,
  contrast: (
    50: rgba(black, 0.87),
    100: rgba(black, 0.87),
@@ -29,7 +29,7 @@ $perseus-primary-palette: (
 
 $perseus-accent-palette: mat.$orange-palette;
 
-$perseus-primary: mat.define-palette($perseus-primary-palette, 500, 300, 900, 700);
+$perseus-primary: mat.define-palette($perseus-primary-palette, 800, 300, 900, 700);
 $perseus-accent: mat.define-palette($perseus-accent-palette);
 $perseus-warn: mat.define-palette(mat.$red-palette);
 $typography: mat.define-typography-config(
@@ -63,6 +63,15 @@ body {
   
   --primary: #{mat.get-color-from-palette($perseus-primary)};
   --accent: #{mat.get-color-from-palette($perseus-accent)};
+}
+
+.expandable-row {
+  height: 0 !important;
+  cursor: pointer;
+}
+
+.expandable-row:hover {
+  background-color: mat.get-color-from-palette($perseus-primary, 50) !important;
 }
 
 //--- Move these to per component scss files by moving paletts to a common module.
