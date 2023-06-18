@@ -74,6 +74,10 @@ body {
   background-color: mat.get-color-from-palette($perseus-primary, 50) !important;
 }
 
+.expandable-row td {
+  border-bottom-width: 0;
+}
+
 //--- Move these to per component scss files by moving paletts to a common module.
 
 .toolbar {

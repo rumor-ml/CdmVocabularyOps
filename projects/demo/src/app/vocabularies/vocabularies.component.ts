@@ -26,6 +26,7 @@ export class VocabulariesComponent implements AfterViewInit, OnDestroy {
 
   chooseVocabulariesFormGroup: FormGroup = new FormGroup({})
   verifyMapping: FormGroup = new FormGroup({})
+  customizeVocabulary: string|null = null
 
   constructor(
     private breakpointObserver: BreakpointObserver,
@@ -43,12 +44,14 @@ export class VocabulariesComponent implements AfterViewInit, OnDestroy {
     this.subscriptions.push(
       this.route.queryParamMap.subscribe(
         ps => {
-          const s = ps.get('step')
-          if (s) {
-            if (s === 'Customize Mappings') {
-              setTimeout(() => this.stepper!.selectedIndex = 1)
+          setTimeout(() => {
+            const s = ps.get('step')
+            if (s) {
+              if (s === 'Customize Mappings') {
+                this.stepper!.selectedIndex = 1
+              }
             }
-          }
+          })
         }
       )
     )

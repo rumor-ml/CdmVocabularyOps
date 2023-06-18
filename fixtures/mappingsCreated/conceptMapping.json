@@ -1,0 +1,92 @@
+{
+    "MySiteEncounterVocabulary-ambulatory": {
+        "sourceName": [
+            "ambulatory"
+        ],
+        "vocabularyMappings": [
+            {
+                "database": "synthea",
+                "table": "encounters",
+                "conceptName": "ENCOUNTERCLASS"
+            }
+        ],
+        "conceptFrequency": 18936,
+        "sourceVocabularyId": "MySiteEncounterVocabulary",
+        "id": "MySiteEncounterVocabulary-ambulatory"
+    },
+    "MySiteEncounterVocabulary-wellness": {
+        "sourceName": [
+            "wellness"
+        ],
+        "vocabularyMappings": [
+            {
+                "database": "synthea",
+                "table": "encounters",
+                "conceptName": "ENCOUNTERCLASS"
+            }
+        ],
+        "conceptFrequency": 19106,
+        "sourceVocabularyId": "MySiteEncounterVocabulary",
+        "id": "MySiteEncounterVocabulary-wellness"
+    },
+    "MySiteEncounterVocabulary-outpatient": {
+        "sourceName": [
+            "outpatient"
+        ],
+        "vocabularyMappings": [
+            {
+                "database": "synthea",
+                "table": "encounters",
+                "conceptName": "ENCOUNTERCLASS"
+            }
+        ],
+        "conceptFrequency": 9003,
+        "sourceVocabularyId": "MySiteEncounterVocabulary",
+        "id": "MySiteEncounterVocabulary-outpatient"
+    },
+    "MySiteEncounterVocabulary-urgentcare": {
+        "sourceName": [
+            "urgentcare"
+        ],
+        "vocabularyMappings": [
+            {
+                "database": "synthea",
+                "table": "encounters",
+                "conceptName": "ENCOUNTERCLASS"
+            }
+        ],
+        "conceptFrequency": 2373,
+        "sourceVocabularyId": "MySiteEncounterVocabulary",
+        "id": "MySiteEncounterVocabulary-urgentcare"
+    },
+    "MySiteEncounterVocabulary-emergency": {
+        "sourceName": [
+            "emergency"
+        ],
+        "vocabularyMappings": [
+            {
+                "database": "synthea",
+                "table": "encounters",
+                "conceptName": "ENCOUNTERCLASS"
+            }
+        ],
+        "conceptFrequency": 2090,
+        "sourceVocabularyId": "MySiteEncounterVocabulary",
+        "id": "MySiteEncounterVocabulary-emergency"
+    },
+    "MySiteEncounterVocabulary-inpatient": {
+        "sourceName": [
+            "inpatient"
+        ],
+        "vocabularyMappings": [
+            {
+                "database": "synthea",
+                "table": "encounters",
+                "conceptName": "ENCOUNTERCLASS"
+            }
+        ],
+        "conceptFrequency": 1838,
+        "sourceVocabularyId": "MySiteEncounterVocabulary",
+        "id": "MySiteEncounterVocabulary-inpatient"
+    }
+}

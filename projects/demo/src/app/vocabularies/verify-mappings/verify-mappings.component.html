@@ -89,10 +89,23 @@
         >
           <div class="table-detail-content">
             <div class="actions">
+              <button class="action" mat-fab extended color="primary" (click)="searchConcepts(row)">
+                <mat-icon>search</mat-icon>
+                Search for Mapping
+              </button>
+              <button class="action" mat-fab extended color="primary" (click)="searchConcepts(row)">
+                <mat-icon>table</mat-icon>
+                Review Source Tables
+              </button>
               <button class="action" mat-fab extended color="warn" (click)="searchConcepts(row)">
                 <mat-icon>delete</mat-icon>
-                Delete Mapping
+                Reset Mapping
               </button>
+            </div>
+            <div *ngIf="row['athenaConceptId']">
+              <div class="mat-headline-5">Concept Code: {{row['athenaConceptCode']}}</div>
+              <div class="mat-headline-5">Concept Name: {{row['athenaConceptName']}}</div>
+              <div class="mat-headline-5">Vocabulary ID: {{row['athenaVocabularyId']}}</div>
             </div>
           </div>
         </div>

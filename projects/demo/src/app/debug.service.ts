@@ -7,6 +7,8 @@ import { Vocabulary } from './vocabularies/vocabularies.service';
 import { Concept } from './vocabularies/concept.service';
 import { TableData } from '@commonshcs/docs';
 
+// http://localhost:4200/?step=Customize%20Mappings&customizeVocabulary=MySiteEncounterVocabulary&conceptMappingId=MySiteEncounterVocabulary-wellness
+
 @Injectable({
   providedIn: 'root'
 })

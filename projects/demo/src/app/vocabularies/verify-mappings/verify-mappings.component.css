@@ -2,10 +2,16 @@
   margin-top: 16px;
 }
 
-.table-row td {
-  border-bottom-width: 0;
-}
-
 .table-detail-content {
   padding: 8px;
+  display: flex;
+  gap: 16px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 300px;
+  margin-bottom: 8px;
 }

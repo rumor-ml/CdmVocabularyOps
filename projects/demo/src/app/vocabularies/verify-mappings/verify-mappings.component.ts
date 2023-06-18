@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, OnDestroy, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, Input, OnDestroy, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AbstractControl, FormControl, FormGroup, ReactiveFormsModule, ValidationErrors, ValidatorFn, Validators } from '@angular/forms';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
@@ -25,6 +25,7 @@ import { SourceConcept, SourceDbService } from '../../source-db.service';
 import { VocabularyMapping, VocabularyMappingService } from '../vocabulary-mapping.service';
 import { SmartSearchComponent } from './smart-search/smart-search.component';
 import { trigger, state, style, transition, animate } from '@angular/animations';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-verify-mappings',
@@ -95,6 +96,7 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
     private vocabulariesService: VocabulariesService,
     private vocabularyMappingService: VocabularyMappingService,
     private sourceDbService: SourceDbService,
+    private route: ActivatedRoute,
   ) { }
 
   ngAfterViewInit(): void {
@@ -104,6 +106,23 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
     this.dataSource.sort = this.sort;
     this.dataSource.paginator = this.paginator;
     this.table.dataSource = this.dataSource;
+
+    this.subscriptions.push(
+      this.route.queryParamMap.subscribe(
+        ps => {
+          setTimeout(() => {
+            const customizeVocabulary = ps.get('customizeVocabulary')
+            if (customizeVocabulary && !this.vocabularyControl.value) {
+              this.vocabularyControl.setValue(customizeVocabulary)
+            }
+            const conceptMappingId = ps.get('conceptMappingId')
+            if (conceptMappingId && !this.expanded) {
+              this.expanded = {id: conceptMappingId} as ConceptMapping
+            }
+          })
+        }
+      )
+    )
   }
 
   subscriptions = [

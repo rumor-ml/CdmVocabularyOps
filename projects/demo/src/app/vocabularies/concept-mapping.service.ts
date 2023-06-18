@@ -18,6 +18,7 @@ export interface ConceptMapping {
   sourceVocabularyId: string,
   athenaConceptId: string|undefined,
   athenaVocabularyId: string|undefined,
+  athenaConceptCode: string|undefined,
   athenaConceptName: string|undefined,
   similarityScore: number|undefined,
 }
@@ -31,12 +32,6 @@ export class ConceptMappingService extends DocsTableDataService<ConceptMapping> 
     @Inject('DocsToken') docs: Docs,
   ) {
     super({docs, path: 'conceptMapping', idField: 'id'});
-  }
-
-  override valueChanges(params?: TableQuery | undefined): Observable<ConceptMapping[] | null> {
-    return super.valueChanges(params).pipe(
-      tap((cs) => console.log(params, cs))
-    )
   }
 
   compositeKey(params: {
