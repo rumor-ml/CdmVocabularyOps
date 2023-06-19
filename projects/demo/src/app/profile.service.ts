@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@angular/core';
-import { TableFieldValue, DocsTableDataService, Docs } from '@commonshcs/docs';
+import { TableFieldValue, DocsDelegate, Docs } from '@commonshcs-angular';
 
 export interface Profile {
   // https://stackoverflow.com/questions/70956050/how-do-i-declare-object-value-type-without-declaring-key-type
@@ -26,7 +26,7 @@ export interface Column {
 @Injectable({
   providedIn: 'root'
 })
-export class ProfileService extends DocsTableDataService<Profile> {
+export class ProfileService extends DocsDelegate<Profile> {
 
   constructor(
     @Inject('DocsToken') docs: Docs,

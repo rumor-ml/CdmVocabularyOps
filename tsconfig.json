@@ -22,7 +22,7 @@
       "@angular/*": [
         "./node_modules/@angular/*"
       ],
-      "@commonshcs/docs": [
+      "@commonshcs-angular": [
         "../commonshcs-angular/projects/docs/src/public-api.ts"
       ]
     },

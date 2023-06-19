@@ -1,20 +1,23 @@
 import { Inject, Injectable } from '@angular/core';
-import { Docs, DocsTableDataService, TableFieldValue, TableQueryWhere } from '@commonshcs/docs';
+import { Docs, DocsDelegate, TableFieldValue, DocsQueryWhere } from '@commonshcs-angular';
 import { map } from 'rxjs';
 
 export interface Concept {
     // https://stackoverflow.com/questions/70956050/how-do-i-declare-object-value-type-without-declaring-key-type
     [key: string]: TableFieldValue,
     id?: string,
-    code: TableFieldValue,
     name: TableFieldValue,
+    domainId: string,
     vocabularyId: string,
+    conceptClassId: string,
+    standardConcept: string,
+    code: TableFieldValue,
 }
 
 @Injectable({
   providedIn: 'root'
 })
-export class ConceptService extends DocsTableDataService<Concept> {
+export class ConceptService extends DocsDelegate<Concept> {
 
   constructor(
     @Inject('DocsToken') docs: Docs,
@@ -25,7 +28,7 @@ export class ConceptService extends DocsTableDataService<Concept> {
   antiJoin(params: {
     conceptCodes?: Set<TableFieldValue>,
     conceptNames?: Set<TableFieldValue>,
-    where: TableQueryWhere[]
+    where: DocsQueryWhere[]
   }){
     return this.valueChanges({
       where: params.where

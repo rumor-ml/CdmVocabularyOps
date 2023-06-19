@@ -1,92 +1,5546 @@
 {
   "433644": {
     "id": "433644",
-    "code": "300913006",
     "name": "Allergy to shellfish",
-    "vocabularyId": "SNOMED"
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Clinical Finding",
+    "standardConcept": "S",
+    "code": "300913006"
   },
   "438614": {
     "id": "438614",
-    "code": "91934008",
     "name": "Allergy to nut",
-    "vocabularyId": "SNOMED"
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Clinical Finding",
+    "standardConcept": "S",
+    "code": "91934008"
   },
   "439406": {
     "id": "439406",
-    "code": "232347008",
     "name": "Allergy to animal dander",
-    "vocabularyId": "SNOMED"
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Clinical Finding",
+    "standardConcept": "S",
+    "code": "232347008"
   },
   "442116": {
     "id": "442116",
-    "code": "91930004",
     "name": "Allergy to edible egg",
-    "vocabularyId": "SNOMED"
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Clinical Finding",
+    "standardConcept": "",
+    "code": "91930004"
+  },
+  "581574": {
+    "id": "581574",
+    "name": "FAMILY WELLNESS OMEPRAZOLE - omeprazole tablet, orally disintegrating, delayed release",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "66a96497-1b65-4943-b6b9-01ae8bd975ff"
+  },
+  "601866": {
+    "id": "601866",
+    "name": "Abnormal wellness exam",
+    "domainId": "Condition",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Clinical Finding",
+    "standardConcept": "S",
+    "code": "471931000124105"
+  },
+  "608108": {
+    "id": "608108",
+    "name": "Wellness record",
+    "domainId": "Type Concept",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Record Artifact",
+    "standardConcept": "",
+    "code": "1156871006"
+  },
+  "628667": {
+    "id": "628667",
+    "name": "loperamide hydrochloride, simethicone 2mg/1 / 125mg/1 ORAL TABLET [family wellness anti diarrheal plus anti gas]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "3ced2035-6ce3-4cdf-936f-9f58003544ca"
+  },
+  "628733": {
+    "id": "628733",
+    "name": "cocoa butter, phenylephrine hcl 6.5mg/1 / 2211mg/1 RECTAL SUPPOSITORY [family wellness hemorrhoidal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "54046645-5b72-4652-aac7-8e5c8abb4387"
+  },
+  "628864": {
+    "id": "628864",
+    "name": "ibuprofen 100mg/5mL ORAL SUSPENSION [family wellness childrens ibuprofen]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "7df2ebce-4673-4583-8242-8b7846d1790c"
+  },
+  "629104": {
+    "id": "629104",
+    "name": "loperamide hcl 2mg/1 ORAL TABLET, FILM COATED [family wellness anti diarrheal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d70c9cb0-4a93-4308-b7e4-d28d542e848a"
+  },
+  "631518": {
+    "id": "631518",
+    "name": "capsicum annuum, silicea, verbascum thapsus, ferrum phosphoricum, kali muriaticum, aconitum napellus... 6[hp_X]/1 / 12[hp_X]/1 / 30[hp_X]/1 ORAL TABLET, CHEWABLE [wellness earache]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "6d7b462f-9a12-4378-9219-4060c868d0af"
+  },
+  "632008": {
+    "id": "632008",
+    "name": "capsicum annuum, silicea, verbascum thapsus, ferrum phosphoricum, kali muriaticum, aconitum napellus... 6[hp_X]/1 / 12[hp_X]/1 / 30[hp_X]/1 ORAL TABLET, CHEWABLE [wellness earache]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "eb9b45f1-8847-4563-a578-ca14e985441d"
+  },
+  "727966": {
+    "id": "727966",
+    "name": "FAMILY WELLNESS ACID REDUCER 150 - ranitidine tablet, film coated",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "815310c8-ec9a-41f8-864d-03efa7d63205"
+  },
+  "757799": {
+    "id": "757799",
+    "name": "KESSLER FAMILY WELLNESS - pain relief stick stick",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "caa6b5a4-cec3-44bf-9f13-3c3efba86b40"
+  },
+  "758118": {
+    "id": "758118",
+    "name": "pain relief stick 15g/85g / .1g/85g / 25g/85g TOPICAL STICK [kessler family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "06c43fde-7c98-4aed-a90b-b620dbde1374"
+  },
+  "763701": {
+    "id": "763701",
+    "name": "Annual wellness visit",
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Procedure",
+    "standardConcept": "S",
+    "code": "444971000124105"
+  },
+  "764527": {
+    "id": "764527",
+    "name": "Medicare Annual Wellness Visit",
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Procedure",
+    "standardConcept": "S",
+    "code": "456201000124103"
+  },
+  "774292": {
+    "id": "774292",
+    "name": "family wellness bacitracin zinc, polymyxin b sulfate 500[USP'U]/g / 10000[USP'U]/g TOPICAL OINTMENT [family wellness first aid antibiotic]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "96b1bc46-83e2-131f-e053-2995a90a7851"
+  },
+  "774293": {
+    "id": "774293",
+    "name": "family wellness bacitracin, neomycin, polymyxin b 3.5mg/g / 400[USP'U]/g / 5000[USP'U]/g TOPICAL OINTMENT [family wellness original]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "96b1f13d-f707-1c14-e053-2995a90adbd2"
+  },
+  "774491": {
+    "id": "774491",
+    "name": "witch hazel 5g/1 TOPICAL SOLUTION [family wellness medicated wipes]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "98fe316a-90f2-dd84-e053-2a95a90a2ef3"
+  },
+  "799031": {
+    "id": "799031",
+    "name": "FAMILY WELLNESS EAR RELIEF EAR DROPS - matricaria chamomilla, mercurius solubilis, sulfur solution/ drops",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "dba89b5c-fe1d-485d-a1af-d8cd1f15b615"
+  },
+  "799032": {
+    "id": "799032",
+    "name": "FAMILY WELLNESS EARWAX REMOVAL EARWAX AND BULB - carbamide peroxide kit",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "26ebf208-4710-4af2-aa2d-b2040b85cf85"
+  },
+  "799547": {
+    "id": "799547",
+    "name": "matricaria chamomilla, mercurius solubilis, sulfur 10[hp_X]/mL / 12[hp_X]/mL / 15[hp_X]/mL AURICULAR (OTIC) SOLUTION/ DROPS [family wellness ear relief ear drops]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9ec5d080-44f1-c9a4-e053-2a95a90a84b0"
+  },
+  "799572": {
+    "id": "799572",
+    "name": "glycerin, phenylephrine hcl, pramoxine hcl, petrolatum 1g/100g / 15g/100g / .25g/100g / 14.4g/100g TOPICAL CREAM [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9ec9214d-4d91-d267-e053-2995a90a3553"
+  },
+  "800837": {
+    "id": "800837",
+    "name": "carbamide peroxide KIT [family wellness earwax removal earwax and bulb]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9ec665fc-8291-b6bc-e053-2995a90ab1ea"
+  },
+  "817096": {
+    "id": "817096",
+    "name": "SCHOLLS WELLNESS COMPANY LLC INGROWN TOENAIL - sodium sulfide gel",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b7008e97-edb5-3b83-e053-2995a90afde0"
+  },
+  "817097": {
+    "id": "817097",
+    "name": "SCHOLLS WELLNESS COMPANY LLC LIQUID CORN AND CALLUS REMOVER - salicylic acid liquid",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b7262532-7241-fda5-e053-2a95a90aca18"
+  },
+  "817098": {
+    "id": "817098",
+    "name": "SCHOLLS WELLNESS COMPANY LLC CLEAR AWAY WART REMOVERS - salicylic acid disc",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b727c0cb-7259-4aca-e053-2a95a90a76bc"
+  },
+  "817864": {
+    "id": "817864",
+    "name": "sodium sulfide 1g/10g TOPICAL GEL [scholls wellness company llc ingrown toenail]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b7008e97-edb6-3b83-e053-2995a90afde0"
+  },
+  "817867": {
+    "id": "817867",
+    "name": "salicylic acid 1.7mg/mL TOPICAL LIQUID [scholls wellness company llc liquid corn and callus remover]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b7262532-7242-fda5-e053-2a95a90aca18"
+  },
+  "817868": {
+    "id": "817868",
+    "name": "salicylic acid 4mg/1 TOPICAL DISC [scholls wellness company llc clear away wart removers]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b727c0cb-725a-4aca-e053-2a95a90a76bc"
+  },
+  "819295": {
+    "id": "819295",
+    "name": "salicylic acid 1.7mg/mL TOPICAL LIQUID [scholls wellness company llc liquid corn and callus remover]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "734690464"
+  },
+  "819296": {
+    "id": "819296",
+    "name": "salicylic acid 4mg/1 TOPICAL DISC [scholls wellness company llc clear away wart removers]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "734690631"
+  },
+  "819297": {
+    "id": "819297",
+    "name": "sodium sulfide 1g/10g TOPICAL GEL [scholls wellness company llc ingrown toenail]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "734697214"
+  },
+  "820203": {
+    "id": "820203",
+    "name": "salicylic acid 1.7mg/mL TOPICAL LIQUID [scholls wellness company llc liquid corn and callus remover]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "11-digit NDC",
+    "standardConcept": "",
+    "code": "73469046401"
+  },
+  "820227": {
+    "id": "820227",
+    "name": "sodium sulfide 1g/10g TOPICAL GEL [scholls wellness company llc ingrown toenail]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "11-digit NDC",
+    "standardConcept": "",
+    "code": "73469721401"
+  },
+  "825337": {
+    "id": "825337",
+    "name": "AZX WELLNESS HAND SANITIZER - alcohol gel",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "bf0098ab-6c0d-ecd2-e053-2a95a90a670c"
+  },
+  "826794": {
+    "id": "826794",
+    "name": "alcohol 70mL/100mL TOPICAL GEL [azx wellness hand sanitizer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "bf0090a8-4b54-93d0-e053-2a95a90a8772"
+  },
+  "983552": {
+    "id": "983552",
+    "name": "menthol .11g/112g / .12g/112g / 1.12g/112g TOPICAL SPRAY [mars wellness magnesium]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "dae7673c-4353-b9d7-e053-2995a90a96da"
+  },
+  "984127": {
+    "id": "984127",
+    "name": "MARS WELLNESS MAGNESIUM - menthol spray",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "dae7673c-4352-b9d7-e053-2995a90a96da"
+  },
+  "1104280": {
+    "id": "1104280",
+    "name": "acetaminophen, diphenhydramine hydrochloride, phenylephrine hydrochloride 10mg/1 / 25mg/1 / 650mg/1 ORAL POWDER, FOR SOLUTION [family wellness severe cold and cough]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "5ebd3a99-bdb5-42b6-a171-8833850d755e"
+  },
+  "1117178": {
+    "id": "1117178",
+    "name": "aspirin, citric acid, sodium bicarbonate 325mg/1 / 1000mg/1 / 1916mg/1 ORAL TABLET, EFFERVESCENT [family wellness effervescent antacid and pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d1176553-b6d1-0d33-e053-2a95a90a0e9b"
+  },
+  "1160811": {
+    "id": "1160811",
+    "name": "aspirin, citric acid, sodium bicarbonate 325mg/1 / 1000mg/1 / 1916mg/1 ORAL TABLET, EFFERVESCENT [family wellness effervescent antacid and pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "88c9e921-0734-2184-e053-2a95a90a972b"
+  },
+  "1169469": {
+    "id": "1169469",
+    "name": "FAMILY WELLNESS COLD HOT - menthol patch",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "96cb65e6-566a-47d0-e053-2995a90af9bc"
+  },
+  "1170284": {
+    "id": "1170284",
+    "name": "menthol 50mg/1 TOPICAL PATCH [family wellness cold hot]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "96cb65e6-566b-47d0-e053-2995a90af9bc"
+  },
+  "1184321": {
+    "id": "1184321",
+    "name": "phenylephrine hci, petrolatum, mineral oil 14g/100g / .25g/100g / 74.9g/100g RECTAL; TOPICAL OINTMENT [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9a126a14-0da8-3cd5-e053-2995a90afce3"
+  },
+  "1191627": {
+    "id": "1191627",
+    "name": "nicotine polacrilex 4mg/1 ORAL GUM, CHEWING [family wellness nicotine]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "51066401-a009-45f5-8f7c-69aedf8bb9c4"
+  },
+  "1191805": {
+    "id": "1191805",
+    "name": "benzalkonium chloride .115mg/100mg TOPICAL PATCH [bloom wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "21598883-cb14-48ca-956c-0454c4f59c48"
+  },
+  "1192111": {
+    "id": "1192111",
+    "name": "BLOOM WELLNESS - benzalkonium chloride patch",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "54aa22f8-3c3f-4e61-8c14-12e970e0f683"
+  },
+  "1202382": {
+    "id": "1202382",
+    "name": "SCHOLLS WELLNESS COMPANY LLC ONE STEP CORN REMOVERS - salicylic acid disc",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "7f98d59c-fc89-545b-e053-2a91aa0a49e6"
+  },
+  "1203051": {
+    "id": "1203051",
+    "name": "AZX WELLNESS HAND SANITIZER - alcohol gel",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b57c7e3a-f0bf-fd42-e053-2a95a90a3b4f"
+  },
+  "1203921": {
+    "id": "1203921",
+    "name": "SCHOLLS WELLNESS COMPANY LLC DS EXTRA THICK CALLUS REMOVER - salicylic acid disc",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b7144150-6c81-66c2-e053-2995a90ad6e9"
+  },
+  "1203949": {
+    "id": "1203949",
+    "name": "SCHOLLS WELLNESS COMPANY LLC DURAGEL CORN REMOVER - salicylic acid disc",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b7249271-0561-db00-e053-2995a90ac022"
+  },
+  "1203955": {
+    "id": "1203955",
+    "name": "SCHOLLS WELLNESS COMPANY LLC DURAGEL CALLUS REMOVER - salicylic acid disc",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b7256b0a-3c7e-139f-e053-2a95a90ad344"
+  },
+  "1203974": {
+    "id": "1203974",
+    "name": "SCHOLLS WELLNESS COMPANY LLC CORN REMOVERS - salicylic acid disc",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b727191b-60ad-9a61-e053-2a95a90ab543"
+  },
+  "1203980": {
+    "id": "1203980",
+    "name": "SCHOLLS WELLNESS COMPANY LLC CLEAR AWAY WART REMOVERS - salicylic acid liquid",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b7285951-65cb-0ca4-e053-2a95a90a44af"
+  },
+  "1208392": {
+    "id": "1208392",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc one step corn removers]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "7f98d59c-fc8a-545b-e053-2a91aa0a49e6"
+  },
+  "1210299": {
+    "id": "1210299",
+    "name": "alcohol .8mL/mL TOPICAL GEL [azx wellness hand sanitizer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b57c7e4d-42a1-1547-e053-2995a90a1f1f"
+  },
+  "1211131": {
+    "id": "1211131",
+    "name": "aspirin, chlorpheniramine maleate, phenylephrine bitartrate 2mg/1 / 325mg/1 / 7.8mg/1 ORAL TABLET, EFFERVESCENT [family wellness effervescent cold relief original]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b60f3483-2be3-6275-e053-2a95a90a0fa7"
+  },
+  "1212637": {
+    "id": "1212637",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc ds extra thick callus remover]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b7144150-6c82-66c2-e053-2995a90ad6e9"
+  },
+  "1212705": {
+    "id": "1212705",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc duragel corn remover]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b7249271-0562-db00-e053-2995a90ac022"
+  },
+  "1212715": {
+    "id": "1212715",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc duragel callus remover]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b7256b0a-3c7f-139f-e053-2a95a90ad344"
+  },
+  "1212752": {
+    "id": "1212752",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc corn removers]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b727191b-60ae-9a61-e053-2a95a90ab543"
+  },
+  "1212773": {
+    "id": "1212773",
+    "name": "salicylic acid .17g/g TOPICAL LIQUID [scholls wellness company llc clear away wart removers]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b7285951-65cc-0ca4-e053-2a95a90a44af"
+  },
+  "1214552": {
+    "id": "1214552",
+    "name": "family wellness bacitracin,neomycin,polymyxinb,pramoxinehcl 10mg/100g / 3.5mg/100g / 500[USP'U]/100g / 10000[USP'U]/100g TOPICAL OINTMENT [tripleantibioticapainscaritch]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b8807d71-e3c6-35d9-e053-2995a90ad389"
+  },
+  "1214555": {
+    "id": "1214555",
+    "name": "family wellness clotrimazole 1g/100g TOPICAL CREAM [clotrimazole]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b88202bb-3027-f8e0-e053-2995a90a44dd"
+  },
+  "1214559": {
+    "id": "1214559",
+    "name": "family wellness bacitracin,neomycin,polymyxinb,pramoxine 10mg/100g / 3.5mg/100g / 500[USP'U]/100g / 10000[USP'U]/100g TOPICAL OINTMENT [tripleantibioticointmentandpainrelief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b8820967-1e4c-4473-e053-2a95a90af683"
+  },
+  "1214560": {
+    "id": "1214560",
+    "name": "family wellness tolnaftate 1g/100g TOPICAL CREAM [tolnaftate cream 1% antifungal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b8820967-1e4d-4473-e053-2a95a90af683"
+  },
+  "1214569": {
+    "id": "1214569",
+    "name": "family wellness bacitracin, neomycin, polymyxin b 3.5mg/g / 400[USP'U]/g / 5000[USP'U]/g TOPICAL OINTMENT [family wellness original]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b88222f0-e5d0-7118-e053-2a95a90a078c"
+  },
+  "1223376": {
+    "id": "1223376",
+    "name": "salicylic acid .17g/g TOPICAL LIQUID [scholls wellness company llc clear away wart removers]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "734690118"
+  },
+  "1223377": {
+    "id": "1223377",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc ds extra thick callus remover]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "734690463"
+  },
+  "1223378": {
+    "id": "1223378",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc duragel corn remover]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "734690627"
+  },
+  "1223379": {
+    "id": "1223379",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc corn removers]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "734690638"
+  },
+  "1223380": {
+    "id": "1223380",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc duragel callus remover]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "734690644"
+  },
+  "1223381": {
+    "id": "1223381",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc one step corn removers]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "734690753"
+  },
+  "1231758": {
+    "id": "1231758",
+    "name": "loperamide hcl 2mg/1 ORAL TABLET, FILM COATED [family wellness anti diarrheal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9ec614d6-78dd-4bf8-8fa6-faf6902d2f8e"
+  },
+  "1374870": {
+    "id": "1374870",
+    "name": "bacitracin zinc, neomycin sulfate, polymyxin b sulfate, pramoxine hydrochloride 1g/100g / .01g/100g / .0035g/100g / .51g/100g TOPICAL OINTMENT [family wellness antiseptic and pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "eaf5702f-b406-77fa-e053-2995a90ace48"
+  },
+  "1374871": {
+    "id": "1374871",
+    "name": "diphenhydramine hydrochloride, zinc acetate 2g/100g / .1g/100g TOPICAL CREAM [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "eaf5702f-b402-77fa-e053-2995a90ace48"
+  },
+  "1374872": {
+    "id": "1374872",
+    "name": "glycerin, phenylephrine hcl, pramoxine hcl, petrolatum 1g/100g / 15g/100g / .25g/100g / 14.4g/100g TOPICAL CREAM [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "eaf56b94-91a3-54fb-e053-2a95a90aa308"
+  },
+  "1393267": {
+    "id": "1393267",
+    "name": "acetaminophen, dextromethorphan hbr, phenylephrine hcl 10mg/1 / 20mg/1 / 500mg/1 ORAL POWDER, FOR SOLUTION [family wellness multi symptom severe cold]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "e7b2da5d-c25f-47b2-b51e-b83be606036e"
+  },
+  "1526918": {
+    "id": "1526918",
+    "name": "loratadine 10mg/1 ORAL TABLET [family wellness allergy relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "3d62fd4c-4069-4420-a492-81a5745ae723"
+  },
+  "1527219": {
+    "id": "1527219",
+    "name": "family wellness neomycin,polymyxinb,pramoxinehcl 10mg/g / 3.5mg/g / 10000[USP'U]/g TOPICAL CREAM [family wellness plus pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "98fac7f9-0d41-8da5-e053-2995a90a8390"
+  },
+  "1542328": {
+    "id": "1542328",
+    "name": "famotidine, calcium carbonate and magnesium hydroxide 10mg/1 / 165mg/1 / 800mg/1 ORAL TABLET, CHEWABLE [family wellness acid reducer complete]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b2bbca6b-8604-42af-946b-7a48417fc851"
+  },
+  "1542528": {
+    "id": "1542528",
+    "name": "acetaminophen, diphenhydramine hydrochloride, phenylephrine hydrochloride 10mg/1 / 25mg/1 / 650mg/1 ORAL POWDER, FOR SOLUTION [family wellness flu and severe cold and cough nighttime]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "4ff48881-f781-4de2-8798-1d9b8ffd5254"
+  },
+  "1565005": {
+    "id": "1565005",
+    "name": "neomycin sulfate, polymyxin b sulfate, and pramoxine hci 10mg/g / 3.5mg/g / 10000[USP'U]/g TOPICAL CREAM [family wellness triple antibiotic plus pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "80c68765-ae5a-d554-e053-2a91aa0a966f"
+  },
+  "1580348": {
+    "id": "1580348",
+    "name": "famotidine, calcium carbonate and magnesium hydroxide 10mg/1 / 165mg/1 / 800mg/1 ORAL TABLET, CHEWABLE [family wellness acid reducer complete]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "3a53df83-0343-49ad-9e95-402f932a3cba"
+  },
+  "1581629": {
+    "id": "1581629",
+    "name": "clotrimazole 10mg/g TOPICAL CREAM [family wellness antifungal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "7d7efd9a-e367-b111-e053-2991aa0a5e6f"
+  },
+  "1629129": {
+    "id": "1629129",
+    "name": "ethyl alcohol formulation 38.35mL/59mL TOPICAL LIQUID [nordic wellness vitamin c hand sanitizer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d578f58f-a804-df1e-e053-2a95a90a34de"
+  },
+  "1629538": {
+    "id": "1629538",
+    "name": "alcohol .69mL/mL TOPICAL GEL [flo wellness advanced hand sanitizer with moisturizers and vitamin e]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d57ed5a6-e033-4c8f-e053-2995a90a2bdb"
+  },
+  "1719393": {
+    "id": "1719393",
+    "name": "famotidine 20mg/1 ORAL TABLET [family wellness acid reducer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "1484d3ed-be02-4131-aeea-14c0c01df6a9"
+  },
+  "1719395": {
+    "id": "1719395",
+    "name": "polyethylene glycol 3350 17g/17g ORAL POWDER, FOR SOLUTION [family wellness laxative]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "14abd454-13df-4aba-9719-4c1fcdfe11db"
+  },
+  "1719756": {
+    "id": "1719756",
+    "name": "famotidine, calcium carbonate and magnesium hydroxide 10mg/1 / 165mg/1 / 800mg/1 ORAL TABLET, CHEWABLE [family wellness acid controller complete]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "754fbe35-fac1-48cb-859b-1cbf57318c70"
+  },
+  "1720453": {
+    "id": "1720453",
+    "name": "loperamide hcl 2mg/1 ORAL TABLET, FILM COATED [family wellness anti diarrheal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "afa49af5-3858-4fae-a877-d38c9e2e93c3"
+  },
+  "1720700": {
+    "id": "1720700",
+    "name": "esomeprazole 20mg/1 ORAL CAPSULE, DELAYED RELEASE [family wellness esomeprazole magnesium]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f716fbb2-4b42-4cb8-a4e9-614dd42f5737"
+  },
+  "1766391": {
+    "id": "1766391",
+    "name": "FAMILY WELLNESS INFANTS GAS RELIEF - simethicone emulsion",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "22245c00-528f-42d0-860e-a9ceecfe3690"
+  },
+  "1766424": {
+    "id": "1766424",
+    "name": "FAMILY WELLNESS MULTI SYMPTOM SEVERE COLD - acetaminophen, dextromethorphan hbr, phenylephrine hcl powder, for solution",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "5a7e51f5-e5fe-4445-822b-38b7b30e58d6"
+  },
+  "1783577": {
+    "id": "1783577",
+    "name": "dextran 70, polyethylene glycol 400, povidone, and tetrahydrozoline hydrochloride 1mg/mL / 10mg/mL / .5mg/mL OPHTHALMIC SOLUTION/ DROPS [family wellness advanced eye]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "c9ddf453-c3e2-da38-e053-2995a90af3bf"
+  },
+  "1788339": {
+    "id": "1788339",
+    "name": "phenazopyridine hydrochloride 97.5mg/1 ORAL TABLET [family wellness maximum strength urinary pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "fbca7572-7d86-4814-ba3c-85ee8d7d4f16"
+  },
+  "1800140": {
+    "id": "1800140",
+    "name": "sodium fluoride .02g/100mL DENTAL MOUTHWASH [family wellness anticavity fresh mint]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ca3ea13f-05ce-4be9-e053-2a95a90ad42a"
+  },
+  "1800144": {
+    "id": "1800144",
+    "name": "cetylpyridinium chloride .07g/100mL ORAL RINSE [family wellness total health]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ca3e9f1a-998d-4aad-e053-2a95a90af03b"
+  },
+  "1800145": {
+    "id": "1800145",
+    "name": "eucalyptol, menthol, methyl salicylate, thymol .06g/100mL / .042g/100mL / .064g/100mL / .092g/100mL ORAL MOUTHWASH [family wellness original amber]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ca3e9f1a-998c-4aad-e053-2a95a90af03b"
+  },
+  "1800149": {
+    "id": "1800149",
+    "name": "eucalyptol, menthol, methyl salicylate, thymol .06g/100mL / .042g/100mL / .064g/100mL / .092g/100mL ORAL MOUTHWASH [family wellness blue mint]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ca3e747e-cb80-5f6e-e053-2995a90aa0df"
+  },
+  "1800151": {
+    "id": "1800151",
+    "name": "eucalyptol, menthol, methyl salicylate, thymol .6mg/mL / .42mg/mL / .64mg/mL / .92mg/mL ORAL MOUTHWASH [family wellness ultra mouthwash]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ca3e6d6c-4118-4016-e053-2a95a90abfcc"
+  },
+  "1800152": {
+    "id": "1800152",
+    "name": "eucalyptol, menthol, methyl salicylate, thymol .06g/100mL / .042g/100mL / .064g/100mL / .092g/100mL ORAL MOUTHWASH [family wellness green mint]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ca3e6d6c-4116-4016-e053-2a95a90abfcc"
+  },
+  "1962661": {
+    "id": "1962661",
+    "name": "SCHOLLS WELLNESS COMPANY LLC INGROWN TOENAIL - sodium sulfide gel",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d672a50e-e915-4355-e053-2a95a90a5248"
+  },
+  "1962662": {
+    "id": "1962662",
+    "name": "SCHOLLS WELLNESS COMPANY LLC LIQUID CORN AND CALLUS REMOVER - salicylic acid liquid",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d672d35a-6a06-362f-e053-2995a90a9ce1"
+  },
+  "1962663": {
+    "id": "1962663",
+    "name": "SCHOLLS WELLNESS COMPANY LLC DURAGEL CORN REMOVER - salicylic acid disc",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d672fecf-4ab3-1eb5-e053-2995a90a505f"
+  },
+  "1962664": {
+    "id": "1962664",
+    "name": "SCHOLLS WELLNESS COMPANY LLC CLEAR AWAY WART REMOVERS - salicylic acid disc",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d6730d97-4a1b-ae16-e053-2a95a90a31f2"
+  },
+  "1962665": {
+    "id": "1962665",
+    "name": "SCHOLLS WELLNESS COMPANY LLC DURAGEL CALLUS REMOVER - salicylic acid disc",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d6730d97-4a2b-ae16-e053-2a95a90a31f2"
+  },
+  "1962666": {
+    "id": "1962666",
+    "name": "SCHOLLS WELLNESS COMPANY LLC CLEAR AWAY WART REMOVERS - salicylic acid liquid",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d6732487-aab2-2ccd-e053-2a95a90af7f6"
+  },
+  "1962667": {
+    "id": "1962667",
+    "name": "SCHOLLS WELLNESS COMPANY LLC ONE STEP CORN REMOVERS - salicylic acid disc",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d6732fcf-effc-f684-e053-2995a90a491a"
+  },
+  "1962668": {
+    "id": "1962668",
+    "name": "SCHOLLS WELLNESS COMPANY LLC CORN REMOVERS - salicylic acid disc",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d6735398-70b1-7ccd-e053-2a95a90a0dfa"
+  },
+  "1962669": {
+    "id": "1962669",
+    "name": "SCHOLLS WELLNESS COMPANY LLC DS EXTRA THICK CALLUS REMOVER - salicylic acid disc",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d67366ff-b655-7c9c-e053-2995a90a29ff"
+  },
+  "1965801": {
+    "id": "1965801",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc duragel callus remover]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d655fd40-b3b3-e4f3-e053-2a95a90adae4"
+  },
+  "1965804": {
+    "id": "1965804",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc one step corn removers]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d65651f0-6225-0697-e053-2995a90abc06"
+  },
+  "1965806": {
+    "id": "1965806",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc corn removers]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d656683d-69e7-6c80-e053-2995a90a96e3"
+  },
+  "1965808": {
+    "id": "1965808",
+    "name": "salicylic acid .17g/g TOPICAL LIQUID [scholls wellness company llc clear away wart removers]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d65670aa-7b06-ba0c-e053-2a95a90ab009"
+  },
+  "1965811": {
+    "id": "1965811",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc ds extra thick callus remover]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d6567fa6-7bb8-5681-e053-2a95a90a406a"
+  },
+  "1965812": {
+    "id": "1965812",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc duragel corn remover]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d65680eb-ac05-6b34-e053-2a95a90afce7"
+  },
+  "1965813": {
+    "id": "1965813",
+    "name": "salicylic acid 4mg/1 TOPICAL DISC [scholls wellness company llc clear away wart removers]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d65690a4-3f60-375f-e053-2995a90a2be1"
+  },
+  "1965814": {
+    "id": "1965814",
+    "name": "salicylic acid 1.7mg/mL TOPICAL LIQUID [scholls wellness company llc liquid corn and callus remover]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d65690a4-3f62-375f-e053-2995a90a2be1"
+  },
+  "1965815": {
+    "id": "1965815",
+    "name": "sodium sulfide 1g/10g TOPICAL GEL [scholls wellness company llc ingrown toenail]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d6569630-4ad5-7173-e053-2995a90a66de"
+  },
+  "1966053": {
+    "id": "1966053",
+    "name": "sodium sulfide 1g/10g TOPICAL GEL [scholls wellness company llc ingrown toenail]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d67293f2-b7d7-c7a7-e053-2a95a90ac233"
+  },
+  "1966056": {
+    "id": "1966056",
+    "name": "salicylic acid 1.7mg/mL TOPICAL LIQUID [scholls wellness company llc liquid corn and callus remover]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d672cdb2-6cb3-53ee-e053-2995a90a41a7"
+  },
+  "1966058": {
+    "id": "1966058",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc duragel corn remover]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d672fecf-4aa5-1eb5-e053-2995a90a505f"
+  },
+  "1966059": {
+    "id": "1966059",
+    "name": "salicylic acid 4mg/1 TOPICAL DISC [scholls wellness company llc clear away wart removers]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d6730d97-4a0d-ae16-e053-2a95a90a31f2"
+  },
+  "1966060": {
+    "id": "1966060",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc duragel callus remover]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d6730d97-4a1d-ae16-e053-2a95a90a31f2"
+  },
+  "1966061": {
+    "id": "1966061",
+    "name": "salicylic acid .17g/g TOPICAL LIQUID [scholls wellness company llc clear away wart removers]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d673243f-9f5e-1111-e053-2a95a90a8a24"
+  },
+  "1966062": {
+    "id": "1966062",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc one step corn removers]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d6732f3d-75b2-509e-e053-2995a90a032e"
+  },
+  "1966063": {
+    "id": "1966063",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc corn removers]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d673370e-42fa-dab0-e053-2a95a90a613a"
+  },
+  "1966064": {
+    "id": "1966064",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc ds extra thick callus remover]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d67366ff-b647-7c9c-e053-2995a90a29ff"
+  },
+  "1966882": {
+    "id": "1966882",
+    "name": "salicylic acid .17g/g TOPICAL LIQUID [scholls wellness company llc clear away wart removers]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "668430011"
+  },
+  "1966883": {
+    "id": "1966883",
+    "name": "salicylic acid 1.7mg/mL TOPICAL LIQUID [scholls wellness company llc liquid corn and callus remover]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "668430046"
+  },
+  "1966884": {
+    "id": "1966884",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc ds extra thick callus remover]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "668430047"
+  },
+  "1966885": {
+    "id": "1966885",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc duragel corn remover]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "668430062"
+  },
+  "1966886": {
+    "id": "1966886",
+    "name": "salicylic acid 4mg/1 TOPICAL DISC [scholls wellness company llc clear away wart removers]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "668430063"
+  },
+  "1966887": {
+    "id": "1966887",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc duragel callus remover]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "668430064"
+  },
+  "1966888": {
+    "id": "1966888",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc corn removers]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "668430067"
+  },
+  "1966889": {
+    "id": "1966889",
+    "name": "salicylic acid .4g/g TOPICAL DISC [scholls wellness company llc one step corn removers]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "668430075"
+  },
+  "1966890": {
+    "id": "1966890",
+    "name": "sodium sulfide 1g/10g TOPICAL GEL [scholls wellness company llc ingrown toenail]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "668430721"
+  },
+  "1968161": {
+    "id": "1968161",
+    "name": "salicylic acid 1.7mg/mL TOPICAL LIQUID [scholls wellness company llc liquid corn and callus remover]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "11-digit NDC",
+    "standardConcept": "",
+    "code": "66843004641"
+  },
+  "1982257": {
+    "id": "1982257",
+    "name": "alcohol KIT [terranea cares wellness kit]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d6fa05fd-4fdb-6480-e053-2995a90a5156"
+  },
+  "2516253": {
+    "id": "2516253",
+    "name": "family wellness bacitracin zinc, polymyxin b sulfate 500[USP'U]/g / 10000[USP'U]/g TOPICAL OINTMENT [family wellness first aid antibiotic]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "999b32cf-67fa-1f9f-e053-2a95a90a5553"
+  },
+  "2516312": {
+    "id": "2516312",
+    "name": "witch hazel 5g/1 TOPICAL SOLUTION [family wellness medicated wipes]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "999e8fc9-b475-4a4b-e053-2a95a90a2f1e"
+  },
+  "2516936": {
+    "id": "2516936",
+    "name": "diphenhydramine hydrochloride, zinc acetate 2g/100g / .1g/100g TOPICAL CREAM [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "99fc1159-22b4-2404-e053-2995a90a14fc"
+  },
+  "2517211": {
+    "id": "2517211",
+    "name": "benzocaine, resorcinol 2g/100g / .03g/100g TOPICAL CREAM [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9a0f6322-be80-d8f7-e053-2995a90a50ad"
+  },
+  "2519779": {
+    "id": "2519779",
+    "name": "piperonyl butoxide, pyrethrum extract KIT [family wellness lice treatment]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "2263068f-b29d-47bf-9f3f-fe50d5272ea2"
+  },
+  "2721318": {
+    "id": "2721318",
+    "name": "Wellness assessment, performed by non-physician",
+    "domainId": "Observation",
+    "vocabularyId": "HCPCS",
+    "conceptClassId": "HCPCS",
+    "standardConcept": "S",
+    "code": "S5190"
   },
   "4048169": {
     "id": "4048169",
-    "code": "232350006",
     "name": "Allergy to dust mite protein",
-    "vocabularyId": "SNOMED"
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Clinical Finding",
+    "standardConcept": "S",
+    "code": "232350006"
   },
   "4102123": {
     "id": "4102123",
-    "code": "300916003",
     "name": "Allergy to latex",
-    "vocabularyId": "SNOMED"
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Clinical Finding",
+    "standardConcept": "",
+    "code": "300916003"
   },
   "4139681": {
     "id": "4139681",
-    "code": "425525006",
     "name": "Allergy to dairy food",
-    "vocabularyId": "SNOMED"
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Clinical Finding",
+    "standardConcept": "",
+    "code": "425525006"
   },
   "4169137": {
     "id": "4169137",
-    "code": "420174000",
     "name": "Allergy to wheat",
-    "vocabularyId": "SNOMED"
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Clinical Finding",
+    "standardConcept": "S",
+    "code": "420174000"
   },
   "4174876": {
     "id": "4174876",
-    "code": "424213003",
     "name": "Allergy to bee venom",
-    "vocabularyId": "SNOMED"
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Clinical Finding",
+    "standardConcept": "S",
+    "code": "424213003"
   },
   "4219399": {
     "id": "4219399",
-    "code": "417532002",
     "name": "Allergy to fish",
-    "vocabularyId": "SNOMED"
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Clinical Finding",
+    "standardConcept": "S",
+    "code": "417532002"
   },
   "4240902": {
     "id": "4240902",
-    "code": "91935009",
     "name": "Allergy to peanut",
-    "vocabularyId": "SNOMED"
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Clinical Finding",
+    "standardConcept": "S",
+    "code": "91935009"
+  },
+  "4251889": {
+    "id": "4251889",
+    "name": "Wellness health education, guidance, and counseling",
+    "domainId": "Procedure",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Procedure",
+    "standardConcept": "S",
+    "code": "410321003"
+  },
+  "4251898": {
+    "id": "4251898",
+    "name": "Wellness case management",
+    "domainId": "Procedure",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Procedure",
+    "standardConcept": "S",
+    "code": "410366007"
+  },
+  "4259489": {
+    "id": "4259489",
+    "name": "Wellness surveillance",
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Procedure",
+    "standardConcept": "S",
+    "code": "410424005"
+  },
+  "4295205": {
+    "id": "4295205",
+    "name": "Wellness promotion",
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Procedure",
+    "standardConcept": "S",
+    "code": "385991005"
   },
   "4302207": {
     "id": "4302207",
-    "code": "418689008",
     "name": "Allergy to grass pollen",
-    "vocabularyId": "SNOMED"
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Clinical Finding",
+    "standardConcept": "S",
+    "code": "418689008"
   },
   "4304110": {
     "id": "4304110",
-    "code": "419474003",
     "name": "Allergy to mold",
-    "vocabularyId": "SNOMED"
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Clinical Finding",
+    "standardConcept": "S",
+    "code": "419474003"
   },
   "4306014": {
     "id": "4306014",
-    "code": "419263009",
     "name": "Allergy to tree pollen",
-    "vocabularyId": "SNOMED"
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Clinical Finding",
+    "standardConcept": "S",
+    "code": "419263009"
+  },
+  "35105225": {
+    "id": "35105225",
+    "name": "FAMILY WELLNESS REGULAR - benzocaine 10% gel",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a97a6682-49ec-477c-e053-2a95a90a0bec"
+  },
+  "35105226": {
+    "id": "35105226",
+    "name": "FAMILY WELLNESS PAIN RELIEVING - menthol and methyl salicylate cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "827a4135-eed6-432f-b988-9bfa49158988"
+  },
+  "35105395": {
+    "id": "35105395",
+    "name": "PHYSICIANS WELLNESS PRODUCTS HAND SANITIZER - alcohol gel",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "180a08d4-6588-41b5-9368-4882a66ab171"
+  },
+  "35105998": {
+    "id": "35105998",
+    "name": "famotidine 20mg/1 ORAL TABLET, FILM COATED [family wellness acid reducer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "4d12d8ab-bef3-4818-9514-e18e5bcb1aa4"
+  },
+  "35106045": {
+    "id": "35106045",
+    "name": "polyethylene glycol 3350 17g/17g ORAL POWDER, FOR SOLUTION [family wellness laxative]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "5c999992-6ac3-4a4e-8957-a6fc6a10ae3d"
+  },
+  "35106483": {
+    "id": "35106483",
+    "name": "benzocaine 10% 100mg/g TOPICAL GEL [family wellness regular]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a97a043f-6e8e-666a-e053-2995a90a3d89"
+  },
+  "35106484": {
+    "id": "35106484",
+    "name": "menthol and methyl salicylate 100mg/g / 150mg/g TOPICAL CREAM [family wellness pain relieving]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a97a043f-6e9c-666a-e053-2995a90a3d89"
+  },
+  "35106703": {
+    "id": "35106703",
+    "name": "alcohol .75mL/mL TOPICAL GEL [physicians wellness products hand sanitizer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a9c661f4-671f-7c6c-e053-2995a90aebae"
+  },
+  "35107988": {
+    "id": "35107988",
+    "name": "benzocaine 10% 100mg/g TOPICAL GEL [family wellness regular]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "761680607"
+  },
+  "35110965": {
+    "id": "35110965",
+    "name": "FAMILY WELLNESS ASPIRIN - aspirin tablet, chewable",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "03a80700-b12d-4499-a543-4850840d5fb0"
+  },
+  "35111382": {
+    "id": "35111382",
+    "name": "SCHUTZ WELLNESS HAND SANITIZER - alcohol gel",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "df1e5a12-7300-4073-8875-9d04c87ef99c"
+  },
+  "35111780": {
+    "id": "35111780",
+    "name": "ibuprofen 200mg/1 ORAL TABLET, FILM COATED [family wellness ibuprofen]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "6004a3bc-de39-46f8-a531-2982578a605a"
+  },
+  "35111782": {
+    "id": "35111782",
+    "name": "piperonyl butoxide, pyrethrum extract 4g/100mL / .33g/100mL TOPICAL SHAMPOO [family wellness lice killing]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "606c1ac5-feca-494d-ba42-07c5dec94360"
+  },
+  "35112588": {
+    "id": "35112588",
+    "name": "alcohol .7mL/mL TOPICAL GEL [schutz wellness hand sanitizer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ab08298a-1cbd-1831-e053-2a95a90af7d8"
+  },
+  "35112729": {
+    "id": "35112729",
+    "name": "alcohol .7mL/mL TOPICAL GEL [schutz wellness hand sanitizer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ab1fb323-667e-55a1-e053-2995a90ac731"
+  },
+  "35115669": {
+    "id": "35115669",
+    "name": "FAMILY WELLNESS ALLERGY - diphenhydramine hydrochloride tablet",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "4ac36cef-845b-4c3c-9788-72191737a918"
+  },
+  "35404467": {
+    "id": "35404467",
+    "name": "WELLNESS COLD AND FLU - echinacea (angustifolia), allium cepa, bryonia (alba), eupatorium perfoliatum, gelsemium sempervirens, sanguinaria canadensis, kali bichromicum, phosphorus, aconitum napellus, influenzinum tablet",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "11-digit NDC",
+    "standardConcept": "",
+    "code": "64471011648"
+  },
+  "35503161": {
+    "id": "35503161",
+    "name": "acetaminophen, aspirin, caffeine 65mg/1 / 250mg/1 ORAL TABLET, FILM COATED [family wellness migraine relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "34fc2c89-63c8-4cb5-bda8-c0d1e8146aa5"
+  },
+  "35507807": {
+    "id": "35507807",
+    "name": "ROAD TO WELLNESS - menthol kit",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "781e94d5-1cde-7202-e053-2991aa0ae768"
+  },
+  "35508871": {
+    "id": "35508871",
+    "name": "FAMILY WELLNESS CHILDRENS IBUPROFEN - ibuprofen suspension",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "c61eb2d7-0494-424a-b692-b16d7938591e"
+  },
+  "35520004": {
+    "id": "35520004",
+    "name": "ROAD TO WELLNESS - menthol kit",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "11-digit NDC",
+    "standardConcept": "",
+    "code": "69204001819"
+  },
+  "35529156": {
+    "id": "35529156",
+    "name": "menthol KIT [road to wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "781e94d5-1cdf-7202-e053-2991aa0ae768"
+  },
+  "35530008": {
+    "id": "35530008",
+    "name": "bacitracin zinc, neomycin sulfate, polymyxin b sulfate, pramoxine hydrochloride 1g/100g / .01g/100g / .0035g/100g / .51g/100g TOPICAL OINTMENT [family wellness antiseptic and pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8f231146-6727-4958-e053-2995a90a3ce4"
+  },
+  "35600164": {
+    "id": "35600164",
+    "name": "FAMILY WELLNESS PAIN SCAR ITCH - bacitracin zinc, neomycin sulfate, polymyxin b, pramoxine hcl ointment",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9e507ec5-310d-3a21-e053-2a95a90a15a6"
+  },
+  "35600178": {
+    "id": "35600178",
+    "name": "FAMILY WELLNESS PLUS PAIN RELIEF - bacitracin zinc, neomycin sulfate, polymyxin b sulfate, pramoxine hcl ointment",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9e52c8f2-da12-3472-e053-2995a90af3bb"
+  },
+  "35600217": {
+    "id": "35600217",
+    "name": "WELLNESS DEFENSE - echinacea (angustifolia), allium cepa, bryonia (alba), gelsemium sempervirens, sanguinaria canadensis, eupatorium perfoliatum, kali bichromicum, phosphorus, aconitum napellus, influenzinum 2019-2020 tablet",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "Prescription Drug",
+    "standardConcept": "C",
+    "code": "f9be5650-0ab1-418b-bc55-2d1ea77eed32"
+  },
+  "35600901": {
+    "id": "35600901",
+    "name": "bacitracin zinc, neomycin sulfate, polymyxin b, pramoxine hcl 10mg/g / 3.5mg/g / 500[USP'U]/g / 10000[USP'U]/g TOPICAL OINTMENT [family wellness pain scar itch]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9e507750-094f-5c2a-e053-2995a90ac4a4"
+  },
+  "35600941": {
+    "id": "35600941",
+    "name": "bacitracin zinc, neomycin sulfate, polymyxin b sulfate, pramoxine hcl 10mg/g / 3.5mg/g / 500[USP'U]/g / 10000[USP'U]/g TOPICAL OINTMENT [family wellness plus pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9e52c939-e496-780b-e053-2995a90afd79"
+  },
+  "35601068": {
+    "id": "35601068",
+    "name": "echinacea (angustifolia), allium cepa, bryonia (alba), gelsemium sempervirens, sanguinaria canadensi... 3[hp_X]/1 / 4[hp_X]/1 / 6[hp_X]/1 / 12[hp_X]/1 ORAL TABLET [wellness defense]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "Prescription Drug",
+    "standardConcept": "C",
+    "code": "a0f51182-6cae-4c6a-8c59-c4080e1e0ee6"
+  },
+  "35836544": {
+    "id": "35836544",
+    "name": "potassium nitrate, sodium fluoride 50mg/g / 1.5mg/g DENTAL PASTE, DENTIFRICE [twice science wellness cooling spearmint eucalyptus]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ba10d2eb-7f52-63e6-e053-2995a90aa0d1"
+  },
+  "35840532": {
+    "id": "35840532",
+    "name": "TWICE SCIENCE WELLNESS COOLING SPEARMINT EUCALYPTUS - potassium nitrate, sodium fluoride paste, dentifrice",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ba10e2fa-dffc-846f-e053-2a95a90a1885"
+  },
+  "35899357": {
+    "id": "35899357",
+    "name": "fluticasone propionate 50ug/1 NASAL SPRAY, METERED [family wellness allergy relief nasal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "e22a992c-6fe0-43c9-90b7-713bc90a3019"
+  },
+  "35899757": {
+    "id": "35899757",
+    "name": "famotidine 20mg/1 ORAL TABLET, FILM COATED [family wellness acid reducer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "44615b8e-7bf8-4135-afbf-251c5bd5ab72"
+  },
+  "35901368": {
+    "id": "35901368",
+    "name": "benzalkonium chloride .115mg/100mg TOPICAL PATCH [bloom wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b672ea21-40fd-4be3-9172-d8ac952ef92d"
+  },
+  "35901723": {
+    "id": "35901723",
+    "name": "polyethylene glycol 3350 17g/17g ORAL POWDER, FOR SOLUTION [family wellness laxative]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "3d70f150-4c9a-4f86-896a-0cc31bfc1450"
+  },
+  "36000080": {
+    "id": "36000080",
+    "name": "FAMILY WELLNESS NICOTINE - nicotine polacrilex gum, chewing",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "7d159909-c040-47c0-9085-0f79acae69e4"
+  },
+  "36000581": {
+    "id": "36000581",
+    "name": "diphenhydramine hydrochloride, zinc acetate 2g/100g / .1g/100g TOPICAL CREAM [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "7d3dabdd-ed62-01bb-e053-2991aa0ae7f6"
+  },
+  "36003959": {
+    "id": "36003959",
+    "name": "FAMILY WELLNESS ANTI DIARRHEAL PLUS ANTI GAS - loperamide hydrochloride, simethicone tablet",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "fa632948-8783-4374-8cf3-432cbff66638"
+  },
+  "36088877": {
+    "id": "36088877",
+    "name": "alcohol .75mL/mL TOPICAL GEL [schutz wellness hand sanitizer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "adb3fd57-7f3f-29b1-e053-2a95a90a38cf"
+  },
+  "36094771": {
+    "id": "36094771",
+    "name": "acetaminophen, diphenhydramine hydrochloride, phenylephrine hydrochloride 10mg/1 / 25mg/1 / 650mg/1 ORAL POWDER, FOR SOLUTION [family wellness severe cold and cough]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "dc33b960-561e-43d2-a80b-6f352a807ec3"
+  },
+  "36103207": {
+    "id": "36103207",
+    "name": "FAMILY WELLNESS TOTAL HEALTH - cetylpyridinium chloride rinse",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8bdb83b2-7e54-862a-e053-2a95a90a6f39"
+  },
+  "36103617": {
+    "id": "36103617",
+    "name": "cetylpyridinium chloride .07g/100mL ORAL RINSE [family wellness total health]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8bdb83b2-7e46-862a-e053-2a95a90a6f39"
+  },
+  "36104337": {
+    "id": "36104337",
+    "name": "cetylpyridinium chloride .07g/100mL ORAL RINSE [family wellness total health]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190234"
+  },
+  "36107305": {
+    "id": "36107305",
+    "name": "acetaminophen, diphenhydramine hydrochloride, phenylephrine hydrochloride 10mg/1 / 25mg/1 / 650mg/1 ORAL POWDER, FOR SOLUTION [family wellness severe cold and cough]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "0050a5ea-8b46-46bd-b2a5-ce2666ab2aca"
+  },
+  "36107568": {
+    "id": "36107568",
+    "name": "cocoa butter, phenylephrine hcl 6.5mg/1 / 2211mg/1 RECTAL SUPPOSITORY [family wellness hemorrhoidal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "411bcd43-0d1c-48b1-9a4f-01fb8c906f33"
+  },
+  "36108433": {
+    "id": "36108433",
+    "name": "family wellness neomycin,polymyxinb,pramoxinehcl 10mg/g / 3.5mg/g / 10000[USP'U]/g TOPICAL CREAM [triple antibiotic and pain relief cream]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "951cd315-df58-5a20-e053-2a95a90a42c5"
+  },
+  "36109856": {
+    "id": "36109856",
+    "name": "miconazole nitrate KIT [family wellness miconazole 3]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b0a42b77-2782-402b-9f05-a0d2d864acf5"
+  },
+  "36129736": {
+    "id": "36129736",
+    "name": "potassium nitrate, sodium fluoride 5g/100g / .24g/100g DENTAL PASTE, DENTIFRICE [family wellness maximum strength]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "c73de23c-7ec1-373b-e053-2995a90aa5d7"
+  },
+  "36130393": {
+    "id": "36130393",
+    "name": "ranitidine 150mg/1 ORAL TABLET, FILM COATED [family wellness acid reducer 150]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "da0e410d-4e16-4080-8ff1-6116e645b2ec"
+  },
+  "36133429": {
+    "id": "36133429",
+    "name": "glycerin, phenylephrine hydrochloride, pramoxine hydrochloride, petrolatum 1g/100g / 15g/100g / .25g/100g / 14.4g/100g TOPICAL CREAM [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "cf46a4bc-4b67-6a2c-e053-2995a90a0721"
+  },
+  "36133624": {
+    "id": "36133624",
+    "name": "isopropyl alcohol .7mL/mL TOPICAL GEL [neptune wellness solutions hand sanitizer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "cf6ae3ce-8407-7f27-e053-2a95a90a4e84"
+  },
+  "36145038": {
+    "id": "36145038",
+    "name": "witch hazel 5g/1 TOPICAL SOLUTION [family wellness medicated wipes]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d243136a-8161-515e-e053-2a95a90a33d4"
+  },
+  "36145137": {
+    "id": "36145137",
+    "name": "aspirin, chlorpheniramine maleate, phenylephrine bitartrate 2mg/1 / 325mg/1 / 7.8mg/1 ORAL TABLET, EFFERVESCENT [family wellness effervescent cold relief orange]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d294b3fc-c64b-bd6d-e053-2995a90af6d3"
+  },
+  "36151770": {
+    "id": "36151770",
+    "name": "FAMILY WELLNESS SEVERE COLD AND COUGH - acetaminophen, diphenhydramine hydrochloride, phenylephrine hydrochloride powder, for solution",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "33155674-9b89-46ec-98f4-03476714f1db"
+  },
+  "36152781": {
+    "id": "36152781",
+    "name": "WELLNESS DEFENSE - echinacea (angustifolia), allium cepa, bryonia (alba), gelsemium sempervirens, sanguinaria canadensis, eupatorium perfoliatum, kali bichromicum, phosphorus, aconitum napellus, influenzinum 2017-2018 tablet",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "59f79499-3224-428e-bff8-b6f58a520775"
+  },
+  "36152823": {
+    "id": "36152823",
+    "name": "FAMILY WELLNESS MAXIMUM STRENGTH URINARY PAIN RELIEF - phenazopyridine hydrochloride tablet",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a0ccab02-5178-4e0d-9205-3567387ca3e5"
+  },
+  "36152923": {
+    "id": "36152923",
+    "name": "FAMILY WELLNESS EFFERVESCENT ANTACID AND PAIN RELIEF - aspirin, citric acid, sodium bicarbonate tablet, effervescent",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "60b5bef5-4c92-e07a-e053-2991aa0a193a"
+  },
+  "36157158": {
+    "id": "36157158",
+    "name": "FAMILY WELLNESS - benzocaine, resorcinol cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "df540eb8-6773-4647-9cc2-c3fd14d7355e"
+  },
+  "36159636": {
+    "id": "36159636",
+    "name": "WELLNESS EARACHE - capsicum annuum, silicea, verbascum thapsus, ferrum phosphoricum, kali muriaticum, aconitum napellus, belladonna, calcarea carbonica, pulsatilla (pratensis) tablet, chewable",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f6876cd5-4353-48bd-b1bf-610c928bcb1b"
+  },
+  "36163565": {
+    "id": "36163565",
+    "name": "echinacea (angustifolia), allium cepa, bryonia (alba), gelsemium sempervirens, sanguinaria canadensi... 3[hp_X]/1 / 4[hp_X]/1 / 6[hp_X]/1 / 12[hp_X]/1 ORAL TABLET [wellness defense]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "5e4baf73-c24a-4728-9372-d9860d1bedd4"
+  },
+  "36170986": {
+    "id": "36170986",
+    "name": "benzocaine, resorcinol 3g/100g / 20g/100g TOPICAL CREAM [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "89deef77-1e66-461d-b20c-52a16a474d47"
+  },
+  "36172639": {
+    "id": "36172639",
+    "name": "esomeprazole 20mg/1 ORAL CAPSULE, DELAYED RELEASE [family wellness esomeprazole magnesium]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b2db2fa0-9469-4a6a-84bf-72bc38b3e4e8"
+  },
+  "36173124": {
+    "id": "36173124",
+    "name": "omeprazole 20mg/1 ORAL TABLET, DELAYED RELEASE [family wellness omeprazole]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "be8158f5-6083-41f5-8c30-19869f2be5c0"
+  },
+  "36174284": {
+    "id": "36174284",
+    "name": "polyethylene glycol 3350 17g/17g ORAL POWDER, FOR SOLUTION [family wellness laxative]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "dd2d69bf-e360-49fe-b608-4475ab686ffa"
+  },
+  "36174556": {
+    "id": "36174556",
+    "name": "piperonyl butoxide, pyrethrum extract 4g/100mL / .33g/100mL TOPICAL SHAMPOO [family wellness lice killing]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "e44c8e00-810f-4729-ba9d-eabd1e62b7fa"
+  },
+  "36175589": {
+    "id": "36175589",
+    "name": "capsicum annuum, silicea, verbascum thapsus, ferrum phosphoricum, kali muriaticum, aconitum napellus... 6[hp_X]/1 / 12[hp_X]/1 / 30[hp_X]/1 ORAL TABLET, CHEWABLE [wellness earache]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "fe9d4ecf-ebe7-4e04-8fb0-9f60eeb91fa9"
+  },
+  "36186422": {
+    "id": "36186422",
+    "name": "WELLNESS EARACHE - capsicum annuum, silicea, verbascum thapsus, ferrum phosphoricum, kali muriaticum, aconitum napellus, belladonna, calcarea carbonica, pulsatilla (pratensis) tablet, chewable",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "11-digit NDC",
+    "standardConcept": "",
+    "code": "64471012648"
+  },
+  "36186424": {
+    "id": "36186424",
+    "name": "WELLNESS DEFENSE - echinacea (angustifolia), allium cepa, bryonia (alba), gelsemium sempervirens, sanguinaria canadensis, eupatorium perfoliatum, kali bichromicum, phosphorus, aconitum napellus, influenzinum 2017-2018 tablet",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "11-digit NDC",
+    "standardConcept": "",
+    "code": "64471041648"
+  },
+  "36199080": {
+    "id": "36199080",
+    "name": "miconazole nitrate KIT [family wellness miconazole 3]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "5dab3621-9650-4051-abc8-3faef99bef16"
+  },
+  "36307533": {
+    "id": "36307533",
+    "name": "Health, wellness, and fitness programs",
+    "domainId": "Meas Value",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Answer",
+    "standardConcept": "S",
+    "code": "LA29050-4"
+  },
+  "36316799": {
+    "id": "36316799",
+    "name": "fluticasone propionate 50ug/1 NASAL SPRAY, METERED [family wellness allergy relief nasal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "23040d2f-b1a3-4172-91f9-5984042bde0d"
+  },
+  "36317400": {
+    "id": "36317400",
+    "name": "phenylephrine hcl, petrolatum, mineral 14g/100g / .25g/100g / 74.9g/100g RECTAL; TOPICAL OINTMENT [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ed7ea20e-dbd4-a1a0-e053-2995a90a06fd"
+  },
+  "36320337": {
+    "id": "36320337",
+    "name": "camphor, menthol, eucalyptus oil 1g/100g / 4.7g/100g TOPICAL CREAM [medicated chest rub family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ef184058-222b-ed75-e053-2a95a90a65ba"
+  },
+  "36326317": {
+    "id": "36326317",
+    "name": "alcohol .69mL/mL TOPICAL GEL [flo wellness advanced hand sanitizer with moisturizers and vitamin e]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f0493cc8-b426-a528-e053-2a95a90aae3e"
+  },
+  "36331517": {
+    "id": "36331517",
+    "name": "alcohol KIT [murchison-hume wellness welcome kit]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d6f9dc73-a557-66eb-e053-2995a90a9a89"
+  },
+  "36338889": {
+    "id": "36338889",
+    "name": "family wellness bacitracin zinc, polymyxin b sulfate 500[USP'U]/g / 10000[USP'U]/g TOPICAL OINTMENT [family wellness first aid antibiotic]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f276d390-8f33-8921-e053-2a95a90a0f2d"
+  },
+  "36338890": {
+    "id": "36338890",
+    "name": "family wellness clotrimazole 1g/100g TOPICAL CREAM [clotrimazole]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f276d390-8f34-8921-e053-2a95a90a0f2d"
+  },
+  "36338891": {
+    "id": "36338891",
+    "name": "family wellness bacitracin, neomycin, polymyxin b 3.5mg/g / 400[USP'U]/g / 5000[USP'U]/g TOPICAL OINTMENT [family wellness original]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f276d390-8f35-8921-e053-2a95a90a0f2d"
+  },
+  "36338892": {
+    "id": "36338892",
+    "name": "family wellness tolnaftate 1g/100g TOPICAL CREAM [tolnaftate cream 1% antifungal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f276d390-8f36-8921-e053-2a95a90a0f2d"
+  },
+  "36338894": {
+    "id": "36338894",
+    "name": "family wellness bacitracin,neomycin,polymyxinb,pramoxine 10mg/100g / 3.5mg/100g / 500[USP'U]/100g / 10000[USP'U]/100g TOPICAL OINTMENT [tripleantibioticointmentandpainrelief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f276e313-0900-e0d8-e053-2a95a90a52a5"
+  },
+  "36338896": {
+    "id": "36338896",
+    "name": "family wellness bacitracin,neomycin,polymyxinb,pramoxinehcl 10mg/100g / 3.5mg/100g / 500[USP'U]/100g / 10000[USP'U]/100g TOPICAL OINTMENT [tripleantibioticapainscaritch]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f276edd1-49ad-2200-e053-2a95a90afb39"
+  },
+  "36338897": {
+    "id": "36338897",
+    "name": "bacitracin zinc, neomycin sulfate, polymyxin b, pramoxine hcl 10mg/g / 3.5mg/g / 500[USP'U]/g / 10000[USP'U]/g TOPICAL OINTMENT [family wellness pain scar itch]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f276f813-a268-42ad-e053-2a95a90a70fd"
+  },
+  "36369272": {
+    "id": "36369272",
+    "name": "TERRANEA CARES WELLNESS KIT - alcohol kit",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "af092aa3-d310-4046-e053-2995a90ae2d9"
+  },
+  "36369273": {
+    "id": "36369273",
+    "name": "MURCHISON-HUME WELLNESS WELCOME KIT - alcohol kit",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "697b4ffb-3b1a-4031-8dca-0bbe743565ae"
+  },
+  "36369708": {
+    "id": "36369708",
+    "name": "NORDIC WELLNESS VITAMIN C HAND SANITIZER - ethyl alcohol formulation liquid",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "af994957-fc18-2736-e053-2995a90a5c0f"
+  },
+  "36369781": {
+    "id": "36369781",
+    "name": "NEPTUNE WELLNESS SOLUTIONS HAND SANITIZER - isopropyl alcohol gel",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "afd6e21c-98e1-249d-e053-2a95a90aff3f"
+  },
+  "36370241": {
+    "id": "36370241",
+    "name": "TWICE SCIENCE AND WELLNESS CALMING VANILLA LAVENDER MINT - potassium nitrate, sodium fluoride paste, dentifrice",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "1bac41b5-795f-4852-843a-5deaa6457a78"
+  },
+  "36370242": {
+    "id": "36370242",
+    "name": "TWICE SCIENCE AND WELLNESS INVIGORATING WINTERGREEN AND PEPPERMINT - potassium nitrate, sodium fluoride paste, dentifrice",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "7f1f1193-ac0e-4eb9-9357-6bd9ce353007"
+  },
+  "36370707": {
+    "id": "36370707",
+    "name": "PUREZZA DAKIA WELLNESS ALCOHOL ANTISEPTIC - alcohol gel",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b17d1c2d-0d3f-99c0-e053-2a95a90aca31"
+  },
+  "36370821": {
+    "id": "36370821",
+    "name": "SKY WELLNESS MAX PAIN RELIEF - lidocaine hydrochloride, menthol stick",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b1a64641-842b-17a8-e053-2a95a90a2007"
+  },
+  "36374351": {
+    "id": "36374351",
+    "name": "miconazole nitrate KIT [family wellness miconazole 3]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a7905707-2951-4a75-b84b-214d353b605b"
+  },
+  "36375299": {
+    "id": "36375299",
+    "name": "alcohol KIT [terranea cares wellness kit]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "af0925c0-02bd-3c6c-e053-2995a90a06c9"
+  },
+  "36375300": {
+    "id": "36375300",
+    "name": "alcohol KIT [murchison-hume wellness welcome kit]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "af0947d9-5870-b3f8-e053-2995a90ade23"
+  },
+  "36375979": {
+    "id": "36375979",
+    "name": "ethyl alcohol formulation 38.35mL/59mL TOPICAL LIQUID [nordic wellness vitamin c hand sanitizer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "af9969df-ce12-c0bc-e053-2995a90a3f59"
+  },
+  "36376102": {
+    "id": "36376102",
+    "name": "isopropyl alcohol .7mL/mL TOPICAL GEL [neptune wellness solutions hand sanitizer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "afd6d472-2272-8a43-e053-2995a90a2e70"
+  },
+  "36376912": {
+    "id": "36376912",
+    "name": "potassium nitrate, sodium fluoride 50mg/g / 2.4mg/g TOPICAL PASTE, DENTIFRICE [twice science and wellness calming vanilla lavender mint]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b08e8db5-5fdf-35dd-e053-2995a90ac264"
+  },
+  "36376913": {
+    "id": "36376913",
+    "name": "potassium nitrate, sodium fluoride 50mg/g / 2.4mg/g TOPICAL PASTE, DENTIFRICE [twice science and wellness invigorating wintergreen and peppermint]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b08ea011-6850-3916-e053-2995a90a2c12"
+  },
+  "36378007": {
+    "id": "36378007",
+    "name": "alcohol .7mL/mL TOPICAL GEL [purezza dakia wellness alcohol antiseptic]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b17d1a4f-b2d2-92b3-e053-2a95a90a7670"
+  },
+  "36378325": {
+    "id": "36378325",
+    "name": "lidocaine hydrochloride, menthol 9.62mg/mL / 38.48mg/mL TOPICAL STICK [sky wellness max pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b1a64641-842c-17a8-e053-2a95a90a2007"
+  },
+  "36386111": {
+    "id": "36386111",
+    "name": "lidocaine hydrochloride, menthol 9.62mg/mL / 38.48mg/mL TOPICAL STICK [sky wellness max pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "584430370"
+  },
+  "36392807": {
+    "id": "36392807",
+    "name": "lidocaine hydrochloride, menthol 9.62mg/mL / 38.48mg/mL TOPICAL STICK [sky wellness max pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "11-digit NDC",
+    "standardConcept": "",
+    "code": "58443037003"
+  },
+  "36395536": {
+    "id": "36395536",
+    "name": "acetaminophen, diphenhydramine hydrochloride, phenylephrine hydrochloride 10mg/1 / 25mg/1 / 650mg/1 ORAL POWDER, FOR SOLUTION [family wellness flu and severe cold and cough nighttime]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "cfa47e9e-e337-4135-8d27-5dbbb6a3e093"
+  },
+  "36395775": {
+    "id": "36395775",
+    "name": "acetaminophen, diphenhydramine hydrochloride, phenylephrine hydrochloride 10mg/1 / 25mg/1 / 650mg/1 ORAL POWDER, FOR SOLUTION [family wellness flu and severe cold and cough nighttime]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190964"
+  },
+  "36398695": {
+    "id": "36398695",
+    "name": "miconazole nitrate KIT [family wellness miconazole 3]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f40492c6-341f-46be-aa10-31c2984a516a"
+  },
+  "36464692": {
+    "id": "36464692",
+    "name": "hydrocortisone 1g/100g TOPICAL CREAM [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "7d3e65b2-d894-4b62-e053-2a91aa0a47d1"
+  },
+  "36465409": {
+    "id": "36465409",
+    "name": "tolnaftate 1g/100g TOPICAL CREAM [family wellness antifungal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "7d7e6e1a-72ae-ce62-e053-2991aa0aa163"
+  },
+  "36465410": {
+    "id": "36465410",
+    "name": "clotrimazole 10mg/g TOPICAL CREAM [family wellness antifungal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "7d7e8706-9471-f8bc-e053-2991aa0a6a80"
+  },
+  "36468802": {
+    "id": "36468802",
+    "name": "famotidine 20mg/1 ORAL TABLET [family wellness acid reducer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "08f195ec-c9cf-4dd2-befa-9f79c5345b24"
+  },
+  "36469894": {
+    "id": "36469894",
+    "name": "acetaminophen, aspirin, caffeine 65mg/1 / 250mg/1 ORAL TABLET, FILM COATED [family wellness migraine relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "3abf7666-8e86-4813-b3af-d7c3e81a70e4"
+  },
+  "36470552": {
+    "id": "36470552",
+    "name": "loratadine 10mg/1 ORAL TABLET [family wellness allergy relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "57af2463-23e1-4c24-a578-626c6935431d"
+  },
+  "36470753": {
+    "id": "36470753",
+    "name": "cetirizine hcl 5mg/5mL ORAL SOLUTION [family wellness childrens all day allergy]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "5bf27c89-9d4d-4687-a829-074081c330ee"
+  },
+  "36471778": {
+    "id": "36471778",
+    "name": "aspirin, chlorpheniramine maleate, phenylephrine bitartrate 2mg/1 / 325mg/1 / 7.8mg/1 ORAL TABLET, EFFERVESCENT [family wellness effervescent cold relief original]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "5ddf2b1b-62f0-e06b-e053-2991aa0a32a7"
+  },
+  "36471797": {
+    "id": "36471797",
+    "name": "aspirin, chlorpheniramine maleate, phenylephrine bitartrate 2mg/1 / 325mg/1 / 7.8mg/1 ORAL TABLET, EFFERVESCENT [family wellness effervescent cold relief orange]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "5de36266-3952-5aca-e053-2991aa0a2205"
+  },
+  "36472993": {
+    "id": "36472993",
+    "name": "phenazopyridine hydrochloride 97.5mg/1 ORAL TABLET [family wellness maximum strength urinary pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "5fa7ee08-4ab0-49c3-b085-28c19a3261b6"
+  },
+  "36473561": {
+    "id": "36473561",
+    "name": "piperonyl butoxide, pyrethrum extract 4g/100mL / .33g/100mL TOPICAL SHAMPOO [family wellness lice killing]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "6133fdc3-723a-426c-9484-4ba591bdb10a"
+  },
+  "36474385": {
+    "id": "36474385",
+    "name": "ibuprofen 100mg/5mL ORAL SUSPENSION [family wellness childrens ibuprofen]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "87655c3a-5894-4c2e-9fc6-91b15a777db1"
+  },
+  "36481828": {
+    "id": "36481828",
+    "name": "WELLNESS EARACHE - capsicum annuum, silicea, verbascum thapsus, ferrum phosphoricum, kali muriaticum, aconitum napellus, belladonna, calcarea carbonica, pulsatilla (pratensis) tablet, chewable",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "11-digit NDC",
+    "standardConcept": "",
+    "code": "64471026348"
+  },
+  "36483773": {
+    "id": "36483773",
+    "name": "FAMILY WELLNESS - benzocaine, resorcinol cream",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "11-digit NDC",
+    "standardConcept": "",
+    "code": "55621001401"
+  },
+  "36485302": {
+    "id": "36485302",
+    "name": "ROAD TO WELLNESS - menthol kit",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "11-digit NDC",
+    "standardConcept": "",
+    "code": "70983001719"
+  },
+  "36487070": {
+    "id": "36487070",
+    "name": "FAMILY WELLNESS - bacitracin zinc ointment",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "11-digit NDC",
+    "standardConcept": "",
+    "code": "69571000801"
+  },
+  "36487859": {
+    "id": "36487859",
+    "name": "WELLNESS COLD AND FLU - echinacea (angustifolia), allium cepa, bryonia (alba), gelsemium sempervirens, sanguinaria canadensis, eupatorium perfoliatum, kali bichromicum, phosphorus, aconitum napellus, influenzinum 2015-2016, tablet, chewable",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "11-digit NDC",
+    "standardConcept": "",
+    "code": "64471016448"
+  },
+  "36500987": {
+    "id": "36500987",
+    "name": "menthol 50mg/1 TOPICAL PATCH [family wellness cold hot]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "db8b029c-c502-4df1-e053-2995a90ae72f"
+  },
+  "36511885": {
+    "id": "36511885",
+    "name": "FAMILY WELLNESS PLUS PAIN RELIEF - family wellness neomycin,polymyxinb,pramoxinehcl cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9350688e-f456-d9e5-e053-2995a90aa8bb"
+  },
+  "36512120": {
+    "id": "36512120",
+    "name": "loratadine 10mg/1 ORAL TABLET [family wellness allergy relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "1662e2c8-4b39-416c-8157-d61190c80df2"
+  },
+  "36512482": {
+    "id": "36512482",
+    "name": "ibuprofen 100mg/5mL ORAL SUSPENSION [family wellness childrens ibuprofen]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "87e54e84-40c6-40f5-8870-df4b476d2e91"
+  },
+  "36512563": {
+    "id": "36512563",
+    "name": "family wellness neomycin,polymyxinb,pramoxinehcl 10mg/g / 3.5mg/g / 10000[USP'U]/g TOPICAL CREAM [triple antibiotic and pain relief cream]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9350688e-f457-d9e5-e053-2995a90aa8bb"
+  },
+  "36512709": {
+    "id": "36512709",
+    "name": "family wellness tolnaftate 1g/100g TOPICAL CREAM [tolnaftate cream 1% antifungal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "93ccd399-3257-4a48-e053-2995a90a6530"
+  },
+  "36514298": {
+    "id": "36514298",
+    "name": "family wellness neomycin,polymyxinb,pramoxinehcl 10mg/g / 3.5mg/g / 10000[USP'U]/g TOPICAL CREAM",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "693960043"
+  },
+  "36600455": {
+    "id": "36600455",
+    "name": "ibuprofen 100mg/5mL ORAL SUSPENSION [family wellness childrens ibuprofen]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "5e52cdbb-1ec8-4c6f-b064-f47af9b864a1"
+  },
+  "36601108": {
+    "id": "36601108",
+    "name": "acetaminophen, dextromethorphan hbr, phenylephrine hcl 10mg/1 / 20mg/1 / 500mg/1 ORAL POWDER, FOR SOLUTION [family wellness multi symptom severe cold]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a017da78-dd49-47ea-a803-137feec81f72"
+  },
+  "36601305": {
+    "id": "36601305",
+    "name": "nicotine polacrilex 4mg/1 ORAL GUM, CHEWING [family wellness nicotine]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "fc8a387d-3af8-426a-8669-a672d332ddec"
+  },
+  "36663054": {
+    "id": "36663054",
+    "name": "FLO WELLNESS ADVANCED HAND SANITIZER WITH MOISTURIZERS AND VITAMIN E - alcohol gel",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "acaec4e7-d4ae-7431-e053-2995a90a527b"
+  },
+  "36663924": {
+    "id": "36663924",
+    "name": "alcohol .69mL/mL TOPICAL GEL [flo wellness advanced hand sanitizer with moisturizers and vitamin e]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "acaec4e7-d4af-7431-e053-2995a90a527b"
+  },
+  "36664188": {
+    "id": "36664188",
+    "name": "acetaminophen, aspirin, caffeine 65mg/1 / 250mg/1 ORAL TABLET, FILM COATED [family wellness migraine]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "e0643e17-16e7-4819-a26b-96225d91d582"
+  },
+  "36664201": {
+    "id": "36664201",
+    "name": "acetaminophen, dextromethorphan hbr, phenylephrine hcl 10mg/1 / 20mg/1 / 500mg/1 ORAL POWDER, FOR SOLUTION [family wellness multi symptom severe cold]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "e8df8f1b-fee4-415b-9d64-2e4e214e7e2d"
+  },
+  "36696179": {
+    "id": "36696179",
+    "name": "FAMILY WELLNESS ORIGINAL - family wellness bacitracin, neomycin, polymyxin b ointment",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "915759af-0d4f-6a87-e053-2a95a90acbd6"
+  },
+  "36696180": {
+    "id": "36696180",
+    "name": "TOLNAFTATE CREAM 1% ANTIFUNGAL - family wellness tolnaftate cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "915759af-0d7f-6a87-e053-2a95a90acbd6"
+  },
+  "36696181": {
+    "id": "36696181",
+    "name": "FAMILY WELLNESS FIRST AID ANTIBIOTIC - family wellness bacitracin zinc, polymyxin b sulfate ointment",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9157681a-3ed1-096e-e053-2a95a90a05e3"
+  },
+  "36696182": {
+    "id": "36696182",
+    "name": "TRIPLEANTIBIOTICOINTMENTANDPAINRELIEF - family wellness bacitracin,neomycin,polymyxinb,pramoxine ointment",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "91575333-5268-5d8f-e053-2a95a90a7a89"
+  },
+  "36696339": {
+    "id": "36696339",
+    "name": "CLOTRIMAZOLE - family wellness clotrimazole cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "915759af-0d7b-6a87-e053-2a95a90acbd6"
+  },
+  "36696344": {
+    "id": "36696344",
+    "name": "TRIPLEANTIBIOTICAPAINSCARITCH - family wellness bacitracin,neomycin,polymyxinb,pramoxinehcl ointment",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "935106c6-8a9e-07fa-e053-2a95a90a2484"
+  },
+  "36696681": {
+    "id": "36696681",
+    "name": "piperonyl butoxide, pyrethrum extract 4g/100mL / .33g/100mL TOPICAL SHAMPOO [family wellness lice killing]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "2f3d1015-6868-45d2-a918-77ef85a678c3"
+  },
+  "36697127": {
+    "id": "36697127",
+    "name": "family wellness bacitracin, neomycin, polymyxin b 3.5mg/g / 400[USP'U]/g / 5000[USP'U]/g TOPICAL OINTMENT [triple antibiotic]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "915759af-0d50-6a87-e053-2a95a90acbd6"
+  },
+  "36697128": {
+    "id": "36697128",
+    "name": "family wellness tolnaftate 1g/100g TOPICAL CREAM [tolnaftate cream 1% antifungal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "915759af-0d80-6a87-e053-2a95a90acbd6"
+  },
+  "36697129": {
+    "id": "36697129",
+    "name": "family wellness bacitracin zinc, polymyxin b sulfate 500[USP'U]/g / 10000[USP'U]/g TOPICAL OINTMENT [doubleantibioticointment]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9157643b-171d-09ca-e053-2a95a90a6cb1"
+  },
+  "36697130": {
+    "id": "36697130",
+    "name": "family wellness bacitracin,neomycin,polymyxinb,pramoxine 10mg/100g / 3.5mg/100g / 500[USP'U]/100g / 10000[USP'U]/100g TOPICAL OINTMENT [tripleantibioticointmentandpainrelief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9157a444-4f16-eba1-e053-2a95a90ad291"
+  },
+  "36697686": {
+    "id": "36697686",
+    "name": "family wellness clotrimazole 1g/100g TOPICAL CREAM [clotrimazole]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "934d3d61-d608-1699-e053-2995a90a7a54"
+  },
+  "36697702": {
+    "id": "36697702",
+    "name": "family wellness bacitracin,neomycin,polymyxinb,pramoxinehcl 10mg/100g / 3.5mg/100g / 500[USP'U]/100g / 10000[USP'U]/100g TOPICAL OINTMENT [tripleantibioticapainscaritch]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "935106c6-8a9f-07fa-e053-2a95a90a2484"
+  },
+  "36698146": {
+    "id": "36698146",
+    "name": "simethicone 20mg/.3mL ORAL EMULSION [family wellness infants gas relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "de3390bc-82dc-4d9c-bcf2-86298d6c856c"
+  },
+  "36698585": {
+    "id": "36698585",
+    "name": "family wellness bacitracin zinc, polymyxin b sulfate 500[USP'U]/g / 10000[USP'U]/g TOPICAL OINTMENT",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "693960037"
+  },
+  "36698586": {
+    "id": "36698586",
+    "name": "family wellness clotrimazole 1g/100g TOPICAL CREAM",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "693960038"
+  },
+  "36698587": {
+    "id": "36698587",
+    "name": "family wellness bacitracin, neomycin, polymyxin b 3.5mg/g / 400[USP'U]/g / 5000[USP'U]/g TOPICAL OINTMENT",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "693960041"
+  },
+  "36698588": {
+    "id": "36698588",
+    "name": "family wellness tolnaftate 1g/100g TOPICAL CREAM",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "693960042"
+  },
+  "36698589": {
+    "id": "36698589",
+    "name": "family wellness bacitracin,neomycin,polymyxinb,pramoxine 10mg/100g / 3.5mg/100g / 500[USP'U]/100g / 10000[USP'U]/100g TOPICAL OINTMENT",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "693960044"
+  },
+  "36698590": {
+    "id": "36698590",
+    "name": "family wellness bacitracin,neomycin,polymyxinb,pramoxinehcl 10mg/100g / 3.5mg/100g / 500[USP'U]/100g / 10000[USP'U]/100g TOPICAL OINTMENT",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "693960045"
+  },
+  "36771754": {
+    "id": "36771754",
+    "name": "aspirin, citric acid, sodium bicarbonate 325mg/1 / 1000mg/1 / 1916mg/1 ORAL TABLET, EFFERVESCENT [family wellness effervescent antacid and pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b3ec7430-9e05-8729-e053-2995a90add5c"
+  },
+  "36875378": {
+    "id": "36875378",
+    "name": "asafoetida, strychnos ignatii seed (ignatia amara), valeriana officinalis whole (valeriana officinal... 8[hp_X]/100mL ORAL LIQUID [real relief natural wellness calming syrup]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ec97a8da-436c-e7e0-e053-2a95a90a7b7f"
+  },
+  "36876602": {
+    "id": "36876602",
+    "name": "REAL RELIEF NATURAL WELLNESS CALMING SYRUP - asafoetida, strychnos ignatii seed (ignatia amara), valeriana officinalis whole (valeriana officinalis), oat bran (avena sativa), silver nitrate (argentum nitricum), hyoscyamus niger, paeonia officinalis roo...",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "fb8c8d6d-3c7a-459d-97a8-d9094f3d546c"
+  },
+  "36983536": {
+    "id": "36983536",
+    "name": "FAMILY WELLNESS IBUPROFEN - ibuprofen tablet, film coated",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d1acb58e-a879-4c5e-b4fc-44c0a0f60d6d"
+  },
+  "36984152": {
+    "id": "36984152",
+    "name": "nicotine polacrilex 4mg/1 ORAL GUM, CHEWING [family wellness nicotine]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "442882ac-ce5a-40ec-8e75-ce02c18ee1f5"
+  },
+  "36985589": {
+    "id": "36985589",
+    "name": "menthol 50mg/1 TOPICAL PATCH [family wellness cold hot]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a35ce6c3-1691-5218-e053-2a95a90ad944"
   },
   "37017711": {
     "id": "37017711",
-    "code": "714035009",
     "name": "Allergy to soy",
-    "vocabularyId": "SNOMED"
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Clinical Finding",
+    "standardConcept": "",
+    "code": "714035009"
+  },
+  "37099453": {
+    "id": "37099453",
+    "name": "alcohol 80mL/100mL TOPICAL LIQUID [savvy wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ca6a79cd-607a-4fa4-e053-2995a90a8d67"
+  },
+  "37099898": {
+    "id": "37099898",
+    "name": "SAVVY WELLNESS - alcohol liquid",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ca6a7b7b-c848-a0e2-e053-2a95a90a3841"
+  },
+  "37290552": {
+    "id": "37290552",
+    "name": "HEALTH AND WELLNESS ESSENTIALS HAND SANITIZER - alcohol gel",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a93b55c2-74b4-e4b3-e053-2995a90abce1"
+  },
+  "37290566": {
+    "id": "37290566",
+    "name": "FAMILY WELLNESS ULTRA MOUTHWASH - eucalyptol, menthol, methyl salicylate, thymol mouthwash",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a93ca8e8-9b82-44a6-e053-2a95a90aa9e7"
+  },
+  "37290818": {
+    "id": "37290818",
+    "name": "FAMILY WELLNESS IBUPROFEN - ibuprofen tablet, film coated",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f0440c73-b493-44e8-93bf-e97458f0a888"
+  },
+  "37291094": {
+    "id": "37291094",
+    "name": "acetaminophen 500mg/1 ORAL TABLET [family wellness pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "75317cc6-c068-4cae-aef4-95d92ff0a686"
+  },
+  "37291505": {
+    "id": "37291505",
+    "name": "potassium nitrate, sodium fluoride 5g/100g / .24g/100g DENTAL PASTE, DENTIFRICE [family wellness maximum strength]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a9008617-fc62-8bb6-e053-2995a90a659e"
+  },
+  "37291695": {
+    "id": "37291695",
+    "name": "alcohol .75mL/mL TOPICAL GEL [health and wellness essentials hand sanitizer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a93b3f50-b345-b573-e053-2995a90a7b2c"
+  },
+  "37291717": {
+    "id": "37291717",
+    "name": "eucalyptol, menthol, methyl salicylate, thymol .6mg/mL / .42mg/mL / .64mg/mL / .92mg/mL ORAL MOUTHWASH [family wellness ultra mouthwash]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a93ca8e8-9b83-44a6-e053-2a95a90aa9e7"
+  },
+  "37292357": {
+    "id": "37292357",
+    "name": "eucalyptol, menthol, methyl salicylate, thymol .6mg/mL / .42mg/mL / .64mg/mL / .92mg/mL ORAL MOUTHWASH [family wellness ultra mouthwash]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190319"
+  },
+  "37294844": {
+    "id": "37294844",
+    "name": "FAMILY WELLNESS IBUPROFEN IB - ibuprofen tablet, film coated",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "05e64b95-b30a-4baa-a071-d01430089f81"
+  },
+  "37295046": {
+    "id": "37295046",
+    "name": "SCHUTZ WELLNESS HAND SANITIZER - alcohol gel",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "c16e1256-382f-4097-b2e5-c52322ae1a76"
+  },
+  "37295062": {
+    "id": "37295062",
+    "name": "RN WELLNESS SANITIZER - ethyl alcohol liquid",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a97d0099-c8e0-37c7-e053-2995a90a8576"
+  },
+  "37296091": {
+    "id": "37296091",
+    "name": "alcohol .75mL/mL TOPICAL GEL [schutz wellness hand sanitizer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a8ff4c93-95a7-18b9-e053-2a95a90a3ab9"
+  },
+  "37296114": {
+    "id": "37296114",
+    "name": "ethyl alcohol 70mL/100mL TOPICAL LIQUID [rn wellness sanitizer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a97d0099-c8e1-37c7-e053-2995a90a8576"
+  },
+  "37312900": {
+    "id": "37312900",
+    "name": "FAMILY WELLNESS MIGRAINE - acetaminophen, aspirin, caffeine tablet, film coated",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "2fe1774c-16f8-41d1-99c8-2e2c02563115"
+  },
+  "37493824": {
+    "id": "37493824",
+    "name": "FAMILY WELLNESS ACID REDUCER - omeprazole tablet, orally disintegrating, delayed release",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "2315ded4-2623-4b1b-b599-396b9f6020df"
+  },
+  "37493860": {
+    "id": "37493860",
+    "name": "FAMILY WELLNESS PAIN RELIEF - acetaminophen tablet",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "612f5537-c92f-41fa-a331-77e3f3844752"
+  },
+  "37493879": {
+    "id": "37493879",
+    "name": "FAMILY WELLNESS ANTI DIARRHEAL PLUS MULTI SYMPTOM RELIEF - loperamide hydrochloride, simethicone tablet",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "824c3052-4f61-409f-999b-9b84c5dd73f9"
+  },
+  "37516810": {
+    "id": "37516810",
+    "name": "diphenhydramine citrate, ibuprofen 38mg/1 / 200mg/1 ORAL TABLET, FILM COATED [family wellness ibuprofen pm]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f45d6fb7-c658-41a0-a8a2-c23084b3b385"
+  },
+  "37600801": {
+    "id": "37600801",
+    "name": "tolnaftate 1g/100g TOPICAL CREAM [family wellness antifungal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "83eda657-13af-470c-e053-2a91aa0a8202"
+  },
+  "37602515": {
+    "id": "37602515",
+    "name": "FAMILY WELLNESS BLUE MINT - eucalyptol, menthol, methyl salicylate, thymol mouthwash",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8bc25ff2-72ed-77e6-e053-2a95a90a5463"
+  },
+  "37602520": {
+    "id": "37602520",
+    "name": "FAMILY WELLNESS GREEN MINT - eucalyptol, menthol, methyl salicylate, thymol mouthwash",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8bc689f1-6623-a054-e053-2995a90a9072"
+  },
+  "37602521": {
+    "id": "37602521",
+    "name": "FAMILY WELLNESS ORIGINAL AMBER - eucalyptol, menthol, methyl salicylate, thymol mouthwash",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8bc728f7-3ec7-4f4e-e053-2a95a90ae844"
+  },
+  "37603084": {
+    "id": "37603084",
+    "name": "eucalyptol, menthol, methyl salicylate, thymol .06g/100mL / .042g/100mL / .064g/100mL / .092g/100mL ORAL MOUTHWASH [family wellness blue mint]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8bc25ff2-72e3-77e6-e053-2a95a90a5463"
+  },
+  "37603098": {
+    "id": "37603098",
+    "name": "eucalyptol, menthol, methyl salicylate, thymol .06g/100mL / .042g/100mL / .064g/100mL / .092g/100mL ORAL MOUTHWASH [family wellness green mint]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8bc689f1-6615-a054-e053-2995a90a9072"
+  },
+  "37603100": {
+    "id": "37603100",
+    "name": "eucalyptol, menthol, methyl salicylate, thymol .06g/100mL / .042g/100mL / .064g/100mL / .092g/100mL ORAL MOUTHWASH [family wellness original amber]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8bc728f7-3eb9-4f4e-e053-2a95a90ae844"
+  },
+  "37603405": {
+    "id": "37603405",
+    "name": "eucalyptol, menthol, methyl salicylate, thymol .06g/100mL / .042g/100mL / .064g/100mL / .092g/100mL ORAL MOUTHWASH [family wellness blue mint]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190230"
+  },
+  "37603406": {
+    "id": "37603406",
+    "name": "eucalyptol, menthol, methyl salicylate, thymol .06g/100mL / .042g/100mL / .064g/100mL / .092g/100mL ORAL MOUTHWASH [family wellness green mint]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190231"
+  },
+  "37603407": {
+    "id": "37603407",
+    "name": "eucalyptol, menthol, methyl salicylate, thymol .06g/100mL / .042g/100mL / .064g/100mL / .092g/100mL ORAL MOUTHWASH [family wellness original amber]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190232"
+  },
+  "37616283": {
+    "id": "37616283",
+    "name": "FAMILY WELLNESS SLEEP AID - diphenhydramine hydrochloride tablet, film coated",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "1b1e10da-b618-4467-b117-616229624a49"
+  },
+  "37616666": {
+    "id": "37616666",
+    "name": "FAMILY WELLNESS ICE BLUE - menthol gel",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "abf4cdea-1a9b-7c8e-e053-2a95a90a83a5"
+  },
+  "37616711": {
+    "id": "37616711",
+    "name": "PHYSICIANS WELLNESS PRODUCTS HAND SANITIZER - alcohol gel",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "abc2eca7-2d53-7c70-e053-2995a90a1f80"
+  },
+  "37617631": {
+    "id": "37617631",
+    "name": "menthol 2g/100g TOPICAL GEL [family wellness ice blue]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "abf4cdea-1a9c-7c8e-e053-2a95a90a83a5"
+  },
+  "37617716": {
+    "id": "37617716",
+    "name": "alcohol .75mL/mL TOPICAL GEL [physicians wellness products hand sanitizer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ac008569-b114-ccd5-e053-2a95a90a73f7"
+  },
+  "37617770": {
+    "id": "37617770",
+    "name": "alcohol .75mL/mL TOPICAL GEL [schutz wellness hand sanitizer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ac0efa6a-47bb-e9eb-e053-2a95a90ae32d"
+  },
+  "40245556": {
+    "id": "40245556",
+    "name": "acetaminophen, aspirin, caffeine 65mg/1 / 250mg/1 ORAL TABLET, FILM COATED [family wellness migraine relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "69f2f0d9-2cae-40f6-b406-f615eb7f3e0e"
+  },
+  "40246803": {
+    "id": "40246803",
+    "name": "cetirizine hcl 5mg/5mL ORAL SOLUTION [family wellness childrens all day allergy]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a7033cf2-d807-4c87-9dda-ed762c84a57e"
+  },
+  "40664424": {
+    "id": "40664424",
+    "name": "Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit",
+    "domainId": "Visit",
+    "vocabularyId": "HCPCS",
+    "conceptClassId": "HCPCS",
+    "standardConcept": "",
+    "code": "G0438"
+  },
+  "40664425": {
+    "id": "40664425",
+    "name": "Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit",
+    "domainId": "Visit",
+    "vocabularyId": "HCPCS",
+    "conceptClassId": "HCPCS",
+    "standardConcept": "",
+    "code": "G0439"
+  },
+  "40821302": {
+    "id": "40821302",
+    "name": "Foeniculum vulgare whole extract 3.15 MG / Glycyrrhiza glabra extract 5.25 MG / Plantago lanceolata leaf extract 7.35 MG Oral Solution [Bio 4t] Box of 20 by Fitne Gesundheits Und Wellness",
+    "domainId": "Drug",
+    "vocabularyId": "RxNorm Extension",
+    "conceptClassId": "Marketed Product",
+    "standardConcept": "S",
+    "code": "OMOP2019264"
+  },
+  "41436595": {
+    "id": "41436595",
+    "name": "250 ML Camphor 25 MG/ML Medicated Shampoo Box of 1 by Fitne Gesundheits Und Wellness",
+    "domainId": "Drug",
+    "vocabularyId": "RxNorm Extension",
+    "conceptClassId": "Marketed Product",
+    "standardConcept": "S",
+    "code": "OMOP2634557"
+  },
+  "42506155": {
+    "id": "42506155",
+    "name": "FAMILY WELLNESS CHILDRENS ALLERGY - cetirizine hydrochloride solution",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "316a4007-b13d-41a1-934a-cde8819e0166"
+  },
+  "42515038": {
+    "id": "42515038",
+    "name": "diphenhydramine citrate, ibuprofen 38mg/1 / 200mg/1 ORAL TABLET, FILM COATED [family wellness ibuprofen pm]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "3c5e43bb-baa3-4982-a9ef-c0781677ca1f"
+  },
+  "42515571": {
+    "id": "42515571",
+    "name": "family wellness neomycin,polymyxinb,pramoxinehcl 10mg/g / 3.5mg/g / 10000[USP'U]/g TOPICAL CREAM [triple antibiotic and pain relief cream]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "976818ba-0691-0c1e-e053-2995a90ab0ad"
+  },
+  "42637907": {
+    "id": "42637907",
+    "name": "piperonyl butoxide, pyrethrum extract 4g/100mL / .33g/100mL TOPICAL SHAMPOO [family wellness lice killing]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f58f47d4-9f92-4724-bc73-8bf3f6aa5a8d"
+  },
+  "42645155": {
+    "id": "42645155",
+    "name": "FAMILY WELLNESS ANTICAVITY FRESH MINT - sodium fluoride mouthwash",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8bd5f337-4308-77d4-e053-2a95a90aed79"
+  },
+  "42645474": {
+    "id": "42645474",
+    "name": "omeprazole 20mg/1 ORAL TABLET, ORALLY DISINTEGRATING, DELAYED RELEASE [family wellness omeprazole]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "56e6ee5e-3598-4c3d-838f-4cf07272e739"
+  },
+  "42645520": {
+    "id": "42645520",
+    "name": "loperamide hydrochloride, simethicone 2mg/1 / 125mg/1 ORAL TABLET [family wellness anti diarrheal plus anti gas]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "693fa4ab-6806-4108-b961-f033f2710dab"
+  },
+  "42645617": {
+    "id": "42645617",
+    "name": "sodium fluoride .02g/100mL DENTAL MOUTHWASH [family wellness anticavity fresh mint]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8bd5f337-4309-77d4-e053-2a95a90aed79"
+  },
+  "42645776": {
+    "id": "42645776",
+    "name": "eucalyptol, menthol, methyl salicylate, thymol .06g/100mL / .042g/100mL / .064g/100mL / .092g/100mL ORAL MOUTHWASH [family wellness original amber]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8c3f5c8e-e089-72e6-e053-2995a90a5b23"
+  },
+  "42645778": {
+    "id": "42645778",
+    "name": "eucalyptol, menthol, methyl salicylate, thymol .06g/100mL / .042g/100mL / .064g/100mL / .092g/100mL ORAL MOUTHWASH [family wellness blue mint]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8c3f685c-1341-75c7-e053-2995a90a5702"
+  },
+  "42645779": {
+    "id": "42645779",
+    "name": "eucalyptol, menthol, methyl salicylate, thymol .06g/100mL / .042g/100mL / .064g/100mL / .092g/100mL ORAL MOUTHWASH [family wellness green mint]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8c3f8490-3e8c-0049-e053-2995a90a6bed"
+  },
+  "42646258": {
+    "id": "42646258",
+    "name": "sodium fluoride .02g/100mL DENTAL MOUTHWASH [family wellness anticavity fresh mint]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190233"
+  },
+  "42647998": {
+    "id": "42647998",
+    "name": "lidocaine hydrochloride, menthol 9.62mg/mL / 38.48mg/mL TOPICAL STICK [sky wellness max pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "e9a994d7-532a-ae86-e053-2995a90a9a19"
+  },
+  "42653366": {
+    "id": "42653366",
+    "name": "dextran 70, polyethylene glycol 400, povidone, and tetrahydrozoline hydrochloride 1mg/mL / 10mg/mL / .5mg/mL OPHTHALMIC SOLUTION/ DROPS [family wellness advanced eye]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9b2dbb6e-3ca2-3ba2-e053-2995a90ada9c"
+  },
+  "42660253": {
+    "id": "42660253",
+    "name": "family wellness bacitracin zinc, polymyxin b sulfate 500[USP'U]/g / 10000[USP'U]/g TOPICAL OINTMENT [family wellness first aid antibiotic]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9bcc0cb2-1ba2-63bf-e053-2a95a90a7ac0"
+  },
+  "42685556": {
+    "id": "42685556",
+    "name": "arnica, magnesium sulphurica, witch hazel 1.12g/112g / 2.24g/112g TOPICAL CREAM [mars wellness mg plus pain cream]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "cd38dce6-2664-bfce-e053-2995a90a63bf"
+  },
+  "42686108": {
+    "id": "42686108",
+    "name": "MARS WELLNESS MG PLUS PAIN CREAM - arnica, magnesium sulphurica, witch hazel cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "cd38dce6-2663-bfce-e053-2995a90a63bf"
+  },
+  "42693248": {
+    "id": "42693248",
+    "name": "capsicum annuum, silicea, verbascum thapsus, ferrum phosphoricum, kali muriaticum, aconitum napellus... 6[hp_X]/1 / 12[hp_X]/1 / 30[hp_X]/1 ORAL TABLET, CHEWABLE [wellness earache]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b6c731e8-c4e3-4306-8d39-05001631411b"
+  },
+  "42694000": {
+    "id": "42694000",
+    "name": "FAMILY WELLNESS MAXIMUM STRENGTH - potassium nitrate, sodium fluoride paste, dentifrice",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8245dfea-4b7e-3979-e053-2991aa0ae25a"
+  },
+  "42694071": {
+    "id": "42694071",
+    "name": "FAMILY WELLNESS ACID REDUCER COMPLETE - famotidine, calcium carbonate and magnesium hydroxide tablet, chewable",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "db470252-d95a-40dc-981e-acfce10550c3"
+  },
+  "42694498": {
+    "id": "42694498",
+    "name": "potassium nitrate, sodium fluoride 5g/100g / .24g/100g DENTAL PASTE, DENTIFRICE [family wellness maximum strength]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8245dfea-4b71-3979-e053-2991aa0ae25a"
+  },
+  "42694580": {
+    "id": "42694580",
+    "name": "dextran 70, polyethylene glycol 400, povidone, and tetrahydrozoline hydrochloride 1mg/mL / 10mg/mL / .5mg/mL OPHTHALMIC SOLUTION/ DROPS [family wellness advanced eye]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "825de1b5-c5ec-6545-e053-2991aa0a2a56"
+  },
+  "42694941": {
+    "id": "42694941",
+    "name": "potassium nitrate, sodium fluoride 5g/100g / .24g/100g DENTAL PASTE, DENTIFRICE [family wellness maximum strength]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190383"
+  },
+  "42695652": {
+    "id": "42695652",
+    "name": "FAMILY WELLNESS LICE TREATMENT KIT - piperonyl butoxide, pyrethrum extract kit",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "18a8d63a-249f-43bc-bd47-85540f6b7bd1"
+  },
+  "42794263": {
+    "id": "42794263",
+    "name": "FAMILY WELLNESS FLU AND SEVERE COLD AND COUGH NIGHTTIME - acetaminophen, diphenhydramine hydrochloride, phenylephrine hydrochloride powder, for solution",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "232a37f7-3b5f-49eb-92f5-2ff89fb87bdf"
+  },
+  "42807967": {
+    "id": "42807967",
+    "name": "polyethylene glycol 3350 17g/17g ORAL POWDER, FOR SOLUTION [family wellness laxative]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "0f2fad1a-291f-4c10-a17e-3dc327c6cb97"
+  },
+  "42809132": {
+    "id": "42809132",
+    "name": "fluticasone propionate 50ug/1 NASAL SPRAY, METERED [family wellness allergy relief nasal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "2d335622-0b66-409f-ac7a-d4b54f60ff4b"
+  },
+  "42811106": {
+    "id": "42811106",
+    "name": "camphor, menthol, eucalyptus oil 1.2g/100g / 2.6g/100g / 4.8g/100g TOPICAL CREAM [medicated chest rub family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "5de54ab8-780c-4daf-9758-844aa02040bc"
+  },
+  "42811759": {
+    "id": "42811759",
+    "name": "aspirin, citric acid, sodium bicarbonate 325mg/1 / 1000mg/1 / 1916mg/1 ORAL TABLET, EFFERVESCENT [family wellness effervescent antacid and pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "60b5bef5-4c93-e07a-e053-2991aa0a193a"
+  },
+  "42813665": {
+    "id": "42813665",
+    "name": "neomycin sulfate, polymyxin b sulfate, and pramoxine hci 10mg/g / 3.5mg/g / 10000[USP'U]/g TOPICAL CREAM [family wellness triple antibiotic plus pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "63131d41-c3ef-41bf-e053-2a91aa0ada67"
+  },
+  "42880834": {
+    "id": "42880834",
+    "name": "FAMILY WELLNESS KIDS ANTICAVITY - sodium fluoride rinse",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9c3400ab-12bc-d67b-e053-2a95a90a1169"
+  },
+  "42882035": {
+    "id": "42882035",
+    "name": "aspirin, chlorpheniramine maleate, phenylephrine bitartrate 2mg/1 / 325mg/1 / 7.8mg/1 ORAL TABLET, EFFERVESCENT [family wellness effervescent cold relief orange]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "995d81f2-c3c3-2366-e053-2995a90a8349"
+  },
+  "42882037": {
+    "id": "42882037",
+    "name": "aspirin, chlorpheniramine maleate, phenylephrine bitartrate 2mg/1 / 325mg/1 / 7.8mg/1 ORAL TABLET, EFFERVESCENT [family wellness effervescent cold relief original]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "996d626d-7cd2-eca9-e053-2a95a90ab8fb"
+  },
+  "42882079": {
+    "id": "42882079",
+    "name": "sodium fluoride .05g/100mL ORAL RINSE [family wellness kids anticavity]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9c3400ab-12bd-d67b-e053-2a95a90a1169"
+  },
+  "42883665": {
+    "id": "42883665",
+    "name": "cetylpyridinium chloride .07g/100mL ORAL RINSE [family wellness total health]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9cd3546d-2ce6-eddb-e053-2995a90a04ad"
+  },
+  "42886773": {
+    "id": "42886773",
+    "name": "eucalyptol, menthol, methyl salicylate, thymol .06g/100mL / .042g/100mL / .064g/100mL / .092g/100mL ORAL MOUTHWASH [family wellness blue mint]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9cfe29d6-434f-6589-e053-2a95a90ac20a"
+  },
+  "42886774": {
+    "id": "42886774",
+    "name": "eucalyptol, menthol, methyl salicylate, thymol .06g/100mL / .042g/100mL / .064g/100mL / .092g/100mL ORAL MOUTHWASH [family wellness original amber]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9cfe29d6-435d-6589-e053-2a95a90ac20a"
+  },
+  "42886775": {
+    "id": "42886775",
+    "name": "eucalyptol, menthol, methyl salicylate, thymol .06g/100mL / .042g/100mL / .064g/100mL / .092g/100mL ORAL MOUTHWASH [family wellness green mint]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9cfe313f-43c7-e42b-e053-2a95a90a5554"
+  },
+  "42886776": {
+    "id": "42886776",
+    "name": "sodium fluoride .02g/100mL DENTAL MOUTHWASH [family wellness anticavity fresh mint]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9cfe3dce-581b-afa6-e053-2a95a90ae60a"
+  },
+  "42887297": {
+    "id": "42887297",
+    "name": "famotidine, calcium carbonate and magnesium hydroxide 10mg/1 / 165mg/1 / 800mg/1 ORAL TABLET, CHEWABLE [family wellness acid reducer complete]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "e009d6a1-e9ab-4134-a931-a0b69958a305"
+  },
+  "43542497": {
+    "id": "43542497",
+    "name": "CHOICE WELLNESS HAND SANITIZER GEL - benzalkonium chloride gel",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9f9d2211-0fe9-44c0-9b41-5f12ae4f9b87"
+  },
+  "43544592": {
+    "id": "43544592",
+    "name": "benzalkonium chloride .13g/100mL TOPICAL GEL [choice wellness hand sanitizer gel]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "446f29a5-d405-4895-b098-016a7a33466c"
+  },
+  "43545006": {
+    "id": "43545006",
+    "name": "loratadine 10mg/1 ORAL TABLET [family wellness allergy relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8f0edff1-8728-4d07-89a4-cde5b5cece3e"
+  },
+  "43547248": {
+    "id": "43547248",
+    "name": "fluticasone propionate 50ug/1 NASAL SPRAY, METERED [family wellness allergy relief nasal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ad75725b-1f73-47fc-ac61-7d2d47ec30e7"
+  },
+  "43555143": {
+    "id": "43555143",
+    "name": "FAMILY WELLNESS ACETAMINOPHEN - acetaminophen tablet, film coated",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "2025c032-02f2-41be-9c14-636175aefa8b"
+  },
+  "43580149": {
+    "id": "43580149",
+    "name": "Fitne Gesundheits Und Wellness",
+    "domainId": "Drug",
+    "vocabularyId": "RxNorm Extension",
+    "conceptClassId": "Supplier",
+    "standardConcept": "",
+    "code": "OMOP900471"
+  },
+  "43649081": {
+    "id": "43649081",
+    "name": "100000 MG Bitter fennel extract 0.25 MG/MG / Plantago lanceolata leaf extract 0.4 MG/MG / suess wood root extract 0.35 MG/MG / thyme allergenic extract 0.4 MG/MG Oral Powder [Bio Husten- Und Bronchialtee I] by Fitne Gesundheits Und Wellness",
+    "domainId": "Drug",
+    "vocabularyId": "RxNorm Extension",
+    "conceptClassId": "Marketed Product",
+    "standardConcept": "S",
+    "code": "OMOP828331"
+  },
+  "43810718": {
+    "id": "43810718",
+    "name": "100000 MG Inula helenium root extract 0.4 MG/MG / thyme allergenic extract 0.3 MG/MG / Tilia extract 0.4 MG/MG Oral Powder [Bio Erkaeltungstee V] by Fitne Gesundheits Und Wellness",
+    "domainId": "Drug",
+    "vocabularyId": "RxNorm Extension",
+    "conceptClassId": "Marketed Product",
+    "standardConcept": "S",
+    "code": "OMOP825135"
+  },
+  "44021669": {
+    "id": "44021669",
+    "name": "Wellness Formula",
+    "domainId": "Drug",
+    "vocabularyId": "RxNorm Extension",
+    "conceptClassId": "Brand Name",
+    "standardConcept": "",
+    "code": "OMOP1016300"
+  },
+  "44109234": {
+    "id": "44109234",
+    "name": "Ascorbic Acid / Biotin / Calcium Carbonate / Choline / Copper Gluconate / Folic Acid / Inositol / Iodine / Magnesium Oxide / MANGANESE GLUCONATE / Methionine / Niacin / pantothenate / potassium citrate / pyridoxine / ... Oral Tablet [Wellness Formula]",
+    "domainId": "Drug",
+    "vocabularyId": "RxNorm Extension",
+    "conceptClassId": "Branded Drug Form",
+    "standardConcept": "S",
+    "code": "OMOP1103865"
+  },
+  "44158645": {
+    "id": "44158645",
+    "name": "Sidroga Wellness",
+    "domainId": "Drug",
+    "vocabularyId": "RxNorm Extension",
+    "conceptClassId": "Brand Name",
+    "standardConcept": "",
+    "code": "OMOP3035368"
+  },
+  "44187144": {
+    "id": "44187144",
+    "name": "Herbal extract Oral Solution [Sidroga Wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "RxNorm Extension",
+    "conceptClassId": "Branded Drug Form",
+    "standardConcept": "S",
+    "code": "OMOP3063867"
+  },
+  "44199567": {
+    "id": "44199567",
+    "name": "250 ML Camphor 25 MG/ML Oral Solution Box of 1 by Fitne Gesundheits Und Wellness",
+    "domainId": "Drug",
+    "vocabularyId": "RxNorm Extension",
+    "conceptClassId": "Marketed Product",
+    "standardConcept": "S",
+    "code": "OMOP3076290"
+  },
+  "44339421": {
+    "id": "44339421",
+    "name": "FAMILY WELLNESS ESOMEPRAZOLE MAGNESIUM - esomeprazole capsule, delayed release",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f37083d2-9f89-432d-b946-f1ff197ca847"
+  },
+  "44340966": {
+    "id": "44340966",
+    "name": "FAMILY WELLNESS LIQUID WART REMOVER - salicylic acid liquid",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ea48ed7f-fa91-4736-9ea7-bde375de3d80"
+  },
+  "44341827": {
+    "id": "44341827",
+    "name": "FAMILY WELLNESS - benzocaine, resorcinol cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "fd158462-5982-4aea-b9dc-6ddab6b319d3"
+  },
+  "44342174": {
+    "id": "44342174",
+    "name": "FAMILY WELLNESS - bacitracin zinc, neomycin sulfate, polymyxin b sulfate ointment",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "bd3b8146-6271-488d-bf79-0bb659123b31"
+  },
+  "44342979": {
+    "id": "44342979",
+    "name": "MAXIMUM STRENGTH FEMININE ANTI-ITCH FAMILY WELLNESS - benzocaine 20.00% resorcinol 3.00% cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "4483dfba-61d6-4ce7-927d-f3543045e8a3"
+  },
+  "44345940": {
+    "id": "44345940",
+    "name": "FAMILY WELLNESS EFFERVESCENT COLD RELIEF ORIGINAL - aspirin, chlorpheniramine maleate, phenylephrine bitartrate tablet, effervescent",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "4e151e92-0419-748f-e054-00144ff8d46c"
+  },
+  "44346463": {
+    "id": "44346463",
+    "name": "FAMILY WELLNESS EFFERVESCENT COLD RELIEF ORANGE - aspirin, chlorpheniramine maleate, phenylephrine bitartrate tablet, effervescent",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "4e13511b-fbb5-2523-e054-00144ff88e88"
+  },
+  "44346606": {
+    "id": "44346606",
+    "name": "FAMILY WELLNESS - hydrocortisone 1% cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ea26265d-f24e-458e-8bf0-287b2d49f4f4"
+  },
+  "44346805": {
+    "id": "44346805",
+    "name": "FAMILY WELLNESS - diphenhydramine hydrochloride, zinc acetate cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "fde2069b-344e-46da-bb95-c5113e0f35d6"
+  },
+  "44348184": {
+    "id": "44348184",
+    "name": "FAMILY WELLNESS ALLERGY RELIEF - loratadine tablet",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8611a813-1c18-44da-8c71-1ff41c504268"
+  },
+  "44349195": {
+    "id": "44349195",
+    "name": "WELLNESS COLD AND FLU - echinacea (angustifolia), allium cepa, bryonia (alba), gelsemium sempervirens, sanguinaria canadensis, eupatorium perfoliatum, kali bichromicum, phosphorus, aconitum napellus, influenzinum 2015-2016, tablet, chewable",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "c92d5972-38e7-4dde-a748-737daca49aba"
+  },
+  "44351103": {
+    "id": "44351103",
+    "name": "FAMILY WELLNESS ALLERGY RELIEF NASAL - fluticasone propionate spray, metered",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "eb9cde32-b630-4d0c-afc2-7c0ce074ae4b"
+  },
+  "44351558": {
+    "id": "44351558",
+    "name": "MEDICATED CHEST RUB FAMILY WELLNESS - camphor, menthol, eucalyptus oil cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a0f7991e-742d-4ec3-97d3-001d2fe10a7f"
+  },
+  "44352643": {
+    "id": "44352643",
+    "name": "FAMILY WELLNESS - mineral oil, petrolatum, phenylephrine hcl ointment",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "cfdd61e3-e12e-491c-b2a8-90fae19e8870"
+  },
+  "44352668": {
+    "id": "44352668",
+    "name": "FAMILY WELLNESS CHILDRENS ALL DAY ALLERGY - cetirizine hcl solution",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "4a0c3c63-1dfa-41f9-9349-dd6a22b82117"
+  },
+  "44353206": {
+    "id": "44353206",
+    "name": "FAMILY WELLNESS ANTISEPTIC AND PAIN RELIEF - bacitracin zinc, neomycin sulfate, polymyxin b sulfate, pramoxine hydrochloride ointment",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "cb7fdcde-2bd8-4834-ba4e-4d6fd1512599"
+  },
+  "44354865": {
+    "id": "44354865",
+    "name": "FAMILY WELLNESS - glycerin, phenylephrine hydrochloride, pramoxine hydrochloride, petrolatum cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "fde9cd90-d63c-4058-b46e-511fecea36ec"
+  },
+  "44355961": {
+    "id": "44355961",
+    "name": "FAMILY WELLNESS LICE TREATMENT - piperonyl butoxide, pyrethrum extract kit",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9c4df423-40a4-48ed-b41a-78698ebdf242"
+  },
+  "44356299": {
+    "id": "44356299",
+    "name": "FAMILY WELLNESS ACID REDUCER - ranitidine tablet, coated",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "15db6e80-cd90-4496-8b8f-a1e1791d7443"
+  },
+  "44358380": {
+    "id": "44358380",
+    "name": "ROAD TO WELLNESS - menthol kit",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d0bb6139-391e-4a44-bfe6-e065208c6843"
+  },
+  "44360688": {
+    "id": "44360688",
+    "name": "FAMILY WELLNESS - glycerin, phenylephrine hcl, pramoxine hcl, petrolatum cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "eb1785f4-5876-443b-b175-9b59d65d1a48"
+  },
+  "44360840": {
+    "id": "44360840",
+    "name": "WELLNESS EARACHE - capsicum annuum, silicea, verbascum thapsus, ferrum phosphoricum, kali muriaticum, aconitum napellus, belladonna, calcarea carbonica, pulsatilla (pratensis) tablet, chewable",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "29313514-f55d-48f2-9830-f3da2223406b"
+  },
+  "44363171": {
+    "id": "44363171",
+    "name": "FAMILY WELLNESS ACID REDUCER 150 - ranitidine tablet, film coated",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "398cc88c-5154-4e16-b908-7e4144b17b29"
+  },
+  "44363629": {
+    "id": "44363629",
+    "name": "FAMILY WELLNESS - bacitracin zinc ointment",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "dfc148c1-d1bb-4230-b8cf-9457b99d4e8a"
+  },
+  "44364377": {
+    "id": "44364377",
+    "name": "dextran 70, polyethylene glycol 400, povidone, and tetrahydrozoline hydrochloride 1mg/mL / 10mg/mL / .5mg/mL OPHTHALMIC SOLUTION/ DROPS [family wellness advanced eye]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "0018f07d-d5f0-490f-b803-34b867fca5f2"
+  },
+  "44365044": {
+    "id": "44365044",
+    "name": "hydrocortisone 1g/100g TOPICAL CREAM [family wellness maximum strength hydrocortisone]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "0634f2d0-5577-4df8-a282-d08c90e52422"
+  },
+  "44365280": {
+    "id": "44365280",
+    "name": "benzocaine 20.00% resorcinol 3.00% 3g/100g / 20g/100g TOPICAL CREAM [maximum strength feminine anti-itch family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "08407b4b-bcdd-428a-84b2-d798760e3adc"
+  },
+  "44365344": {
+    "id": "44365344",
+    "name": "camphor, menthol, eucalyptus oil 1g/100g / 4.7g/100g TOPICAL CREAM [medicated chest rub family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "08bd2b9b-9cfb-468e-9e4f-f1645f1f3b58"
+  },
+  "44365585": {
+    "id": "44365585",
+    "name": "echinacea (angustifolia), allium cepa, bryonia (alba), gelsemium sempervirens, sanguinaria canadensi... 3[hp_X]/1 / 4[hp_X]/1 / 6[hp_X]/1 / 12[hp_X]/1 ORAL TABLET, CHEWABLE [wellness cold and flu]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "0aebe19d-7d04-40dc-a35d-1e74e4e6a98d"
+  },
+  "44365857": {
+    "id": "44365857",
+    "name": "menthol KIT [road to wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "0cf78c45-128b-4144-a1a5-902c632a1d2e"
+  },
+  "44368767": {
+    "id": "44368767",
+    "name": "benzocaine, resorcinol 2g/100g / .03g/100g TOPICAL CREAM [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "23de485e-6251-423d-969f-dcfaeed66383"
+  },
+  "44370664": {
+    "id": "44370664",
+    "name": "bacitracin zinc, neomycin sulfate, polymyxin b sulfate, pramoxine hydrochloride 1g/100g / .01g/100g / .0035g/100g / .51g/100g TOPICAL OINTMENT [family wellness antiseptic and pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "2c03d7cd-b1df-4fb1-9638-b2238c1ffa0f"
+  },
+  "44370941": {
+    "id": "44370941",
+    "name": "acetaminophen, aspirin, caffeine 65mg/1 / 250mg/1 ORAL TABLET, FILM COATED [family wellness migraine relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "2d6e77b0-605b-4842-acae-96b58547fb97"
+  },
+  "44371048": {
+    "id": "44371048",
+    "name": "diphenhydramine hydrochloride, zinc acetate 2g/100g / .1g/100g TOPICAL CREAM [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "2df0b439-9a31-4d26-99ab-f6dc7e90f696"
+  },
+  "44375817": {
+    "id": "44375817",
+    "name": "mineral oil, petrolatum, phenylephrine hcl 14g/100g / .25g/100g / 74.9g/100g TOPICAL OINTMENT [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "4015347b-a7f1-4919-814c-527fbd1c1ab9"
+  },
+  "44375926": {
+    "id": "44375926",
+    "name": "glycerin, phenylephrine hcl, pramoxine hcl, petrolatum 1g/100g / 15g/100g / .25g/100g / 14.4g/100g TOPICAL CREAM [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "4044ce22-4c7a-433f-8a7a-2e3f24526f66"
+  },
+  "44377460": {
+    "id": "44377460",
+    "name": "salicylic acid 17g/100mL TOPICAL LIQUID [family wellness liquid wart remover]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "44a5718c-987c-4011-ac3d-18107523c1f3"
+  },
+  "44377696": {
+    "id": "44377696",
+    "name": "echinacea (angustifolia), allium cepa, bryonia (alba), eupatorium perfoliatum, gelsemium semperviren... 3[hp_X]/1 / 4[hp_X]/1 / 6[hp_X]/1 / 12[hp_X]/1 ORAL TABLET [wellness cold and flu]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "45541858-1e5c-4166-bee1-456a37c295d0"
+  },
+  "44377879": {
+    "id": "44377879",
+    "name": "famotidine 20mg/1 ORAL TABLET [family wellness acid reducer]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "45fcd904-ae09-4ea1-b590-f5378d1bdc4a"
+  },
+  "44378122": {
+    "id": "44378122",
+    "name": "bacitracin zinc .51g/100g TOPICAL OINTMENT [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "46c0e6b7-6aea-4c14-bf07-19764126bba5"
+  },
+  "44378869": {
+    "id": "44378869",
+    "name": "capsaicin .07g/100g TOPICAL CREAM [wellness products j-flex]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "4830f52a-e9c7-6a41-e054-00144ff88e88"
+  },
+  "44378870": {
+    "id": "44378870",
+    "name": "capsaicin .07g/100g TOPICAL CREAM [wellness products victorx]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "4830f52a-e9d7-6a41-e054-00144ff88e88"
+  },
+  "44379472": {
+    "id": "44379472",
+    "name": "glycerin, phenylephrine hydrochloride, pramoxine hydrochloride, petrolatum 1g/100g / 15g/100g / .25g/100g / 14.4g/100g TOPICAL CREAM [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "49425094-fe07-40ce-a6f1-5ebcc2762d9f"
+  },
+  "44381687": {
+    "id": "44381687",
+    "name": "aspirin, chlorpheniramine maleate, phenylephrine bitartrate 2mg/1 / 325mg/1 / 7.8mg/1 ORAL TABLET, EFFERVESCENT [family wellness effervescent cold relief orange]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "4e13511b-fbb6-2523-e054-00144ff88e88"
+  },
+  "44381696": {
+    "id": "44381696",
+    "name": "aspirin, chlorpheniramine maleate, phenylephrine bitartrate 2mg/1 / 325mg/1 / 7.8mg/1 ORAL TABLET, EFFERVESCENT [family wellness effervescent cold relief original]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "4e151e92-041a-748f-e054-00144ff8d46c"
+  },
+  "44382074": {
+    "id": "44382074",
+    "name": "hydrocortisone 1% 1g/100g TOPICAL CREAM [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "4f0f40b8-2c5d-48a8-83a6-e1aa6c102923"
+  },
+  "44387265": {
+    "id": "44387265",
+    "name": "ibuprofen 100mg/5mL ORAL SUSPENSION [family wellness childrens ibuprofen]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "59a6cae7-d06e-4dda-af1c-ff4c71ee2fd8"
+  },
+  "44389799": {
+    "id": "44389799",
+    "name": "capsicum annuum, silicea, verbascum thapsus, ferrum phosphoricum, kali muriaticum, aconitum napellus... 6[hp_X]/1 / 12[hp_X]/1 / 30[hp_X]/1 ORAL TABLET, CHEWABLE [wellness earache]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "65364b1b-f7dd-41ad-9e55-53a2795cd312"
+  },
+  "44390459": {
+    "id": "44390459",
+    "name": "bacitracin zinc, neomycin sulfate, polymyxin b sulfate .0035g/100g / .41g/100g / .52g/100g TOPICAL OINTMENT [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "6ab86e3f-3a20-4c3b-be50-4bca443cd163"
+  },
+  "44392739": {
+    "id": "44392739",
+    "name": "omeprazole 20mg/1 ORAL TABLET, DELAYED RELEASE [family wellness omeprazole]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "7d6547cb-a44a-4a73-b4f5-5129d3910557"
+  },
+  "44393156": {
+    "id": "44393156",
+    "name": "tolnaftate 1g/100g TOPICAL CREAM [family wellness antifungal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "80fc79cd-6653-4d7e-ad10-bb46e939c35a"
+  },
+  "44398140": {
+    "id": "44398140",
+    "name": "miconazole nitrate KIT [family wellness miconazole 3]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "aa75231d-0bf5-443a-9c90-744fd99461c5"
+  },
+  "44398802": {
+    "id": "44398802",
+    "name": "clotrimazole 10mg/g TOPICAL CREAM [family wellness antifungal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b028f567-a09d-4dbd-b3dd-0fff8988c22b"
+  },
+  "44402891": {
+    "id": "44402891",
+    "name": "camphor, menthol, eucalyptus oil 1.2g/100g / 2.6g/100g / 4.8g/100g TOPICAL CREAM [medicated chest rub family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d27c5b39-1a25-448a-b03b-581df69c4901"
+  },
+  "44403293": {
+    "id": "44403293",
+    "name": "tetrahydrozoline hydrochloride and zinc sulfate .5mg/mL / 2.5mg/mL OPHTHALMIC SOLUTION [family wellness irritation relief ac eye drops]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d5e0c2dc-a469-4166-9b27-af590c17a5d5"
+  },
+  "44404097": {
+    "id": "44404097",
+    "name": "echinacea (angustifolia), allium cepa, bryonia (alba), eupatorium perfoliatum, gelsemium semperviren... 3[hp_X]/mg / 4[hp_X]/mg / 6[hp_X]/mg / 12[hp_X]/mg ORAL TABLET [wellness cold and flu]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "dcf54f76-8e56-47c4-971b-c43656f5f888"
+  },
+  "44407501": {
+    "id": "44407501",
+    "name": "cocoa butter, phenylephrine hcl 6.5mg/1 / 2211mg/1 RECTAL SUPPOSITORY [family wellness hemorrhoidal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "fa353c41-f5f1-4c92-9a06-3dbae13bd93a"
+  },
+  "44474189": {
+    "id": "44474189",
+    "name": "camphor, menthol, eucalyptus oil 1g/100g / 4.7g/100g TOPICAL CREAM [medicated chest rub family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "426690210"
+  },
+  "44479622": {
+    "id": "44479622",
+    "name": "benzocaine 20.00% resorcinol 3.00% 3g/100g / 20g/100g TOPICAL CREAM [maximum strength feminine anti-itch family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190111"
+  },
+  "44480881": {
+    "id": "44480881",
+    "name": "salicylic acid 17g/100mL TOPICAL LIQUID [family wellness liquid wart remover]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "581940600"
+  },
+  "44809042": {
+    "id": "44809042",
+    "name": "Wellness promotion in long term condition",
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Procedure",
+    "standardConcept": "S",
+    "code": "844131000000105"
+  },
+  "44811700": {
+    "id": "44811700",
+    "name": "Wellness education",
+    "domainId": "Procedure",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Procedure",
+    "standardConcept": "S",
+    "code": "914371000000108"
+  },
+  "44842842": {
+    "id": "44842842",
+    "name": "Isopropyl Alcohol 70 mL/100mL SWAB [Family Wellness Sterile Alcohol]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319805"
+  },
+  "44859762": {
+    "id": "44859762",
+    "name": "CAPSAICIN .07 g/100g CREAM [Wellness Products VictoRx]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "049671002"
+  },
+  "44860056": {
+    "id": "44860056",
+    "name": "CLOTRIMAZOLE 1 g/100g CREAM [FAMILY WELLNESS ANTIFUNGAL]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319454"
+  },
+  "44894272": {
+    "id": "44894272",
+    "name": "NEOMYCIN, BACITRACIN, POLYMYXIN .41; .0035; .52 g/100g; g/100g; g/100g OINTMENT [Family Wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055621009"
+  },
+  "44911419": {
+    "id": "44911419",
+    "name": "Mineral oil, petrolatum, phenylephrine hcl 140; 719; 2.5 mg/100g; mg/100g; mg/100g OINTMENT [family wellness hemorrhoidal]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319678"
+  },
+  "44928306": {
+    "id": "44928306",
+    "name": "Mineral oil, Petrolatum, Phenylephrine HCl, Shark liver oil 14; 71.9; .25; 3 g/100g; g/100g; g/100g; g/100g OINTMENT [Family wellness hemorrhoidal]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319400"
+  },
+  "44945356": {
+    "id": "44945356",
+    "name": "Piperonyl Butoxide, Pyrethrum Extract 20130625 KIT [Family wellness Lice Treatment] ## FDA",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319173"
+  },
+  "44945358": {
+    "id": "44945358",
+    "name": "Ranitidine 75 mg/1 TABLET [family wellness acid reducer]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319271"
+  },
+  "44945359": {
+    "id": "44945359",
+    "name": "hydrocortisone TOPICAL 20121205 OINTMENT [Family Wellness Hydrocortisone]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319471"
+  },
+  "44945362": {
+    "id": "44945362",
+    "name": "Piperonyl butoxide, Pyrethrum extract TOPICAL 20121205 SHAMPOO [family wellness lice killing]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319866"
+  },
+  "44962079": {
+    "id": "44962079",
+    "name": "famotidine, calcium carbonate and magnesium hydroxide 800; 10; 165 mg/1; mg/1; mg/1 TABLET, CHEWABLE [family wellness acid controller complete]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319321"
+  },
+  "44962080": {
+    "id": "44962080",
+    "name": "Ibuprofen 100 mg/5mL SUSPENSION [family wellness childrens ibuprofen]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319897"
+  },
+  "44996004": {
+    "id": "44996004",
+    "name": "MENTHOL 750 mg/1 PATCH [FAMILY WELLNESS COLD AND HOT PAIN RELIEF]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319026"
+  },
+  "44996007": {
+    "id": "44996007",
+    "name": "Polyethylene Glycol 3350 17 g/17g POWDER, FOR SOLUTION [family wellness laxative]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319306"
+  },
+  "45047364": {
+    "id": "45047364",
+    "name": "WITCH HAZEL 5 g/1 SOLUTION [FAMILY WELLNESS MEDICATED COOLING PADS]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319032"
+  },
+  "45047366": {
+    "id": "45047366",
+    "name": "Tolnaftate TOPICAL 20140121 CREAM [Family Wellness Antifungal] ## FDA",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319300"
+  },
+  "45081479": {
+    "id": "45081479",
+    "name": "Loperamide HCl 2 mg/1 TABLET, FILM COATED [family wellness anti diarrheal]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319224"
+  },
+  "45098452": {
+    "id": "45098452",
+    "name": "Tolnaftate TOPICAL 20140121 CREAM [Family Wellness Antifungal] ## FDA",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319638"
+  },
+  "45115473": {
+    "id": "45115473",
+    "name": "Acetaminophen, Aspirin, Caffeine ORAL 20130720 TABLET, FILM COATED [Family Wellness Migraine Relief] ## FDA",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319374"
+  },
+  "45115482": {
+    "id": "45115482",
+    "name": "Hydrocortisone 1 g/100g CREAM [Family Wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055621008"
+  },
+  "45132348": {
+    "id": "45132348",
+    "name": "DEXTRAN 70, POLYETHYLENE GLYCOL 400, POVIDONE, TETRAHYDROZOLINE HCL 1; 10; 10; .5 mg/mL; mg/mL; mg/mL; mg/mL SOLUTION [FAMILY WELLNESS ADVANCED EYE DROPS]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319322"
+  },
+  "45149349": {
+    "id": "45149349",
+    "name": "WITCH HAZEL 5 g/1 SOLUTION [FAMILY WELLNESS MEDICATED WIPES]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319031"
+  },
+  "45149352": {
+    "id": "45149352",
+    "name": "Clotrimazole TOPICAL 20140120 CREAM [Family Wellness Antifungal] ## FDA",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319334"
+  },
+  "45166579": {
+    "id": "45166579",
+    "name": "Hydrocortisone 1 g/100g CREAM [Family Wellness Maximum Strength Hydrocortisone]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319074"
+  },
+  "45166582": {
+    "id": "45166582",
+    "name": "Clotrimazole TOPICAL 20140121 CREAM [Family Wellness Antifungal] ## FDA",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319626"
+  },
+  "45166596": {
+    "id": "45166596",
+    "name": "DIPHENHYDRAMINE HYDROCHLORIDE, ZINC ACETATE TOPICAL 20131101 CREAM [Family Wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055621007"
+  },
+  "45200660": {
+    "id": "45200660",
+    "name": "Famotidine ORAL 20130919 TABLET [Family Wellness Acid Reducer]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319064"
+  },
+  "45200661": {
+    "id": "45200661",
+    "name": "Miconazole nitrate 20130329 KIT [Family Wellness Miconazole 3]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319081"
+  },
+  "45200663": {
+    "id": "45200663",
+    "name": "TETRAHYDROZOLINE HYDROCHLORIDE AND ZINC SULFATE .5; 2.5 mg/mL; mg/mL SOLUTION [FAMILY WELLNESS IRRITATION RELIEF AC EYE DROPS]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319323"
+  },
+  "45234672": {
+    "id": "45234672",
+    "name": "CAPSAICIN .07 g/100g CREAM [Wellness Products J-FLEX]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "049671001"
+  },
+  "45234990": {
+    "id": "45234990",
+    "name": "Potassium Nitrate and Sodium Fluoride 5; 1.5 mg/g; mg/g PASTE [Family Wellness Sensitive Extra Whitening]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319900"
+  },
+  "45234991": {
+    "id": "45234991",
+    "name": "Omeprazole ORAL 20130814 TABLET, DELAYED RELEASE [Family Wellness Omeprazole]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319915"
+  },
+  "45269247": {
+    "id": "45269247",
+    "name": "cocoa butter, phenylephrine hcl 2.135; .0065 g/2.5g; g/2.5g SUPPOSITORY [family wellness hemorrhoidal]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319160"
+  },
+  "45286271": {
+    "id": "45286271",
+    "name": "NEOMYCIN, POLYMYXIN B SULFATE, PRAMOXINE HYDROCHLORIDE 3.5; 10000; 10 mg/g; [USP'U]/g; mg/g CREAM [FAMILY WELLNESS TRIPLE ANTIBIOTIC PLUS PAIN RELIEF]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319033"
+  },
+  "45303353": {
+    "id": "45303353",
+    "name": "Famotidine ORAL 20130830 TABLET [Family Wellness Acid Reducer]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319377"
+  },
+  "45303361": {
+    "id": "45303361",
+    "name": "Phenylephrine HCI, PETROLATUM, MINERAL OIL RECTAL; TOPICAL 20131101 OINTMENT [Family Wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055621006"
+  },
+  "45337421": {
+    "id": "45337421",
+    "name": "cetirizine hydrochloride 5 mg/5mL LIQUID [family wellness childrens all day allergy]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319974"
+  },
+  "45337689": {
+    "id": "45337689",
+    "name": "Althaea officinalis, Prunus virginiana, Inula helenium ORAL 20131016 SYRUP [Wellness with Cherry Flavor]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "064471185"
+  },
+  "45371322": {
+    "id": "45371322",
+    "name": "Acetaminophen 500 mg/1 TABLET [family wellness acetaminophen]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "055319484"
+  },
+  "45622254": {
+    "id": "45622254",
+    "name": "capsaicin .07g/100g TOPICAL CREAM [wellness products victorx]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "79db5d33-1d7f-4d2c-82cc-4e3acc36d455"
+  },
+  "45623008": {
+    "id": "45623008",
+    "name": "FAMILY WELLNESS TRIPLE ANTIBIOTIC PLUS PAIN RELIEF - neomycin sulfate, polymyxin b sulfate, and pramoxine hci cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9f0313a2-3e80-4b93-8362-3e5ea55b29e7"
+  },
+  "45626222": {
+    "id": "45626222",
+    "name": "FAMILY WELLNESS NAPROXEN SODIUM - naproxen sodium tablet, film coated",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "31b82c90-7bc2-46f4-9521-04250b78d706"
+  },
+  "45627104": {
+    "id": "45627104",
+    "name": "hydrocortisone 1g/100g TOPICAL CREAM [family wellness maximum strength hydrocortisone]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "5a9ea866-0a01-4cbc-a807-15fc40158e35"
+  },
+  "45628431": {
+    "id": "45628431",
+    "name": "FAMILY WELLNESS ACID REDUCER - ranitidine tablet",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "9861deef-7ed7-406a-aab6-eecf37642f62"
+  },
+  "45632236": {
+    "id": "45632236",
+    "name": "menthol 750mg/1 TOPICAL PATCH [family wellness cold and hot pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "44a22089-975b-4f32-aa2a-ec2af7b1c0a9"
+  },
+  "45635343": {
+    "id": "45635343",
+    "name": "FAMILY WELLNESS CHILDRENS ALL DAY ALLERGY - cetirizine hydrochloride liquid",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d346aa08-2ca8-4e0c-b4da-650734b364db"
+  },
+  "45636032": {
+    "id": "45636032",
+    "name": "FAMILY WELLNESS MEDICATED COOLING PADS - witch hazel solution",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f2b23e9d-d1a3-4cc3-8882-381cc763f89c"
+  },
+  "45638114": {
+    "id": "45638114",
+    "name": "FAMILY WELLNESS STERILE ALCOHOL - isopropyl alcohol swab",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "5626b091-de48-4fd9-8bc7-fa8a0c88a4ed"
+  },
+  "45643192": {
+    "id": "45643192",
+    "name": "hydrocortisone 1g/100g TOPICAL CREAM [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "40733a11-a835-40a3-b762-f96cbb53180b"
+  },
+  "45646196": {
+    "id": "45646196",
+    "name": "FAMILY WELLNESS - hydrocortisone cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "cddc9c4a-7c58-4225-921a-05d6afb49178"
+  },
+  "45646936": {
+    "id": "45646936",
+    "name": "potassium nitrate and sodium fluoride 5mg/g / 1.5mg/g DENTAL PASTE [family wellness sensitive extra whitening]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f06fee99-2d1b-4adf-a5a0-9e90db64a461"
+  },
+  "45648710": {
+    "id": "45648710",
+    "name": "tetrahydrozoline hydrochloride and zinc sulfate .5mg/mL / 2.5mg/mL OPHTHALMIC SOLUTION [family wellness irritation relief ac eye drops]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "4118b0c9-fcc4-4438-bc66-176e250eba84"
+  },
+  "45657759": {
+    "id": "45657759",
+    "name": "WELLNESS PRODUCTS J-FLEX - capsaicin cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d9a1b8d4-89c5-41ff-985a-b99a31218dff"
+  },
+  "45659274": {
+    "id": "45659274",
+    "name": "FAMILY WELLNESS SENSITIVE EXTRA WHITENING - potassium nitrate and sodium fluoride paste",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "22b5d423-b43a-4be9-be98-998640ff1c13"
+  },
+  "45661308": {
+    "id": "45661308",
+    "name": "neomycin, bacitracin, polymyxin .0035g/100g / .41g/100g / .52g/100g TOPICAL OINTMENT [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "848dc2d4-16e0-43e9-9311-ebdae28d3cdf"
+  },
+  "45665733": {
+    "id": "45665733",
+    "name": "WELLNESS PRODUCTS VICTORX - capsaicin cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "52c2f3d3-9cc5-4961-b363-41898f95a640"
+  },
+  "45667912": {
+    "id": "45667912",
+    "name": "family wellness laxative",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "SPL",
+    "standardConcept": "",
+    "code": "ba3e1cec-6d6f-44c9-b71c-c46351bbb7ef"
+  },
+  "45669346": {
+    "id": "45669346",
+    "name": "FAMILY WELLNESS IRRITATION RELIEF AC EYE DROPS - tetrahydrozoline hydrochloride and zinc sulfate solution",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "fb1a5336-dfab-4cb2-85eb-740869d56b11"
+  },
+  "45673152": {
+    "id": "45673152",
+    "name": "witch hazel 5g/1 TOPICAL SOLUTION [family wellness medicated wipes]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a9bd4fd0-da7a-4fa1-b7e5-5b55b88a03e3"
+  },
+  "45674071": {
+    "id": "45674071",
+    "name": "FAMILY WELLNESS ADVANCED EYE - dextran 70, polyethylene glycol 400, povidone, and tetrahydrozoline hydrochloride solution/ drops",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d4c7254f-a0a7-4a1f-8e32-c2ae9bb2313d"
+  },
+  "45674127": {
+    "id": "45674127",
+    "name": "FAMILY WELLNESS - neomycin, bacitracin, polymyxin ointment",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d6f62235-4fa4-410c-9bd1-bb9569611a74"
+  },
+  "45675502": {
+    "id": "45675502",
+    "name": "FAMILY WELLNESS MAXIMUM STRENGTH HYDROCORTISONE - hydrocortisone cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "15220ca4-b7de-4657-901a-114e260f0cf1"
+  },
+  "45678057": {
+    "id": "45678057",
+    "name": "MEDICATED CHEST RUB FAMILY WELLNESS - camphor, menthol, eucalyptus oil cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "89f22f48-a0f4-4949-bfee-67b387a4a262"
+  },
+  "45678618": {
+    "id": "45678618",
+    "name": "clotrimazole 1g/100g TOPICAL CREAM [family wellness antifungal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "a19d011c-9ff7-4ef9-8c97-8d1d9239ac38"
+  },
+  "45681223": {
+    "id": "45681223",
+    "name": "FAMILY WELLNESS CHILDRENS IBUPROFEN - ibuprofen suspension",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "17bd342d-8eb3-4663-88f5-2e7c90254dc7"
+  },
+  "45687355": {
+    "id": "45687355",
+    "name": "FAMILY WELLNESS ACID CONTROLLER COMPLETE - famotidine, calcium carbonate and magnesium hydroxide tablet, chewable",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "373e5512-0058-46dd-86e9-ce533e3f3a79"
+  },
+  "45688445": {
+    "id": "45688445",
+    "name": "FAMILY WELLNESS ADVANCED EYE DROPS",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "SPL",
+    "standardConcept": "",
+    "code": "68dc41ab-9fb5-415b-9eee-6894d9aad5fb"
+  },
+  "45690952": {
+    "id": "45690952",
+    "name": "FAMILY WELLNESS ANTI DIARRHEAL - loperamide hcl tablet, film coated",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "dca62593-20dd-49df-9100-c32e69acf860"
+  },
+  "45693183": {
+    "id": "45693183",
+    "name": "FAMILY WELLNESS IBUPROFEN PM - diphenhydramine citrate, ibuprofen tablet, film coated",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "4345ba01-8a52-4bd9-ada6-f737404c93cd"
+  },
+  "45693686": {
+    "id": "45693686",
+    "name": "FAMILY WELLNESS ACETAMINOPHEN - acetaminophen tablet",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "59c82bcb-fce3-4183-8c82-025d3218ade8"
+  },
+  "45695667": {
+    "id": "45695667",
+    "name": "FAMILY WELLNESS COLD AND HOT PAIN RELIEF - menthol patch",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "b7775d35-b724-41dc-a1e3-ebab8da6b563"
+  },
+  "45697647": {
+    "id": "45697647",
+    "name": "ibuprofen 100mg/5mL ORAL SUSPENSION [family wellness childrens ibuprofen]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "122bc3c8-9ab2-40c0-9eea-03b3789f20a1"
+  },
+  "45698794": {
+    "id": "45698794",
+    "name": "witch hazel 5g/1 TOPICAL SOLUTION [family wellness medicated cooling pads]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "46b404c3-ab4c-467f-a4cb-117646c405c8"
+  },
+  "45701492": {
+    "id": "45701492",
+    "name": "FAMILY WELLNESS MEDICATED WIPES - witch hazel solution",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "c2d10abc-11ad-4bbd-95e3-31c8c1470795"
+  },
+  "45702729": {
+    "id": "45702729",
+    "name": "FAMILY WELLNESS HEMORRHOIDAL - mineral oil, petrolatum, phenylephrine hcl ointment",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "fa842e0a-355f-46ec-9259-4fc6757bd7fd"
+  },
+  "45704000": {
+    "id": "45704000",
+    "name": "capsaicin .07g/100g TOPICAL CREAM [wellness products j-flex]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "335effbd-b149-46cc-8007-1fe5ca499d70"
+  },
+  "45704171": {
+    "id": "45704171",
+    "name": "FAMILY WELLNESS LAXATIVE - polyethylene glycol 3350 powder, for solution",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "3a52cc90-2ea4-4676-a7c9-26b93ecb1a64"
+  },
+  "45704269": {
+    "id": "45704269",
+    "name": "FAMILY WELLNESS HEMORRHOIDAL - cocoa butter, phenylephrine hcl suppository",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "3effe95a-2d1d-471e-a9e2-368bac232662"
+  },
+  "45706560": {
+    "id": "45706560",
+    "name": "neomycin, polymyxin b sulfate, pramoxine hydrochloride 10mg/g / 3.5mg/g / 10000[USP'U]/g TOPICAL CREAM [family wellness triple antibiotic plus pain relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "aa9769e2-be94-443a-bb39-3ddb12ddd593"
+  },
+  "45708047": {
+    "id": "45708047",
+    "name": "FAMILY WELLNESS HEMORRHOIDAL - mineral oil, petrolatum, phenylephrine hcl, shark liver oil ointment",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f1a52339-96ea-4ecb-bf72-b34c1629170c"
+  },
+  "45745885": {
+    "id": "45745885",
+    "name": "family wellness bacitracin zinc, polymyxin b sulfate 500[USP'U]/g / 10000[USP'U]/g TOPICAL OINTMENT [doubleantibioticointment]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "969ddc10-9037-9104-e053-2995a90a727d"
+  },
+  "45746221": {
+    "id": "45746221",
+    "name": "fluticasone propionate 50ug/1 NASAL SPRAY, METERED [family wellness allergy relief nasal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "add8008c-1744-440e-bf00-2f8874cdc2cd"
+  },
+  "45778122": {
+    "id": "45778122",
+    "name": "FAMILY WELLNESS HYDROCORTISONE - hydrocortisone ointment",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "04ae5912-27e9-4bf2-ab06-22a23db8502a"
+  },
+  "45779642": {
+    "id": "45779642",
+    "name": "FAMILY WELLNESS OMEPRAZOLE - omeprazole tablet, delayed release",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "0f195e96-4acb-48fa-b1f7-d6504601fe27"
+  },
+  "45779897": {
+    "id": "45779897",
+    "name": "clotrimazole 10mg/g TOPICAL CREAM [family wellness antifungal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "1185354e-5458-4ebc-93f2-1b6ac9032956"
+  },
+  "45782073": {
+    "id": "45782073",
+    "name": "FAMILY WELLNESS LICE KILLING - piperonyl butoxide, pyrethrum extract shampoo",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "26a969c4-9ca7-4cff-9f64-fbd106e3a917"
+  },
+  "45784671": {
+    "id": "45784671",
+    "name": "camphor, menthol, eucalyptus oil 1.2g/100g / 2.6g/100g / 4.8g/100g TOPICAL CREAM [medicated chest rub family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "3fb8eddf-3888-44fb-8cd9-2691f5693ed3"
+  },
+  "45785751": {
+    "id": "45785751",
+    "name": "dextran 70, polyethylene glycol 400, povidone, and tetrahydrozoline hydrochloride 1mg/mL / .5mg/mL / 10mg/mL OPHTHALMIC SOLUTION/ DROPS [family wellness advanced eye]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "49a4400b-85f1-43b1-ba90-8b5fdff6ec95"
+  },
+  "45787087": {
+    "id": "45787087",
+    "name": "althaea officinalis, prunus virginiana, inula helenium 1[hp_X]/118mL / 3[hp_X]/118mL / 6[hp_X]/118mL / 12[hp_X]/118mL ORAL SYRUP [wellness with cherry flavor cough syrup]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "567f8229-f7e2-415b-b687-7769befa0f92"
+  },
+  "45790518": {
+    "id": "45790518",
+    "name": "FAMILY WELLNESS ACID REDUCER - famotidine tablet, film coated",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "7708816d-e2c6-4fda-87ff-19e0ad3927be"
+  },
+  "45790868": {
+    "id": "45790868",
+    "name": "acetaminophen, aspirin, caffeine 65mg/1 / 250mg/1 ORAL TABLET, FILM COATED [family wellness migraine relief]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "7a331856-28b0-4ed0-9405-49d16d9f53bf"
+  },
+  "45791508": {
+    "id": "45791508",
+    "name": "phenylephrine hci, petrolatum, mineral oil 14g/100g / .25g/100g / 74.9g/100g RECTAL; TOPICAL OINTMENT [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "80425369-2751-46f7-8b55-416e08435e9e"
+  },
+  "45792127": {
+    "id": "45792127",
+    "name": "diphenhydramine hydrochloride, zinc acetate 2g/100g / .1g/100g TOPICAL CREAM [family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "86b3a888-70c2-4784-910c-6fdfd8a94345"
+  },
+  "45792714": {
+    "id": "45792714",
+    "name": "tolnaftate 1g/100g TOPICAL CREAM [family wellness antifungal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8c202959-98aa-4c10-9bbf-f91215f59e5e"
+  },
+  "45793795": {
+    "id": "45793795",
+    "name": "FAMILY WELLNESS HEMORRHOIDAL - cocoa butter, phenylephrine hcl suppository",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "970a6043-7302-4642-b33b-0f2502d85a24"
+  },
+  "45797430": {
+    "id": "45797430",
+    "name": "miconazole nitrate KIT [family wellness miconazole 3]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "bb1fc264-441b-41e3-a082-fb11897262c7"
+  },
+  "45798281": {
+    "id": "45798281",
+    "name": "FAMILY WELLNESS LICE TREATMENT - piperonyl butoxide, pyrethrum extract kit",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "c36fa57c-1cf3-43af-bc35-ab58f8aeb09b"
+  },
+  "45798438": {
+    "id": "45798438",
+    "name": "polyethylene glycol 3350 17g/17g ORAL POWDER, FOR SOLUTION [family wellness laxative]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "c51e3e5d-457e-434c-8312-e9d88eba8a29"
+  },
+  "45800339": {
+    "id": "45800339",
+    "name": "FAMILY WELLNESS ACID REDUCER - famotidine tablet",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "d7e3ec80-3fb4-45e2-b75a-a146ac0561c4"
+  },
+  "45802624": {
+    "id": "45802624",
+    "name": "tolnaftate 1g/100g TOPICAL CREAM [family wellness antifungal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "eea9aaa0-98da-49f6-be9a-e8fa52657f9b"
+  },
+  "45802771": {
+    "id": "45802771",
+    "name": "acetaminophen 500mg/1 ORAL TABLET [family wellness acetaminophen]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "f0147565-e557-4774-9e83-7f7b7139fa95"
+  },
+  "45804339": {
+    "id": "45804339",
+    "name": "clotrimazole 10mg/g TOPICAL CREAM [family wellness antifungal]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "ff704915-370f-4ef3-af35-ac4b54a05d9b"
+  },
+  "45837979": {
+    "id": "45837979",
+    "name": "famotidine 10mg/1 ORAL TABLET [family wellness acid reducer]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190064"
+  },
+  "45837987": {
+    "id": "45837987",
+    "name": "camphor, menthol, eucalyptus oil 1.2g/100g / 2.6g/100g / 4.8g/100g TOPICAL CREAM [medicated chest rub family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190101"
+  },
+  "45838005": {
+    "id": "45838005",
+    "name": "cocoa butter, phenylephrine hcl .0065g/2.5g / 2.135g/2.5g RECTAL SUPPOSITORY [family wellness hemorrhoidal]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190160"
+  },
+  "45838011": {
+    "id": "45838011",
+    "name": "piperonyl butoxide, pyrethrum extract KIT [family wellness lice treatment]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190173"
+  },
+  "45838044": {
+    "id": "45838044",
+    "name": "ranitidine 75mg/1 ORAL TABLET [family wellness acid reducer]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190271"
+  },
+  "45838074": {
+    "id": "45838074",
+    "name": "naproxen sodium 220mg/1 ORAL TABLET, FILM COATED [family wellness naproxen sodium]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190368"
+  },
+  "45838084": {
+    "id": "45838084",
+    "name": "mineral oil, petrolatum, phenylephrine hcl, shark liver oil 3g/100g / 14g/100g / .25g/100g / 71.9g/100g TOPICAL OINTMENT [family wellness hemorrhoidal]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190400"
+  },
+  "45838096": {
+    "id": "45838096",
+    "name": "hydrocortisone 1g/100g TOPICAL OINTMENT [family wellness hydrocortisone]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190471"
+  },
+  "45838098": {
+    "id": "45838098",
+    "name": "acetaminophen 500mg/1 ORAL TABLET [family wellness acetaminophen]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190484"
+  },
+  "45838131": {
+    "id": "45838131",
+    "name": "mineral oil, petrolatum, phenylephrine hcl 140mg/100g / 2.5mg/100g / 719mg/100g RECTAL OINTMENT [family wellness hemorrhoidal]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190678"
+  },
+  "45838140": {
+    "id": "45838140",
+    "name": "cetirizine hydrochloride 5mg/5mL ORAL LIQUID [family wellness childrens all day allergy]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "553190974"
+  },
+  "45849142": {
+    "id": "45849142",
+    "name": "althaea officinalis, prunus virginiana, inula helenium 1[hp_X]/118mL / 3[hp_X]/118mL / 6[hp_X]/118mL / 12[hp_X]/118mL ORAL SYRUP [wellness with cherry flavor cough syrup]",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "9-digit NDC",
+    "standardConcept": "",
+    "code": "644710185"
+  },
+  "45890627": {
+    "id": "45890627",
+    "name": "Federally qualified health center (fqhc) visit, ippe or awv; a fqhc visit that includes an initial preventive physical examination (ippe) or annual wellness visit (awv) and includes a typical bundle of medicare-covered services that would be furnished...",
+    "domainId": "Visit",
+    "vocabularyId": "HCPCS",
+    "conceptClassId": "HCPCS",
+    "standardConcept": "",
+    "code": "G0468"
+  },
+  "45896232": {
+    "id": "45896232",
+    "name": "ibuprofen 100mg/5mL ORAL SUSPENSION [family wellness childrens ibuprofen]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8ed56f81-c195-45aa-947b-e4b672f20af8"
+  },
+  "45897469": {
+    "id": "45897469",
+    "name": "polyethylene glycol 3350 17g/17g ORAL POWDER, FOR SOLUTION [family wellness laxative]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "deccfc63-c434-4f3c-8061-c30fd4158a36"
+  },
+  "46243761": {
+    "id": "46243761",
+    "name": "echinacea (angustifolia), allium cepa, bryonia (alba), eupatorium perfoliatum, gelsemium semperviren... 3[hp_X]/mg / 4[hp_X]/mg / 6[hp_X]/mg / 12[hp_X]/mg ORAL TABLET [wellness cold and flu]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "cdd5bc73-1175-4611-844a-d4fad9107000"
+  },
+  "46290307": {
+    "id": "46290307",
+    "name": "FAMILY WELLNESS - phenylephrine hcl, petrolatum, mineral ointment",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "bfa195d7-d87f-43b5-bbf1-7ec3a451de05"
+  },
+  "46290424": {
+    "id": "46290424",
+    "name": "WELLNESS COLD AND FLU - echinacea (angustifolia), allium cepa, bryonia (alba), eupatorium perfoliatum, gelsemium sempervirens, sanguinaria canadensis, kali bichromicum, phosphorus, aconitum napellus, influenzinum tablet",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "78dff3f7-0680-4a7a-995d-2971a70a2936"
+  },
+  "46292312": {
+    "id": "46292312",
+    "name": "FAMILY WELLNESS MIGRAINE RELIEF - acetaminophen, aspirin, caffeine tablet, film coated",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "430bf618-ebec-4693-bf0f-a44bfedb295c"
+  },
+  "46293266": {
+    "id": "46293266",
+    "name": "FAMILY WELLNESS ANTIFUNGAL - tolnaftate cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "1d8087b5-c63d-4787-ba96-982cf3111abe"
+  },
+  "46293707": {
+    "id": "46293707",
+    "name": "FAMILY WELLNESS ANTIFUNGAL - tolnaftate cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "8cd1cf41-b414-4e7a-b244-8e7705c66ed5"
+  },
+  "46299386": {
+    "id": "46299386",
+    "name": "WELLNESS COLD AND FLU - echinacea (angustifolia), allium cepa, bryonia (alba), eupatorium perfoliatum, gelsemium sempervirens, sanguinaria canadensis, kali bichromicum, phosphorus, aconitum napellus, influenzinum tablet",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "6c4c2836-602f-4fbd-be4b-ca542debefdd"
+  },
+  "46302234": {
+    "id": "46302234",
+    "name": "FAMILY WELLNESS MICONAZOLE 3 - miconazole nitrate kit",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "3e1f49a3-111c-474b-9ae3-a78b459d9d80"
+  },
+  "46307356": {
+    "id": "46307356",
+    "name": "WELLNESS WITH CHERRY FLAVOR COUGH SYRUP - althaea officinalis, prunus virginiana, inula helenium syrup",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "09a40163-abc8-45df-baf5-aff076cc8377"
+  },
+  "46308293": {
+    "id": "46308293",
+    "name": "FAMILY WELLNESS ANTIFUNGAL - clotrimazole cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "eb58bdeb-0ffb-4459-be0e-9b2b8c5e46e6"
+  },
+  "46312348": {
+    "id": "46312348",
+    "name": "FAMILY WELLNESS ANTIFUNGAL - clotrimazole cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "590b3e00-7512-480a-9501-f79e66de5b19"
+  },
+  "46322259": {
+    "id": "46322259",
+    "name": "FAMILY WELLNESS - diphenhydramine hydrochloride, zinc acetate cream",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "fefbe351-1cd9-4a2f-a43d-51e2c4eb180b"
+  },
+  "46323561": {
+    "id": "46323561",
+    "name": "camphor, menthol, eucalyptus oil 1.2g/100g / 2.6g/100g / 4.8g/100g TOPICAL CREAM [medicated chest rub family wellness]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "1cbb8491-6eee-45af-e054-00144ff88e88"
+  },
+  "46326190": {
+    "id": "46326190",
+    "name": "omeprazole 20mg/1 ORAL TABLET, DELAYED RELEASE [family wellness omeprazole]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "7131f392-ac39-486e-b24b-4f7d79d0f1c3"
+  },
+  "46326402": {
+    "id": "46326402",
+    "name": "echinacea (angustifolia), allium cepa, bryonia (alba), eupatorium perfoliatum, gelsemium semperviren... 3[hp_X]/1 / 4[hp_X]/1 / 6[hp_X]/1 / 12[hp_X]/1 ORAL TABLET [wellness cold and flu]",
+    "domainId": "Drug",
+    "vocabularyId": "SPL",
+    "conceptClassId": "OTC Drug",
+    "standardConcept": "C",
+    "code": "7ae65614-781c-4bb4-b7e6-7ee13be573e8"
+  },
+  "46340975": {
+    "id": "46340975",
+    "name": "WELLNESS WITH CHERRY FLAVOR COUGH SYRUP - althaea officinalis, prunus virginiana, inula helenium syrup",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "11-digit NDC",
+    "standardConcept": "",
+    "code": "64471018504"
+  },
+  "46360474": {
+    "id": "46360474",
+    "name": "WELLNESS COLD AND FLU - echinacea (angustifolia), allium cepa, bryonia (alba), eupatorium perfoliatum, gelsemium sempervirens, sanguinaria canadensis, kali bichromicum, phosphorus, aconitum napellus, influenzinum tablet",
+    "domainId": "Drug",
+    "vocabularyId": "NDC",
+    "conceptClassId": "11-digit NDC",
+    "standardConcept": "",
+    "code": "64471005448"
   }
 }

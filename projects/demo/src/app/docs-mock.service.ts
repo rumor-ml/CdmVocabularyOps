@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { CollectionPaths, IndexedDbDocs, TableData } from '@commonshcs/docs';
+import { CollectionPaths, IndexedDbDocs, TableData } from '@commonshcs-angular';
 import { BehaviorSubject } from 'rxjs'
 import { DebugService } from './debug.service';
 import * as demoProfile from '../../../../fixtures/demo/profile.json'

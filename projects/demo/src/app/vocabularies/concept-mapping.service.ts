@@ -1,6 +1,5 @@
 import { Inject, Injectable } from '@angular/core';
-import { Docs, DocsTableDataService, TableData, TableFieldValue, TableQuery } from '@commonshcs/docs';
-import { Observable, tap } from 'rxjs';
+import { Docs, DocsDelegate, TableFieldValue } from '@commonshcs-angular';
 
 export interface ConceptMapping {
   // https://stackoverflow.com/questions/70956050/how-do-i-declare-object-value-type-without-declaring-key-type
@@ -26,7 +25,7 @@ export interface ConceptMapping {
 @Injectable({
   providedIn: 'root'
 })
-export class ConceptMappingService extends DocsTableDataService<ConceptMapping> {
+export class ConceptMappingService extends DocsDelegate<ConceptMapping> {
 
   constructor(
     @Inject('DocsToken') docs: Docs,

@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@angular/core';
-import { Docs, DocsTableDataService, TableFieldValue } from '@commonshcs/docs';
+import { Docs, DocsDelegate, TableFieldValue } from '@commonshcs-angular';
 
 export interface Vocabulary {
   // https://stackoverflow.com/questions/70956050/how-do-i-declare-object-value-type-without-declaring-key-type
@@ -15,7 +15,7 @@ export interface Vocabulary {
 @Injectable({
   providedIn: 'root'
 })
-export class VocabulariesService extends DocsTableDataService<Vocabulary> {
+export class VocabulariesService extends DocsDelegate<Vocabulary> {
 
   constructor(
     @Inject('DocsToken') docs: Docs,

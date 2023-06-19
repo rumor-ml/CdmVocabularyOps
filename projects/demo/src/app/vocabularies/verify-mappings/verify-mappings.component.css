@@ -2,16 +2,26 @@
   margin-top: 16px;
 }
 
-.table-detail-content {
-  padding: 8px;
-  display: flex;
-  gap: 16px;
-}
-
 .actions {
   display: flex;
   flex-direction: column;
   gap: 8px;
   max-width: 300px;
   margin-bottom: 8px;
+}
+
+:host ::ng-deep .mat-mdc-tab-header {
+  display: none;
+}
+
+.table-detail-columns {
+  display: flex;
+  padding: 8px;
+  border-bottom: solid 1px;
+  gap: 16px;
+}
+
+.crumb-navigate {
+  font-weight: bold;
+  cursor: pointer;
 }

@@ -1,0 +1,25 @@
+.search {
+  display: flex;
+  gap: 8px;
+}
+
+.search-input {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.result-table {
+  flex-grow: 1;
+}
+
+.search-parameters {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.filters {
+  position: relative;
+  top: -16px;
+}

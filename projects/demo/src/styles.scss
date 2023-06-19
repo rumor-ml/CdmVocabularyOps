@@ -67,15 +67,71 @@ body {
 
 .expandable-row {
   height: 0 !important;
+}
+
+.expandable-row.action, .selectable-row {
   cursor: pointer;
 }
 
-.expandable-row:hover {
+.expandable-row.action:hover, .selectable-row:hover {
   background-color: mat.get-color-from-palette($perseus-primary, 50) !important;
 }
 
 .expandable-row td {
   border-bottom-width: 0;
+}
+
+.crumb-trail {
+	background-color: #CCD2D8;
+	color: #62717C;
+	list-style: none;
+	padding: 0px;
+	// margin: auto;
+	// width: 80%;
+}
+
+.crumb-trail:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.crumb {
+	padding: 4px 16px;
+	position: relative;
+}
+
+
+.crumb:not(:last-child):before,
+.crumb:not(:last-child):after {
+	content: '';
+	display: inline-block;
+	height: 1px;
+	width: 17px;
+	position: absolute;
+	right: -7px;
+	background-color: #fff;
+}
+
+.crumb:before {
+	top: 6px;
+	-moz-transform: rotate(60deg);
+	-ms-transform: rotate(60deg);
+	-o-transform: rotate(60deg);
+	-webkit-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+.crumb:after {
+	bottom: 6px;
+	-moz-transform: rotate(120deg);
+	-ms-transform: rotate(120deg);
+	-o-transform: rotate(120deg);
+	-webkit-transform: rotate(120deg);
+	transform: rotate(120deg);
+}
+
+.pull-left {
+  float: left !important;
 }
 
 //--- Move these to per component scss files by moving paletts to a common module.

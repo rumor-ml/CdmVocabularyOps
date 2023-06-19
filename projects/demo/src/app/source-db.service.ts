@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@angular/core';
-import { Docs, TableFieldValue } from '@commonshcs/docs';
+import { Docs, TableFieldValue } from '@commonshcs-angular';
 import { Observable, map } from 'rxjs';
 
 export interface SourceConcept {

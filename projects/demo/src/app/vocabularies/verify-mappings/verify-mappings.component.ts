@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, Input, OnDestroy, ViewChild } from '@angular/core';
+import { AfterViewInit, ChangeDetectorRef, Component, Input, OnDestroy, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AbstractControl, FormControl, FormGroup, ReactiveFormsModule, ValidationErrors, ValidatorFn, Validators } from '@angular/forms';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
@@ -18,7 +18,7 @@ import { MatSort, MatSortModule } from '@angular/material/sort';
 import { MatTable, MatTableModule } from '@angular/material/table';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { ConceptMapping, ConceptMappingService } from '../concept-mapping.service';
-import { TableDataSource } from '@commonshcs/docs';
+import { DocsTableDataSource } from '@commonshcs-angular';
 import { VocabulariesService, Vocabulary } from '../vocabularies.service';
 import { BehaviorSubject, Observable, first, map, merge, mergeAll, mergeMap, of, reduce, startWith, switchMap, tap } from 'rxjs';
 import { SourceConcept, SourceDbService } from '../../source-db.service';
@@ -26,11 +26,14 @@ import { VocabularyMapping, VocabularyMappingService } from '../vocabulary-mappi
 import { SmartSearchComponent } from './smart-search/smart-search.component';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 import { ActivatedRoute } from '@angular/router';
+import { MatTabGroup, MatTabsModule } from '@angular/material/tabs'; 
+import { ConceptSearchComponent } from '../../concept-search/concept-search.component';
 
 @Component({
   selector: 'app-verify-mappings',
   standalone: true,
   imports: [
+    ConceptSearchComponent,
     SmartSearchComponent,
     MatCardModule,
     MatButtonModule,
@@ -47,6 +50,7 @@ import { ActivatedRoute } from '@angular/router';
     MatSelectModule,
     MatDialogModule,
     MatProgressBarModule,
+    MatTabsModule,
     MatTooltipModule,
     ReactiveFormsModule,
     CommonModule
@@ -65,6 +69,8 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
   @ViewChild(MatTable) table!: MatTable<ConceptMapping>;
+  @ViewChild('tabs') tabs!: MatTabGroup
+  @ViewChild(ConceptSearchComponent) conceptSearch!: ConceptSearchComponent
 
   vocabularyControl = new FormControl('', [Validators.required, this.validVocabulary()])
   formGroup = new FormGroup({
@@ -84,12 +90,15 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
     return ['expand', ...this.displayedColumns]
   }
   count = this.conceptMappingService.count()
-  dataSource!: TableDataSource<ConceptMapping>
+  dataSource!: DocsTableDataSource<ConceptMapping>
   vocabularies = this.vocabulariesService.valueChanges({
     where: [['isSource', '==', true]]
   })
   vocabularyIds = new BehaviorSubject<string[]>([])
   loadedVocabulary = new BehaviorSubject<string | null>(null)
+  crumb: string| null = null
+  athenaConceptIdOptions = []
+  athenaConceptIdControl = new FormControl('')
 
   constructor(
     private conceptMappingService: ConceptMappingService,
@@ -100,7 +109,7 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
   ) { }
 
   ngAfterViewInit(): void {
-    this.dataSource = new TableDataSource(
+    this.dataSource = new DocsTableDataSource(
       this.conceptMappingService,
     )
     this.dataSource.sort = this.sort;
@@ -117,7 +126,14 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
             }
             const conceptMappingId = ps.get('conceptMappingId')
             if (conceptMappingId && !this.expanded) {
-              this.expanded = {id: conceptMappingId} as ConceptMapping
+              this.expanded = {
+                id: conceptMappingId,
+                sourceName: ['wellness'],
+              } as any as ConceptMapping
+            }
+            const search = ps.get('search')
+            if (search && this.expanded) {
+              setTimeout(() => this.searchConcepts(this.expanded!))
             }
           })
         }
@@ -203,7 +219,12 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
     setTimeout(() => this.loadedVocabulary.next(this.vocabularyControl.value))
   }
 
-  searchConcepts(row: ConceptMapping) { }
+  searchConcepts(row: ConceptMapping) {
+    this.crumb = `Search for Mapping: ${row.sourceName ?? row.sourceCode}`
+    this.tabs.selectedIndex = 1
+    this.conceptSearch.searchQueryControl.setValue(row.sourceName?.join(' ') ?? '')
+    this.conceptSearch.search()
+  }
 
   vocabularyString(vocabulary: Vocabulary) {
     const nameString = vocabulary.name ? ` - ${vocabulary.name}` : ''
@@ -230,6 +251,13 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
       return [...ns][0]
     } else {
       return [...ns].join(', ')
+    }
+  }
+
+  backToMappings() {
+    if (this.crumb) {
+      this.tabs.selectedIndex = 0
+      this.crumb = null
     }
   }
 }

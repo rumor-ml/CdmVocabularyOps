@@ -5,7 +5,9 @@ import { Table } from './profile.service';
 import * as d3 from 'd3'
 import { Vocabulary } from './vocabularies/vocabularies.service';
 import { Concept } from './vocabularies/concept.service';
-import { TableData } from '@commonshcs/docs';
+import { TableData } from '@commonshcs-angular';
+import * as _conceptIds from '../../../../fixtures/vocabulary/conceptIds.json'
+const conceptIds = (_conceptIds as any).default 
 
 // http://localhost:4200/?step=Customize%20Mappings&customizeVocabulary=MySiteEncounterVocabulary&conceptMappingId=MySiteEncounterVocabulary-wellness
 
@@ -162,13 +164,19 @@ export class DebugService {
                 return true
               }
             }
+            if (conceptIds['ids'].includes(r['concept_id'])) {
+              return true
+            }
             return false
           })
           .map(r => ({
             id: r['concept_id'],
-            code: r['concept_code'],
             name: r['concept_name'],
-            vocabularyId: r['vocabulary_id']
+            domainId: r['domain_id'],
+            vocabularyId: r['vocabulary_id'],
+            conceptClassId: r['concept_class_id'],
+            standardConcept: r['standard_concept'],
+            code: r['concept_code'],
           } as Concept))
           .reduce((m, r) => {m[r.id!] = r; return m}, {} as {[key: string]: Concept})
       }),
@@ -185,6 +193,7 @@ export class DebugService {
           ...this.fixtures.getValue(),
           concept: cs
         })
+        console.log('done')
       }
     )
   }
@@ -198,7 +207,7 @@ export class DebugService {
             // snomedName: new Set(rs.map(r => r['DESCRIPTION'])),
           }
         } else {
-          throw 'Not Implemented'
+          return {}
         }
       }),
       reduce((m, vs) => {
