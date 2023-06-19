@@ -13,7 +13,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { SearchService } from '../search.service';
-import { map } from 'rxjs';
+import { map, switchMap } from 'rxjs';
 
 @Component({
   selector: 'app-concept-search',
@@ -41,9 +41,15 @@ export class ConceptSearchComponent implements AfterViewInit {
 
   dataSource!: SearchTableDataSource<TableData>
   selection = new SelectionModel<TableData>(false, []);
-  displayedColumns: string[] = ['select', 'position', 'name', 'weight', 'symbol'];
-  count = this.searchService.count()
   searchQueryControl = new FormControl('')
+  displayedColumns: string[] = ['name', 'code', 'conceptClassName', 'domainName', 'vocabularyId'];
+  count = this.searchQueryControl.valueChanges.pipe(
+    map(v => `name : ${v}`),
+    switchMap(v => this.searchService.count({
+      index: 'concept',
+      query: v
+    }))
+  )
 
   constructor(
     private searchService: SearchService,

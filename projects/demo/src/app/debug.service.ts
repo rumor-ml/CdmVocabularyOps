@@ -1,5 +1,5 @@
 import { ErrorHandler, Injectable } from '@angular/core';
-import { BehaviorSubject, from, map, mergeAll, reduce, catchError, of, combineLatest } from 'rxjs';
+import { BehaviorSubject, from, map, mergeAll, reduce, catchError, of, combineLatest, mergeMap, filter } from 'rxjs';
 import { CollectionPaths } from '../../../../../commonshcs-angular/projects/docs/src/lib/indexedDb-docs';
 import { Table } from './profile.service';
 import * as d3 from 'd3'
@@ -157,7 +157,9 @@ export class DebugService {
     ]).pipe(
       map(([rs, ss]) => {
         const rst = rs as {[key: string]: any}[]
-        return rst
+        const ds = new Set<string>()
+        const ccs = new Set<string>()
+        const cs = rst
           .filter(r => {
             if (r['vocabulary_id'] === 'SNOMED') {
               if (ss.snomedCode.has(r['concept_code'])) {
@@ -169,16 +171,52 @@ export class DebugService {
             }
             return false
           })
-          .map(r => ({
-            id: r['concept_id'],
-            name: r['concept_name'],
-            domainId: r['domain_id'],
-            vocabularyId: r['vocabulary_id'],
-            conceptClassId: r['concept_class_id'],
-            standardConcept: r['standard_concept'],
-            code: r['concept_code'],
-          } as Concept))
-          .reduce((m, r) => {m[r.id!] = r; return m}, {} as {[key: string]: Concept})
+          .map(r => {
+            ds.add(r['domain_id'])
+            ccs.add(r['concept_class_id'])
+            return {
+              id: r['concept_id'],
+              name: r['concept_name'],
+              domainId: r['domain_id'],
+              vocabularyId: r['vocabulary_id'],
+              conceptClassId: r['concept_class_id'],
+              standardConcept: r['standard_concept'],
+              code: r['concept_code'],
+            } as Concept
+          })
+          return [cs, ds, ccs] as [Concept[], Set<string>, Set<string>]
+      }),
+      mergeMap(([cs, ds, ccs]) => {
+        return combineLatest([
+          from(d3.tsv('/assets/vocabulary/DOMAIN.csv')),
+          from(d3.tsv('/assets/vocabulary/CONCEPT_CLASS.csv'))
+        ]).pipe(
+          map(([drs, ccrs]) => {
+            const drst = drs as {[key: string]: any}[]
+            const ccrst = ccrs as {[key: string]: any}[]
+            const dsi = drst
+              .filter(r => ds.has(r['domain_id']))
+              .reduce((m, r) => {
+                m[r['domain_id']] = r
+                return m
+              }, {} as {[key:string]: any})
+            const ccsi = ccrst
+              .filter(r => ccs.has(r['concept_class_id']))
+              .reduce((m, r) => {
+                m[r['concept_class_id']] = r
+                return m
+              }, {} as {[key:string]: any})
+            return [dsi, ccsi]
+          }),
+          map(([dsi, ccsi]) => {
+            return cs.map(c => {
+              c['domainName'] = dsi[c['domainId']]['domain_name']
+              c['conceptClassName'] = ccsi[c['conceptClassId']]['concept_class_name']
+              return c
+            })
+            .reduce((m, r) => {m[r.id!] = r; return m}, {} as {[key: string]: Concept})
+          })
+        ) 
       }),
       catchError(r => {
         this.errorHandler.handleError(r)

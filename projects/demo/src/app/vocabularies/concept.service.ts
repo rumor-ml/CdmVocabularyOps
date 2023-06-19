@@ -8,6 +8,7 @@ export interface Concept {
     id?: string,
     name: TableFieldValue,
     domainId: string,
+    domainName: string,
     vocabularyId: string,
     conceptClassId: string,
     standardConcept: string,

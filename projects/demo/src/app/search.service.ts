@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@angular/core';
-import { Observable, map, of } from 'rxjs';
+import { Observable, map, of, reduce } from 'rxjs';
 import { Docs, SearchParameters } from '@commonshcs-angular'
 
 @Injectable({
@@ -12,6 +12,26 @@ export class SearchService {
   ) { }
 
   valueChanges<T>(params?: SearchParameters): Observable<T[] | null> {
+    return this._matches<T>(params).pipe(
+      map(rs => {
+        if (!rs) {
+          return rs
+        }
+        let start = 0
+        if (params?.startAfter) {
+          start = rs.findIndex(r => (r as any)['id'] === (params.startAfter as any)['id'])
+        }
+        if (params?.startAfter || params?.limit) {
+          const end = params.limit ? start + params.limit : undefined
+          return rs.slice(start, end)
+        } else {
+          return rs
+        }
+      })
+    )
+  }
+
+  _matches<T>(params?: SearchParameters): Observable<T[] | null> {
     if (!params?.index) {
       throw new Error('Not Implemented')
     }
@@ -30,18 +50,17 @@ export class SearchService {
           }
           return this.match(r[col]!.toString(), val)
         }) as T[]
-      })
+      }),
     )
   }
 
-  match(a: string, b: string): {match: boolean, score: number} {
-    return {
-      match: a.includes(b),
-      score: 1.0
-    }
+  count(params?: SearchParameters): Observable<number> {
+    return this._matches<unknown>(params).pipe(
+      map(rs => rs?.length ?? 0)
+    )
   }
 
-  count(params?: SearchParameters): Observable<number> {
-    return of(10)
+  match(a: string, b: string): boolean {
+    return a.includes(b)
   }
 }
