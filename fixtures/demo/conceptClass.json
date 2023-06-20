@@ -1,0 +1,58 @@
+{
+  "Record Artifact": {
+    "id": "Record Artifact",
+    "name": "Record Artifact"
+  },
+  "SPL": {
+    "id": "SPL",
+    "name": "SPL"
+  },
+  "Answer": {
+    "id": "Answer",
+    "name": "Answers"
+  },
+  "Prescription Drug": {
+    "id": "Prescription Drug",
+    "name": "Human drug class Human Prescription Drug"
+  },
+  "OTC Drug": {
+    "id": "OTC Drug",
+    "name": "Human drug class Human OTC Drug"
+  },
+  "Supplier": {
+    "id": "Supplier",
+    "name": "Supplier: Manufacturer, Wholesaler"
+  },
+  "Marketed Product": {
+    "id": "Marketed Product",
+    "name": "Marketed Product"
+  },
+  "11-digit NDC": {
+    "id": "11-digit NDC",
+    "name": "11-digit NDC code"
+  },
+  "9-digit NDC": {
+    "id": "9-digit NDC",
+    "name": "9-digit NDC code"
+  },
+  "Brand Name": {
+    "id": "Brand Name",
+    "name": "Brand Name"
+  },
+  "Branded Drug Form": {
+    "id": "Branded Drug Form",
+    "name": "Semantic Branded Drug Form"
+  },
+  "Clinical Finding": {
+    "id": "Clinical Finding",
+    "name": "Clinical Finding"
+  },
+  "HCPCS": {
+    "id": "HCPCS",
+    "name": "Healthcare Common Procedure Coding System"
+  },
+  "Procedure": {
+    "id": "Procedure",
+    "name": "Procedure"
+  }
+}

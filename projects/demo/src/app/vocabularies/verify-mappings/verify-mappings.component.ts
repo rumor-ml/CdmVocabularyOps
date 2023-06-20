@@ -20,7 +20,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { ConceptMapping, ConceptMappingService } from '../concept-mapping.service';
 import { DocsTableDataSource } from '@commonshcs-angular';
 import { VocabulariesService, Vocabulary } from '../vocabularies.service';
-import { BehaviorSubject, Observable, first, map, merge, mergeAll, mergeMap, of, reduce, startWith, switchMap, tap } from 'rxjs';
+import { BehaviorSubject, Observable, filter, first, map, merge, mergeAll, mergeMap, of, reduce, startWith, switchMap, tap } from 'rxjs';
 import { SourceConcept, SourceDbService } from '../../source-db.service';
 import { VocabularyMapping, VocabularyMappingService } from '../vocabulary-mapping.service';
 import { SmartSearchComponent } from './smart-search/smart-search.component';
@@ -80,8 +80,7 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
   expanded: ConceptMapping | null = null
   displayedColumns: string[] = [
     'conceptFrequency',
-    'sourceCode',
-    'sourceName',
+    'sourceConcept',
     'similarityScore',
     'athenaConceptName',
     'athenaVocabularyId'
@@ -96,7 +95,8 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
   })
   vocabularyIds = new BehaviorSubject<string[]>([])
   loadedVocabulary = new BehaviorSubject<string | null>(null)
-  crumb: string| null = null
+  crumb: string | null = null
+  crumbRow: ConceptMapping | null = null
   athenaConceptIdOptions = []
   athenaConceptIdControl = new FormControl('')
 
@@ -136,6 +136,27 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
               setTimeout(() => this.searchConcepts(this.expanded!))
             }
           })
+        }
+      )
+    )
+
+    this.subscriptions.push(
+      this.conceptSearch.chosenMapping.pipe(
+        filter(c => !!c),
+        mergeMap(c => {
+          return this.conceptMappingService.updateById({
+            id: this.crumbRow!.id!,
+            partial: {
+              ...this.crumbRow,
+              athenaConceptCode: c!.code,
+              athenaConceptName: c!.name,
+              athenaVocabularyId: c!.vocabularyId,
+            }
+          })
+        })
+      ).subscribe(
+        _ => {
+          this.backToMappings()
         }
       )
     )
@@ -207,7 +228,8 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
         return merge(updates)
       }),
       mergeAll(),
-    ).subscribe()
+    ).subscribe(),
+
   ]
 
   ngOnDestroy(): void {
@@ -221,6 +243,7 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
 
   searchConcepts(row: ConceptMapping) {
     this.crumb = `Search for Mapping: ${row.sourceName ?? row.sourceCode}`
+    this.crumbRow = row
     this.tabs.selectedIndex = 1
     this.conceptSearch.searchQueryControl.setValue(row.sourceName?.join(' ') ?? '')
     this.conceptSearch.search()
@@ -246,8 +269,10 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
     };
   }
 
-  formatSourceName(ns: Set<string>): string {
-    if (ns.size === 1) {
+  formatSourceName(ns: Set<string>): string | null {
+    if (ns.size === 0) {
+      return null
+    } else if (ns.size === 1) {
       return [...ns][0]
     } else {
       return [...ns].join(', ')

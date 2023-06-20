@@ -17,16 +17,16 @@ export class SourceDbService {
     @Inject('DocsToken') private docs: Docs,
   ) {}
 
-  selectDistinct(params: {
+  selectDistinct<T>(params: {
     database: string,
     table: string,
     column: string,
-  }){
+  }): Observable<Set<T>> {
     return this.docs.valueChanges({
       idField: 'id',
       path: `${params.database}-${params.table}`
     }).pipe(
-      map(rs => new Set(rs.map(r => r[params.column])))
+      map(rs => new Set(rs.map(r => r[params.column])) as Set<T>)
     )
   }
 

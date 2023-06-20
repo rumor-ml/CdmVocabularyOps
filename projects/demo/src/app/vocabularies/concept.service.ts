@@ -6,13 +6,13 @@ export interface Concept {
     // https://stackoverflow.com/questions/70956050/how-do-i-declare-object-value-type-without-declaring-key-type
     [key: string]: TableFieldValue,
     id?: string,
-    name: TableFieldValue,
+    name: string,
     domainId: string,
     domainName: string,
     vocabularyId: string,
     conceptClassId: string,
     standardConcept: string,
-    code: TableFieldValue,
+    code: string,
 }
 
 @Injectable({
@@ -27,8 +27,8 @@ export class ConceptService extends DocsDelegate<Concept> {
   }
 
   antiJoin(params: {
-    conceptCodes?: Set<TableFieldValue>,
-    conceptNames?: Set<TableFieldValue>,
+    conceptCodes?: Set<string>,
+    conceptNames?: Set<string>,
     where: DocsQueryWhere[]
   }){
     return this.valueChanges({

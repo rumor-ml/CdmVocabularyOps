@@ -1,15 +1,17 @@
 import { ErrorHandler, Injectable } from '@angular/core';
 import { BehaviorSubject, from, map, mergeAll, reduce, catchError, of, combineLatest, mergeMap, filter } from 'rxjs';
-import { CollectionPaths } from '../../../../../commonshcs-angular/projects/docs/src/lib/indexedDb-docs';
-import { Table } from './profile.service';
+import { CollectionPaths } from '@commonshcs-angular';
+import { Table } from '../profile.service';
 import * as d3 from 'd3'
-import { Vocabulary } from './vocabularies/vocabularies.service';
-import { Concept } from './vocabularies/concept.service';
+import { Vocabulary } from '../vocabularies/vocabularies.service';
+import { Concept } from '../vocabularies/concept.service';
 import { TableData } from '@commonshcs-angular';
-import * as _conceptIds from '../../../../fixtures/vocabulary/conceptIds.json'
+import * as _conceptIds from '../../../../../fixtures/vocabulary/conceptIds.json'
+import { Domain } from '../vocabularies/domain.service';
+import { ConceptClass } from '../vocabularies/concept-class.service';
 const conceptIds = (_conceptIds as any).default 
 
-// http://localhost:4200/?step=Customize%20Mappings&customizeVocabulary=MySiteEncounterVocabulary&conceptMappingId=MySiteEncounterVocabulary-wellness
+// http://localhost:4200/?step=Customize%20Mappings&customizeVocabulary=MySiteEncounterVocabulary&conceptMappingId=MySiteEncounterVocabulary-wellness&search=true&filter=true
 
 @Injectable({
   providedIn: 'root'
@@ -119,7 +121,7 @@ export class DebugService {
     )
   }
 
-  loadVocabulariesFromCsv() {
+  legacyLoadVocabulariesFromCsv() {
     from(d3.tsv('/assets/vocabulary/VOCABULARY.csv')).pipe(
       map((rs) => {
         const rst = rs as {[key: string]: any}[]
@@ -150,7 +152,7 @@ export class DebugService {
     )
   }
 
-  loadConceptsFromCsv() {
+  loadVocabularyFromCsv() {
     combineLatest([
       from(d3.tsv('/assets/vocabulary/CONCEPT.csv')),
       this._syntheaConcepts()
@@ -197,43 +199,53 @@ export class DebugService {
             const dsi = drst
               .filter(r => ds.has(r['domain_id']))
               .reduce((m, r) => {
-                m[r['domain_id']] = r
+                m[r['domain_id']] = {
+                  id: r['domain_id'],
+                  name: r['domain_name']
+                }
                 return m
               }, {} as {[key:string]: any})
             const ccsi = ccrst
               .filter(r => ccs.has(r['concept_class_id']))
               .reduce((m, r) => {
-                m[r['concept_class_id']] = r
+                m[r['concept_class_id']] = {
+                  id: r['concept_class_id'],
+                  name: r['concept_class_name']
+                }
                 return m
-              }, {} as {[key:string]: any})
+              }, {} as {[key:string]: ConceptClass})
             return [dsi, ccsi]
           }),
           map(([dsi, ccsi]) => {
-            return cs.map(c => {
-              c['domainName'] = dsi[c['domainId']]['domain_name']
-              c['conceptClassName'] = ccsi[c['conceptClassId']]['concept_class_name']
+            const csHydrated: {[key: string]: Concept} = cs.map(c => {
+              c['domainName'] = dsi[c['domainId']]['name']
+              c['conceptClassName'] = ccsi[c['conceptClassId']]['name']
               return c
             })
             .reduce((m, r) => {m[r.id!] = r; return m}, {} as {[key: string]: Concept})
+            return [csHydrated, dsi, ccsi] as [
+              {[key: string]: Concept},
+              {[key: string]: Domain},
+              {[key: string]: ConceptClass}
+            ]
           })
         ) 
       }),
-      catchError(r => {
-        this.errorHandler.handleError(r)
-        return of({} as {})
-      }),
-    ).subscribe(
-      cs => {
+    ).subscribe({
+      next: ([cs, ds, ccs]) => {
         if (!this.fixtures) {
           throw 'fixtures not defined'
         }
         this.fixtures.next({
           ...this.fixtures.getValue(),
-          concept: cs
+          concept: cs,
+          domain: ds,
+          conceptClass: ccs
         })
         console.log('done')
-      }
-    )
+      },
+      error: r => this.errorHandler.handleError(r)
+    })
   }
 
   _syntheaConcepts() {

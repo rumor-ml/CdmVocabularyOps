@@ -1,0 +1,105 @@
+<mat-chip-set aria-label="Inclusion Filters" class="filter-set">
+  <mat-chip *ngFor="let f of (filters|async)!.include" (removed)="remove('include', f)">
+    {{formatChip(f)}}
+    <button matChipRemove [attr.aria-label]="'remove ' + f">
+      <mat-icon>cancel</mat-icon>
+    </button>
+  </mat-chip>
+</mat-chip-set>
+{{operator|async}}
+<mat-chip-set aria-label="Exclusion Filters">
+  <mat-chip *ngFor="let f of (filters|async)!.exclude" (removed)="remove('exclude', f)">
+    {{formatChip(f)}}
+    <button matChipRemove [attr.aria-label]="'remove ' + f">
+      <mat-icon>cancel</mat-icon>
+    </button>
+  </mat-chip>
+</mat-chip-set>
+<div class="spacer"></div>
+<mat-divider></mat-divider>
+<div class="spacer"></div>
+<form class="example-form">
+  <mat-button-toggle-group 
+    name="include" 
+    aria-label="Include or Exclude" 
+    class="include-toggle"
+    [formControl]="includeControl"
+  >
+    <mat-button-toggle [value]="true" class="include-toggle-button">Include</mat-button-toggle>
+    <mat-button-toggle [value]="false" class="include-toggle-button">Exclude</mat-button-toggle>
+  </mat-button-toggle-group>
+  <div class="spacer"></div>
+  <mat-divider></mat-divider>
+  <div class="spacer"></div>
+  <div class="filter">
+    <mat-form-field class="example-full-width">
+      <mat-label>{{includeControl.value ? 'Include' : 'Exclude'}} Concept Class</mat-label>
+      <input type="text"
+             placeholder="Concept Class"
+             aria-label="Concept Class"
+             matInput
+             [formControl]="conceptClassControl"
+             [matAutocomplete]="autoConceptClass">
+      <mat-autocomplete #autoConceptClass="matAutocomplete">
+        <mat-option *ngFor="let option of conceptClassOptions|async" [value]="option">
+          {{option}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+    <button 
+      mat-icon-button
+      type="button"
+      (click)="addFilter('conceptClassName', conceptClassControl)" 
+      [disabled]='!(validOption(conceptClassControl, conceptClassOptions)|async)'
+    >
+      <mat-icon>add</mat-icon>
+    </button>
+  </div>
+  <div class="filter">
+    <mat-form-field class="example-full-width">
+      <mat-label>{{includeControl.value ? 'Include' : 'Exclude'}} Domain</mat-label>
+      <input type="text"
+             placeholder="Domain"
+             aria-label="Domain"
+             matInput
+             [formControl]="domainControl"
+             [matAutocomplete]="autoDomain">
+      <mat-autocomplete #autoDomain="matAutocomplete">
+        <mat-option *ngFor="let option of domainOptions|async" [value]="option">
+          {{option}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+    <button 
+      mat-icon-button
+      type="button"
+      (click)="addFilter('domainName', domainControl)" 
+      [disabled]='!(validOption(domainControl, domainOptions)|async)'
+    >
+      <mat-icon>add</mat-icon>
+    </button>  </div>
+  <div class="filter">
+    <mat-form-field class="example-full-width">
+      <mat-label>{{includeControl.value ? 'Include' : 'Exclude'}} Vocabulary</mat-label>
+      <input type="text"
+             placeholder="Vocabulary"
+             aria-label="Vocabulary"
+             matInput
+             [formControl]="vocabularyControl"
+             [matAutocomplete]="autoVocabulary">
+      <mat-autocomplete #autoVocabulary="matAutocomplete">
+        <mat-option *ngFor="let option of vocabularyOptions|async" [value]="option">
+          {{option}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+    <button 
+      mat-icon-button
+      type="button"
+      (click)="addFilter('vocabularyId', vocabularyControl)" 
+      [disabled]='!(validOption(vocabularyControl, vocabularyOptions)|async)'
+    >
+      <mat-icon>add</mat-icon>
+    </button>  </div>
+
+</form>

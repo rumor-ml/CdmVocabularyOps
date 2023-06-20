@@ -132,21 +132,21 @@
           </td>
         </ng-container>
       
-        <ng-container matColumnDef="sourceCode">
+        <!-- <ng-container matColumnDef="sourceCode">
           <th mat-header-cell *matHeaderCellDef mat-sort-header>
             Source Concept Code
           </th>
           <td mat-cell *matCellDef="let row">
-            {{row['sourceCode']}}
+            {{}}
           </td>
-        </ng-container>
+        </ng-container> -->
       
-        <ng-container matColumnDef="sourceName">
+        <ng-container matColumnDef="sourceConcept">
           <th mat-header-cell *matHeaderCellDef mat-sort-header>
-            Source Concept Name
+            Source Concept
           </th>
           <td mat-cell *matCellDef="let row">
-            {{formatSourceName(row['sourceName'])}}
+            {{formatSourceName(row['sourceName']) ?? row['sourceCode']}}
           </td>
         </ng-container>
       

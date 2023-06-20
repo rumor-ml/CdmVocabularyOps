@@ -1,0 +1,23 @@
+.spacer {
+  margin-bottom: 8px;
+}
+
+.include-toggle {
+  width: 100%;
+}
+
+.include-toggle-button {
+  flex-grow: 1;
+}
+
+.filter {
+  display: flex;
+}
+
+.filter-set {
+  max-width: 260px;
+}
+
+:host .filter-set ::ng-deep .mdc-evolution-chip__cell.mdc-evolution-chip__cell--primary {
+  overflow: hidden;
+}

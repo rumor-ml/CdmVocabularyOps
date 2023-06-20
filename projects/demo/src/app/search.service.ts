@@ -1,6 +1,6 @@
 import { Inject, Injectable } from '@angular/core';
 import { Observable, map, of, reduce } from 'rxjs';
-import { Docs, SearchParameters } from '@commonshcs-angular'
+import { Docs, Filter, Query, SearchParameters } from '@commonshcs-angular'
 
 @Injectable({
   providedIn: 'root'
@@ -35,20 +35,21 @@ export class SearchService {
     if (!params?.index) {
       throw new Error('Not Implemented')
     }
-    const colVal = params?.query?.split(' : ')
     const cs = this.docs.valueChanges({idField: 'id', path: params.index})
-    if (!colVal) {
+    if (!params.query) {
       return cs as any as Observable<T[]>
     }
-    const col = colVal[0]
-    const val = colVal[1].toLowerCase()
     return cs.pipe(
       map(rs => {
         return rs?.filter(r => {
-          if (!(r[col])) {
-            return false
+          let m = this._match(r, params.query!.q)
+          if (params.query!.include.length > 0) {
+            m = m && this.or(r, params.query!.include)
           }
-          return this.match(r[col]!.toString(), val)
+          if (params.query!.exclude.length > 0) {
+            m = m && !this.or(r, params.query!.exclude)
+          }
+          return m
         }) as T[]
       }),
     )
@@ -60,7 +61,19 @@ export class SearchService {
     )
   }
 
-  match(a: string, b: string): boolean {
-    return a.includes(b)
+  or(r: any, fs: Filter[]): boolean {
+    for (let f of fs) {
+      if (this._match(r, f)) {
+        return true
+      }
+    }
+    return false
   }
+
+  _match(r: any, f: Filter) {
+    return f.keyword 
+      ? r[f.column] === f.value
+      : r[f.column].toLocaleLowerCase().includes(f.value.toLocaleLowerCase())
+  }
+
 }

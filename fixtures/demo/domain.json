@@ -1,0 +1,30 @@
+{
+  "Visit": {
+    "id": "Visit",
+    "name": "Visit"
+  },
+  "Procedure": {
+    "id": "Procedure",
+    "name": "Procedure"
+  },
+  "Drug": {
+    "id": "Drug",
+    "name": "Drug"
+  },
+  "Condition": {
+    "id": "Condition",
+    "name": "Condition"
+  },
+  "Meas Value": {
+    "id": "Meas Value",
+    "name": "Measurement Value"
+  },
+  "Observation": {
+    "id": "Observation",
+    "name": "Observation"
+  },
+  "Type Concept": {
+    "id": "Type Concept",
+    "name": "Type Concept"
+  }
+}

@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { VocabularyMapping } from './vocabulary-mapping.service';
 import { SourceDbService } from '../source-db.service';
 import { combineLatest, first, map, mergeMap, of } from 'rxjs';
-import { ConceptService } from './concept.service';
+import { Concept, ConceptService } from './concept.service';
 
 @Injectable({
   providedIn: 'root'
@@ -31,7 +31,7 @@ export class VocabularyQualityCheckService {
     if (!column) {
       return of(null)
     }
-    return this.sourceDbService.selectDistinct({
+    return this.sourceDbService.selectDistinct<string>({
       database,
       table,
       column
