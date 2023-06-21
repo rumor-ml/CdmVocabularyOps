@@ -83,10 +83,14 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
     'sourceConcept',
     'similarityScore',
     'athenaConceptName',
-    'athenaVocabularyId'
+    'athenaVocabularyId',
+    'search',
+    'review',
+    'reset'
   ]
   get columnsToDisplayWithExpand() {
-    return ['expand', ...this.displayedColumns]
+    // return ['expand', ...this.displayedColumns]
+    return [...this.displayedColumns]
   }
   count = this.conceptMappingService.count()
   dataSource!: DocsTableDataSource<ConceptMapping>
@@ -148,6 +152,7 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
             id: this.crumbRow!.id!,
             partial: {
               ...this.crumbRow,
+              athenaConceptId: c!.id,
               athenaConceptCode: c!.code,
               athenaConceptName: c!.name,
               athenaVocabularyId: c!.vocabularyId,
@@ -247,6 +252,18 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
     this.tabs.selectedIndex = 1
     this.conceptSearch.searchQueryControl.setValue(row.sourceName?.join(' ') ?? '')
     this.conceptSearch.search()
+  }
+
+  reset(row: ConceptMapping) {
+    this.conceptMappingService.updateById({
+      id: row.id!,
+      partial: {
+        athenaConceptCode: undefined,
+        athenaConceptName: undefined,
+        athenaConceptId: undefined,
+        athenaVocabularyId: undefined
+      }
+    }).subscribe()
   }
 
   vocabularyString(vocabulary: Vocabulary) {

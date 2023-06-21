@@ -30,7 +30,8 @@
         "id": "MySiteEncounterVocabulary-wellness",
         "athenaConceptCode": "444971000124105",
         "athenaConceptName": "Annual wellness visit",
-        "athenaVocabularyId": "SNOMED"
+        "athenaVocabularyId": "SNOMED",
+        "athenaConceptId": "763701"
     },
     "MySiteEncounterVocabulary-outpatient": {
         "sourceName": [
