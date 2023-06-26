@@ -5,6 +5,9 @@ CONCEPT.csv
 projects/demo/src/assets/vocabulary
 projects/demo/src/assets/synthea
 
+# Deploy files
+**firebase**
+
 # Compiled output
 /dist
 /tmp
