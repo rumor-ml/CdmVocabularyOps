@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { VocabularyMapping } from './vocabulary-mapping.service';
-import { SourceDbService } from '../source-db.service';
 import { combineLatest, first, map, mergeMap, of } from 'rxjs';
 import { Concept, ConceptService } from './concept.service';
+import { SourceDbService } from './source-db.service';
 
 @Injectable({
   providedIn: 'root'

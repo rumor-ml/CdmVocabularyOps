@@ -1,6 +1,5 @@
 import { AfterViewInit, Component, ElementRef, OnDestroy, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ProfileService, Table } from '../../profile.service';
 import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
 import { MatSort, MatSortModule } from '@angular/material/sort';
 import { MatTable, MatTableModule } from '@angular/material/table';
@@ -26,8 +25,9 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { NewVocabularyComponent } from './new-vocabulary/new-vocabulary.component';
 import * as Plot from "@observablehq/plot";
 import * as d3 from 'd3'
-import { StylesService } from '../../styles.service';
 import { VocabularyQualityCheckService } from '../vocabulary-quality-check.service';
+import { ProfileService, Table } from '../profile.service';
+import { StylesService } from '../styles.service';
 
 @Component({
   selector: 'app-define-vocabularies',

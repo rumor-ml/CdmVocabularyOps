@@ -14,9 +14,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatExpansionModule, MatExpansionPanel } from '@angular/material/expansion';
 import { SearchService } from '../search.service';
 import { BehaviorSubject, Subscription, combineLatest, map, switchMap } from 'rxjs';
-import { SearchFiltersComponent } from '../vocabularies/verify-mappings/search-filters/search-filters.component';
 import { ActivatedRoute } from '@angular/router';
-import { Concept } from '../vocabularies/concept.service';
+import { SearchFiltersComponent } from '../verify-mappings/search-filters/search-filters.component';
+import { Concept } from '../concept.service';
 
 @Component({
   selector: 'app-concept-search',

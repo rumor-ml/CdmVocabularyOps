@@ -21,13 +21,13 @@ import { ConceptMapping, ConceptMappingService } from '../concept-mapping.servic
 import { DocsTableDataSource } from '@commonshcs-angular';
 import { VocabulariesService, Vocabulary } from '../vocabularies.service';
 import { BehaviorSubject, Observable, filter, first, map, merge, mergeAll, mergeMap, of, reduce, startWith, switchMap, tap } from 'rxjs';
-import { SourceConcept, SourceDbService } from '../../source-db.service';
 import { VocabularyMapping, VocabularyMappingService } from '../vocabulary-mapping.service';
 import { SmartSearchComponent } from './smart-search/smart-search.component';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 import { ActivatedRoute } from '@angular/router';
 import { MatTabGroup, MatTabsModule } from '@angular/material/tabs'; 
-import { ConceptSearchComponent } from '../../concept-search/concept-search.component';
+import { ConceptSearchComponent } from '../concept-search/concept-search.component';
+import { SourceConcept, SourceDbService } from '../source-db.service';
 
 @Component({
   selector: 'app-verify-mappings',

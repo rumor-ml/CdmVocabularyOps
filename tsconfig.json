@@ -20,10 +20,13 @@
     "skipLibCheck": true,
     "paths": {
       "@angular/*": [
-        "./node_modules/@angular/*"
+        "../commonshcs-angular/node_modules/@angular/*"
       ],
       "@commonshcs-angular": [
-        "../commonshcs-angular/projects/docs/src/public-api.ts"
+        "../commonshcs-angular/projects/commonshcs-angular/src/public-api.ts"
+      ],
+      "@Perseus/vocabularies": [
+        "projects/vocabularies/src/public-api.ts"
       ]
     },
     "target": "ES2022",
