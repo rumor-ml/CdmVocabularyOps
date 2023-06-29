@@ -1,14 +1,14 @@
 import { ErrorHandler, Injectable } from '@angular/core';
 import { BehaviorSubject, from, map, mergeAll, reduce, catchError, of, combineLatest, mergeMap, filter } from 'rxjs';
 import { CollectionPaths } from '@commonshcs-angular';
-import { Table } from '../profile.service';
+import { Table } from '@Perseus/vocabularies';
 import * as d3 from 'd3'
-import { Vocabulary } from '../vocabularies/vocabularies.service';
-import { Concept } from '../vocabularies/concept.service';
+import { Vocabulary } from '@Perseus/vocabularies';
+import { Concept } from '@Perseus/vocabularies';
 import { TableData } from '@commonshcs-angular';
 import * as _conceptIds from '../../../../../fixtures/vocabulary/conceptIds.json'
-import { Domain } from '../vocabularies/domain.service';
-import { ConceptClass } from '../vocabularies/concept-class.service';
+import { Domain } from '@Perseus/vocabularies';
+import { ConceptClass } from '@Perseus/vocabularies';
 const conceptIds = (_conceptIds as any).default 
 
 // http://localhost:4200/?step=Customize%20Mappings&customizeVocabulary=MySiteEncounterVocabulary&conceptMappingId=MySiteEncounterVocabulary-wellness&search=true&filter=true

@@ -115,6 +115,11 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
   ngAfterViewInit(): void {
     this.dataSource = new DocsTableDataSource(
       this.conceptMappingService,
+      this.loadedVocabulary.pipe(
+        map(v => {
+          return [['sourceVocabularyId', '==', v]]
+        })
+      )
     )
     this.dataSource.sort = this.sort;
     this.dataSource.paginator = this.paginator;

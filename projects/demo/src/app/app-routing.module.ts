@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    loadComponent: () => import('./vocabularies/vocabularies.component').then(mod => mod.VocabulariesComponent)
+    loadComponent: () => import('@Perseus/vocabularies').then(mod => mod.VocabulariesComponent)
   }
 ];
 
