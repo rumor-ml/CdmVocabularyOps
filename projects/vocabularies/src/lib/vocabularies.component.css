@@ -5,3 +5,7 @@
 .perseus-headline {
   font-weight: 100;
 }
+
+.vocabulary-stepper {
+  min-width: 860px;
+}

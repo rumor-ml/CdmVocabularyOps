@@ -17,6 +17,6 @@
   <div class="account"></div>
 </mat-toolbar>
 
-<div class="content">
+<div class="content" [class.content-small]="smallOrSmaller|async">
   <ng-content></ng-content>
 </div>

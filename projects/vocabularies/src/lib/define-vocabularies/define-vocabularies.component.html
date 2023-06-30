@@ -11,7 +11,7 @@
   <mat-card-content>
     <form class="new-mapping-form" [formGroup]="newMappingFormGroup">
       <div class="from-to">
-        <div class="choose-data-field">
+        <div class="choose-data-field" [class.choose-data-grow]="!(mediumOrSmaller|async)">
           <mat-label>Source Data Column:</mat-label>
           <div class="source-preview">
             <div class="source">
@@ -64,7 +64,7 @@
                   class="more-subtle" 
                   [hidden]="!conceptNameControl.value" 
                   aria-label="Erase concept code."
-                  (click)="conceptNameControl.reset()"
+                  (click)="resetName()"
                 >
                   <mat-icon>backspace</mat-icon>
                 </button>
@@ -72,7 +72,9 @@
             </div>
             <mat-expansion-panel 
               class="preview" 
-              [disabled]="!(conceptCodeControl.valid || conceptNameControl.valid)"
+              #previewExpansion
+              [disabled]="!(conceptNameControl.value)"
+              *ngIf="!(mediumOrSmaller|async)"
             >
               <mat-expansion-panel-header>
                 <mat-panel-title>
@@ -86,7 +88,7 @@
         <div class="new-mapping-form-divider"></div>
         <div class="choose-vocabulary">
           <mat-label>Uses Vocabulary:</mat-label>
-          <div class="align-items-baseline">
+          <div class="search-vocabulary-form-control">
             <mat-form-field appearance="fill">
               <mat-label>Search for Vocabulary</mat-label>
               <input type="text"
@@ -139,21 +141,35 @@
               </div>
             </div>
           </div>
+          <button 
+            mat-fab 
+            extended 
+            color="accent" 
+            [disabled]="!newMappingFormGroup.valid"
+            (click)="saveMapping()"
+          >
+            <mat-icon>save</mat-icon>
+            Save Mapping
+          </button>
         </div>
       </div>
     </form>
   </mat-card-content>
-  <mat-card-actions class="form-actions" align="end">
-    <button 
-      mat-fab 
-      extended 
-      color="accent" 
-      [disabled]="!newMappingFormGroup.valid"
-      (click)="saveMapping()"
-    >
-      <mat-icon>save</mat-icon>
-      Save Mapping
-    </button>
+
+  <mat-card-actions class="form-actions" align="start">
+    <mat-expansion-panel 
+    class="preview" 
+    #previewExpansion
+    [disabled]="!(conceptNameControl.value)"
+    *ngIf="mediumOrSmaller|async"
+  >
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        Preview data.
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div #previewPlot></div>
+  </mat-expansion-panel>
   </mat-card-actions>
   <mat-progress-bar *ngIf="formInProgress" mode="indeterminate"></mat-progress-bar>
 </mat-card>

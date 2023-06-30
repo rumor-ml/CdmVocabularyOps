@@ -28,6 +28,8 @@ import * as d3 from 'd3'
 import { VocabularyQualityCheckService } from '../vocabulary-quality-check.service';
 import { ProfileService, Table } from '../profile.service';
 import { StylesService } from '../styles.service';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
+
 
 @Component({
   selector: 'app-define-vocabularies',
@@ -68,13 +70,22 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
   @ViewChild(MatTable) table!: MatTable<VocabularyMapping>;
   @ViewChild(MatExpansionPanel) preview!: MatExpansionPanel;
   @ViewChild('previewPlot', {read: ElementRef}) previewPlot!: ElementRef
+  @ViewChild('previewExpansion') previewExpansion!: MatExpansionPanel
+
 
   vocabularyIds = new BehaviorSubject<string[]>([])
   profiles = this.profileService.valueChanges()
   databaseControl = new FormControl('', Validators.required)
   tableControl = new FormControl('', Validators.required)
-  conceptNameControl = new FormControl('', this.validConceptColumns())
-  conceptCodeControl = new FormControl('', this.validConceptColumns())
+  conceptNameControl = new FormControl({
+    value: '',
+    disabled: true,
+
+  }, this.validConceptColumns())
+  conceptCodeControl = new FormControl({
+    value: '',
+    disabled: true
+  }, this.validConceptColumns())
   vocabularyControl = new FormControl('', [Validators.required, this.validVocabulary()])
   newMappingFormGroup = new FormGroup({
     'database': this.databaseControl,
@@ -123,7 +134,9 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
   codeQuality: string|null = null
   nameQuality: string|null = null
   formInProgress = false
-
+  mediumOrSmaller = this.breakpointObserver
+    .observe([Breakpoints.XSmall, Breakpoints.Small, Breakpoints.Medium])
+    .pipe(map(({matches}) => matches))
 
   constructor(
     private profileService: ProfileService,
@@ -132,6 +145,7 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
     private dialog: MatDialog,
     private stylesService: StylesService,
     private vocabularyQualityCheckService: VocabularyQualityCheckService,
+    private breakpointObserver: BreakpointObserver,
   ){}
 
   subscriptions = [
@@ -159,6 +173,18 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
     this.conceptNameControl.valueChanges.subscribe(
       _ => this.conceptCodeControl.updateValueAndValidity({emitEvent: false})
     ),
+
+    this.tableControl.valueChanges.subscribe(
+      _ => {
+        if (this.tableControl.valid) {
+          this.conceptCodeControl.enable()
+          this.conceptNameControl.enable()
+        } else {
+          this.conceptCodeControl.disable()
+          this.conceptNameControl.disable()
+        }
+      }
+    )
 
   ]
 
@@ -326,4 +352,8 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
     this.previewPlot.nativeElement.replaceChildren(p)
   }
 
+  resetName() {
+    this.conceptNameControl.reset()
+    this.previewExpansion.close()
+  }
 }

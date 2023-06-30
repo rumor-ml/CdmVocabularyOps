@@ -1,13 +1,38 @@
-<div class="search">
-  <div class="search-parameters">
-    <div class="search-input">
-      <mat-icon>search</mat-icon>
-      <mat-form-field class="example-full-width">
-        <mat-label>Concept Search</mat-label>
-        <input matInput placeholder="Concept Name" [formControl]="searchQueryControl">
-      </mat-form-field>
+<div class="search" [class.search-side-panel]="(largeToXLarge|async)">
+  <div class="search-columns">
+    <div class="search-parameters">
+      <div class="search-input">
+        <mat-icon>search</mat-icon>
+        <mat-form-field class="example-full-width">
+          <mat-label>Concept Search</mat-label>
+          <input matInput placeholder="Concept Name" [formControl]="searchQueryControl">
+        </mat-form-field>
+      </div>
+      <mat-expansion-panel class="filters-under-query" #filtersPanel *ngIf="!(smallToMedium|async)">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <mat-icon class="title-icon">filter_list</mat-icon>
+            Search Filters
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <app-search-filters></app-search-filters>
+      </mat-expansion-panel>
+      <button 
+        mat-fab 
+        extended 
+        color="accent" 
+        [disabled]="!selection.hasValue()"
+        (click)="saveMapping()"
+      >
+        <mat-icon>save</mat-icon>
+        Save Mapping
+      </button>
     </div>
-    <mat-expansion-panel class="filters" #filtersPanel>
+    <mat-expansion-panel 
+      class="" 
+      #filtersPanel 
+      *ngIf="(smallToMedium|async)"
+    >
       <mat-expansion-panel-header>
         <mat-panel-title>
           <mat-icon class="title-icon">filter_list</mat-icon>
@@ -16,16 +41,6 @@
       </mat-expansion-panel-header>
       <app-search-filters></app-search-filters>
     </mat-expansion-panel>
-    <button 
-      mat-fab 
-      extended 
-      color="accent" 
-      [disabled]="!selection.hasValue()"
-      (click)="saveMapping()"
-    >
-      <mat-icon>save</mat-icon>
-      Save Mapping
-    </button>
   </div>
 
   <div class='result-table'>

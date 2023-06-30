@@ -254,6 +254,7 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
   searchConcepts(row: ConceptMapping) {
     this.crumb = `Search for Mapping: ${row.sourceName ?? row.sourceCode}`
     this.crumbRow = row
+    window.dispatchEvent(new Event('resize'));
     this.tabs.selectedIndex = 1
     this.conceptSearch.searchQueryControl.setValue(row.sourceName?.join(' ') ?? '')
     this.conceptSearch.search()
@@ -303,6 +304,7 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
 
   backToMappings() {
     if (this.crumb) {
+      window.dispatchEvent(new Event('resize'));
       this.tabs.selectedIndex = 0
       this.crumb = null
     }

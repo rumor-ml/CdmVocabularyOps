@@ -20,7 +20,7 @@
     "skipLibCheck": true,
     "paths": {
       "@angular/*": [
-        "../commonshcs-angular/node_modules/@angular/*"
+        "../commonshcs-angular/node_modules/@angular/*",
       ],
       "@commonshcs-angular": [
         "../commonshcs-angular/projects/commonshcs-angular/src/public-api.ts"

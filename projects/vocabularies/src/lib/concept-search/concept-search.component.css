@@ -1,6 +1,17 @@
 .search {
   display: flex;
+  flex-direction: column;
   gap: 8px;
+}
+
+.search-side-panel {
+  flex-direction: row;
+}
+
+.search-columns {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
 }
 
 .search-input {
@@ -15,11 +26,11 @@
 
 .search-parameters {
   display: flex;
-  flex-direction: column;
   gap: 8px;
+  flex-direction: column;
 }
 
-.filters {
+.filters-under-query {
   position: relative;
   top: -16px;
 }

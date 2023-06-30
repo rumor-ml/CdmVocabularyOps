@@ -17,6 +17,7 @@ import { BehaviorSubject, Subscription, combineLatest, map, switchMap } from 'rx
 import { ActivatedRoute } from '@angular/router';
 import { SearchFiltersComponent } from '../verify-mappings/search-filters/search-filters.component';
 import { Concept } from '../concept.service';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 
 @Component({
   selector: 'app-concept-search',
@@ -52,9 +53,24 @@ export class ConceptSearchComponent implements AfterViewInit, OnDestroy {
   count = new BehaviorSubject(0)
   chosenMapping = new BehaviorSubject<Concept|null>(null)
 
+  smallToMedium = this.breakpointObserver.observe([
+    Breakpoints.Small,
+    Breakpoints.Medium
+  ]).pipe(
+    map(({matches}) => matches)
+  )
+
+  largeToXLarge = this.breakpointObserver.observe([
+    Breakpoints.Large,
+    Breakpoints.XLarge
+  ]).pipe(
+    map(({matches}) => matches)
+  )
+
   constructor(
     private searchService: SearchService,
     private route: ActivatedRoute,
+    private breakpointObserver: BreakpointObserver
   ){}
 
   ngAfterViewInit(): void {

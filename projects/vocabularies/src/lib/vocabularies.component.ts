@@ -7,11 +7,14 @@ import { FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { DefineVocabulariesComponent } from './define-vocabularies/define-vocabularies.component';
 import { VerifyMappingsComponent } from './verify-mappings/verify-mappings.component';
 import { ActivatedRoute } from '@angular/router';
+import { MatTabGroup, MatTabsModule } from '@angular/material/tabs'; 
+
 
 @Component({
   selector: 'app-vocabularies',
   standalone: true,
   imports: [
+    MatTabsModule,
     DefineVocabulariesComponent,
     VerifyMappingsComponent,
     MatStepperModule,
@@ -33,9 +36,13 @@ export class VocabulariesComponent implements AfterViewInit, OnDestroy {
     private route: ActivatedRoute,
   ){}
   
+  // There is a weird bug where if the stepper orientation
+  // changes then nested tabs stop displaying, so this is
+  // disabled for now.
   stepperOrientation: Observable<StepperOrientation> = this.breakpointObserver
-    .observe([Breakpoints.XSmall, Breakpoints.Small])
-    .pipe(map(({matches}) => (matches ? 'vertical' : 'horizontal')));
+    .observe([Breakpoints.XSmall])
+    // .pipe(map(({matches}) => (matches ? 'vertical' : 'horizontal')));
+    .pipe(map((_) => 'horizontal'));
 
   subscriptions: Subscription[] = [
   ]

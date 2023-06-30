@@ -48,6 +48,9 @@
 .choose-data-field {
   display: flex;
   flex-direction: column;
+}
+
+.choose-data-grow {
   flex-grow: 1;
 }
 
@@ -76,10 +79,11 @@
   opacity: 0.5;
 }
 
-.align-items-baseline {
+.search-vocabulary-form-control {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  gap: 8px;
 }
 
 .mapping-table {
@@ -90,15 +94,19 @@
 .source-preview {
   display: flex;
   align-items: flex-start;
+  gap: 8px;
 }
 
 .source {
-  width: 250px;
+  display: flex;
+  flex-direction: column;
+  width: 212px;
 }
 
 .preview {
   min-width: 250px;
   flex-grow: 1;
+  width: 100%;
 }
 
 .match {
