@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@angular/core';
-import { Docs, DocsDelegate, TableFieldValue } from '@commonshcs-angular';
+import { DocsService, DocsDelegate, TableFieldValue } from '@commonshcs-angular';
 
 export interface VocabularyMapping {
   // https://stackoverflow.com/questions/70956050/how-do-i-declare-object-value-type-without-declaring-key-type
@@ -18,7 +18,7 @@ export interface VocabularyMapping {
 export class VocabularyMappingService extends DocsDelegate<VocabularyMapping> {
 
   constructor(
-    @Inject('DocsToken') docs: Docs,
+    @Inject('DocsService') docs: DocsService,
   ) {
     super({docs, path: 'vocabularyMappings', idField: 'id'});
   }

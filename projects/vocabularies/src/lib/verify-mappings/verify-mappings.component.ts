@@ -132,17 +132,21 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
             const customizeVocabulary = ps.get('customizeVocabulary')
             if (customizeVocabulary && !this.vocabularyControl.value) {
               this.vocabularyControl.setValue(customizeVocabulary)
+              this.loadConcepts()
             }
             const conceptMappingId = ps.get('conceptMappingId')
-            if (conceptMappingId && !this.expanded) {
-              this.expanded = {
-                id: conceptMappingId,
-                sourceName: ['wellness'],
-              } as any as ConceptMapping
-            }
             const search = ps.get('search')
-            if (search && this.expanded) {
-              setTimeout(() => this.searchConcepts(this.expanded!))
+            if (search && conceptMappingId) {
+              this.subscriptions.push(
+                this.dataSource.connect().subscribe(
+                  rows => {
+                    const row = rows.find(r => r.id === conceptMappingId)
+                    if (row) {
+                      this.searchConcepts(row!)
+                    }
+                  }
+                )
+              )
             }
           })
         }
@@ -254,10 +258,8 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
   searchConcepts(row: ConceptMapping) {
     this.crumb = `Search for Mapping: ${row.sourceName ?? row.sourceCode}`
     this.crumbRow = row
-    window.dispatchEvent(new Event('resize'));
     this.tabs.selectedIndex = 1
     this.conceptSearch.searchQueryControl.setValue(row.sourceName?.join(' ') ?? '')
-    this.conceptSearch.search()
   }
 
   reset(row: ConceptMapping) {

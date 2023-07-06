@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@angular/core';
-import { Docs, DocsDelegate, TableFieldValue } from '@commonshcs-angular';
+import { DocsService, DocsDelegate, TableFieldValue } from '@commonshcs-angular';
 
 
 export interface Domain {
@@ -15,7 +15,7 @@ export interface Domain {
 export class DomainService extends DocsDelegate<Domain> {
 
   constructor(
-    @Inject('DocsToken') docs: Docs,
+    @Inject('DocsService') docs: DocsService,
   ) {
     super({docs, path: 'domain', idField: 'id'});
   }

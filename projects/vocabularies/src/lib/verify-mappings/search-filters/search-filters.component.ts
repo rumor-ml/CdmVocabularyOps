@@ -153,7 +153,7 @@ export class SearchFiltersComponent implements OnDestroy {
       conceptClassName: 'Concept Class',
       vocabularyId: 'Vocabulary'
     } as any
-    return `${m[f.column]} : ${f.value}`
+    return `${m[f.column!]} : ${f.value}`
   }
 
 }

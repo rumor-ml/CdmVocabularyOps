@@ -6,20 +6,21 @@ import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DocsMock } from './docs-mock.service';
+import { DebugService } from './debug/debug.service';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     NavigationComponent,
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
   providers: [
-    {provide: 'DocsToken', useClass: DocsMock},
+    {provide: 'DocsService', useClass: DocsMock},
   ],
   bootstrap: [AppComponent]
 })

@@ -12,7 +12,6 @@ import * as demoSytheaEncounters from '../../../../fixtures/demo/synthea-encount
 import * as mappingsCreatedVocabulary from '../../../../fixtures/mappingsCreated/vocabulary.json'
 import * as mappingsCreatedVocabularyMappings from '../../../../fixtures/mappingsCreated/vocabularyMappings.json'
 import * as mappingsCreatedConceptMapping from '../../../../fixtures/mappingsCreated/conceptMapping.json'
-import { DebugService } from './debug/debug.service';
 
 const demo = {
   profile: (demoProfile as any).default,
@@ -41,10 +40,10 @@ const fixture = mappingsCreated
 export class DocsMock extends IndexedDbDocs {
 
   constructor(
-    debug: DebugService
+    // debug: DebugService
   ) {
     const tables = new BehaviorSubject(fixture as CollectionPaths)
-    debug.fixtures = tables
+    // debug.fixtures = tables
     super({tables})
   }
 

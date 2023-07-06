@@ -3,10 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'debug/docs/:collection',
-    loadComponent: () => import('./debug/fixtures/fixtures.component').then(mod => mod.FixturesComponent),
-  },
-  {
     path: '',
     loadComponent: () => import('@Perseus/vocabularies').then(mod => mod.VocabulariesComponent)
   }

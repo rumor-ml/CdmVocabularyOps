@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@angular/core';
-import { Docs, TableFieldValue } from '@commonshcs-angular';
+import { DocsService, TableFieldValue } from '@commonshcs-angular';
 import { Observable, map } from 'rxjs';
 
 export interface SourceConcept {
@@ -14,7 +14,7 @@ export interface SourceConcept {
 export class SourceDbService {
 
   constructor(
-    @Inject('DocsToken') private docs: Docs,
+    @Inject('DocsService') private docs: DocsService,
   ) {}
 
   selectDistinct<T>(params: {

@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@angular/core';
-import { Docs, DocsDelegate, TableFieldValue, DocsQueryWhere } from '@commonshcs-angular';
+import { DocsService, DocsDelegate, TableFieldValue, DocsQueryWhere } from '@commonshcs-angular';
 import { map } from 'rxjs';
 
 export interface Concept {
@@ -21,7 +21,7 @@ export interface Concept {
 export class ConceptService extends DocsDelegate<Concept> {
 
   constructor(
-    @Inject('DocsToken') docs: Docs,
+    @Inject('DocsService') docs: DocsService,
   ) {
     super({docs, path: 'concept', idField: 'id'});
   }

@@ -2,7 +2,7 @@ import { Component, Inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { first, map, mergeMap } from 'rxjs';
-import { Docs } from '@commonshcs-angular';
+import { DocsService } from '@commonshcs-angular';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
@@ -27,7 +27,7 @@ export class FixturesComponent {
 
   constructor(
     private route: ActivatedRoute,
-    @Inject('DocsToken') private docs: Docs
+    @Inject('DocsService') private docs: DocsService
   ){}
 
 

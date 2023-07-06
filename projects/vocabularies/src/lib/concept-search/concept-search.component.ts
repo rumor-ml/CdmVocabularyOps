@@ -12,7 +12,7 @@ import { SelectionModel } from '@angular/cdk/collections';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatExpansionModule, MatExpansionPanel } from '@angular/material/expansion';
-import { SearchService } from '../search.service';
+import { SearchService } from '@commonshcs-angular';
 import { BehaviorSubject, Subscription, combineLatest, map, switchMap } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
 import { SearchFiltersComponent } from '../verify-mappings/search-filters/search-filters.component';
@@ -125,8 +125,6 @@ export class ConceptSearchComponent implements AfterViewInit, OnDestroy {
   ngOnDestroy(): void {
     this.subscriptions.forEach(s => s.unsubscribe())
   }
-
-  search() {}
 
   saveMapping() {
     this.chosenMapping.next(this.selection.selected[0])

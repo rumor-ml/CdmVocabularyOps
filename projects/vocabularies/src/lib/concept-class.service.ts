@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@angular/core';
-import { Docs, DocsDelegate, TableFieldValue } from '@commonshcs-angular';
+import { DocsService, DocsDelegate, TableFieldValue } from '@commonshcs-angular';
 
 
 export interface ConceptClass {
@@ -15,7 +15,7 @@ export interface ConceptClass {
 export class ConceptClassService extends DocsDelegate<ConceptClass> {
 
   constructor(
-    @Inject('DocsToken') docs: Docs,
+    @Inject('DocsService') docs: DocsService,
   ) {
     super({docs, path: 'conceptClass', idField: 'id'});
   }
