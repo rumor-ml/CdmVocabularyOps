@@ -50,6 +50,17 @@ export class DebugService extends DebugServiceBase {
             filter: 'true'
           },
           docs: {}
+        },
+        {
+          id: 'Customize Mapping > Review Concept Tables',
+          path: [],
+          queryParams: {
+            step: 'Customize Mappings',
+            customizeVocabulary: 'MySiteEncounterVocabulary',
+            conceptMappingId: 'MySiteEncounterVocabulary-wellness',
+            review: 'true',
+          },
+          docs: {}
         }
       ],
       router

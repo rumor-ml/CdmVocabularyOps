@@ -76,7 +76,7 @@ export class SmartSearchService {
     return concat(
       of('Status: Queueing smart search.'),
       conceptStatus,
-      of('Status: Search complete.'),
+      of('Status: Search complete. Defaults updated.'),
     )
   }
   

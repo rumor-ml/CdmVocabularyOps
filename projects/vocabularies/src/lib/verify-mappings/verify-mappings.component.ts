@@ -18,7 +18,7 @@ import { MatSort, MatSortModule } from '@angular/material/sort';
 import { MatTable, MatTableModule } from '@angular/material/table';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { ConceptMapping, ConceptMappingService } from '../concept-mapping.service';
-import { DocsTableDataSource } from '@commonshcs-angular';
+import { DocsDelegateTableDataSource } from '@commonshcs-angular';
 import { VocabulariesService, Vocabulary } from '../vocabularies.service';
 import { BehaviorSubject, Observable, filter, first, map, merge, mergeAll, mergeMap, of, reduce, startWith, switchMap, tap } from 'rxjs';
 import { VocabularyMapping, VocabularyMappingService } from '../vocabulary-mapping.service';
@@ -28,6 +28,7 @@ import { ActivatedRoute } from '@angular/router';
 import { MatTabGroup, MatTabsModule } from '@angular/material/tabs'; 
 import { ConceptSearchComponent } from '../concept-search/concept-search.component';
 import { SourceConcept, SourceDbService } from '../source-db.service';
+import { TablePreviewComponent } from '../table-preview/table-preview.component';
 
 @Component({
   selector: 'app-verify-mappings',
@@ -35,6 +36,7 @@ import { SourceConcept, SourceDbService } from '../source-db.service';
   imports: [
     ConceptSearchComponent,
     SmartSearchComponent,
+    TablePreviewComponent,
     MatCardModule,
     MatButtonModule,
     MatIconModule,
@@ -72,6 +74,8 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
   @ViewChild('tabs') tabs!: MatTabGroup
   @ViewChild(ConceptSearchComponent) conceptSearch!: ConceptSearchComponent
   @ViewChild('smartSearch') smartSearch!: MatExpansionPanel
+  @ViewChild(TablePreviewComponent) tablePreviewComponent!: TablePreviewComponent
+
 
   vocabularyControl = new FormControl('', [Validators.required, this.validVocabulary()])
   formGroup = new FormGroup({
@@ -94,7 +98,7 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
     return [...this.displayedColumns]
   }
   count = this.conceptMappingService.count()
-  dataSource!: DocsTableDataSource<ConceptMapping>
+  dataSource!: DocsDelegateTableDataSource<ConceptMapping>
   vocabularies = this.vocabulariesService.valueChanges({
     where: [['isSource', '==', true]]
   })
@@ -125,7 +129,7 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
   ) { }
 
   ngAfterViewInit(): void {
-    this.dataSource = new DocsTableDataSource(
+    this.dataSource = new DocsDelegateTableDataSource(
       this.conceptMappingService,
       this.loadedVocabulary.pipe(
         map(v => {
@@ -159,6 +163,19 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
                     const row = rows.find(r => r.id === conceptMappingId)
                     if (row) {
                       this.searchConcepts(row!)
+                    }
+                  }
+                )
+              )
+            }
+            const review = ps.get('review')
+            if (review && conceptMappingId) {
+              this.subscriptions.push(
+                this.dataSource.connect().subscribe(
+                  rows => {
+                    const row = rows.find(r => r.id === conceptMappingId)
+                    if (row) {
+                      this.previewTable(row!)
                     }
                   }
                 )
@@ -276,6 +293,13 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
     this.crumbRow = row
     this.tabs.selectedIndex = 1
     this.conceptSearch.searchQueryControl.setValue(row.sourceName?.join(' ') ?? '')
+  }
+
+  previewTable(row: ConceptMapping) {
+    this.crumb = `Review Source Tables: ${row.sourceName ?? row.sourceCode}`
+    this.crumbRow = row
+    this.tabs.selectedIndex = 2
+    this.tablePreviewComponent.conceptMapping.next(row)
   }
 
   reset(row: ConceptMapping) {

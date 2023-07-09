@@ -1,0 +1,13 @@
+.columns {
+  display: flex;
+}
+
+.object {
+  white-space: pre;
+  line-height: 24px;
+}
+
+.mapped-field {
+  font-weight: 500;
+  color: var(--accent)
+}

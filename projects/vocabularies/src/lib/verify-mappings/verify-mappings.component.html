@@ -92,7 +92,11 @@
         <ng-container matColumnDef="search">
           <th mat-header-cell *matHeaderCellDef aria-label="row actions">&nbsp;</th>
           <td mat-cell *matCellDef="let row">
-            <button mat-icon-button aria-label="expand row" (click)="searchConcepts(row); $event.stopPropagation()">
+            <button mat-icon-button 
+              aria-label="expand row" 
+              (click)="searchConcepts(row); $event.stopPropagation()"
+              matTooltip="Edit this concept mapping by searching the CDM for related concepts."
+            >
               <mat-icon>edit</mat-icon>
             </button>
           </td>
@@ -101,7 +105,11 @@
         <ng-container matColumnDef="review">
           <th mat-header-cell *matHeaderCellDef aria-label="row actions">&nbsp;</th>
           <td mat-cell *matCellDef="let row">
-            <button mat-icon-button aria-label="expand row" (click)="searchConcepts(row); $event.stopPropagation()">
+            <button mat-icon-button 
+              aria-label="expand row" 
+              (click)="previewTable(row); $event.stopPropagation()"
+              matTooltip="Review table data where this concept occurs."
+            >
               <mat-icon>table</mat-icon>
             </button>
           </td>
@@ -236,5 +244,8 @@
     </mat-tab>
     <mat-tab label="search">
       <app-concept-search></app-concept-search>
+    </mat-tab>
+    <mat-tab label="preview">
+      <lib-table-preview></lib-table-preview>
     </mat-tab>
   </mat-tab-group>

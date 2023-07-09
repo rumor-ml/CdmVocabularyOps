@@ -7,7 +7,7 @@ import { AbstractControl, FormControl, FormGroup, ReactiveFormsModule, Validatio
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { BehaviorSubject, combineLatest, map, startWith } from 'rxjs';
-import { DocsTableDataSource } from '@commonshcs-angular';
+import { DocsDelegateTableDataSource } from '@commonshcs-angular';
 import { MatIconModule } from '@angular/material/icon';
 import { animate, state, style, transition, trigger } from '@angular/animations';
 import { MatButtonModule } from '@angular/material/button';
@@ -123,7 +123,7 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
     map(([vs, s]) => this.searchVocabularies(vs, s!))
   )
   count = this.mappingService.count()
-  dataSource!: DocsTableDataSource<VocabularyMapping>
+  dataSource!: DocsDelegateTableDataSource<VocabularyMapping>
   expanded: VocabularyMapping | null = null
   displayedColumns: string[] = [
     'table',
@@ -189,7 +189,7 @@ export class DefineVocabulariesComponent implements AfterViewInit, OnDestroy {
   ]
 
   ngAfterViewInit(): void {
-    this.dataSource = new DocsTableDataSource(
+    this.dataSource = new DocsDelegateTableDataSource(
       this.mappingService,
     )
     this.dataSource.sort = this.sort;
