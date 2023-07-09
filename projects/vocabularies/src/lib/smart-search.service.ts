@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Observable, from, delay, first, mergeMap, of, concat, map } from 'rxjs';
 import { ConceptMapping, ConceptMappingService } from './concept-mapping.service';
 import { ErrorHandler } from '@angular/core';
-import { SearchService } from '../../../../../commonshcs-angular/projects/commonshcs-angular/src/lib/search';
+import { Filter, SearchService } from '@commonshcs-angular';
 import { Inject } from '@angular/core';
 import { Concept } from './concept.service';
 
@@ -17,7 +17,12 @@ export class SmartSearchService {
     private errorHandler: ErrorHandler
   ) { }
 
-  queueSearch(sourceVocabularyId: string): Observable<string> {
+  queueSearch(
+    sourceVocabularyId: string, 
+    filters: {
+      include: Filter[]
+      exclude: Filter[]
+    }): Observable<string> {
     const conceptStatus = this.conceptMappingService.valueChanges({
       where: [['sourceVocabularyId', '==', sourceVocabularyId]]
     }).pipe(
@@ -39,7 +44,8 @@ export class SmartSearchService {
                 q: {
                   value: (c.sourceName?.join(' ') ?? c.sourceCode) as string,
                   column: 'name'
-                }
+                },
+                ...filters
               }
             }) as Observable<Concept[]>).pipe(
               first(),

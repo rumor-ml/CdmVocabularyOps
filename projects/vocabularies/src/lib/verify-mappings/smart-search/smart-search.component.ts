@@ -76,7 +76,7 @@ export class SmartSearchComponent implements AfterViewInit, OnDestroy {
     }
     this.inProgress = true
     this.guessConceptFilters.disabled.next(true)
-    this.smartSearchService.queueSearch(this.vocabulary.id).subscribe({
+    this.smartSearchService.queueSearch(this.vocabulary.id, this.guessConceptFilters.filters.value).subscribe({
       next: s => this.status.next(s),
       complete: () => {
         this.inProgress = false
