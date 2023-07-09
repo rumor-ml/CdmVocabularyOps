@@ -1,4 +1,4 @@
-<mat-chip-set aria-label="Inclusion Filters" class="filter-set">
+<mat-chip-set aria-label="Inclusion Filters" class="filter-set" [disabled]="disabled|async">
   <mat-chip *ngFor="let f of (filters|async)!.include" (removed)="remove('include', f)">
     {{formatChip(f)}}
     <button matChipRemove [attr.aria-label]="'remove ' + f">

@@ -14,6 +14,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatChipsModule } from '@angular/material/chips'; 
 import { Filter } from '@commonshcs-angular';
+import { Input } from '@angular/core';
+import { FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-search-filters',
@@ -49,6 +51,12 @@ export class SearchFiltersComponent implements OnDestroy {
   vocabularyControl = new FormControl(
     '',
   )
+  form = new FormGroup({
+    conceptClassControl: this.conceptClassControl,
+    domainControl: this.domainControl,
+    vocabularyControl: this.vocabularyControl,
+    includeControl: this.includeControl,
+  })
   filters = new BehaviorSubject({
     include: [] as Filter[],
     exclude: [] as Filter[],
@@ -63,6 +71,7 @@ export class SearchFiltersComponent implements OnDestroy {
       return ''
     })
   )
+  disabled = new BehaviorSubject(false)
 
   constructor(
     private conceptClassService: ConceptClassService,
@@ -97,7 +106,17 @@ export class SearchFiltersComponent implements OnDestroy {
       this.vocabularyControl.valueChanges.pipe(startWith(''), filter(v => v !== null))
     ]).pipe(
       map(([vs, v]) => this.search(vs, v!))
-    ).subscribe(this.vocabularyOptions)
+    ).subscribe(this.vocabularyOptions),
+
+    this.disabled.subscribe(
+      d => {
+        if (d) {
+          this.form.disable()
+        } else {
+          this.form.enable()
+        }
+      }
+    )
   ]
 
   ngOnDestroy(): void {

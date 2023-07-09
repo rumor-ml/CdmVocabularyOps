@@ -6,7 +6,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatCardModule } from '@angular/material/card';
 import { MatDialogModule } from '@angular/material/dialog';
-import { MatExpansionModule } from '@angular/material/expansion';
+import { MatExpansionModule, MatExpansionPanel } from '@angular/material/expansion';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
@@ -71,6 +71,7 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
   @ViewChild(MatTable) table!: MatTable<ConceptMapping>;
   @ViewChild('tabs') tabs!: MatTabGroup
   @ViewChild(ConceptSearchComponent) conceptSearch!: ConceptSearchComponent
+  @ViewChild('smartSearch') smartSearch!: MatExpansionPanel
 
   vocabularyControl = new FormControl('', [Validators.required, this.validVocabulary()])
   formGroup = new FormGroup({
@@ -99,6 +100,17 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
   })
   vocabularyIds = new BehaviorSubject<string[]>([])
   loadedVocabulary = new BehaviorSubject<string | null>(null)
+  loadedVocabularyObj = this.loadedVocabulary.pipe(
+    switchMap(v => {
+      if (v) {
+        return this.vocabulariesService.valueChanges({
+          where: [['id', '==', v]]
+        }).pipe(map(vs => vs ? vs[0] : null))
+      } else {
+        return of(null)
+      }
+    })
+  )
   crumb: string | null = null
   crumbRow: ConceptMapping | null = null
   athenaConceptIdOptions = []
@@ -133,6 +145,10 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
             if (customizeVocabulary && !this.vocabularyControl.value) {
               this.vocabularyControl.setValue(customizeVocabulary)
               this.loadConcepts()
+            }
+            const smartSearch = ps.get('smartSearch')
+            if (smartSearch === 'true') {
+              setTimeout(() => this.smartSearch.open())
             }
             const conceptMappingId = ps.get('conceptMappingId')
             const search = ps.get('search')

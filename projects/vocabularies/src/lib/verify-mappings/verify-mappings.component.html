@@ -4,7 +4,7 @@
     <mat-card-subtitle class="subtitle">
         If you have created a custom vocabulary, then this
         is where you can map the concepts in that vocabulary
-        to concepts that exist in the Athena database.
+        to concepts that exist in the CDM.
     </mat-card-subtitle>
   </mat-card-header>
   <mat-card-content>
@@ -44,13 +44,18 @@
     <mat-progress-bar *ngIf="formInProgress" mode="indeterminate"></mat-progress-bar>
   </mat-card>
 
-  <mat-expansion-panel class="mapping-config">
+  <mat-expansion-panel class="mapping-config" #smartSearch [disabled]="!(loadedVocabulary|async)">
     <mat-expansion-panel-header>
-      <mat-panel-title>
+      <mat-panel-title class="info-title">
         Smart Search
+        <!-- <mat-icon class="muted"
+          matTooltip="Smart search will set the default concept mapping for a custom vocabulary using the chosen strategy."
+        >
+          info
+        </mat-icon> -->
       </mat-panel-title>
     </mat-expansion-panel-header>
-    <app-smart-search></app-smart-search>
+    <app-smart-search [vocabulary]="loadedVocabularyObj|async"></app-smart-search>
   </mat-expansion-panel>
 
   <ul class="crumb-trail">
@@ -88,7 +93,7 @@
           <th mat-header-cell *matHeaderCellDef aria-label="row actions">&nbsp;</th>
           <td mat-cell *matCellDef="let row">
             <button mat-icon-button aria-label="expand row" (click)="searchConcepts(row); $event.stopPropagation()">
-              <mat-icon>search</mat-icon>
+              <mat-icon>edit</mat-icon>
             </button>
           </td>
         </ng-container>

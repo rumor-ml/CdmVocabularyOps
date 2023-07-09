@@ -20,6 +20,7 @@ export interface ConceptMapping {
   athenaConceptCode: string|undefined,
   athenaConceptName: string|undefined,
   similarityScore: number|undefined,
+  default: boolean|undefined
 }
 
 @Injectable({

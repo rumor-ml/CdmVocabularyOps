@@ -3,7 +3,7 @@ import { Router } from "@angular/router"
 import { DebugService as DebugServiceBase } from "@commonshcs-angular"
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class DebugService extends DebugServiceBase {
 
@@ -19,14 +19,35 @@ export class DebugService extends DebugServiceBase {
           docs: {}
         },
         {
-          id: 'Customize Mapping > Search',
+          id: 'Customize Mapping > Smart Search',
+          path: [],
+          queryParams: {
+            step: 'Customize Mappings',
+            customizeVocabulary: 'MySiteEncounterVocabulary',
+            smartSearch: "true",
+          },
+          docs: {}
+        },
+        {
+          id: 'Customize Mapping > Smart Search > Guess Concept',
+          path: [],
+          queryParams: {
+            step: 'Customize Mappings',
+            customizeVocabulary: 'MySiteEncounterVocabulary',
+            smartSearch: "true",
+            strategy: "Guess Concept"
+          },
+          docs: {}
+        },
+        {
+          id: 'Customize Mapping > Concept Search',
           path: [],
           queryParams: {
             step: 'Customize Mappings',
             customizeVocabulary: 'MySiteEncounterVocabulary',
             conceptMappingId: 'MySiteEncounterVocabulary-wellness',
             search: 'true',
-            // filter: 'true'
+            filter: 'true'
           },
           docs: {}
         }

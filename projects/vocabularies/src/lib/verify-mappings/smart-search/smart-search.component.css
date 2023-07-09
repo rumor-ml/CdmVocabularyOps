@@ -1,8 +1,35 @@
 .columns {
   display: flex;
+  gap: 48px;
+}
+
+.radio-column {
+  white-space: pre;
 }
 
 .radio {
   display: flex;
   flex-direction: column;
+}
+
+dt {
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+.muted {
+  opacity: .6;
+  vertical-align: middle;
+}
+
+.progress {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.apply-with-status {
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }

@@ -1,9 +1,73 @@
 <div class="columns">
-  <div>
-    <mat-radio-group aria-label="Select an option" class="radio">
-      <mat-radio-button value="default">Default Vocabulary</mat-radio-button>
-      <mat-radio-button value="guess concepts">Guess Concepts</mat-radio-button>
-      <mat-radio-button value="guess vocabulary">Guess Vocabulary</mat-radio-button>
+  <div class="radio-column">
+    <mat-radio-group aria-label="Select an option" class="radio" [formControl]="strategyFormControl">
+      <mat-radio-button
+        value="None"
+      >
+        None
+      </mat-radio-button>
+      <mat-radio-button
+        value="Default Vocabulary"
+        [disabled]="!vocabulary?.conceptId"
+      >
+        Default Vocabulary
+        <mat-icon class="muted" *ngIf="!vocabulary?.conceptId"
+          matTooltip="Default Vocabulary can only be used when the source vocabulary specifies a Concept ID column."
+        >
+          info
+        </mat-icon>
+      </mat-radio-button>
+      <mat-radio-button
+        value="Guess Concept"
+      >
+        Guess Concept
+      </mat-radio-button>
+      <mat-radio-button
+        value="Guess Vocabulary"
+      >
+        Guess Vocabulary
+      </mat-radio-button>
     </mat-radio-group>
   </div>
+  <div *ngIf="strategyFormControl.value === 'None'">
+    Smart Search sets the default mapping for a concept
+    when a concept mapping has not been entered
+    using the table below. 
+
+    <dl>
+      <dt>Default Vocabulary</dt>
+      <dd>
+        Choose a vocabulary that will be searched for
+        exact matches of the concept ID. If no match to
+        the Concept ID is found, and no mapping is created in the table below
+        then the mapping will remain null.
+      </dd>
+      <dt>Guess Concept</dt>
+      <dd>
+        Heuristics will be used to search the CDM for each concept
+        name. The top result for each concept will be used as the default.
+      </dd>
+      <dt>Guess Vocabulary</dt>
+      <dd>
+        Heuristics will be used to find the best fit of the custom vocabulary as a
+        whole to a single CDM vocabulary. The top result for each concept within
+        that vocabulary will be used as the default.
+      </dd>
+    </dl>
+  </div>
+  <div *ngIf="strategyFormControl.value === 'Guess Concept'">
+    <div>
+      Filter Candidate Concepts
+    </div>
+    <app-search-filters #guessConceptFilters></app-search-filters>
+    <div class="apply-with-status">
+      <button mat-stroked-button 
+        color="primary" 
+        (click)="guessConcepts()"
+        [disabled]="inProgress"
+      >Apply Defaults</button>
+      <div>{{status|async}}</div>
+    </div>
+  </div>
 </div>
+<mat-progress-bar class="progress" [mode]="inProgress ? 'indeterminate' : 'determinate'"></mat-progress-bar>

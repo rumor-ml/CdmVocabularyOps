@@ -25,3 +25,12 @@
   font-weight: bold;
   cursor: pointer;
 }
+
+.muted {
+  opacity: .6;
+}
+
+.info-title {
+  display: flex;
+  gap: 16px;
+}

@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DocsMock } from './docs-mock.service';
-import { DebugService } from './debug/debug.service';
+import { SearchDocsService } from '@commonshcs-angular';
 
 
 @NgModule({
@@ -21,6 +21,7 @@ import { DebugService } from './debug/debug.service';
   ],
   providers: [
     {provide: 'DocsService', useClass: DocsMock},
+    {provide: 'SearchService', useClass: SearchDocsService}
   ],
   bootstrap: [AppComponent]
 })

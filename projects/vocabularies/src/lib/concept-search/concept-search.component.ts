@@ -18,6 +18,7 @@ import { ActivatedRoute } from '@angular/router';
 import { SearchFiltersComponent } from '../verify-mappings/search-filters/search-filters.component';
 import { Concept } from '../concept.service';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
+import { Inject } from '@angular/core';
 
 @Component({
   selector: 'app-concept-search',
@@ -68,7 +69,7 @@ export class ConceptSearchComponent implements AfterViewInit, OnDestroy {
   )
 
   constructor(
-    private searchService: SearchService,
+    @Inject('SearchService') private searchService: SearchService,
     private route: ActivatedRoute,
     private breakpointObserver: BreakpointObserver
   ){}
