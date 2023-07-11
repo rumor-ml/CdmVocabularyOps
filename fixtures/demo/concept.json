@@ -1,4 +1,48 @@
 {
+  "8677": {
+    "id": "8677",
+    "name": "Outpatient NEC",
+    "domainId": "Visit",
+    "vocabularyId": "CMS Place of Service",
+    "conceptClassId": "Visit",
+    "standardConcept": "",
+    "code": "95",
+    "domainName": "Visit",
+    "conceptClassName": "OMOP Visit"
+  },
+  "8756": {
+    "id": "8756",
+    "name": "Outpatient Hospital",
+    "domainId": "Visit",
+    "vocabularyId": "CMS Place of Service",
+    "conceptClassId": "Visit",
+    "standardConcept": "S",
+    "code": "22",
+    "domainName": "Visit",
+    "conceptClassName": "OMOP Visit"
+  },
+  "8782": {
+    "id": "8782",
+    "name": "Urgent Care Facility",
+    "domainId": "Visit",
+    "vocabularyId": "CMS Place of Service",
+    "conceptClassId": "Visit",
+    "standardConcept": "S",
+    "code": "20",
+    "domainName": "Visit",
+    "conceptClassName": "OMOP Visit"
+  },
+  "32203": {
+    "id": "32203",
+    "name": "Emergency",
+    "domainId": "Observation",
+    "vocabularyId": "UB04 Pri Typ of Adm",
+    "conceptClassId": "UB04 Pri Typ of Adm",
+    "standardConcept": "S",
+    "code": "1",
+    "domainName": "Observation",
+    "conceptClassName": "UB04 Pri Typ of Adm"
+  },
   "433644": {
     "id": "433644",
     "name": "Allergy to shellfish",
@@ -53,6 +97,17 @@
     "code": "66a96497-1b65-4943-b6b9-01ae8bd975ff",
     "domainName": "Drug",
     "conceptClassName": "Human drug class Human OTC Drug"
+  },
+  "601183": {
+    "id": "601183",
+    "name": "Urgent care service",
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Qualifier Value",
+    "standardConcept": "S",
+    "code": "462541000124109",
+    "domainName": "Observation",
+    "conceptClassName": "Qualifier Value"
   },
   "601866": {
     "id": "601866",
@@ -141,6 +196,28 @@
     "code": "eb9b45f1-8847-4563-a578-ca14e985441d",
     "domainName": "Drug",
     "conceptClassName": "Human drug class Human OTC Drug"
+  },
+  "706400": {
+    "id": "706400",
+    "name": "Urgent care center",
+    "domainId": "Meas Value",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Doc Setting",
+    "standardConcept": "S",
+    "code": "LP173055-7",
+    "domainName": "Measurement Value",
+    "conceptClassName": "LOINC Document Setting"
+  },
+  "706404": {
+    "id": "706404",
+    "name": "Outpatient",
+    "domainId": "Meas Value",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Doc Setting",
+    "standardConcept": "S",
+    "code": "LP173051-6",
+    "domainName": "Measurement Value",
+    "conceptClassName": "LOINC Document Setting"
   },
   "727966": {
     "id": "727966",
@@ -449,6 +526,83 @@
     "code": "dae7673c-4352-b9d7-e053-2995a90a96da",
     "domainName": "Drug",
     "conceptClassName": "Human drug class Human OTC Drug"
+  },
+  "1004172": {
+    "id": "1004172",
+    "name": "Ambulatory aid",
+    "domainId": "Observation",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "LOINC Component",
+    "standardConcept": "",
+    "code": "LP100243-7",
+    "domainName": "Observation",
+    "conceptClassName": "LOINC Component"
+  },
+  "1012754": {
+    "id": "1012754",
+    "name": "Urgent care center",
+    "domainId": "Observation",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "LOINC System",
+    "standardConcept": "",
+    "code": "LP185856-4",
+    "domainName": "Observation",
+    "conceptClassName": "LOINC System"
+  },
+  "1026209": {
+    "id": "1026209",
+    "name": "Outpatient",
+    "domainId": "Observation",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "LOINC System",
+    "standardConcept": "",
+    "code": "LP32889-5",
+    "domainName": "Observation",
+    "conceptClassName": "LOINC System"
+  },
+  "1026241": {
+    "id": "1026241",
+    "name": "Inpatient",
+    "domainId": "Observation",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "LOINC System",
+    "standardConcept": "",
+    "code": "LP32937-2",
+    "domainName": "Observation",
+    "conceptClassName": "LOINC System"
+  },
+  "1029490": {
+    "id": "1029490",
+    "name": "Inpatient hospital",
+    "domainId": "Observation",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "LOINC System",
+    "standardConcept": "",
+    "code": "LP66708-6",
+    "domainName": "Observation",
+    "conceptClassName": "LOINC System"
+  },
+  "1032481": {
+    "id": "1032481",
+    "name": "Inpatient facility",
+    "domainId": "Observation",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "LOINC Component",
+    "standardConcept": "",
+    "code": "LP74979-3",
+    "domainName": "Observation",
+    "conceptClassName": "LOINC Component"
+  },
+  "1034531": {
+    "id": "1034531",
+    "name": "Inpatient practitioner",
+    "domainId": "Observation",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "LOINC Component",
+    "standardConcept": "",
+    "code": "LP96304-8",
+    "domainName": "Observation",
+    "conceptClassName": "LOINC Component"
   },
   "1104280": {
     "id": "1104280",
@@ -966,6 +1120,61 @@
     "code": "7d7efd9a-e367-b111-e053-2991aa0a5e6f",
     "domainName": "Drug",
     "conceptClassName": "Human drug class Human OTC Drug"
+  },
+  "1616337": {
+    "id": "1616337",
+    "name": "Emergency medicine Emergency department Education note",
+    "domainId": "Note",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Clinical Observation",
+    "standardConcept": "S",
+    "code": "97665-4",
+    "domainName": "Note",
+    "conceptClassName": "Clinical Class"
+  },
+  "1616540": {
+    "id": "1616540",
+    "name": "Emergency medicine Emergency department Checklist",
+    "domainId": "Note",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Clinical Observation",
+    "standardConcept": "S",
+    "code": "97661-3",
+    "domainName": "Note",
+    "conceptClassName": "Clinical Class"
+  },
+  "1616692": {
+    "id": "1616692",
+    "name": "Emergency medicine Emergency department procedure note",
+    "domainId": "Note",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Clinical Observation",
+    "standardConcept": "S",
+    "code": "97668-8",
+    "domainName": "Note",
+    "conceptClassName": "Clinical Class"
+  },
+  "1616977": {
+    "id": "1616977",
+    "name": "Emergency medicine Emergency department Triage note",
+    "domainId": "Note",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Clinical Observation",
+    "standardConcept": "S",
+    "code": "97671-2",
+    "domainName": "Note",
+    "conceptClassName": "Clinical Class"
+  },
+  "1617042": {
+    "id": "1617042",
+    "name": "Emergency medicine Emergency department Discharge instructions",
+    "domainId": "Note",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Clinical Observation",
+    "standardConcept": "S",
+    "code": "97662-1",
+    "domainName": "Note",
+    "conceptClassName": "Clinical Class"
   },
   "1629129": {
     "id": "1629129",
@@ -1572,6 +1781,17 @@
     "domainName": "Drug",
     "conceptClassName": "Human drug class Human OTC Drug"
   },
+  "1990187": {
+    "id": "1990187",
+    "name": "Urgent Care Center",
+    "domainId": "Meas Value",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Answer",
+    "standardConcept": "S",
+    "code": "LA24179-6",
+    "domainName": "Measurement Value",
+    "conceptClassName": "Answers"
+  },
   "2516253": {
     "id": "2516253",
     "name": "family wellness bacitracin zinc, polymyxin b sulfate 500[USP'U]/g / 10000[USP'U]/g TOPICAL OINTMENT [family wellness first aid antibiotic]",
@@ -1638,6 +1858,61 @@
     "domainName": "Observation",
     "conceptClassName": "Healthcare Common Procedure Coding System"
   },
+  "3030624": {
+    "id": "3030624",
+    "name": "Outpatient Note",
+    "domainId": "Note",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Clinical Observation",
+    "standardConcept": "S",
+    "code": "34108-1",
+    "domainName": "Note",
+    "conceptClassName": "Clinical Class"
+  },
+  "3545317": {
+    "id": "3545317",
+    "name": "Outpatient",
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Undefined",
+    "standardConcept": "",
+    "code": "831371000000109",
+    "domainName": "Observation",
+    "conceptClassName": "Undefined"
+  },
+  "3568394": {
+    "id": "3568394",
+    "name": "Emergency",
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Qualifier Value",
+    "standardConcept": "",
+    "code": "722171000000102",
+    "domainName": "Observation",
+    "conceptClassName": "Qualifier Value"
+  },
+  "3579663": {
+    "id": "3579663",
+    "name": "Emergency",
+    "domainId": "Type Concept",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Admin Concept",
+    "standardConcept": "",
+    "code": "329931000000107",
+    "domainName": "Type Concept",
+    "conceptClassName": "Administrative Concept"
+  },
+  "4004517": {
+    "id": "4004517",
+    "name": "Ambulatory surgery",
+    "domainId": "Procedure",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Procedure",
+    "standardConcept": "S",
+    "code": "110468005",
+    "domainName": "Procedure",
+    "conceptClassName": "Procedure"
+  },
   "4048169": {
     "id": "4048169",
     "name": "Allergy to dust mite protein",
@@ -1649,6 +1924,28 @@
     "domainName": "Observation",
     "conceptClassName": "Clinical Finding"
   },
+  "4065278": {
+    "id": "4065278",
+    "name": "Ambulatory ECG",
+    "domainId": "Procedure",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Procedure",
+    "standardConcept": "S",
+    "code": "164850009",
+    "domainName": "Procedure",
+    "conceptClassName": "Procedure"
+  },
+  "4093606": {
+    "id": "4093606",
+    "name": "Emergency",
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Qualifier Value",
+    "standardConcept": "S",
+    "code": "25876001",
+    "domainName": "Observation",
+    "conceptClassName": "Qualifier Value"
+  },
   "4102123": {
     "id": "4102123",
     "name": "Allergy to latex",
@@ -1659,6 +1956,17 @@
     "code": "300916003",
     "domainName": "Observation",
     "conceptClassName": "Clinical Finding"
+  },
+  "4114508": {
+    "id": "4114508",
+    "name": "Ambulatory",
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Qualifier Value",
+    "standardConcept": "S",
+    "code": "255327002",
+    "domainName": "Observation",
+    "conceptClassName": "Qualifier Value"
   },
   "4139681": {
     "id": "4139681",
@@ -1692,6 +2000,28 @@
     "code": "424213003",
     "domainName": "Observation",
     "conceptClassName": "Clinical Finding"
+  },
+  "4191643": {
+    "id": "4191643",
+    "name": "Outpatient",
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Social Context",
+    "standardConcept": "S",
+    "code": "373864002",
+    "domainName": "Observation",
+    "conceptClassName": "Social Context"
+  },
+  "4212055": {
+    "id": "4212055",
+    "name": "Inpatient",
+    "domainId": "Observation",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Social Context",
+    "standardConcept": "S",
+    "code": "416800000",
+    "domainName": "Observation",
+    "conceptClassName": "Social Context"
   },
   "4219399": {
     "id": "4219399",
@@ -1791,6 +2121,28 @@
     "code": "419263009",
     "domainName": "Observation",
     "conceptClassName": "Clinical Finding"
+  },
+  "21492298": {
+    "id": "21492298",
+    "name": "Emergency medicine Emergency department Flowsheet",
+    "domainId": "Note",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Clinical Observation",
+    "standardConcept": "S",
+    "code": "78302-7",
+    "domainName": "Note",
+    "conceptClassName": "Clinical Class"
+  },
+  "21499406": {
+    "id": "21499406",
+    "name": "Urgent Care",
+    "domainId": "Meas Value",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Answer",
+    "standardConcept": "S",
+    "code": "LA24392-5",
+    "domainName": "Measurement Value",
+    "conceptClassName": "Answers"
   },
   "35105225": {
     "id": "35105225",
@@ -2210,6 +2562,28 @@
     "domainName": "Drug",
     "conceptClassName": "Human drug class Human OTC Drug"
   },
+  "36032244": {
+    "id": "36032244",
+    "name": "Inpatient beds occupied/Inpatient beds",
+    "domainId": "Measurement",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Clinical Observation",
+    "standardConcept": "S",
+    "code": "95887-6",
+    "domainName": "Measurement",
+    "conceptClassName": "Clinical Class"
+  },
+  "36034393": {
+    "id": "36034393",
+    "name": "Inpatient beds occupied/Inpatient beds",
+    "domainId": "Observation",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "LOINC Component",
+    "standardConcept": "",
+    "code": "LP420810-6",
+    "domainName": "Observation",
+    "conceptClassName": "LOINC Component"
+  },
   "36088877": {
     "id": "36088877",
     "name": "alcohol .75mL/mL TOPICAL GEL [schutz wellness hand sanitizer]",
@@ -2559,6 +2933,39 @@
     "conceptClassId": "Answer",
     "standardConcept": "S",
     "code": "LA29050-4",
+    "domainName": "Measurement Value",
+    "conceptClassName": "Answers"
+  },
+  "36310784": {
+    "id": "36310784",
+    "name": "< 50% Ambulatory",
+    "domainId": "Meas Value",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Answer",
+    "standardConcept": "S",
+    "code": "LA4538-0",
+    "domainName": "Measurement Value",
+    "conceptClassName": "Answers"
+  },
+  "36310930": {
+    "id": "36310930",
+    "name": "> 50% Ambulatory",
+    "domainId": "Meas Value",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Answer",
+    "standardConcept": "S",
+    "code": "LA4110-8",
+    "domainName": "Measurement Value",
+    "conceptClassName": "Answers"
+  },
+  "36311092": {
+    "id": "36311092",
+    "name": "Symptomatic & Ambulatory",
+    "domainId": "Meas Value",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Answer",
+    "standardConcept": "S",
+    "code": "LA4472-2",
     "domainName": "Measurement Value",
     "conceptClassName": "Answers"
   },
@@ -3970,6 +4377,39 @@
     "domainName": "Drug",
     "conceptClassName": "Human drug class Human OTC Drug"
   },
+  "38000180": {
+    "id": "38000180",
+    "name": "Inpatient administration",
+    "domainId": "Type Concept",
+    "vocabularyId": "Drug Type",
+    "conceptClassId": "Drug Type",
+    "standardConcept": "",
+    "code": "OMOP4822244",
+    "domainName": "Type Concept",
+    "conceptClassName": "Drug Type"
+  },
+  "38003262": {
+    "id": "38003262",
+    "name": "Urgent Care",
+    "domainId": "Revenue Code",
+    "vocabularyId": "Revenue Code",
+    "conceptClassId": "Revenue Code",
+    "standardConcept": "S",
+    "code": "0456",
+    "domainName": "Revenue Code",
+    "conceptClassName": "Revenue Code"
+  },
+  "38003418": {
+    "id": "38003418",
+    "name": "Inpatient Renal Dialysis - Inpatient Hemodialysis",
+    "domainId": "Revenue Code",
+    "vocabularyId": "Revenue Code",
+    "conceptClassId": "Revenue Code",
+    "standardConcept": "S",
+    "code": "0801",
+    "domainName": "Revenue Code",
+    "conceptClassName": "Revenue Code"
+  },
   "40245556": {
     "id": "40245556",
     "name": "acetaminophen, aspirin, caffeine 65mg/1 / 250mg/1 ORAL TABLET, FILM COATED [family wellness migraine relief]",
@@ -3991,6 +4431,17 @@
     "code": "a7033cf2-d807-4c87-9dda-ed762c84a57e",
     "domainName": "Drug",
     "conceptClassName": "Human drug class Human OTC Drug"
+  },
+  "40322499": {
+    "id": "40322499",
+    "name": "Ambulatory chemotherapy",
+    "domainId": "Procedure",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Procedure",
+    "standardConcept": "",
+    "code": "151261005",
+    "domainName": "Procedure",
+    "conceptClassName": "Procedure"
   },
   "40664424": {
     "id": "40664424",
@@ -4068,6 +4519,17 @@
     "code": "976818ba-0691-0c1e-e053-2995a90ab0ad",
     "domainName": "Drug",
     "conceptClassName": "Human drug class Human OTC Drug"
+  },
+  "42628635": {
+    "id": "42628635",
+    "name": "Urgent Care Facility",
+    "domainId": "Visit",
+    "vocabularyId": "CPT4",
+    "conceptClassId": "Visit",
+    "standardConcept": "",
+    "code": "1021880",
+    "domainName": "Visit",
+    "conceptClassName": "OMOP Visit"
   },
   "42637907": {
     "id": "42637907",
@@ -5279,6 +5741,17 @@
     "domainName": "Drug",
     "conceptClassName": "9-digit NDC code"
   },
+  "44797555": {
+    "id": "44797555",
+    "name": "Urgent care centre",
+    "domainId": "Visit",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Location",
+    "standardConcept": "",
+    "code": "312401000000107",
+    "domainName": "Visit",
+    "conceptClassName": "Environment or Geographical Location"
+  },
   "44809042": {
     "id": "44809042",
     "name": "Wellness promotion in long term condition",
@@ -6203,6 +6676,17 @@
     "domainName": "Drug",
     "conceptClassName": "Human drug class Human OTC Drug"
   },
+  "45773140": {
+    "id": "45773140",
+    "name": "Urgent care clinic",
+    "domainId": "Visit",
+    "vocabularyId": "SNOMED",
+    "conceptClassId": "Location",
+    "standardConcept": "",
+    "code": "702927004",
+    "domainName": "Visit",
+    "conceptClassName": "Environment or Geographical Location"
+  },
   "45778122": {
     "id": "45778122",
     "name": "FAMILY WELLNESS HYDROCORTISONE - hydrocortisone ointment",
@@ -6555,6 +7039,50 @@
     "domainName": "Drug",
     "conceptClassName": "9-digit NDC code"
   },
+  "45876345": {
+    "id": "45876345",
+    "name": "STI Outpatient",
+    "domainId": "Meas Value",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Answer",
+    "standardConcept": "S",
+    "code": "LA6508-1",
+    "domainName": "Measurement Value",
+    "conceptClassName": "Answers"
+  },
+  "45876918": {
+    "id": "45876918",
+    "name": "Outpatient",
+    "domainId": "Meas Value",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Answer",
+    "standardConcept": "S",
+    "code": "LA15287-8",
+    "domainName": "Measurement Value",
+    "conceptClassName": "Answers"
+  },
+  "45882391": {
+    "id": "45882391",
+    "name": "Inpatient",
+    "domainId": "Meas Value",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Answer",
+    "standardConcept": "S",
+    "code": "LA6511-5",
+    "domainName": "Measurement Value",
+    "conceptClassName": "Answers"
+  },
+  "45882847": {
+    "id": "45882847",
+    "name": "Ambulatory care",
+    "domainId": "Meas Value",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Answer",
+    "standardConcept": "S",
+    "code": "LA7213-7",
+    "domainName": "Measurement Value",
+    "conceptClassName": "Answers"
+  },
   "45890627": {
     "id": "45890627",
     "name": "Federally qualified health center (fqhc) visit, ippe or awv; a fqhc visit that includes an initial preventive physical examination (ippe) or annual wellness visit (awv) and includes a typical bundle of medicare-covered services that would be furnished...",
@@ -6587,6 +7115,28 @@
     "code": "deccfc63-c434-4f3c-8061-c30fd4158a36",
     "domainName": "Drug",
     "conceptClassName": "Human drug class Human OTC Drug"
+  },
+  "46237763": {
+    "id": "46237763",
+    "name": "Outpatient facility",
+    "domainId": "Meas Value",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Answer",
+    "standardConcept": "S",
+    "code": "LA22084-0",
+    "domainName": "Measurement Value",
+    "conceptClassName": "Answers"
+  },
+  "46237886": {
+    "id": "46237886",
+    "name": "Ambulatory Visit",
+    "domainId": "Meas Value",
+    "vocabularyId": "LOINC",
+    "conceptClassId": "Answer",
+    "standardConcept": "S",
+    "code": "LA21424-9",
+    "domainName": "Measurement Value",
+    "conceptClassName": "Answers"
   },
   "46243761": {
     "id": "46243761",

@@ -1,9 +1,8 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Large files
-CONCEPT.csv
-projects/demo/src/assets/vocabulary
-projects/demo/src/assets/synthea
+fixtures/vocabulary
+fixtures/synthea
 
 # Deploy files
 **firebase**
@@ -13,6 +12,7 @@ projects/demo/src/assets/synthea
 /tmp
 /out-tsc
 /bazel-out
+out
 
 # Node
 /node_modules

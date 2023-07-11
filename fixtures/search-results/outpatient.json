@@ -1,0 +1,189 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "_score": 13.838567,
+        "_id": "45876918",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Answer",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "Outpatient",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "LA15287-8",
+          "domain_id": "Meas Value",
+          "concept_id": "45876918"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 13.838567,
+        "_id": "706404",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Doc Setting",
+          "valid_start_date": "20180615",
+          "valid_end_date": "20991231",
+          "concept_name": "Outpatient",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "LP173051-6",
+          "domain_id": "Meas Value",
+          "concept_id": "706404"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 13.838567,
+        "_id": "1026209",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "LOINC System",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "Outpatient",
+          "invalid_reason": "",
+          "standard_concept": "",
+          "concept_code": "LP32889-5",
+          "domain_id": "Observation",
+          "concept_id": "1026209"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 13.838567,
+        "_id": "4191643",
+        "_source": {
+          "vocabulary_id": "SNOMED",
+          "concept_class_id": "Social Context",
+          "valid_start_date": "20020731",
+          "valid_end_date": "20991231",
+          "concept_name": "Outpatient",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "373864002",
+          "domain_id": "Observation",
+          "concept_id": "4191643"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 13.838567,
+        "_id": "3545317",
+        "_source": {
+          "vocabulary_id": "SNOMED",
+          "concept_class_id": "Undefined",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20120401",
+          "concept_name": "Outpatient",
+          "invalid_reason": "U",
+          "standard_concept": "",
+          "concept_code": "831371000000109",
+          "domain_id": "Observation",
+          "concept_id": "3545317"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 12.893766,
+        "_id": "8677",
+        "_source": {
+          "vocabulary_id": "CMS Place of Service",
+          "concept_class_id": "Visit",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "Outpatient NEC",
+          "invalid_reason": "",
+          "standard_concept": "",
+          "concept_code": "95",
+          "domain_id": "Visit",
+          "concept_id": "8677"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 12.893766,
+        "_id": "8756",
+        "_source": {
+          "vocabulary_id": "CMS Place of Service",
+          "concept_class_id": "Visit",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "Outpatient Hospital",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "22",
+          "domain_id": "Visit",
+          "concept_id": "8756"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 12.893766,
+        "_id": "3030624",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Clinical Observation",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "Outpatient Note",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "34108-1",
+          "domain_id": "Note",
+          "concept_id": "3030624"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 12.893766,
+        "_id": "46237763",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Answer",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "Outpatient facility",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "LA22084-0",
+          "domain_id": "Meas Value",
+          "concept_id": "46237763"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 12.893766,
+        "_id": "45876345",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Answer",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "STI Outpatient",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "LA6508-1",
+          "domain_id": "Meas Value",
+          "concept_id": "45876345"
+        },
+        "_index": "concept"
+      }
+    ],
+    "total": {
+      "relation": "eq",
+      "value": 865
+    },
+    "max_score": 13.838567
+  },
+  "_shards": {
+    "successful": 1,
+    "failed": 0,
+    "skipped": 0,
+    "total": 1
+  },
+  "took": 98,
+  "timed_out": false
+}

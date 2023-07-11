@@ -1,0 +1,189 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "_score": 23.09085,
+        "_id": "38003262",
+        "_source": {
+          "vocabulary_id": "Revenue Code",
+          "concept_class_id": "Revenue Code",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "Urgent Care",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "0456",
+          "domain_id": "Revenue Code",
+          "concept_id": "38003262"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 23.09085,
+        "_id": "21499406",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Answer",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "Urgent Care",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "LA24392-5",
+          "domain_id": "Meas Value",
+          "concept_id": "21499406"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 21.61512,
+        "_id": "8782",
+        "_source": {
+          "vocabulary_id": "CMS Place of Service",
+          "concept_class_id": "Visit",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "Urgent Care Facility",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "20",
+          "domain_id": "Visit",
+          "concept_id": "8782"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 21.61512,
+        "_id": "1990187",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Answer",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "Urgent Care Center",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "LA24179-6",
+          "domain_id": "Meas Value",
+          "concept_id": "1990187"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 21.61512,
+        "_id": "1012754",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "LOINC System",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "Urgent care center",
+          "invalid_reason": "",
+          "standard_concept": "",
+          "concept_code": "LP185856-4",
+          "domain_id": "Observation",
+          "concept_id": "1012754"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 21.61512,
+        "_id": "706400",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Doc Setting",
+          "valid_start_date": "20180615",
+          "valid_end_date": "20991231",
+          "concept_name": "Urgent care center",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "LP173055-7",
+          "domain_id": "Meas Value",
+          "concept_id": "706400"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 21.61512,
+        "_id": "44797555",
+        "_source": {
+          "vocabulary_id": "SNOMED",
+          "concept_class_id": "Location",
+          "valid_start_date": "20080401",
+          "valid_end_date": "20991231",
+          "concept_name": "Urgent care centre",
+          "invalid_reason": "",
+          "standard_concept": "",
+          "concept_code": "312401000000107",
+          "domain_id": "Visit",
+          "concept_id": "44797555"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 21.61512,
+        "_id": "601183",
+        "_source": {
+          "vocabulary_id": "SNOMED",
+          "concept_class_id": "Qualifier Value",
+          "valid_start_date": "20210301",
+          "valid_end_date": "20991231",
+          "concept_name": "Urgent care service",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "462541000124109",
+          "domain_id": "Observation",
+          "concept_id": "601183"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 21.61512,
+        "_id": "45773140",
+        "_source": {
+          "vocabulary_id": "SNOMED",
+          "concept_class_id": "Location",
+          "valid_start_date": "20140731",
+          "valid_end_date": "20991231",
+          "concept_name": "Urgent care clinic",
+          "invalid_reason": "",
+          "standard_concept": "",
+          "concept_code": "702927004",
+          "domain_id": "Visit",
+          "concept_id": "45773140"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 21.61512,
+        "_id": "42628635",
+        "_source": {
+          "vocabulary_id": "CPT4",
+          "concept_class_id": "Visit",
+          "valid_start_date": "20170501",
+          "valid_end_date": "20991231",
+          "concept_name": "Urgent Care Facility",
+          "invalid_reason": "",
+          "standard_concept": "",
+          "concept_code": "1021880",
+          "domain_id": "Visit",
+          "concept_id": "42628635"
+        },
+        "_index": "concept"
+      }
+    ],
+    "total": {
+      "relation": "gte",
+      "value": 10000
+    },
+    "max_score": 23.09085
+  },
+  "_shards": {
+    "successful": 1,
+    "failed": 0,
+    "skipped": 0,
+    "total": 1
+  },
+  "took": 155,
+  "timed_out": false
+}

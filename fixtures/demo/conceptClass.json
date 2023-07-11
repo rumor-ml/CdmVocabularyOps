@@ -1,11 +1,31 @@
 {
+  "Qualifier Value": {
+    "id": "Qualifier Value",
+    "name": "Qualifier Value"
+  },
   "Record Artifact": {
     "id": "Record Artifact",
     "name": "Record Artifact"
   },
+  "Revenue Code": {
+    "id": "Revenue Code",
+    "name": "Revenue Code"
+  },
+  "Social Context": {
+    "id": "Social Context",
+    "name": "Social Context"
+  },
   "SPL": {
     "id": "SPL",
     "name": "SPL"
+  },
+  "Undefined": {
+    "id": "Undefined",
+    "name": "Undefined"
+  },
+  "Clinical Observation": {
+    "id": "Clinical Observation",
+    "name": "Clinical Class"
   },
   "Answer": {
     "id": "Answer",
@@ -27,6 +47,10 @@
     "id": "Marketed Product",
     "name": "Marketed Product"
   },
+  "UB04 Pri Typ of Adm": {
+    "id": "UB04 Pri Typ of Adm",
+    "name": "UB04 Pri Typ of Adm"
+  },
   "11-digit NDC": {
     "id": "11-digit NDC",
     "name": "11-digit NDC code"
@@ -34,6 +58,10 @@
   "9-digit NDC": {
     "id": "9-digit NDC",
     "name": "9-digit NDC code"
+  },
+  "Admin Concept": {
+    "id": "Admin Concept",
+    "name": "Administrative Concept"
   },
   "Brand Name": {
     "id": "Brand Name",
@@ -47,12 +75,36 @@
     "id": "Clinical Finding",
     "name": "Clinical Finding"
   },
+  "Drug Type": {
+    "id": "Drug Type",
+    "name": "Drug Type"
+  },
   "HCPCS": {
     "id": "HCPCS",
     "name": "Healthcare Common Procedure Coding System"
   },
+  "Location": {
+    "id": "Location",
+    "name": "Environment or Geographical Location"
+  },
   "Procedure": {
     "id": "Procedure",
     "name": "Procedure"
+  },
+  "Doc Setting": {
+    "id": "Doc Setting",
+    "name": "LOINC Document Setting"
+  },
+  "Visit": {
+    "id": "Visit",
+    "name": "OMOP Visit"
+  },
+  "LOINC System": {
+    "id": "LOINC System",
+    "name": "LOINC System"
+  },
+  "LOINC Component": {
+    "id": "LOINC Component",
+    "name": "LOINC Component"
   }
 }

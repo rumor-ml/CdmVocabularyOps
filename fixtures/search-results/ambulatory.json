@@ -1,0 +1,189 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "_score": 15.372281,
+        "_id": "4114508",
+        "_source": {
+          "vocabulary_id": "SNOMED",
+          "concept_class_id": "Qualifier Value",
+          "valid_start_date": "20020131",
+          "valid_end_date": "20991231",
+          "concept_name": "Ambulatory",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "255327002",
+          "domain_id": "Observation",
+          "concept_id": "4114508"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 14.322769,
+        "_id": "46237886",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Answer",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "Ambulatory Visit",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "LA21424-9",
+          "domain_id": "Meas Value",
+          "concept_id": "46237886"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 14.322769,
+        "_id": "45882847",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Answer",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "Ambulatory care",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "LA7213-7",
+          "domain_id": "Meas Value",
+          "concept_id": "45882847"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 14.322769,
+        "_id": "36310784",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Answer",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "< 50% Ambulatory",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "LA4538-0",
+          "domain_id": "Meas Value",
+          "concept_id": "36310784"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 14.322769,
+        "_id": "36310930",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Answer",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "> 50% Ambulatory",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "LA4110-8",
+          "domain_id": "Meas Value",
+          "concept_id": "36310930"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 14.322769,
+        "_id": "36311092",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Answer",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "Symptomatic & Ambulatory",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "LA4472-2",
+          "domain_id": "Meas Value",
+          "concept_id": "36311092"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 14.322769,
+        "_id": "1004172",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "LOINC Component",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "Ambulatory aid",
+          "invalid_reason": "",
+          "standard_concept": "",
+          "concept_code": "LP100243-7",
+          "domain_id": "Observation",
+          "concept_id": "1004172"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 14.322769,
+        "_id": "4004517",
+        "_source": {
+          "vocabulary_id": "SNOMED",
+          "concept_class_id": "Procedure",
+          "valid_start_date": "20020131",
+          "valid_end_date": "20991231",
+          "concept_name": "Ambulatory surgery",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "110468005",
+          "domain_id": "Procedure",
+          "concept_id": "4004517"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 14.322769,
+        "_id": "4065278",
+        "_source": {
+          "vocabulary_id": "SNOMED",
+          "concept_class_id": "Procedure",
+          "valid_start_date": "20020131",
+          "valid_end_date": "20991231",
+          "concept_name": "Ambulatory ECG",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "164850009",
+          "domain_id": "Procedure",
+          "concept_id": "4065278"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 14.322769,
+        "_id": "40322499",
+        "_source": {
+          "vocabulary_id": "SNOMED",
+          "concept_class_id": "Procedure",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20020131",
+          "concept_name": "Ambulatory chemotherapy",
+          "invalid_reason": "U",
+          "standard_concept": "",
+          "concept_code": "151261005",
+          "domain_id": "Procedure",
+          "concept_id": "40322499"
+        },
+        "_index": "concept"
+      }
+    ],
+    "total": {
+      "relation": "eq",
+      "value": 325
+    },
+    "max_score": 15.372281
+  },
+  "_shards": {
+    "successful": 1,
+    "failed": 0,
+    "skipped": 0,
+    "total": 1
+  },
+  "took": 65,
+  "timed_out": false
+}

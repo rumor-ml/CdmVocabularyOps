@@ -1,0 +1,189 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "_score": 12.827138,
+        "_id": "4093606",
+        "_source": {
+          "vocabulary_id": "SNOMED",
+          "concept_class_id": "Qualifier Value",
+          "valid_start_date": "20020131",
+          "valid_end_date": "20991231",
+          "concept_name": "Emergency",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "25876001",
+          "domain_id": "Observation",
+          "concept_id": "4093606"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 12.827138,
+        "_id": "3579663",
+        "_source": {
+          "vocabulary_id": "SNOMED",
+          "concept_class_id": "Admin Concept",
+          "valid_start_date": "20080401",
+          "valid_end_date": "20160401",
+          "concept_name": "Emergency",
+          "invalid_reason": "D",
+          "standard_concept": "",
+          "concept_code": "329931000000107",
+          "domain_id": "Type Concept",
+          "concept_id": "3579663"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 12.827138,
+        "_id": "3568394",
+        "_source": {
+          "vocabulary_id": "SNOMED",
+          "concept_class_id": "Qualifier Value",
+          "valid_start_date": "20101001",
+          "valid_end_date": "20160401",
+          "concept_name": "Emergency",
+          "invalid_reason": "U",
+          "standard_concept": "",
+          "concept_code": "722171000000102",
+          "domain_id": "Observation",
+          "concept_id": "3568394"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 12.827138,
+        "_id": "32203",
+        "_source": {
+          "vocabulary_id": "UB04 Pri Typ of Adm",
+          "concept_class_id": "UB04 Pri Typ of Adm",
+          "valid_start_date": "19700101",
+          "valid_end_date": "20991231",
+          "concept_name": "Emergency",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "1",
+          "domain_id": "Observation",
+          "concept_id": "32203"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 12.788977,
+        "_id": "21492298",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Clinical Observation",
+          "valid_start_date": "20160624",
+          "valid_end_date": "20991231",
+          "concept_name": "Emergency medicine Emergency department Flowsheet",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "78302-7",
+          "domain_id": "Note",
+          "concept_id": "21492298"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 12.788977,
+        "_id": "1616540",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Clinical Observation",
+          "valid_start_date": "20210823",
+          "valid_end_date": "20991231",
+          "concept_name": "Emergency medicine Emergency department Checklist",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "97661-3",
+          "domain_id": "Note",
+          "concept_id": "1616540"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 12.338273,
+        "_id": "1616337",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Clinical Observation",
+          "valid_start_date": "20210823",
+          "valid_end_date": "20991231",
+          "concept_name": "Emergency medicine Emergency department Education note",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "97665-4",
+          "domain_id": "Note",
+          "concept_id": "1616337"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 12.338273,
+        "_id": "1616692",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Clinical Observation",
+          "valid_start_date": "20210823",
+          "valid_end_date": "20991231",
+          "concept_name": "Emergency medicine Emergency department procedure note",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "97668-8",
+          "domain_id": "Note",
+          "concept_id": "1616692"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 12.338273,
+        "_id": "1616977",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Clinical Observation",
+          "valid_start_date": "20210823",
+          "valid_end_date": "20991231",
+          "concept_name": "Emergency medicine Emergency department Triage note",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "97671-2",
+          "domain_id": "Note",
+          "concept_id": "1616977"
+        },
+        "_index": "concept"
+      },
+      {
+        "_score": 12.338273,
+        "_id": "1617042",
+        "_source": {
+          "vocabulary_id": "LOINC",
+          "concept_class_id": "Clinical Observation",
+          "valid_start_date": "20210823",
+          "valid_end_date": "20991231",
+          "concept_name": "Emergency medicine Emergency department Discharge instructions",
+          "invalid_reason": "",
+          "standard_concept": "S",
+          "concept_code": "97662-1",
+          "domain_id": "Note",
+          "concept_id": "1617042"
+        },
+        "_index": "concept"
+      }
+    ],
+    "total": {
+      "relation": "eq",
+      "value": 1650
+    },
+    "max_score": 12.827138
+  },
+  "_shards": {
+    "successful": 1,
+    "failed": 0,
+    "skipped": 0,
+    "total": 1
+  },
+  "took": 116,
+  "timed_out": false
+}

@@ -15,6 +15,10 @@
     "id": "Condition",
     "name": "Condition"
   },
+  "Measurement": {
+    "id": "Measurement",
+    "name": "Measurement"
+  },
   "Meas Value": {
     "id": "Meas Value",
     "name": "Measurement Value"
@@ -23,8 +27,16 @@
     "id": "Observation",
     "name": "Observation"
   },
+  "Revenue Code": {
+    "id": "Revenue Code",
+    "name": "Revenue Code"
+  },
   "Type Concept": {
     "id": "Type Concept",
     "name": "Type Concept"
+  },
+  "Note": {
+    "id": "Note",
+    "name": "Note"
   }
 }
