@@ -58,6 +58,7 @@
     <app-smart-search [vocabulary]="loadedVocabularyObj|async"></app-smart-search>
   </mat-expansion-panel>
 
+
   <ul class="crumb-trail">
     <li class="crumb pull-left" [class.crumb-navigate]="!!crumb" (click)="backToMappings()">
       Concept Mappings: {{vocabularyControl.value}}
@@ -220,6 +221,15 @@
           </th>
           <td mat-cell *matCellDef="let row">
             {{row['athenaVocabularyId']}}
+          </td>
+        </ng-container>
+
+        <ng-container matColumnDef="userId">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>
+            User
+          </th>
+          <td mat-cell *matCellDef="let row">
+            {{ getUserIDForRow(row) }}
           </td>
         </ng-container>
       
