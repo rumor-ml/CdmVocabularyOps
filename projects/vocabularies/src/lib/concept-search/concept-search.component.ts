@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, Input, OnDestroy, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, Input, Output, EventEmitter, OnDestroy, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -19,6 +19,8 @@ import { SearchFiltersComponent } from '../verify-mappings/search-filters/search
 import { Concept } from '../concept.service';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Inject } from '@angular/core';
+import { AuthService } from 'projects/demo/src/app/auth.service';
+
 
 @Component({
   selector: 'app-concept-search',
@@ -47,6 +49,7 @@ export class ConceptSearchComponent implements AfterViewInit, OnDestroy {
   @ViewChild('filtersPanel') filtersPanel!: MatExpansionPanel
   @ViewChild(SearchFiltersComponent) searchFiltersComponent!: SearchFiltersComponent
 
+
   dataSource!: SearchTableDataSource<Concept>
   selection = new SelectionModel<Concept>(false, []);
   searchQueryControl = new FormControl('')
@@ -71,8 +74,9 @@ export class ConceptSearchComponent implements AfterViewInit, OnDestroy {
   constructor(
     @Inject('SearchService') private searchService: SearchService,
     private route: ActivatedRoute,
-    private breakpointObserver: BreakpointObserver
-  ){}
+    private breakpointObserver: BreakpointObserver,
+    private authService: AuthService,
+  ) {}
 
   ngAfterViewInit(): void {
     const searchQuery = combineLatest([
@@ -127,7 +131,23 @@ export class ConceptSearchComponent implements AfterViewInit, OnDestroy {
     this.subscriptions.forEach(s => s.unsubscribe())
   }
 
+  // saveMapping() {
+  //   this.chosenMapping.next(this.selection.selected[0])
+  // }
+
+
+  @Output() userIdChanged: EventEmitter<string> = new EventEmitter<string>();
+
+
   saveMapping() {
-    this.chosenMapping.next(this.selection.selected[0])
+    const selectedConcept = this.selection.selected[0];
+    if (selectedConcept) {
+      this.chosenMapping.next(selectedConcept);
+
+      this.authService.auth.pipe(map(a => a.uid)).subscribe(uid => {
+        // Emit the user ID
+        this.userIdChanged.emit(uid);
+      });
+    }
   }
 }

@@ -20,7 +20,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { ConceptMapping, ConceptMappingService } from '../concept-mapping.service';
 import { DocsDelegateTableDataSource } from '@commonshcs-angular';
 import { VocabulariesService, Vocabulary } from '../vocabularies.service';
-import { BehaviorSubject, Observable, filter, first, map, merge, mergeAll, mergeMap, of, reduce, startWith, switchMap, tap } from 'rxjs';
+import { BehaviorSubject, filter, first, map, merge, mergeAll, mergeMap, of, reduce, switchMap } from 'rxjs';
 import { VocabularyMapping, VocabularyMappingService } from '../vocabulary-mapping.service';
 import { SmartSearchComponent } from './smart-search/smart-search.component';
 import { trigger, state, style, transition, animate } from '@angular/animations';
@@ -29,6 +29,7 @@ import { MatTabGroup, MatTabsModule } from '@angular/material/tabs';
 import { ConceptSearchComponent } from '../concept-search/concept-search.component';
 import { SourceConcept, SourceDbService } from '../source-db.service';
 import { TablePreviewComponent } from '../table-preview/table-preview.component';
+
 
 @Component({
   selector: 'app-verify-mappings',
@@ -76,6 +77,7 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
   @ViewChild('smartSearch') smartSearch!: MatExpansionPanel
   @ViewChild(TablePreviewComponent) tablePreviewComponent!: TablePreviewComponent
 
+  userIdMap: Map<string, string> = new Map();
 
   vocabularyControl = new FormControl('', [Validators.required, this.validVocabulary()])
   formGroup = new FormGroup({
@@ -89,6 +91,7 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
     'similarityScore',
     'athenaConceptName',
     'athenaVocabularyId',
+    'userId',
     'search',
     'review',
     'reset'
@@ -120,6 +123,7 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
   athenaConceptIdOptions = []
   athenaConceptIdControl = new FormControl('')
 
+  
   constructor(
     private conceptMappingService: ConceptMappingService,
     private vocabulariesService: VocabulariesService,
@@ -127,6 +131,7 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
     private sourceDbService: SourceDbService,
     private route: ActivatedRoute,
   ) { }
+
 
   ngAfterViewInit(): void {
     this.dataSource = new DocsDelegateTableDataSource(
@@ -140,6 +145,16 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
     this.dataSource.sort = this.sort;
     this.dataSource.paginator = this.paginator;
     this.table.dataSource = this.dataSource;
+
+    this.subscriptions.push(
+      // Bind to the userIdChanged event emitted by ConceptSearchComponent
+      this.conceptSearch.userIdChanged.subscribe(userId => {
+        // Update the user ID for the specific row being edited
+        if (this.crumbRow) {
+          this.userIdMap.set(this.crumbRow.id || '', userId); // Use an empty string as a fallback
+        }
+      })
+    );
 
     this.subscriptions.push(
       this.route.queryParamMap.subscribe(
@@ -309,9 +324,13 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
         athenaConceptCode: undefined,
         athenaConceptName: undefined,
         athenaConceptId: undefined,
-        athenaVocabularyId: undefined
+        athenaVocabularyId: undefined,
+        userId: undefined,
       }
-    }).subscribe()
+    }).subscribe(() => {
+      // Reset the userId for the row
+      this.userIdMap.set(row.id || '', '');
+    });
   }
 
   vocabularyString(vocabulary: Vocabulary) {
@@ -350,5 +369,9 @@ export class VerifyMappingsComponent implements AfterViewInit, OnDestroy {
       this.tabs.selectedIndex = 0
       this.crumb = null
     }
+  }
+
+  getUserIDForRow(row: ConceptMapping): string {
+    return this.userIdMap.get(row.id || '') ?? ''; // Use an empty string as a fallback
   }
 }
